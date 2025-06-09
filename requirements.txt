@@ -23,3 +23,7 @@ urllib3==2.4.0
 webdriver-manager==4.0.2
 websocket-client==1.8.0
 wsproto==1.2.0
+nltk==3.8.1
+contractions==0.1.73
+langdetect==1.0.9
+spacy==3.7.5
