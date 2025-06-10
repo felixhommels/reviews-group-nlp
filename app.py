@@ -4,12 +4,49 @@ import logging
 import pandas as pd
 import glob
 import json
+from pathlib import Path
+from typing import Optional, Dict, Any
+
 from src.scraping.scraper import Scraper
 from src.preprocessing.spacy_preprocessor import preprocess_pipeline
+from src.analysis.nlp_analysis import ReviewAnalyzer
 from src.utils.file_utils import load_config, save_json
 
 # --- Setup Logging ---
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler('pipeline.log')
+    ]
+)
+logger = logging.getLogger(__name__)
+
+class PipelineError(Exception):
+    """Custom exception for pipeline-specific errors."""
+    pass
+
+def setup_directories() -> Dict[str, Path]:
+    """Create and return required directory paths."""
+    dirs = {
+        'raw': Path('data/raw'),
+        'processed': Path('data/processed'),
+        'results': Path('data/results')
+    }
+    
+    for dir_path in dirs.values():
+        dir_path.mkdir(parents=True, exist_ok=True)
+        logger.info(f"Ensured directory exists: {dir_path}")
+    
+    return dirs
+
+def validate_dataframe(df: pd.DataFrame, required_columns: list) -> bool:
+    """Validate that DataFrame has required columns."""
+    missing = [col for col in required_columns if col not in df.columns]
+    if missing:
+        raise PipelineError(f"Missing required columns: {missing}")
+    return True
 
 def run_pipeline_test():
     """
