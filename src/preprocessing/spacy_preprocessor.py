@@ -111,15 +111,17 @@ def preprocess_text(text, lang='en'):
 
 # --- Main Pipeline ---
 
-def preprocess_pipeline(df, text_column='review'):
+def preprocess_pipeline(df, text_column='review', skipped_output_path=None):
     """
     Runs the full preprocessing pipeline on a DataFrame.
     1. Cleans the text (lowercase, remove URLs, etc.).
     2. Detects the language of each review.
     3. Applies language-specific tokenization, lemmatization, and stopword removal.
+    4. Filters out reviews in unsupported languages and logs/saves them.
     Args:
         df (pd.DataFrame): The DataFrame containing the review data.
         text_column (str): The name of the column with the text to preprocess.
+        skipped_output_path (str or None): If provided, saves skipped reviews to this CSV file.
     Returns:
         pd.DataFrame: The DataFrame with added 'cleaned_text', 'language', and 'processed_text' columns.
     """
@@ -144,10 +146,22 @@ def preprocess_pipeline(df, text_column='review'):
     # Detect language
     tqdm.pandas(desc="Detecting languages")
     df['language'] = df['cleaned_text'].progress_apply(detect_language)
-    
+
+    # Filter to only supported languages
+    supported_langs = set(SPACY_MODELS.keys())
+    unsupported = df[~df['language'].isin(supported_langs)]
+    if not unsupported.empty:
+        logging.info(f"Skipping {len(unsupported)} reviews in unsupported languages: {unsupported['language'].unique()}")
+        if skipped_output_path:
+            unsupported.to_csv(skipped_output_path, index=False)
+            logging.info(f"Saved skipped reviews to {skipped_output_path}")
+    df = df[df['language'].isin(supported_langs)].copy()
+    if df.empty:
+        logging.warning("No reviews in supported languages. Exiting preprocessing.")
+        return df
+
     # Group by language to process in batches
     processed_texts = []
-    
     logging.info("Starting language-specific preprocessing...")
     with tqdm(total=len(df), desc="Preprocessing text") as pbar:
         for lang, group in df.groupby('language'):
@@ -157,7 +171,6 @@ def preprocess_pipeline(df, text_column='review'):
             else:
                 # Apply the specific preprocessing for the detected language
                 results = [preprocess_text(text, lang) for text in group['cleaned_text']]
-            
             # Create a temporary series with the correct index to merge back
             processed_series = pd.Series(results, index=group.index)
             processed_texts.append(processed_series)

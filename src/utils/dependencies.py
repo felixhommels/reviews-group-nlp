@@ -81,7 +81,7 @@ class DependencyManager:
             except (pkg_resources.VersionConflict, pkg_resources.DistributionNotFound) as e:
                 logger.warning(f"Optional dependency {package} {info['version']} not satisfied: {str(e)}")
                 self._import_errors[package] = str(e)
-    
+
     def _try_import(self, package: str, components: List[str], warning_msg: str, import_path: str = None):
         """Attempt to import a package and its components."""
         try:
@@ -95,7 +95,7 @@ class DependencyManager:
             for component in components:
                 if not hasattr(module, component):
                     raise ImportError(f"Missing required component: {component}")
-                    
+            
         except (ImportError, AttributeError) as e:
             logger.warning(f"Could not import {package}: {str(e)}. {warning_msg}")
             self._import_errors[package] = str(e)

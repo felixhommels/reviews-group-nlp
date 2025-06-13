@@ -9,8 +9,8 @@ import logging
 from typing import List
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from ..utils.dependencies import dependency_manager, DependencyError
-from ..config import ConfigManager
+from src.utils.dependencies import dependency_manager
+from src.config.manager import ConfigManager
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -46,34 +46,38 @@ class KeywordExtractor:
             logger.error(f"Failed to initialize TF-IDF vectorizer: {e}")
             raise
     
-    def extract_keywords(self, text: str, top_k: int = 10) -> List[str]:
-        """Extract keywords from text using TF-IDF.
+    def extract_keywords(self, text: str, language: str = "en", max_keywords: int = 5) -> List[str]:
+        """Extract keywords from text using TF-IDF."""
+        if not text or not isinstance(text, str):
+            logger.warning("Empty or invalid text provided for keyword extraction")
+            return []
         
-        Args:
-            text: The preprocessed text
-            top_k: Number of top keywords to return
-            
-        Returns:
-            List of keywords
-        """
         try:
-            if not text.strip():
+            # Get language-specific config
+            config = ConfigManager.get_tfidf_config(language)
+            
+            # Initialize TF-IDF vectorizer
+            vectorizer = TfidfVectorizer(
+                max_features=max_keywords,
+                stop_words=config['stop_words'],
+                token_pattern=r'(?u)\b\w\w+\b'  # Match words with at least 2 characters
+            )
+            
+            # Fit and transform the text
+            tfidf_matrix = vectorizer.fit_transform([text])
+            
+            # Get feature names (words)
+            feature_names = vectorizer.get_feature_names_out()
+            
+            # Get top keywords based on TF-IDF scores
+            if len(feature_names) > 0:
+                scores = tfidf_matrix.toarray()[0]
+                keyword_indices = scores.argsort()[-max_keywords:][::-1]
+                keywords = [feature_names[i] for i in keyword_indices]
+                return keywords
+            else:
+                logger.warning("No keywords found in text")
                 return []
-                
-            # Fit and transform on single document
-            tfidf_matrix = self.tfidf.fit_transform([text])
-            feature_names = self.tfidf.get_feature_names_out()
-            
-            # Convert to array and get scores
-            scores = tfidf_matrix.toarray().flatten()
-            # Get indices of non-zero scores, sorted by score
-            nonzero_indices = scores.nonzero()[0]
-            sorted_indices = nonzero_indices[scores[nonzero_indices].argsort()[::-1]]
-            
-            # Get top k keywords with non-zero scores
-            top_indices = sorted_indices[:top_k]
-            keywords = [feature_names[i] for i in top_indices]
-            return keywords
             
         except Exception as e:
             logger.error(f"Error extracting keywords: {str(e)}")

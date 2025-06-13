@@ -11,8 +11,9 @@ from typing import Dict
 from enum import Enum
 from transformers import pipeline
 
-from ..utils.dependencies import dependency_manager, DependencyError
-from ..config import ConfigManager
+from src.utils.dependencies import dependency_manager, DependencyError
+from src.config.manager import ConfigManager
+from src.config.language_configs import get_emotion_keywords
 
 # Configure logging
 logger = logging.getLogger(__name__)

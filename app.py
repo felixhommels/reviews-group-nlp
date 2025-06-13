@@ -7,10 +7,11 @@ import json
 from pathlib import Path
 from typing import Optional, Dict, Any
 
-from src.scraping.scraper import Scraper
+from src.scraper.url_scraper import scrape_google_playstore, scrape_imbd, scrape_steam, scrape_trustpilot
 from src.preprocessing.spacy_preprocessor import preprocess_pipeline
 from src.analysis.nlp_analysis import ReviewAnalyzer
 from src.utils.file_utils import load_config, save_json
+from src.utils.dependencies import dependency_manager, DependencyError
 
 # --- Setup Logging ---
 logging.basicConfig(
@@ -133,12 +134,39 @@ def main(test_mode=False):
         return
 
     # --- Scraping ---
-    logging.info("Initializing the scraper...")
-    scraper = Scraper(config)
-    
-    logging.info(f"Starting to scrape reviews for: {config.get('app_name', 'Unknown App')}")
-    raw_reviews = scraper.scrape()
-    
+    logging.info("Starting to scrape reviews for: %s", config.get('app_name', 'Unknown App'))
+    source = config.get('source')
+    raw_reviews = None
+    try:
+        if source == "trustpilot":
+            raw_reviews = scrape_trustpilot(
+                url=config["url"],
+                topic=config.get("topic", "default"),
+                max_pages=config.get("max_pages", 10)
+            )
+        elif source == "imdb":
+            raw_reviews = scrape_imbd(
+                url=config["url"],
+                topic=config.get("topic", "default"),
+                max_pages=config.get("max_pages", 10)
+            )
+        elif source == "playstore":
+            raw_reviews = scrape_google_playstore(
+                app_id=config["app_id"],
+                max_reviews=config.get("max_reviews", 100)
+            )
+        elif source == "steam":
+            raw_reviews = scrape_steam(
+                app_id=config["app_id"],
+                max_reviews=config.get("max_reviews", 100)
+            )
+        else:
+            logging.error(f"Unknown source: {source}")
+            return
+    except Exception as e:
+        logging.error(f"Error during scraping: {e}")
+        return
+
     if not raw_reviews:
         logging.warning("No reviews were scraped. The pipeline will stop here.")
         return

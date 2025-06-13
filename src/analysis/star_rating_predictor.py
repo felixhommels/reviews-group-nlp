@@ -7,9 +7,9 @@ This module provides star rating prediction capabilities based on sentiment anal
 import logging
 from typing import Dict, Union
 
-from ..utils.dependencies import dependency_manager, DependencyError
-from ..config import ConfigManager
-from .sentiment_analysis import SentimentAnalyzer, SentimentAnalysis
+from src.utils.dependencies import dependency_manager, DependencyError
+from src.config.manager import ConfigManager
+from src.analysis.sentiment_analysis import SentimentAnalyzer, SentimentAnalysis
 
 # Configure logging
 logger = logging.getLogger(__name__)
@@ -64,8 +64,8 @@ class StarRatingPredictor:
                     pass  # Fall through to traditional analysis
 
             # Traditional analysis using sentiment score thresholds
-            sentiment_analysis = self.sentiment_analyzer.analyze_sentiment(text)
-            score = sentiment_analysis.compound_score or sentiment_analysis.polarity
+            sentiment_result = self.sentiment_analyzer.analyze_sentiment(text)
+            score = sentiment_result.get('compound_score', sentiment_result.get('score', 0))
 
             # Use rating thresholds from config
             for rating, threshold in sorted(self.config['thresholds'].items(), 
