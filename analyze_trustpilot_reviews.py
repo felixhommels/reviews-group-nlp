@@ -1,5 +1,5 @@
 """
-Script to analyze sentiment of Play Store reviews using the sentiment analysis pipeline.
+Script to analyze sentiment of Trustpilot reviews using the sentiment analysis pipeline.
 """
 
 import logging
@@ -21,8 +21,8 @@ def load_reviews(file_path: str) -> pd.DataFrame:
 
 def main():
     # File paths
-    input_file = Path('data/processed_test_results/processed_com.whatsapp_reviews.json')
-    output_file = Path('data/results/analyzed_whatsapp_reviews.json')
+    input_file = Path('data/processed_test_results/processed_bancosantander_reviews.json')
+    output_file = Path('data/results/analyzed_trustpilot_reviews.json')
     
     # Create output directory if it doesn't exist
     output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -32,7 +32,8 @@ def main():
     df = load_reviews(input_file)
     logger.info(f"Loaded {len(df)} reviews")
     
-    analyzer = ReviewAnalyzer(language='en', source='playstore')
+    # Analyze reviews
+    analyzer = ReviewAnalyzer(language='en', source='trustpilot')
     logger.info("Starting NLP analysis...")
     analyzed_df = analyzer.analyze_reviews(df, text_column='processed_text')
     logger.info(f"Analyzed {len(analyzed_df)} reviews")
@@ -43,10 +44,11 @@ def main():
     
     # Print some statistics
     if not analyzed_df.empty:
-        logger.info("Sentiment distribution:")
+        logger.info("\nSentiment distribution:")
         logger.info(analyzed_df['sentiment'].value_counts())
+        
         if 'rating' in analyzed_df.columns:
-            logger.info("Rating distribution:")
+            logger.info("\nRating distribution:")
             logger.info(analyzed_df['rating'].value_counts())
     
     logger.info("Analysis complete!")

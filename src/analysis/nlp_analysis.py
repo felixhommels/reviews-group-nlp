@@ -6,7 +6,7 @@ review text data, including:
 - Sentiment analysis (via sentiment_analysis module)
 - Keyword extraction (via keyword_extraction module)
 - Emotion classification (via emotion_analysis module)
-- Star rating prediction (via star_rating_predictor module)
+- Star rating prediction (via star_rating_predictor module) [currently commented out]
 """
 
 import logging
@@ -22,7 +22,7 @@ from src.analysis.sentiment_analysis import (
 )
 from src.analysis.emotion_analysis import EmotionAnalyzer, EmotionLabel, MultilingualEmotionAnalyzer
 from src.analysis.keyword_extraction import KeywordExtractor
-from src.analysis.star_rating_predictor import StarRatingPredictor
+# from src.analysis.star_rating_predictor import StarRatingPredictor  # Commented out for now
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -44,14 +44,14 @@ class ReviewAnalyzer:
         self._sentiment_analyzer = None
         self._emotion_analyzer = None
         self._keyword_extractor = None
-        self._star_rating_predictor = None
+        # self._star_rating_predictor = None  # Commented out for now
     
     def _load_config(self):
         """Load language-specific configuration."""
         self.config = {
             'sentiment': ConfigManager.get_sentiment_config(self.language),
             'emotion': ConfigManager.get_emotion_config(self.language),
-            'rating': ConfigManager.get_rating_config(),
+            # 'rating': ConfigManager.get_rating_config(),  # Commented out for now
             'tfidf': ConfigManager.get_tfidf_config(self.language),
             'logging': ConfigManager.get_logging_config()
         }
@@ -79,11 +79,11 @@ class ReviewAnalyzer:
             self._keyword_extractor = KeywordExtractor(self.language)
         return self._keyword_extractor
     
-    @property
-    def star_rating_predictor(self) -> StarRatingPredictor:
-        if self._star_rating_predictor is None:
-            self._star_rating_predictor = StarRatingPredictor(self.language)
-        return self._star_rating_predictor
+    # @property
+    # def star_rating_predictor(self) -> StarRatingPredictor:
+    #     if self._star_rating_predictor is None:
+    #         self._star_rating_predictor = StarRatingPredictor(self.language)
+    #     return self._star_rating_predictor
     
     def analyze_sentiment(self, text: str, source: str = None) -> dict:
         """
@@ -138,24 +138,26 @@ class ReviewAnalyzer:
             except Exception as e:
                 logger.error(f"Error analyzing sentiment for text: {e}")
                 sentiment_dicts.append({
-                    'label': SentimentLabel.UNKNOWN,
-                    'score': 0.0,
-                    'compound_score': 0.0
+                    'sentiment_label': 'neutral',
+                    'sentiment_score': 0.0,
+                    'confidence': 0.0,
+                    'source': source,
+                    'raw_model_label': 'unknown',
+                    'original_text': text
                 })
         
         # Add sentiment results to DataFrame
-        result_df['sentiment'] = [s['label'] for s in sentiment_dicts]
-        result_df['sentiment_polarity'] = [s['score'] for s in sentiment_dicts]
-        # Normalize compound scores to [0, 1] range
-        result_df['sentiment_score'] = [(s.get('compound_score', 0.0) + 1.0) / 2.0 for s in sentiment_dicts]
+        result_df['sentiment'] = [s['sentiment_label'] for s in sentiment_dicts]
+        result_df['sentiment_score'] = [s['sentiment_score'] for s in sentiment_dicts]
+        result_df['sentiment_confidence'] = [s['confidence'] for s in sentiment_dicts]
         
         # Extract keywords
         logger.info("Extracting keywords...")
         result_df['keywords'] = [self.extract_keywords(t) for t in texts]
         
-        # Predict star ratings
-        logger.info("Predicting star ratings...")
-        result_df['predicted_stars'] = [self.predict_star_rating(t) for t in texts]
+        # # Predict star ratings (commented out for now)
+        # logger.info("Predicting star ratings...")
+        # result_df['predicted_stars'] = [self.predict_star_rating(t) for t in texts]
         
         # Analyze emotions
         logger.info("Analyzing emotions...")
@@ -170,16 +172,16 @@ class ReviewAnalyzer:
         logger.info("Review analysis completed successfully.")
         return result_df
 
-    def predict_star_rating(self, text: str) -> int:
-        """Predict star rating (1-5) based on sentiment analysis.
-        
-        Args:
-            text: The preprocessed text
-            
-        Returns:
-            Predicted star rating (1-5)
-        """
-        return self.star_rating_predictor.predict_star_rating(text)
+    # def predict_star_rating(self, text: str) -> int:
+    #     """Predict star rating (1-5) based on sentiment analysis.
+    #     
+    #     Args:
+    #         text: The preprocessed text
+    #         
+    #     Returns:
+    #         Predicted star rating (1-5)
+    #     """
+    #     return self.star_rating_predictor.predict_star_rating(text)
 
     def extract_keywords(self, text: str, top_k: int = 10) -> List[str]:
         """Extract keywords from text using the keyword extractor.

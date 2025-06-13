@@ -8,8 +8,8 @@
     "language": "sl",
     "processed_text": "love it",
     "sentiment": "positive",
-    "sentiment_score": 0.8348284959793091,
-    "sentiment_confidence": 0.8348284959793091
+    "sentiment_score": 0.7722170948982239,
+    "sentiment_confidence": 0.7722170948982239
   },
   {
     "title": "",
@@ -20,8 +20,8 @@
     "language": "en",
     "processed_text": "good game want engage fun challenge experience",
     "sentiment": "positive",
-    "sentiment_score": 0.5094752907752991,
-    "sentiment_confidence": 0.5094752907752991
+    "sentiment_score": 0.8197434544563293,
+    "sentiment_confidence": 0.8197434544563293
   },
   {
     "title": "",
@@ -32,8 +32,8 @@
     "language": "en",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.4566289484500885,
-    "sentiment_confidence": 0.4566289484500885
+    "sentiment_score": 0.5517699718475342,
+    "sentiment_confidence": 0.5517699718475342
   },
   {
     "title": "",
@@ -44,8 +44,8 @@
     "language": "en",
     "processed_text": "communication score joke zero word play assign role good communication score keep drop exploit decent game shitty easily exploitable system lamb modern era",
     "sentiment": "negative",
-    "sentiment_score": 0.7331562638282776,
-    "sentiment_confidence": 0.7331562638282776
+    "sentiment_score": -0.9177034497261047,
+    "sentiment_confidence": 0.9177034497261047
   },
   {
     "title": "",
@@ -55,9 +55,9 @@
     "cleaned_text": "very addictive play with caution your life my fall apart you have been warned",
     "language": "en",
     "processed_text": "addictive play caution life fall apart warn",
-    "sentiment": "positive",
-    "sentiment_score": 0.7102352976799011,
-    "sentiment_confidence": 0.7102352976799011
+    "sentiment": "negative",
+    "sentiment_score": -0.8295084834098816,
+    "sentiment_confidence": 0.8295084834098816
   },
   {
     "title": "",
@@ -68,8 +68,8 @@
     "language": "en",
     "processed_text": "piece utter trash know enjoy bury alive",
     "sentiment": "negative",
-    "sentiment_score": 0.9368147253990173,
-    "sentiment_confidence": 0.9368147253990173
+    "sentiment_score": -0.9635968804359436,
+    "sentiment_confidence": 0.9635968804359436
   },
   {
     "title": "",
@@ -80,8 +80,8 @@
     "language": "pt",
     "processed_text": "ir precisar hora avaliar corretamente",
     "sentiment": "neutral",
-    "sentiment_score": 0.40094321966171265,
-    "sentiment_confidence": 0.40094321966171265
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.7022607922554016
   },
   {
     "title": "",
@@ -91,9 +91,9 @@
     "cleaned_text": "to many updates",
     "language": "en",
     "processed_text": "update",
-    "sentiment": "positive",
-    "sentiment_score": 0.2706986963748932,
-    "sentiment_confidence": 0.2706986963748932
+    "sentiment": "negative",
+    "sentiment_score": -0.7363461852073669,
+    "sentiment_confidence": 0.7363461852073669
   },
   {
     "title": "",
@@ -104,8 +104,8 @@
     "language": "en",
     "processed_text": "perfect game come game get bore allway come round dota",
     "sentiment": "positive",
-    "sentiment_score": 0.7498465180397034,
-    "sentiment_confidence": 0.7498465180397034
+    "sentiment_score": 0.7304598689079285,
+    "sentiment_confidence": 0.7304598689079285
   },
   {
     "title": "",
@@ -115,9 +115,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "positive",
-    "sentiment_score": 0.3245805501937866,
-    "sentiment_confidence": 0.3245805501937866
+    "sentiment": "negative",
+    "sentiment_score": -0.789240300655365,
+    "sentiment_confidence": 0.789240300655365
   },
   {
     "title": "",
@@ -127,9 +127,9 @@
     "cleaned_text": "social credit scores out of new shtty maps out of dota to league of legends conversions out of concurrent players in the past year after the patch out of",
     "language": "en",
     "processed_text": "social credit score new shtty map dota league legend conversion concurrent player past year patch",
-    "sentiment": "negative",
-    "sentiment_score": 0.45656105875968933,
-    "sentiment_confidence": 0.45656105875968933
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.6439952254295349
   },
   {
     "title": "",
@@ -140,8 +140,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.4315045475959778,
+    "sentiment_confidence": 0.4315045475959778
   },
   {
     "title": "",
@@ -151,9 +151,9 @@
     "cleaned_text": "this is the game that i will probably play till my time on this earth expires",
     "language": "en",
     "processed_text": "game probably play till time earth expire",
-    "sentiment": "positive",
-    "sentiment_score": 0.49359992146492004,
-    "sentiment_confidence": 0.49359992146492004
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.489841103553772
   },
   {
     "title": "",
@@ -164,8 +164,8 @@
     "language": "sq",
     "processed_text": "shit",
     "sentiment": "negative",
-    "sentiment_score": 0.7219337224960327,
-    "sentiment_confidence": 0.7219337224960327
+    "sentiment_score": -0.619292140007019,
+    "sentiment_confidence": 0.619292140007019
   },
   {
     "title": "",
@@ -176,8 +176,8 @@
     "language": "en",
     "processed_text": "unbalanced play game hate play league legend",
     "sentiment": "negative",
-    "sentiment_score": 0.4743105471134186,
-    "sentiment_confidence": 0.4743105471134186
+    "sentiment_score": -0.8129555583000183,
+    "sentiment_confidence": 0.8129555583000183
   },
   {
     "title": "",
@@ -188,8 +188,8 @@
     "language": "en",
     "processed_text": "toxic auto loss troll exist",
     "sentiment": "negative",
-    "sentiment_score": 0.6463602781295776,
-    "sentiment_confidence": 0.6463602781295776
+    "sentiment_score": -0.9295200705528259,
+    "sentiment_confidence": 0.9295200705528259
   },
   {
     "title": "",
@@ -199,9 +199,9 @@
     "cleaned_text": "free game",
     "language": "en",
     "processed_text": "free game",
-    "sentiment": "positive",
-    "sentiment_score": 0.3720446228981018,
-    "sentiment_confidence": 0.3720446228981018
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.5017382502555847
   },
   {
     "title": "",
@@ -212,8 +212,8 @@
     "language": "en",
     "processed_text": "try stupid stupid river ocean",
     "sentiment": "negative",
-    "sentiment_score": 0.3172048330307007,
-    "sentiment_confidence": 0.3172048330307007
+    "sentiment_score": -0.8308018445968628,
+    "sentiment_confidence": 0.8308018445968628
   },
   {
     "title": "",
@@ -224,8 +224,8 @@
     "language": "sl",
     "processed_text": "love it",
     "sentiment": "positive",
-    "sentiment_score": 0.8348284959793091,
-    "sentiment_confidence": 0.8348284959793091
+    "sentiment_score": 0.7722170948982239,
+    "sentiment_confidence": 0.7722170948982239
   },
   {
     "title": "",
@@ -236,8 +236,8 @@
     "language": "en",
     "processed_text": "hear game play nerd ew",
     "sentiment": "negative",
-    "sentiment_score": 0.3349466919898987,
-    "sentiment_confidence": 0.3349466919898987
+    "sentiment_score": -0.8963241577148438,
+    "sentiment_confidence": 0.8963241577148438
   },
   {
     "title": "",
@@ -248,8 +248,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "neutral",
-    "sentiment_score": 0.24169935286045074,
-    "sentiment_confidence": 0.24169935286045074
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.39297330379486084
   },
   {
     "title": "",
@@ -260,8 +260,8 @@
     "language": "en",
     "processed_text": "time killer thing dangerous",
     "sentiment": "negative",
-    "sentiment_score": 0.7501606941223145,
-    "sentiment_confidence": 0.7501606941223145
+    "sentiment_score": -0.9438968896865845,
+    "sentiment_confidence": 0.9438968896865845
   },
   {
     "title": "",
@@ -272,8 +272,8 @@
     "language": "so",
     "processed_text": "good game",
     "sentiment": "positive",
-    "sentiment_score": 0.5564231872558594,
-    "sentiment_confidence": 0.5564231872558594
+    "sentiment_score": 0.8600338101387024,
+    "sentiment_confidence": 0.8600338101387024
   },
   {
     "title": "",
@@ -284,8 +284,8 @@
     "language": "en",
     "processed_text": "love game",
     "sentiment": "positive",
-    "sentiment_score": 0.9209197163581848,
-    "sentiment_confidence": 0.9209197163581848
+    "sentiment_score": 0.9186976552009583,
+    "sentiment_confidence": 0.9186976552009583
   },
   {
     "title": "",
@@ -296,8 +296,8 @@
     "language": "en",
     "processed_text": "piece trash game horrible toxic community noob day worthless calipration",
     "sentiment": "negative",
-    "sentiment_score": 0.9786903858184814,
-    "sentiment_confidence": 0.9786903858184814
+    "sentiment_score": -0.9663422107696533,
+    "sentiment_confidence": 0.9663422107696533
   },
   {
     "title": "",
@@ -307,9 +307,9 @@
     "cleaned_text": "heed with caution once you start there is no going back",
     "language": "en",
     "processed_text": "heed caution start go",
-    "sentiment": "negative",
-    "sentiment_score": 0.48467838764190674,
-    "sentiment_confidence": 0.48467838764190674
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.62302565574646
   },
   {
     "title": "",
@@ -320,8 +320,8 @@
     "language": "en",
     "processed_text": "look job chore masters degree want hobby game fun fine sure interesting dedicate insane time single game current spite playable rating steam deck sure randomly change accept face button input track pad work mouse similar interface contantly switch touch screen work intuitively mouse replacement game",
     "sentiment": "negative",
-    "sentiment_score": 0.4967138469219208,
-    "sentiment_confidence": 0.4967138469219208
+    "sentiment_score": -0.5515239238739014,
+    "sentiment_confidence": 0.5515239238739014
   },
   {
     "title": "",
@@ -332,8 +332,8 @@
     "language": "nl",
     "processed_text": "worst gaam ever",
     "sentiment": "negative",
-    "sentiment_score": 0.9563156962394714,
-    "sentiment_confidence": 0.9563156962394714
+    "sentiment_score": -0.9397212862968445,
+    "sentiment_confidence": 0.9397212862968445
   },
   {
     "title": "",
@@ -344,8 +344,8 @@
     "language": "en",
     "processed_text": "good good",
     "sentiment": "positive",
-    "sentiment_score": 0.8684557676315308,
-    "sentiment_confidence": 0.8684557676315308
+    "sentiment_score": 0.8156057596206665,
+    "sentiment_confidence": 0.8156057596206665
   },
   {
     "title": "",
@@ -356,8 +356,8 @@
     "language": "en",
     "processed_text": "road mmr xd",
     "sentiment": "positive",
-    "sentiment_score": 0.36222317814826965,
-    "sentiment_confidence": 0.36222317814826965
+    "sentiment_score": 0.608128011226654,
+    "sentiment_confidence": 0.608128011226654
   },
   {
     "title": "",
@@ -367,9 +367,9 @@
     "cleaned_text": "best game you suck at",
     "language": "en",
     "processed_text": "good game suck",
-    "sentiment": "positive",
-    "sentiment_score": 0.9329116344451904,
-    "sentiment_confidence": 0.9329116344451904
+    "sentiment": "negative",
+    "sentiment_score": -0.7077717781066895,
+    "sentiment_confidence": 0.7077717781066895
   },
   {
     "title": "",
@@ -380,8 +380,8 @@
     "language": "id",
     "processed_text": "adsa",
     "sentiment": "neutral",
-    "sentiment_score": 0.31294453144073486,
-    "sentiment_confidence": 0.31294453144073486
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45511963963508606
   },
   {
     "title": "",
@@ -392,8 +392,8 @@
     "language": "sw",
     "processed_text": "wars amazing gg",
     "sentiment": "positive",
-    "sentiment_score": 0.7865214347839355,
-    "sentiment_confidence": 0.7865214347839355
+    "sentiment_score": 0.9386191368103027,
+    "sentiment_confidence": 0.9386191368103027
   },
   {
     "title": "",
@@ -404,8 +404,8 @@
     "language": "en",
     "processed_text": "recently start play dota fun learning curve steep impossible game try leave",
     "sentiment": "positive",
-    "sentiment_score": 0.6704930067062378,
-    "sentiment_confidence": 0.6704930067062378
+    "sentiment_score": 0.8060760498046875,
+    "sentiment_confidence": 0.8060760498046875
   },
   {
     "title": "",
@@ -415,9 +415,9 @@
     "cleaned_text": "more fun then lol",
     "language": "en",
     "processed_text": "fun lol",
-    "sentiment": "positive",
-    "sentiment_score": 0.30432388186454773,
-    "sentiment_confidence": 0.30432388186454773
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.39060232043266296
   },
   {
     "title": "",
@@ -428,8 +428,8 @@
     "language": "pt",
     "processed_text": "doto enough said",
     "sentiment": "neutral",
-    "sentiment_score": 0.2840217053890228,
-    "sentiment_confidence": 0.2840217053890228
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.6429922580718994
   },
   {
     "title": "",
@@ -440,8 +440,8 @@
     "language": "pt",
     "processed_text": "not it",
     "sentiment": "negative",
-    "sentiment_score": 0.6631984710693359,
-    "sentiment_confidence": 0.6631984710693359
+    "sentiment_score": -0.8051814436912537,
+    "sentiment_confidence": 0.8051814436912537
   },
   {
     "title": "",
@@ -452,8 +452,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.4315045475959778,
+    "sentiment_confidence": 0.4315045475959778
   },
   {
     "title": "",
@@ -463,9 +463,9 @@
     "cleaned_text": "parasha",
     "language": "sq",
     "processed_text": "parasha",
-    "sentiment": "neutral",
-    "sentiment_score": 0.27090948820114136,
-    "sentiment_confidence": 0.27090948820114136
+    "sentiment": "negative",
+    "sentiment_score": -0.3667406141757965,
+    "sentiment_confidence": 0.3667406141757965
   },
   {
     "title": "",
@@ -476,8 +476,8 @@
     "language": "af",
     "processed_text": "beste",
     "sentiment": "positive",
-    "sentiment_score": 0.9028603434562683,
-    "sentiment_confidence": 0.9028603434562683
+    "sentiment_score": 0.6083256602287292,
+    "sentiment_confidence": 0.6083256602287292
   },
   {
     "title": "",
@@ -488,8 +488,8 @@
     "language": "en",
     "processed_text": "frustrating chaotic cause manner distress bretty goob",
     "sentiment": "negative",
-    "sentiment_score": 0.5956591963768005,
-    "sentiment_confidence": 0.5956591963768005
+    "sentiment_score": -0.9321074485778809,
+    "sentiment_confidence": 0.9321074485778809
   },
   {
     "title": "",
@@ -500,8 +500,8 @@
     "language": "en",
     "processed_text": "pretty good",
     "sentiment": "positive",
-    "sentiment_score": 0.4428119361400604,
-    "sentiment_confidence": 0.4428119361400604
+    "sentiment_score": 0.8127146363258362,
+    "sentiment_confidence": 0.8127146363258362
   },
   {
     "title": "",
@@ -512,8 +512,8 @@
     "language": "pt",
     "processed_text": "dotr",
     "sentiment": "neutral",
-    "sentiment_score": 0.2791706323623657,
-    "sentiment_confidence": 0.2791706323623657
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3915553092956543
   },
   {
     "title": "",
@@ -524,8 +524,8 @@
     "language": "en",
     "processed_text": "love culture respect people",
     "sentiment": "positive",
-    "sentiment_score": 0.8788376450538635,
-    "sentiment_confidence": 0.8788376450538635
+    "sentiment_score": 0.7260934710502625,
+    "sentiment_confidence": 0.7260934710502625
   },
   {
     "title": "",
@@ -536,8 +536,8 @@
     "language": "fi",
     "processed_text": "ty",
     "sentiment": "neutral",
-    "sentiment_score": 0.24794402718544006,
-    "sentiment_confidence": 0.24794402718544006
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3950681686401367
   },
   {
     "title": "",
@@ -547,9 +547,9 @@
     "cleaned_text": "get in here",
     "language": "nl",
     "processed_text": "Get hère",
-    "sentiment": "positive",
-    "sentiment_score": 0.5553685426712036,
-    "sentiment_confidence": 0.5553685426712036
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.526435375213623
   },
   {
     "title": "",
@@ -560,8 +560,8 @@
     "language": "pt",
     "processed_text": "made racist",
     "sentiment": "negative",
-    "sentiment_score": 0.6392238140106201,
-    "sentiment_confidence": 0.6392238140106201
+    "sentiment_score": -0.9078994989395142,
+    "sentiment_confidence": 0.9078994989395142
   },
   {
     "title": "",
@@ -572,8 +572,8 @@
     "language": "it",
     "processed_text": "classic",
     "sentiment": "positive",
-    "sentiment_score": 0.6114762425422668,
-    "sentiment_confidence": 0.6114762425422668
+    "sentiment_score": 0.44590991735458374,
+    "sentiment_confidence": 0.44590991735458374
   },
   {
     "title": "",
@@ -584,8 +584,8 @@
     "language": "sq",
     "processed_text": "trash",
     "sentiment": "negative",
-    "sentiment_score": 0.7562035918235779,
-    "sentiment_confidence": 0.7562035918235779
+    "sentiment_score": -0.7125112414360046,
+    "sentiment_confidence": 0.7125112414360046
   },
   {
     "title": "",
@@ -595,9 +595,9 @@
     "cleaned_text": "yes",
     "language": "tr",
     "processed_text": "yes",
-    "sentiment": "positive",
-    "sentiment_score": 0.3790788948535919,
-    "sentiment_confidence": 0.3790788948535919
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4384995996952057
   },
   {
     "title": "",
@@ -608,8 +608,8 @@
     "language": "es",
     "processed_text": "fun game",
     "sentiment": "positive",
-    "sentiment_score": 0.5154638290405273,
-    "sentiment_confidence": 0.5154638290405273
+    "sentiment_score": 0.7276723384857178,
+    "sentiment_confidence": 0.7276723384857178
   },
   {
     "title": "",
@@ -620,8 +620,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "positive",
-    "sentiment_score": 0.8239476680755615,
-    "sentiment_confidence": 0.8239476680755615
+    "sentiment_score": 0.4558144211769104,
+    "sentiment_confidence": 0.4558144211769104
   },
   {
     "title": "",
@@ -632,8 +632,8 @@
     "language": "en",
     "processed_text": "use play game religiously year recently state play couple year go get punish leave game stomp low priority que wait hour game treat costumer want game wait time min let hour delete good goodbye",
     "sentiment": "negative",
-    "sentiment_score": 0.6960563063621521,
-    "sentiment_confidence": 0.6960563063621521
+    "sentiment_score": -0.8722688555717468,
+    "sentiment_confidence": 0.8722688555717468
   },
   {
     "title": "",
@@ -644,8 +644,8 @@
     "language": "en",
     "processed_text": "hate game hate",
     "sentiment": "negative",
-    "sentiment_score": 0.8163266777992249,
-    "sentiment_confidence": 0.8163266777992249
+    "sentiment_score": -0.9173638224601746,
+    "sentiment_confidence": 0.9173638224601746
   },
   {
     "title": "",
@@ -656,8 +656,8 @@
     "language": "en",
     "processed_text": "toxic game necbeard play spend k hour toxic game",
     "sentiment": "negative",
-    "sentiment_score": 0.8673463463783264,
-    "sentiment_confidence": 0.8673463463783264
+    "sentiment_score": -0.9499707818031311,
+    "sentiment_confidence": 0.9499707818031311
   },
   {
     "title": "",
@@ -668,8 +668,8 @@
     "language": "en",
     "processed_text": "lot terrible people play game game awesome find good people play well experience",
     "sentiment": "positive",
-    "sentiment_score": 0.6244068145751953,
-    "sentiment_confidence": 0.6244068145751953
+    "sentiment_score": 0.7368151545524597,
+    "sentiment_confidence": 0.7368151545524597
   },
   {
     "title": "",
@@ -680,8 +680,8 @@
     "language": "pt",
     "processed_text": "ja bastasse desequilibrio herois fazer escolher skill dota ficar lixo desinstalei volto jogar",
     "sentiment": "negative",
-    "sentiment_score": 0.5504552125930786,
-    "sentiment_confidence": 0.5504552125930786
+    "sentiment_score": -0.9544987082481384,
+    "sentiment_confidence": 0.9544987082481384
   },
   {
     "title": "",
@@ -691,9 +691,9 @@
     "cleaned_text": "i have been playing dota for years now off and on throughout my life it is one of the few constants in high school my friends and i spent many nights playing when there was only one courier in college i played once or twice a year on my rented laptop from school during the pandemic it was a way for my brothers and i to connect when we could not actually visit each other it holds a great place in my life hthe goodh gameplay is dynamic engaging and rewarding once you get the hang of it there are so many moving parts that when you make your first big play there is very little that can match the feeling of satisfaction when played just right flourishing pro scene if you want to get better there are countless new and old pro players that stream or release content on youtube to help you improve and often times discord chats to find players to play with semi consistent updates they just released one of the biggest updates the game has seen since talents were released in or neutral items were released in or when they doubled the size of the map in valve is not afraid to experiment with this game and while you can get stuck on a single patch for a long time you can always know that valve devs are working on something truly different to add hnegativesh mental health this is a team game i love it for that but playing with others can be frustrating and demoralizing you can also find yourself chain queuing which after multiple losses can really effect your mood outside the game my girlfriend and i have a rule that i cannot start a game after pm because if i lose badly sometimes i will be too angry to fall asleep or talk before bed you have to find these ways to look inward yourself and without barriers it can really negatively impact you the community i said it a bit above but if you are new to online games there is so much racism sexism anger etc i have met really great people playing dota but the brain tends to remember the bad eggs remember there is a mute button communication from valve there can be crickets from valve sometimes they are working on stuff but if you read reddit to much you can get a bit riled for no reason overall best game i have ever played by a long margin",
     "language": "en",
     "processed_text": "play dota year life constant high school friend spend night play courier college play twice year rented laptop school pandemic way brother connect actually visit hold great place life hthe goodh gameplay dynamic engaging rewarding hang move part big play little match feeling satisfaction play right flourish pro scene want well countless new old pro player stream release content youtube help improve time discord chat find player play semi consistent update release big update game see talent release neutral item release double size map valve afraid experiment game stick single patch long time know valve devs work truly different add hnegativesh mental health team game love play frustrating demoralize find chain queue multiple loss effect mood outside game girlfriend rule start game pm lose badly angry fall asleep talk bed find way look inward barrier negatively impact community say bit new online game racism sexism anger etc meet great people play dota brain tend remember bad egg remember mute button communication valve cricket valve work stuff read reddit bit riled reason overall good game play long margin",
-    "sentiment": "positive",
-    "sentiment_score": 0.4152207672595978,
-    "sentiment_confidence": 0.4152207672595978
+    "sentiment": "negative",
+    "sentiment_score": -0.40029218792915344,
+    "sentiment_confidence": 0.40029218792915344
   },
   {
     "title": "",
@@ -704,8 +704,8 @@
     "language": "en",
     "processed_text": "great fun game get friend play low rank try stuff game toxic fanbase existence second maybe lol intend play solo sanity favor avoid game like plague flame griefe slur scream etc player perceive microsecond suboptimal play",
     "sentiment": "negative",
-    "sentiment_score": 0.3838655948638916,
-    "sentiment_confidence": 0.3838655948638916
+    "sentiment_score": -0.7976609468460083,
+    "sentiment_confidence": 0.7976609468460083
   },
   {
     "title": "",
@@ -715,9 +715,9 @@
     "cleaned_text": "yes",
     "language": "tr",
     "processed_text": "yes",
-    "sentiment": "positive",
-    "sentiment_score": 0.2993094027042389,
-    "sentiment_confidence": 0.2993094027042389
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4561533033847809
   },
   {
     "title": "",
@@ -727,9 +727,9 @@
     "cleaned_text": "i love this game only issue i have with it is every update i have to either run a scan to fix things or reinstall which is the only quite annoying thing",
     "language": "en",
     "processed_text": "love game issue update run scan fix thing reinstall annoying thing",
-    "sentiment": "positive",
-    "sentiment_score": 0.8049444556236267,
-    "sentiment_confidence": 0.8049444556236267
+    "sentiment": "negative",
+    "sentiment_score": -0.9359659552574158,
+    "sentiment_confidence": 0.9359659552574158
   },
   {
     "title": "",
@@ -739,9 +739,9 @@
     "cleaned_text": "yea its pretty good",
     "language": "en",
     "processed_text": "yea pretty good",
-    "sentiment": "neutral",
-    "sentiment_score": 0.44034433364868164,
-    "sentiment_confidence": 0.44034433364868164
+    "sentiment": "positive",
+    "sentiment_score": 0.7776819467544556,
+    "sentiment_confidence": 0.7776819467544556
   },
   {
     "title": "",
@@ -752,8 +752,8 @@
     "language": "en",
     "processed_text": "play game hour group friend play game suck game good stuck play play stay away game suck life soul play exactly right team bad lose game minute huge time commitment finally far toxic community experience video game",
     "sentiment": "negative",
-    "sentiment_score": 0.7841670513153076,
-    "sentiment_confidence": 0.7841670513153076
+    "sentiment_score": -0.9279364943504333,
+    "sentiment_confidence": 0.9279364943504333
   },
   {
     "title": "",
@@ -764,8 +764,8 @@
     "language": "sv",
     "processed_text": "broken matchmaking system",
     "sentiment": "negative",
-    "sentiment_score": 0.4758160710334778,
-    "sentiment_confidence": 0.4758160710334778
+    "sentiment_score": -0.9039171934127808,
+    "sentiment_confidence": 0.9039171934127808
   },
   {
     "title": "",
@@ -775,9 +775,9 @@
     "cleaned_text": "get good then its fun sometimes",
     "language": "en",
     "processed_text": "good fun",
-    "sentiment": "neutral",
-    "sentiment_score": 0.4741414487361908,
-    "sentiment_confidence": 0.4741414487361908
+    "sentiment": "positive",
+    "sentiment_score": 0.8130040168762207,
+    "sentiment_confidence": 0.8130040168762207
   },
   {
     "title": "",
@@ -788,8 +788,8 @@
     "language": "en",
     "processed_text": "recommend game match making imbalance mode pick rank meta stale group lose game toxicity get bad point see year dota sad bad community game get valve abandon game",
     "sentiment": "negative",
-    "sentiment_score": 0.757498562335968,
-    "sentiment_confidence": 0.757498562335968
+    "sentiment_score": -0.9623055458068848,
+    "sentiment_confidence": 0.9623055458068848
   },
   {
     "title": "",
@@ -800,8 +800,8 @@
     "language": "en",
     "processed_text": "brink uninstalling game",
     "sentiment": "neutral",
-    "sentiment_score": 0.2909773588180542,
-    "sentiment_confidence": 0.2909773588180542
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.5442114472389221
   },
   {
     "title": "",
@@ -811,9 +811,9 @@
     "cleaned_text": "ah dota the game where toxicity flows like a neverending river and the community is as welcoming as a pack of hungry wolves strap in folks because this rollercoaster of emotional distress is about to make you question your life choices let us start with the community shall we a lovely bunch really if your idea of lovely involves getting flamed for daring to pick a hero someone else wanted and do not even get me started on the joy of encountering smurfs who stomp around like they own the place leaving a trail of shattered dreams in their wake but wait there is more ever wanted to experience the thrill of spending an hour in a match only to have your hopes dashed by a single misstep congratulations dota has got you covered and let us not forget the joy of watching your teammates rage quit faster than you can say gg and do not even think about trying to improve sure you could watch tutorials read guides and practice till your fingers bleed but why bother when you can just blame your losses on everyone else it is the dota way but overall despite the salt mines and the occasional dumpster fire of a match i would still recommend this game because beneath all the toxicity lies a surprisingly addictive experience that somehow keeps you coming back for more punishment so if you are ready to dive headfirst into a cesspool of salt frustration and occasional glimpses of actual gameplay welcome to dota just remember to bring a hazmat suit and a healthy dose of sarcasm you are going to need it",
     "language": "en",
     "processed_text": "ah dota game toxicity flow like neverending river community welcome pack hungry wolf strap folk rollercoaster emotional distress question life choice let start community shall lovely bunch idea lovely involve getting flame dare pick hero want start joy encounter smurf stomp like place leave trail shatter dream wake wait want experience thrill spend hour match hope dash single misstep congratulation dota get cover let forget joy watch teammate rage quit fast gg think try improve sure watch tutorial read guide practice till finger bleed bother blame loss dota way overall despite salt mine occasional dumpster fire match recommend game beneath toxicity lie surprisingly addictive experience keep come punishment ready dive headfirst cesspool salt frustration occasional glimpse actual gameplay welcome dota remember bring hazmat suit healthy dose sarcasm go need",
-    "sentiment": "positive",
-    "sentiment_score": 0.5267185568809509,
-    "sentiment_confidence": 0.5267185568809509
+    "sentiment": "negative",
+    "sentiment_score": -0.541087806224823,
+    "sentiment_confidence": 0.541087806224823
   },
   {
     "title": "",
@@ -824,8 +824,8 @@
     "language": "en",
     "processed_text": "come valve complete pack free hour complete waste time well value buy steam trading card money",
     "sentiment": "negative",
-    "sentiment_score": 0.8011649250984192,
-    "sentiment_confidence": 0.8011649250984192
+    "sentiment_score": -0.9136770367622375,
+    "sentiment_confidence": 0.9136770367622375
   },
   {
     "title": "",
@@ -835,9 +835,9 @@
     "cleaned_text": "fun with friends in customs or against bots but the community is way too toxic you would have more fun drinking poison than being screamed at by these addicts cool game toxic community and no real way to circumvent that other than to go do literally anything else",
     "language": "en",
     "processed_text": "fun friend custom bot community way toxic fun drinking poison scream addict cool game toxic community real way circumvent literally",
-    "sentiment": "neutral",
-    "sentiment_score": 0.4238698482513428,
-    "sentiment_confidence": 0.4238698482513428
+    "sentiment": "negative",
+    "sentiment_score": -0.9420560598373413,
+    "sentiment_confidence": 0.9420560598373413
   },
   {
     "title": "",
@@ -848,8 +848,8 @@
     "language": "en",
     "processed_text": "demonic battleground fun",
     "sentiment": "positive",
-    "sentiment_score": 0.4843039810657501,
-    "sentiment_confidence": 0.4843039810657501
+    "sentiment_score": 0.7361065745353699,
+    "sentiment_confidence": 0.7361065745353699
   },
   {
     "title": "",
@@ -860,8 +860,8 @@
     "language": "en",
     "processed_text": "play hero war wc custom mode year dota take great game cost life game way rotation playable game dota force open worth cost free game complaining",
     "sentiment": "positive",
-    "sentiment_score": 0.6753933429718018,
-    "sentiment_confidence": 0.6753933429718018
+    "sentiment_score": 0.7847349643707275,
+    "sentiment_confidence": 0.7847349643707275
   },
   {
     "title": "",
@@ -872,8 +872,8 @@
     "language": "en",
     "processed_text": "techie fun",
     "sentiment": "positive",
-    "sentiment_score": 0.4628000259399414,
-    "sentiment_confidence": 0.4628000259399414
+    "sentiment_score": 0.4422917664051056,
+    "sentiment_confidence": 0.4422917664051056
   },
   {
     "title": "",
@@ -884,8 +884,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "",
@@ -895,9 +895,9 @@
     "cleaned_text": "every hour is death and i will continue to die over and over again",
     "language": "en",
     "processed_text": "hour death continue die",
-    "sentiment": "positive",
-    "sentiment_score": 0.6521556973457336,
-    "sentiment_confidence": 0.6521556973457336
+    "sentiment": "negative",
+    "sentiment_score": -0.6287896037101746,
+    "sentiment_confidence": 0.6287896037101746
   },
   {
     "title": "",
@@ -908,8 +908,8 @@
     "language": "en",
     "processed_text": "well develop league legend",
     "sentiment": "positive",
-    "sentiment_score": 0.6399626135826111,
-    "sentiment_confidence": 0.6399626135826111
+    "sentiment_score": 0.720350980758667,
+    "sentiment_confidence": 0.720350980758667
   },
   {
     "title": "",
@@ -920,8 +920,8 @@
     "language": "en",
     "processed_text": "league legend zoom happen stun silence literally second remove chance counterplay b bkb need hero give second window play hero speed fast map big combine point constant pan jungle role thing jungle way interesting hero balance nonexistent hero hard counter eachother game decide hero select toxic community item diverse way develop interesting one active ability make game memory game item hotkey slot blink expensive item need buy force chose mobility power make impossible play hero need blink lose lane",
     "sentiment": "negative",
-    "sentiment_score": 0.5576034784317017,
-    "sentiment_confidence": 0.5576034784317017
+    "sentiment_score": -0.4651780426502228,
+    "sentiment_confidence": 0.4651780426502228
   },
   {
     "title": "",
@@ -932,8 +932,8 @@
     "language": "en",
     "processed_text": "good game play like year",
     "sentiment": "positive",
-    "sentiment_score": 0.9460796117782593,
-    "sentiment_confidence": 0.9460796117782593
+    "sentiment_score": 0.9338790774345398,
+    "sentiment_confidence": 0.9338790774345398
   },
   {
     "title": "",
@@ -944,8 +944,8 @@
     "language": "en",
     "processed_text": "great game timepass",
     "sentiment": "positive",
-    "sentiment_score": 0.5581313967704773,
-    "sentiment_confidence": 0.5581313967704773
+    "sentiment_score": 0.904625415802002,
+    "sentiment_confidence": 0.904625415802002
   },
   {
     "title": "",
@@ -956,8 +956,8 @@
     "language": "en",
     "processed_text": "toxic render immune poison",
     "sentiment": "negative",
-    "sentiment_score": 0.6159005165100098,
-    "sentiment_confidence": 0.6159005165100098
+    "sentiment_score": -0.9193344712257385,
+    "sentiment_confidence": 0.9193344712257385
   },
   {
     "title": "",
@@ -968,8 +968,8 @@
     "language": "en",
     "processed_text": "worth",
     "sentiment": "negative",
-    "sentiment_score": 0.5500112175941467,
-    "sentiment_confidence": 0.5500112175941467
+    "sentiment_score": -0.857857346534729,
+    "sentiment_confidence": 0.857857346534729
   },
   {
     "title": "",
@@ -980,8 +980,8 @@
     "language": "en",
     "processed_text": "game imho toxic time consume recoommend spend time game",
     "sentiment": "negative",
-    "sentiment_score": 0.704939067363739,
-    "sentiment_confidence": 0.704939067363739
+    "sentiment_score": -0.950957715511322,
+    "sentiment_confidence": 0.950957715511322
   },
   {
     "title": "",
@@ -991,9 +991,9 @@
     "cleaned_text": "it is a good game but they are really strict with the bans and no really much of a freedom to express but the game it self is a good game",
     "language": "en",
     "processed_text": "good game strict ban freedom express game self good game",
-    "sentiment": "neutral",
-    "sentiment_score": 0.6716341972351074,
-    "sentiment_confidence": 0.6716341972351074
+    "sentiment": "negative",
+    "sentiment_score": -0.6806384921073914,
+    "sentiment_confidence": 0.6806384921073914
   },
   {
     "title": "",
@@ -1004,8 +1004,8 @@
     "language": "en",
     "processed_text": "good game",
     "sentiment": "positive",
-    "sentiment_score": 0.9434862732887268,
-    "sentiment_confidence": 0.9434862732887268
+    "sentiment_score": 0.919239342212677,
+    "sentiment_confidence": 0.919239342212677
   },
   {
     "title": "",
@@ -1015,9 +1015,9 @@
     "cleaned_text": "the matches used to take a long time and that makes the learning curve steeper but it is a very deep fast paced game it is hard to find a better real time strategy game the complexity team dynamics and high capacity for upset or turn around matches makes for good watching and great play",
     "language": "en",
     "processed_text": "match long time make learning curve steep deep fast pace game hard find well real time strategy game complexity team dynamic high capacity upset turn match make good watching great play",
-    "sentiment": "positive",
-    "sentiment_score": 0.6278036236763,
-    "sentiment_confidence": 0.6278036236763
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3944891095161438
   },
   {
     "title": "",
@@ -1027,9 +1027,9 @@
     "cleaned_text": "no i would rather my children get into recreational drugs than discover this game",
     "language": "en",
     "processed_text": "child recreational drug discover game",
-    "sentiment": "negative",
-    "sentiment_score": 0.5445972084999084,
-    "sentiment_confidence": 0.5445972084999084
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4387549161911011
   },
   {
     "title": "",
@@ -1039,9 +1039,9 @@
     "cleaned_text": "cannot find any game better than this",
     "language": "en",
     "processed_text": "find game well",
-    "sentiment": "negative",
-    "sentiment_score": 0.32734522223472595,
-    "sentiment_confidence": 0.32734522223472595
+    "sentiment": "positive",
+    "sentiment_score": 0.7842699885368347,
+    "sentiment_confidence": 0.7842699885368347
   },
   {
     "title": "",
@@ -1052,8 +1052,8 @@
     "language": "en",
     "processed_text": "recommend",
     "sentiment": "negative",
-    "sentiment_score": 0.4771098792552948,
-    "sentiment_confidence": 0.4771098792552948
+    "sentiment_score": -0.7980735898017883,
+    "sentiment_confidence": 0.7980735898017883
   },
   {
     "title": "",
@@ -1064,8 +1064,8 @@
     "language": "en",
     "processed_text": "invite community tolerant new player simple gameplay destroy enemy ancient produce relaxed euphoric meditative state perfect enjoy beautiful hero customization skin wait appear fountain",
     "sentiment": "positive",
-    "sentiment_score": 0.5102658867835999,
-    "sentiment_confidence": 0.5102658867835999
+    "sentiment_score": 0.6904467940330505,
+    "sentiment_confidence": 0.6904467940330505
   },
   {
     "title": "",
@@ -1076,8 +1076,8 @@
     "language": "en",
     "processed_text": "bad fucking moba",
     "sentiment": "negative",
-    "sentiment_score": 0.9586986303329468,
-    "sentiment_confidence": 0.9586986303329468
+    "sentiment_score": -0.9441841840744019,
+    "sentiment_confidence": 0.9441841840744019
   },
   {
     "title": "",
@@ -1088,8 +1088,8 @@
     "language": "en",
     "processed_text": "new format chess help relieve stress seriously raise new level d",
     "sentiment": "positive",
-    "sentiment_score": 0.6793397665023804,
-    "sentiment_confidence": 0.6793397665023804
+    "sentiment_score": 0.8370013236999512,
+    "sentiment_confidence": 0.8370013236999512
   },
   {
     "title": "",
@@ -1100,8 +1100,8 @@
     "language": "en",
     "processed_text": "good game conceive game different diverse hero combination special people encounter way believe agree lot special people play dota",
     "sentiment": "positive",
-    "sentiment_score": 0.9660658836364746,
-    "sentiment_confidence": 0.9660658836364746
+    "sentiment_score": 0.8709775805473328,
+    "sentiment_confidence": 0.8709775805473328
   },
   {
     "title": "",
@@ -1112,8 +1112,8 @@
     "language": "en",
     "processed_text": "good multiplayer game date go tweak game balancing",
     "sentiment": "positive",
-    "sentiment_score": 0.8234115242958069,
-    "sentiment_confidence": 0.8234115242958069
+    "sentiment_score": 0.8588660359382629,
+    "sentiment_confidence": 0.8588660359382629
   },
   {
     "title": "",
@@ -1124,8 +1124,8 @@
     "language": "en",
     "processed_text": "worth trust hour later worth",
     "sentiment": "negative",
-    "sentiment_score": 0.5650944709777832,
-    "sentiment_confidence": 0.5650944709777832
+    "sentiment_score": -0.9328122735023499,
+    "sentiment_confidence": 0.9328122735023499
   },
   {
     "title": "",
@@ -1136,8 +1136,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.4315045475959778,
+    "sentiment_confidence": 0.4315045475959778
   },
   {
     "title": "",
@@ -1148,8 +1148,8 @@
     "language": "es",
     "processed_text": "hermoso juego estresar él",
     "sentiment": "positive",
-    "sentiment_score": 0.7863547801971436,
-    "sentiment_confidence": 0.7863547801971436
+    "sentiment_score": 0.8578922748565674,
+    "sentiment_confidence": 0.8578922748565674
   },
   {
     "title": "",
@@ -1160,8 +1160,8 @@
     "language": "so",
     "processed_text": "good time sink xd",
     "sentiment": "positive",
-    "sentiment_score": 0.45763400197029114,
-    "sentiment_confidence": 0.45763400197029114
+    "sentiment_score": 0.6697754263877869,
+    "sentiment_confidence": 0.6697754263877869
   },
   {
     "title": "",
@@ -1172,8 +1172,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "positive",
-    "sentiment_score": 0.38708212971687317,
-    "sentiment_confidence": 0.38708212971687317
+    "sentiment_score": 0.7288545966148376,
+    "sentiment_confidence": 0.7288545966148376
   },
   {
     "title": "",
@@ -1183,9 +1183,9 @@
     "cleaned_text": "i play it to relax",
     "language": "en",
     "processed_text": "play relax",
-    "sentiment": "positive",
-    "sentiment_score": 0.41798827052116394,
-    "sentiment_confidence": 0.41798827052116394
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.44372138381004333
   },
   {
     "title": "",
@@ -1196,8 +1196,8 @@
     "language": "af",
     "processed_text": "best",
     "sentiment": "positive",
-    "sentiment_score": 0.7400626540184021,
-    "sentiment_confidence": 0.7400626540184021
+    "sentiment_score": 0.3724946677684784,
+    "sentiment_confidence": 0.3724946677684784
   },
   {
     "title": "",
@@ -1208,8 +1208,8 @@
     "language": "en",
     "processed_text": "league legend enjoyable",
     "sentiment": "positive",
-    "sentiment_score": 0.5051591396331787,
-    "sentiment_confidence": 0.5051591396331787
+    "sentiment_score": 0.7636100649833679,
+    "sentiment_confidence": 0.7636100649833679
   },
   {
     "title": "",
@@ -1220,8 +1220,8 @@
     "language": "fi",
     "processed_text": "russian man told me to kill myself",
     "sentiment": "negative",
-    "sentiment_score": 0.5830443501472473,
-    "sentiment_confidence": 0.5830443501472473
+    "sentiment_score": -0.8509263396263123,
+    "sentiment_confidence": 0.8509263396263123
   },
   {
     "title": "",
@@ -1232,8 +1232,8 @@
     "language": "en",
     "processed_text": "unquittable game break game",
     "sentiment": "negative",
-    "sentiment_score": 0.4171011745929718,
-    "sentiment_confidence": 0.4171011745929718
+    "sentiment_score": -0.7970165014266968,
+    "sentiment_confidence": 0.7970165014266968
   },
   {
     "title": "",
@@ -1243,9 +1243,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "positive",
-    "sentiment_score": 0.2515544891357422,
-    "sentiment_confidence": 0.2515544891357422
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.42893272638320923
   },
   {
     "title": "",
@@ -1256,8 +1256,8 @@
     "language": "en",
     "processed_text": "maybe good way century group time kill",
     "sentiment": "positive",
-    "sentiment_score": 0.451168954372406,
-    "sentiment_confidence": 0.451168954372406
+    "sentiment_score": 0.8622152209281921,
+    "sentiment_confidence": 0.8622152209281921
   },
   {
     "title": "",
@@ -1268,8 +1268,8 @@
     "language": "en",
     "processed_text": "heir og good mod",
     "sentiment": "positive",
-    "sentiment_score": 0.91916424036026,
-    "sentiment_confidence": 0.91916424036026
+    "sentiment_score": 0.9093942642211914,
+    "sentiment_confidence": 0.9093942642211914
   },
   {
     "title": "",
@@ -1279,9 +1279,9 @@
     "cleaned_text": "you will hate it but play it for hours",
     "language": "en",
     "processed_text": "hate play hour",
-    "sentiment": "positive",
-    "sentiment_score": 0.23747988045215607,
-    "sentiment_confidence": 0.23747988045215607
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.38098418712615967
   },
   {
     "title": "",
@@ -1291,9 +1291,9 @@
     "cleaned_text": "better than league of lesbians",
     "language": "en",
     "processed_text": "well league lesbian",
-    "sentiment": "positive",
-    "sentiment_score": 0.526908278465271,
-    "sentiment_confidence": 0.526908278465271
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41048431396484375
   },
   {
     "title": "",
@@ -1304,8 +1304,8 @@
     "language": "en",
     "processed_text": "love new update way valve",
     "sentiment": "positive",
-    "sentiment_score": 0.7848125100135803,
-    "sentiment_confidence": 0.7848125100135803
+    "sentiment_score": 0.9547845125198364,
+    "sentiment_confidence": 0.9547845125198364
   },
   {
     "title": "",
@@ -1316,8 +1316,8 @@
     "language": "so",
     "processed_text": "game is good",
     "sentiment": "positive",
-    "sentiment_score": 0.49028339982032776,
-    "sentiment_confidence": 0.49028339982032776
+    "sentiment_score": 0.818038284778595,
+    "sentiment_confidence": 0.818038284778595
   },
   {
     "title": "",
@@ -1328,8 +1328,8 @@
     "language": "en",
     "processed_text": "bother fast quick lvl up second match go destroy everytime main reason hate mobas place like plenty time rpgs plenty time grind lvl thing mobas time destroy fan odd stay away game moba like",
     "sentiment": "negative",
-    "sentiment_score": 0.5391795039176941,
-    "sentiment_confidence": 0.5391795039176941
+    "sentiment_score": -0.870326042175293,
+    "sentiment_confidence": 0.870326042175293
   },
   {
     "title": "",
@@ -1340,8 +1340,8 @@
     "language": "en",
     "processed_text": "game like hero storm aspect genre game hero storm despite abandon actually far interesting compelling purely casualfun gaming experience",
     "sentiment": "positive",
-    "sentiment_score": 0.44648122787475586,
-    "sentiment_confidence": 0.44648122787475586
+    "sentiment_score": 0.7655718922615051,
+    "sentiment_confidence": 0.7655718922615051
   },
   {
     "title": "",
@@ -1351,9 +1351,9 @@
     "cleaned_text": "game would be great but volvo loves rng so if you are lucky you winno skill needed oh and if you play ranked make sure you download scripts and macros for mouse it helps on the first min of the game afterwards just right click and wait for the crit do not worry about ban volvo does not care as long as they got your money from skins",
     "language": "en",
     "processed_text": "game great volvo love rng lucky winno skill need oh play rank sure download script macro mouse help min game right click wait crit worry ban volvo care long get money skin",
-    "sentiment": "negative",
-    "sentiment_score": 0.409264475107193,
-    "sentiment_confidence": 0.409264475107193
+    "sentiment": "positive",
+    "sentiment_score": 0.48317623138427734,
+    "sentiment_confidence": 0.48317623138427734
   },
   {
     "title": "",
@@ -1364,8 +1364,8 @@
     "language": "en",
     "processed_text": "trash game know try play toxicity community",
     "sentiment": "negative",
-    "sentiment_score": 0.9606823325157166,
-    "sentiment_confidence": 0.9606823325157166
+    "sentiment_score": -0.9531054496765137,
+    "sentiment_confidence": 0.9531054496765137
   },
   {
     "title": "",
@@ -1376,8 +1376,8 @@
     "language": "so",
     "processed_text": "game is good",
     "sentiment": "positive",
-    "sentiment_score": 0.49028339982032776,
-    "sentiment_confidence": 0.49028339982032776
+    "sentiment_score": 0.8801756501197815,
+    "sentiment_confidence": 0.8801756501197815
   },
   {
     "title": "",
@@ -1388,8 +1388,8 @@
     "language": "pt",
     "processed_text": "good compediumr mother",
     "sentiment": "negative",
-    "sentiment_score": 0.7065356373786926,
-    "sentiment_confidence": 0.7065356373786926
+    "sentiment_score": -0.8728484511375427,
+    "sentiment_confidence": 0.8728484511375427
   },
   {
     "title": "",
@@ -1399,9 +1399,9 @@
     "cleaned_text": "o",
     "language": "en",
     "processed_text": "o",
-    "sentiment": "neutral",
-    "sentiment_score": 0.31228768825531006,
-    "sentiment_confidence": 0.31228768825531006
+    "sentiment": "negative",
+    "sentiment_score": -0.44632914662361145,
+    "sentiment_confidence": 0.44632914662361145
   },
   {
     "title": "",
@@ -1412,8 +1412,8 @@
     "language": "en",
     "processed_text": "kowtow china change skeleton king wraith king good moba play dota maintain spirit original emphasis backdoor map control strategy developer try emulate league legend regard believe step backwards great game play",
     "sentiment": "positive",
-    "sentiment_score": 0.7010833621025085,
-    "sentiment_confidence": 0.7010833621025085
+    "sentiment_score": 0.5148742198944092,
+    "sentiment_confidence": 0.5148742198944092
   },
   {
     "title": "",
@@ -1424,8 +1424,8 @@
     "language": "es",
     "processed_text": "fun game",
     "sentiment": "positive",
-    "sentiment_score": 0.5154638290405273,
-    "sentiment_confidence": 0.5154638290405273
+    "sentiment_score": 0.7355591654777527,
+    "sentiment_confidence": 0.7355591654777527
   },
   {
     "title": "",
@@ -1436,8 +1436,8 @@
     "language": "en",
     "processed_text": "good game play take time learn way comp compare league rewarding experience fully enjoy game",
     "sentiment": "positive",
-    "sentiment_score": 0.6822969317436218,
-    "sentiment_confidence": 0.6822969317436218
+    "sentiment_score": 0.8269339203834534,
+    "sentiment_confidence": 0.8269339203834534
   },
   {
     "title": "",
@@ -1447,9 +1447,9 @@
     "cleaned_text": "it will take over your life and is more addictive than meth",
     "language": "en",
     "processed_text": "life addictive meth",
-    "sentiment": "positive",
-    "sentiment_score": 0.7136291861534119,
-    "sentiment_confidence": 0.7136291861534119
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.5010846853256226
   },
   {
     "title": "",
@@ -1460,8 +1460,8 @@
     "language": "en",
     "processed_text": "pro fun hell great design satisfy af constantly update con online toxicity steep learn curve consume life",
     "sentiment": "positive",
-    "sentiment_score": 0.4679425060749054,
-    "sentiment_confidence": 0.4679425060749054
+    "sentiment_score": 0.70623379945755,
+    "sentiment_confidence": 0.70623379945755
   },
   {
     "title": "",
@@ -1472,8 +1472,8 @@
     "language": "af",
     "processed_text": "charge die repeat",
     "sentiment": "negative",
-    "sentiment_score": 0.6331720948219299,
-    "sentiment_confidence": 0.6331720948219299
+    "sentiment_score": -0.709539532661438,
+    "sentiment_confidence": 0.709539532661438
   },
   {
     "title": "",
@@ -1484,8 +1484,8 @@
     "language": "en",
     "processed_text": "moba great update event",
     "sentiment": "positive",
-    "sentiment_score": 0.6834791898727417,
-    "sentiment_confidence": 0.6834791898727417
+    "sentiment_score": 0.926331102848053,
+    "sentiment_confidence": 0.926331102848053
   },
   {
     "title": "",
@@ -1496,8 +1496,8 @@
     "language": "pt",
     "processed_text": "d",
     "sentiment": "neutral",
-    "sentiment_score": 0.26675939559936523,
-    "sentiment_confidence": 0.26675939559936523
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.40639716386795044
   },
   {
     "title": "",
@@ -1508,8 +1508,8 @@
     "language": "en",
     "processed_text": "game absolute delight play engage multiplayer mode friend sure great time find repeatedly come play take break replayability factor game impressive keep engage want play overall highly recommend game look fun exciting gaming experience",
     "sentiment": "positive",
-    "sentiment_score": 0.8881085515022278,
-    "sentiment_confidence": 0.8881085515022278
+    "sentiment_score": 0.9361190795898438,
+    "sentiment_confidence": 0.9361190795898438
   },
   {
     "title": "",
@@ -1519,9 +1519,9 @@
     "cleaned_text": "the most recent patch new frontiers has completely changed how the game plays whilst i appreciate that the devs are trying to keep it fresh and exciting the game does not feel like dota to me and i have lost all interest in playing if there was the possibility to include a classic mode with a previous version i would love to jump back in again",
     "language": "en",
     "processed_text": "recent patch new frontier completely change game play whilst appreciate devs try fresh exciting game feel like dota lose interest play possibility include classic mode previous version love jump",
-    "sentiment": "negative",
-    "sentiment_score": 0.5047380328178406,
-    "sentiment_confidence": 0.5047380328178406
+    "sentiment": "positive",
+    "sentiment_score": 0.6220968961715698,
+    "sentiment_confidence": 0.6220968961715698
   },
   {
     "title": "",
@@ -1531,9 +1531,9 @@
     "cleaned_text": "good game but the toxic community absurdly long games and the ability to be fountain camped for hours really ruins the experience for anyone not already invested into it",
     "language": "en",
     "processed_text": "good game toxic community absurdly long game ability fountain camp hour ruin experience invest",
-    "sentiment": "neutral",
-    "sentiment_score": 0.5925009846687317,
-    "sentiment_confidence": 0.5925009846687317
+    "sentiment": "negative",
+    "sentiment_score": -0.9464264512062073,
+    "sentiment_confidence": 0.9464264512062073
   },
   {
     "title": "",
@@ -1544,8 +1544,8 @@
     "language": "ca",
     "processed_text": "fenomenal",
     "sentiment": "positive",
-    "sentiment_score": 0.7082717418670654,
-    "sentiment_confidence": 0.7082717418670654
+    "sentiment_score": 0.5812889337539673,
+    "sentiment_confidence": 0.5812889337539673
   },
   {
     "title": "",
@@ -1556,8 +1556,8 @@
     "language": "en",
     "processed_text": "game good place well time start",
     "sentiment": "positive",
-    "sentiment_score": 0.9319379329681396,
-    "sentiment_confidence": 0.9319379329681396
+    "sentiment_score": 0.9400351047515869,
+    "sentiment_confidence": 0.9400351047515869
   },
   {
     "title": "",
@@ -1568,8 +1568,8 @@
     "language": "en",
     "processed_text": "patch game unplayable pc win stay update crash abandon low prio thank valve",
     "sentiment": "negative",
-    "sentiment_score": 0.7071381211280823,
-    "sentiment_confidence": 0.7071381211280823
+    "sentiment_score": -0.9168450832366943,
+    "sentiment_confidence": 0.9168450832366943
   },
   {
     "title": "",
@@ -1580,8 +1580,8 @@
     "language": "en",
     "processed_text": "apparently go friendly fun toxic terrible stay away pure simple write well review toxic group player worth anyone time",
     "sentiment": "negative",
-    "sentiment_score": 0.8048038482666016,
-    "sentiment_confidence": 0.8048038482666016
+    "sentiment_score": -0.9527918100357056,
+    "sentiment_confidence": 0.9527918100357056
   },
   {
     "title": "",
@@ -1592,8 +1592,8 @@
     "language": "en",
     "processed_text": "bad update kill game",
     "sentiment": "negative",
-    "sentiment_score": 0.9058642387390137,
-    "sentiment_confidence": 0.9058642387390137
+    "sentiment_score": -0.947775661945343,
+    "sentiment_confidence": 0.947775661945343
   },
   {
     "title": "",
@@ -1604,8 +1604,8 @@
     "language": "en",
     "processed_text": "knee jerk nerf character dominate game easily counter year continuous nerf completely character identity away stop play happen",
     "sentiment": "negative",
-    "sentiment_score": 0.461788147687912,
-    "sentiment_confidence": 0.461788147687912
+    "sentiment_score": -0.9421141743659973,
+    "sentiment_confidence": 0.9421141743659973
   },
   {
     "title": "",
@@ -1616,8 +1616,8 @@
     "language": "en",
     "processed_text": "new patch horrrrrrrrrrrible make map way busy add redundant resource like observer way teleport",
     "sentiment": "negative",
-    "sentiment_score": 0.46411678194999695,
-    "sentiment_confidence": 0.46411678194999695
+    "sentiment_score": -0.9241431355476379,
+    "sentiment_confidence": 0.9241431355476379
   },
   {
     "title": "",
@@ -1628,8 +1628,8 @@
     "language": "en",
     "processed_text": "dogshit game ruin mental health",
     "sentiment": "negative",
-    "sentiment_score": 0.5653043985366821,
-    "sentiment_confidence": 0.5653043985366821
+    "sentiment_score": -0.9517014622688293,
+    "sentiment_confidence": 0.9517014622688293
   },
   {
     "title": "",
@@ -1640,8 +1640,8 @@
     "language": "so",
     "processed_text": "good game",
     "sentiment": "positive",
-    "sentiment_score": 0.5576133728027344,
-    "sentiment_confidence": 0.5576133728027344
+    "sentiment_score": 0.7228869199752808,
+    "sentiment_confidence": 0.7228869199752808
   },
   {
     "title": "",
@@ -1652,8 +1652,8 @@
     "language": "en",
     "processed_text": "hardly play try game recently think fun shot game pure unadulterated dog shit terrible new player experience coat overabundance gimmicky ability crowd control like let group year old develop competitive moba title extreme level different ability vast powerspike turn fun engage early game experience god awful immune literally slark oneshotte entire team feed dota simply hold level competitive integrity similar title offer overpower overloaded overthetop skill quickly old constantly leave scratch head th team people speak different language wait minute finally good match abandon waste time game salvageable die inevitably small place world player count k old folk tired rip dota give shot worth stress lmao",
     "sentiment": "negative",
-    "sentiment_score": 0.8267441987991333,
-    "sentiment_confidence": 0.8267441987991333
+    "sentiment_score": -0.7877504229545593,
+    "sentiment_confidence": 0.7877504229545593
   },
   {
     "title": "",
@@ -1663,9 +1663,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "positive",
-    "sentiment_score": 0.45900779962539673,
-    "sentiment_confidence": 0.45900779962539673
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.49988916516304016
   },
   {
     "title": "",
@@ -1676,8 +1676,8 @@
     "language": "en",
     "processed_text": "shuold solo player play party arg game toxic piece shit",
     "sentiment": "negative",
-    "sentiment_score": 0.9328956604003906,
-    "sentiment_confidence": 0.9328956604003906
+    "sentiment_score": -0.9496644139289856,
+    "sentiment_confidence": 0.9496644139289856
   },
   {
     "title": "",
@@ -1688,8 +1688,8 @@
     "language": "en",
     "processed_text": "game totally unplayable linux hang match hang system noise headphone",
     "sentiment": "negative",
-    "sentiment_score": 0.8229761123657227,
-    "sentiment_confidence": 0.8229761123657227
+    "sentiment_score": -0.67813640832901,
+    "sentiment_confidence": 0.67813640832901
   },
   {
     "title": "",
@@ -1699,9 +1699,9 @@
     "cleaned_text": "before i played this i had a small wee wee no girlfriend and absolutely no will to live none of these things have changed but the game is pretty good",
     "language": "en",
     "processed_text": "play small wee wee girlfriend absolutely live thing change game pretty good",
-    "sentiment": "positive",
-    "sentiment_score": 0.5835170149803162,
-    "sentiment_confidence": 0.5835170149803162
+    "sentiment": "negative",
+    "sentiment_score": -0.47187650203704834,
+    "sentiment_confidence": 0.47187650203704834
   },
   {
     "title": "",
@@ -1711,9 +1711,9 @@
     "cleaned_text": "super shitty match making system supertoxic at all levels",
     "language": "en",
     "processed_text": "super shitty match make system supertoxic level",
-    "sentiment": "positive",
-    "sentiment_score": 0.883039653301239,
-    "sentiment_confidence": 0.883039653301239
+    "sentiment": "negative",
+    "sentiment_score": -0.9578388333320618,
+    "sentiment_confidence": 0.9578388333320618
   },
   {
     "title": "",
@@ -1724,8 +1724,8 @@
     "language": "en",
     "processed_text": "love game extremely complex worth spend time learn partake game valve great job add extra game queue demo view etc well",
     "sentiment": "positive",
-    "sentiment_score": 0.6382521986961365,
-    "sentiment_confidence": 0.6382521986961365
+    "sentiment_score": 0.8992049098014832,
+    "sentiment_confidence": 0.8992049098014832
   },
   {
     "title": "",
@@ -1735,9 +1735,9 @@
     "cleaned_text": "can i get my hours back",
     "language": "en",
     "processed_text": "hour",
-    "sentiment": "negative",
-    "sentiment_score": 0.4366048574447632,
-    "sentiment_confidence": 0.4366048574447632
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.558095395565033
   },
   {
     "title": "",
@@ -1748,8 +1748,8 @@
     "language": "en",
     "processed_text": "hour game speak",
     "sentiment": "positive",
-    "sentiment_score": 0.5655189156532288,
-    "sentiment_confidence": 0.5655189156532288
+    "sentiment_score": 0.5767282247543335,
+    "sentiment_confidence": 0.5767282247543335
   },
   {
     "title": "",
@@ -1760,8 +1760,8 @@
     "language": "en",
     "processed_text": "today dota formal existence balance exist form imba balance imbalance microtransaction season pass rampant individual player quality seriously lack moba game run course need end",
     "sentiment": "negative",
-    "sentiment_score": 0.47047844529151917,
-    "sentiment_confidence": 0.47047844529151917
+    "sentiment_score": -0.926499605178833,
+    "sentiment_confidence": 0.926499605178833
   },
   {
     "title": "",
@@ -1772,8 +1772,8 @@
     "language": "en",
     "processed_text": "highly recommend fun strategic game",
     "sentiment": "positive",
-    "sentiment_score": 0.7269917726516724,
-    "sentiment_confidence": 0.7269917726516724
+    "sentiment_score": 0.8574709296226501,
+    "sentiment_confidence": 0.8574709296226501
   },
   {
     "title": "",
@@ -1784,8 +1784,8 @@
     "language": "pl",
     "processed_text": "kekw you know ps pps",
     "sentiment": "neutral",
-    "sentiment_score": 0.35954582691192627,
-    "sentiment_confidence": 0.35954582691192627
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4889200031757355
   },
   {
     "title": "",
@@ -1796,8 +1796,8 @@
     "language": "tl",
     "processed_text": "no",
     "sentiment": "negative",
-    "sentiment_score": 0.531922459602356,
-    "sentiment_confidence": 0.531922459602356
+    "sentiment_score": -0.455923467874527,
+    "sentiment_confidence": 0.455923467874527
   },
   {
     "title": "",
@@ -1808,8 +1808,8 @@
     "language": "en",
     "processed_text": "tell friend check multiplayer game year later suck mean check",
     "sentiment": "negative",
-    "sentiment_score": 0.6476624011993408,
-    "sentiment_confidence": 0.6476624011993408
+    "sentiment_score": -0.884956419467926,
+    "sentiment_confidence": 0.884956419467926
   },
   {
     "title": "",
@@ -1819,9 +1819,9 @@
     "cleaned_text": "a",
     "language": "tl",
     "processed_text": "a",
-    "sentiment": "positive",
-    "sentiment_score": 0.3187071979045868,
-    "sentiment_confidence": 0.3187071979045868
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.38341376185417175
   },
   {
     "title": "",
@@ -1832,8 +1832,8 @@
     "language": "en",
     "processed_text": "game great continue entertain yrs dota good moba type game",
     "sentiment": "positive",
-    "sentiment_score": 0.706863522529602,
-    "sentiment_confidence": 0.706863522529602
+    "sentiment_score": 0.9260600209236145,
+    "sentiment_confidence": 0.9260600209236145
   },
   {
     "title": "",
@@ -1843,9 +1843,9 @@
     "cleaned_text": "mush game",
     "language": "sq",
     "processed_text": "mush game",
-    "sentiment": "positive",
-    "sentiment_score": 0.31143051385879517,
-    "sentiment_confidence": 0.31143051385879517
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3655267655849457
   },
   {
     "title": "",
@@ -1855,9 +1855,9 @@
     "cleaned_text": "too addicting",
     "language": "en",
     "processed_text": "addict",
-    "sentiment": "positive",
-    "sentiment_score": 0.6395783424377441,
-    "sentiment_confidence": 0.6395783424377441
+    "sentiment": "negative",
+    "sentiment_score": -0.7578762769699097,
+    "sentiment_confidence": 0.7578762769699097
   },
   {
     "title": "",
@@ -1868,8 +1868,8 @@
     "language": "en",
     "processed_text": "game feel",
     "sentiment": "positive",
-    "sentiment_score": 0.4166911840438843,
-    "sentiment_confidence": 0.4166911840438843
+    "sentiment_score": 0.6846258044242859,
+    "sentiment_confidence": 0.6846258044242859
   },
   {
     "title": "",
@@ -1880,8 +1880,8 @@
     "language": "en",
     "processed_text": "time work time",
     "sentiment": "positive",
-    "sentiment_score": 0.7741153240203857,
-    "sentiment_confidence": 0.7741153240203857
+    "sentiment_score": 0.5034437775611877,
+    "sentiment_confidence": 0.5034437775611877
   },
   {
     "title": "",
@@ -1891,9 +1891,9 @@
     "cleaned_text": "there is a lot to say about this update if you had changed the algorithms and map that much more over the map that made dota dota could have named this dota if you say no we want to apply this to dota then show respect the classic and give players the option to play as a classic map or a modern map so you keep your two player pools in your hands if the classics needed change they would not be called classics anyway rollbackdota",
     "language": "en",
     "processed_text": "lot update change algorithm map map dota dota name dota want apply dota respect classic player option play classic map modern map player pool hand classic need change call classic rollbackdota",
-    "sentiment": "negative",
-    "sentiment_score": 0.279264360666275,
-    "sentiment_confidence": 0.279264360666275
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.5153857469558716
   },
   {
     "title": "",
@@ -1903,9 +1903,9 @@
     "cleaned_text": "the one moba to rule them all but be warned this game is a jealous lover and will take most of your gaming time",
     "language": "en",
     "processed_text": "moba rule warn game jealous lover gaming time",
-    "sentiment": "positive",
-    "sentiment_score": 0.5283907651901245,
-    "sentiment_confidence": 0.5283907651901245
+    "sentiment": "negative",
+    "sentiment_score": -0.5989346504211426,
+    "sentiment_confidence": 0.5989346504211426
   },
   {
     "title": "",
@@ -1916,8 +1916,8 @@
     "language": "en",
     "processed_text": "ok",
     "sentiment": "neutral",
-    "sentiment_score": 0.657264769077301,
-    "sentiment_confidence": 0.657264769077301
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4523330628871918
   },
   {
     "title": "",
@@ -1928,8 +1928,8 @@
     "language": "en",
     "processed_text": "matchmaking enrage long string loss game adjust bad farming way mod player exact income matter cast skill player remain toxic explain build inventory particular way give circumstance world issue game issue game addictive lose",
     "sentiment": "negative",
-    "sentiment_score": 0.47191110253334045,
-    "sentiment_confidence": 0.47191110253334045
+    "sentiment_score": -0.832492470741272,
+    "sentiment_confidence": 0.832492470741272
   },
   {
     "title": "",
@@ -1940,8 +1940,8 @@
     "language": "en",
     "processed_text": "game ruin life",
     "sentiment": "negative",
-    "sentiment_score": 0.7539784908294678,
-    "sentiment_confidence": 0.7539784908294678
+    "sentiment_score": -0.9509189128875732,
+    "sentiment_confidence": 0.9509189128875732
   },
   {
     "title": "",
@@ -1951,9 +1951,9 @@
     "cleaned_text": "hey the new update dota leads to a reboot game when i am playing do you have any issues too",
     "language": "en",
     "processed_text": "hey new update dota lead reboot game play issue",
-    "sentiment": "positive",
-    "sentiment_score": 0.24273385107517242,
-    "sentiment_confidence": 0.24273385107517242
+    "sentiment": "negative",
+    "sentiment_score": -0.5065112113952637,
+    "sentiment_confidence": 0.5065112113952637
   },
   {
     "title": "",
@@ -1964,8 +1964,8 @@
     "language": "pl",
     "processed_text": "wack",
     "sentiment": "negative",
-    "sentiment_score": 0.4314133822917938,
-    "sentiment_confidence": 0.4314133822917938
+    "sentiment_score": -0.7741212248802185,
+    "sentiment_confidence": 0.7741212248802185
   },
   {
     "title": "",
@@ -1975,9 +1975,9 @@
     "cleaned_text": "nothing compares",
     "language": "en",
     "processed_text": "compare",
-    "sentiment": "negative",
-    "sentiment_score": 0.43396276235580444,
-    "sentiment_confidence": 0.43396276235580444
+    "sentiment": "positive",
+    "sentiment_score": 0.37586909532546997,
+    "sentiment_confidence": 0.37586909532546997
   },
   {
     "title": "",
@@ -1988,8 +1988,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "negative",
-    "sentiment_score": 0.41174614429473877,
-    "sentiment_confidence": 0.41174614429473877
+    "sentiment_score": -0.8471387028694153,
+    "sentiment_confidence": 0.8471387028694153
   },
   {
     "title": "",
@@ -2000,8 +2000,8 @@
     "language": "en",
     "processed_text": "link know hour like",
     "sentiment": "negative",
-    "sentiment_score": 0.4939899444580078,
-    "sentiment_confidence": 0.4939899444580078
+    "sentiment_score": -0.8248355984687805,
+    "sentiment_confidence": 0.8248355984687805
   },
   {
     "title": "",
@@ -2012,8 +2012,8 @@
     "language": "es",
     "processed_text": "fun fun",
     "sentiment": "positive",
-    "sentiment_score": 0.5588186979293823,
-    "sentiment_confidence": 0.5588186979293823
+    "sentiment_score": 0.8214504718780518,
+    "sentiment_confidence": 0.8214504718780518
   },
   {
     "title": "",
@@ -2024,8 +2024,8 @@
     "language": "pt",
     "processed_text": "not it it is damn awful",
     "sentiment": "negative",
-    "sentiment_score": 0.8854560852050781,
-    "sentiment_confidence": 0.8854560852050781
+    "sentiment_score": -0.9600667357444763,
+    "sentiment_confidence": 0.9600667357444763
   },
   {
     "title": "",
@@ -2036,8 +2036,8 @@
     "language": "en",
     "processed_text": "match shit dota game play suffer angry",
     "sentiment": "negative",
-    "sentiment_score": 0.6836528182029724,
-    "sentiment_confidence": 0.6836528182029724
+    "sentiment_score": -0.927743136882782,
+    "sentiment_confidence": 0.927743136882782
   },
   {
     "title": "",
@@ -2048,8 +2048,8 @@
     "language": "cy",
     "processed_text": "drain all my life away",
     "sentiment": "negative",
-    "sentiment_score": 0.6045072674751282,
-    "sentiment_confidence": 0.6045072674751282
+    "sentiment_score": -0.7950629591941833,
+    "sentiment_confidence": 0.7950629591941833
   },
   {
     "title": "",
@@ -2059,9 +2059,9 @@
     "cleaned_text": "too addictive",
     "language": "en",
     "processed_text": "addictive",
-    "sentiment": "positive",
-    "sentiment_score": 0.3360816240310669,
-    "sentiment_confidence": 0.3360816240310669
+    "sentiment": "negative",
+    "sentiment_score": -0.8307743668556213,
+    "sentiment_confidence": 0.8307743668556213
   },
   {
     "title": "",
@@ -2072,8 +2072,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "positive",
-    "sentiment_score": 0.28696587681770325,
-    "sentiment_confidence": 0.28696587681770325
+    "sentiment_score": 0.5204041004180908,
+    "sentiment_confidence": 0.5204041004180908
   },
   {
     "title": "",
@@ -2084,8 +2084,8 @@
     "language": "en",
     "processed_text": "toxic community",
     "sentiment": "negative",
-    "sentiment_score": 0.5073069930076599,
-    "sentiment_confidence": 0.5073069930076599
+    "sentiment_score": -0.9136099815368652,
+    "sentiment_confidence": 0.9136099815368652
   },
   {
     "title": "",
@@ -2096,8 +2096,8 @@
     "language": "en",
     "processed_text": "incredible depth nuance high skill ceiling integrated expansive client moba game feel premium outside annoying bug game viewer community high skill level create pretty high skill floor unranked game overwhelming new player steep learning curve experience tactical moba far rest field recommend turn anonymous mode start mute player community toxic obnoxious new player",
     "sentiment": "positive",
-    "sentiment_score": 0.7227011919021606,
-    "sentiment_confidence": 0.7227011919021606
+    "sentiment_score": 0.5430048108100891,
+    "sentiment_confidence": 0.5430048108100891
   },
   {
     "title": "",
@@ -2107,9 +2107,9 @@
     "cleaned_text": "this is dota from the original warcraft its awesome others try to emulate but fail all that being said there are times when i hate all the nerfing being done to some of the more awesome characters example when baranthum charges he should hit you and you should bounce across the lane and it should cause you to loose half your life early game zeus early game should be a hugely annoying with wrath some heros should be op if played well but its up to the player to know how to counter the play or strat when dota first came out heros were played as is for several years till player could have their say on what they thought was op and not then nerfing began zzzzzzz and the similarity to lol also began except for the big round heads",
     "language": "en",
     "processed_text": "dota original warcraft awesome try emulate fail say time hate nerfe awesome character example baranthum charge hit bounce lane cause loose half life early game zeus early game hugely annoying wrath hero op play player know counter play strat dota come hero play year till player think op nerfe begin zzzzzzz similarity lol begin big round head",
-    "sentiment": "positive",
-    "sentiment_score": 0.3332575857639313,
-    "sentiment_confidence": 0.3332575857639313
+    "sentiment": "negative",
+    "sentiment_score": -0.7276906371116638,
+    "sentiment_confidence": 0.7276906371116638
   },
   {
     "title": "",
@@ -2119,9 +2119,9 @@
     "cleaned_text": "a great game with some awesome synergies and mechanics but with the most toxic community in any game ever",
     "language": "en",
     "processed_text": "great game awesome synergy mechanic toxic community game",
-    "sentiment": "positive",
-    "sentiment_score": 0.5121362805366516,
-    "sentiment_confidence": 0.5121362805366516
+    "sentiment": "negative",
+    "sentiment_score": -0.7459291815757751,
+    "sentiment_confidence": 0.7459291815757751
   },
   {
     "title": "",
@@ -2131,9 +2131,9 @@
     "cleaned_text": "it is got a pretty high learning curve but the game is pretty good about showing you what to do the game is super frustrating until you learn it well enough to multitask all in all i like it for the challenge",
     "language": "en",
     "processed_text": "get pretty high learning curve game pretty good show game super frustrating learn multitask like challenge",
-    "sentiment": "neutral",
-    "sentiment_score": 0.5411297678947449,
-    "sentiment_confidence": 0.5411297678947449
+    "sentiment": "positive",
+    "sentiment_score": 0.7923855185508728,
+    "sentiment_confidence": 0.7923855185508728
   },
   {
     "title": "",
@@ -2144,8 +2144,8 @@
     "language": "en",
     "processed_text": "game hacker need dota plus rank smoothly plus server shit get diss game well shit update super buggy game diss error game reconnect play turbo mode typical volvo game player worthless shit",
     "sentiment": "negative",
-    "sentiment_score": 0.7876683473587036,
-    "sentiment_confidence": 0.7876683473587036
+    "sentiment_score": -0.9302131533622742,
+    "sentiment_confidence": 0.9302131533622742
   },
   {
     "title": "",
@@ -2156,8 +2156,8 @@
     "language": "en",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.4566289484500885,
-    "sentiment_confidence": 0.4566289484500885
+    "sentiment_score": 0.8629701137542725,
+    "sentiment_confidence": 0.8629701137542725
   },
   {
     "title": "",
@@ -2168,8 +2168,8 @@
     "language": "en",
     "processed_text": "player culture super shitty game lately people end game lightyear ahead team enjoy waste time feel bad leave people troll worth play save minute precious life game actually player respect spoon man mini game trash",
     "sentiment": "negative",
-    "sentiment_score": 0.8577427268028259,
-    "sentiment_confidence": 0.8577427268028259
+    "sentiment_score": -0.9446075558662415,
+    "sentiment_confidence": 0.9446075558662415
   },
   {
     "title": "",
@@ -2180,8 +2180,8 @@
     "language": "pl",
     "processed_text": "nice game",
     "sentiment": "positive",
-    "sentiment_score": 0.4888584613800049,
-    "sentiment_confidence": 0.4888584613800049
+    "sentiment_score": 0.6759805679321289,
+    "sentiment_confidence": 0.6759805679321289
   },
   {
     "title": "",
@@ -2192,8 +2192,8 @@
     "language": "en",
     "processed_text": "want fuck team throw team bash bum hole weekly recommend",
     "sentiment": "negative",
-    "sentiment_score": 0.36096709966659546,
-    "sentiment_confidence": 0.36096709966659546
+    "sentiment_score": -0.46037060022354126,
+    "sentiment_confidence": 0.46037060022354126
   },
   {
     "title": "",
@@ -2204,8 +2204,8 @@
     "language": "sl",
     "processed_text": "love it",
     "sentiment": "positive",
-    "sentiment_score": 0.8348284959793091,
-    "sentiment_confidence": 0.8348284959793091
+    "sentiment_score": 0.7722170948982239,
+    "sentiment_confidence": 0.7722170948982239
   },
   {
     "title": "",
@@ -2216,8 +2216,8 @@
     "language": "en",
     "processed_text": "dota toxicity need edit toxic af arcade super fun edit arcade super fun edit fix rank add well battle pass toxic af long live dota toxicity",
     "sentiment": "negative",
-    "sentiment_score": 0.3708098232746124,
-    "sentiment_confidence": 0.3708098232746124
+    "sentiment_score": -0.8258463144302368,
+    "sentiment_confidence": 0.8258463144302368
   },
   {
     "title": "",
@@ -2228,8 +2228,8 @@
     "language": "en",
     "processed_text": "friend waste hour deal trash system nonsense error get erroneous message prevent create game restart game friend have trouble log sync game despite try",
     "sentiment": "negative",
-    "sentiment_score": 0.8399706482887268,
-    "sentiment_confidence": 0.8399706482887268
+    "sentiment_score": -0.9309858679771423,
+    "sentiment_confidence": 0.9309858679771423
   },
   {
     "title": "",
@@ -2240,8 +2240,8 @@
     "language": "en",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.4566289484500885,
-    "sentiment_confidence": 0.4566289484500885
+    "sentiment_score": 0.5517699718475342,
+    "sentiment_confidence": 0.5517699718475342
   },
   {
     "title": "",
@@ -2252,8 +2252,8 @@
     "language": "en",
     "processed_text": "game problem abandon starcraft suspect fill void starcraft leave easy old manage character time game little like eve win play quit play",
     "sentiment": "negative",
-    "sentiment_score": 0.6035746932029724,
-    "sentiment_confidence": 0.6035746932029724
+    "sentiment_score": -0.885991096496582,
+    "sentiment_confidence": 0.885991096496582
   },
   {
     "title": "",
@@ -2264,8 +2264,8 @@
     "language": "es",
     "processed_text": "fun",
     "sentiment": "positive",
-    "sentiment_score": 0.5038348436355591,
-    "sentiment_confidence": 0.5038348436355591
+    "sentiment_score": 0.7015436887741089,
+    "sentiment_confidence": 0.7015436887741089
   },
   {
     "title": "",
@@ -2276,8 +2276,8 @@
     "language": "sq",
     "processed_text": "shit",
     "sentiment": "negative",
-    "sentiment_score": 0.7219337224960327,
-    "sentiment_confidence": 0.7219337224960327
+    "sentiment_score": -0.49561047554016113,
+    "sentiment_confidence": 0.49561047554016113
   },
   {
     "title": "",
@@ -2288,8 +2288,8 @@
     "language": "en",
     "processed_text": "leave lol find game year play league friend highschoolabout love dota right bat thing stick cosmetic buy unlock league friend unfortunately get play league refuse game hour crush bitter day love dota turn total obsession learn play time inspire fear dendi story free play want distance see dota path turn boundless enthusiasm strategy game freedom job love place want live rope use pull upward future want course decide professional dota player mean work busboy time work shift come home night play work significant break hrs sleep regularly play dota miss work go lan place nd favorite experience life meet people world learn wordsmostly curse heh language encounter get practice spanish bit grow person interaction dota shape despite extremeand overzealous counterproductive retrospect dedication get k mmr happen instead end mental hospital play rank match day sleep work time job buss tableswhich work hard get hospital lbsi eat sleep day blow manic psychosis maybe provide fully support timeand bear bipolar disorder parent know happen epitome adage burn candle end fly close sun crash burn flame psychosis malnutrition year episode mania worry guy fine sleep eat single day recurrence mania use medication stabilize mood pattern fail enjoy game lot play turbo time go dream know spend lot time game regret somewhat failure pro rest life point live breathe dream say look time nostalgia fondness game way leave impression rest life hour forget recommend masterpiece ps dotabuff want schedule breaking point",
     "sentiment": "negative",
-    "sentiment_score": 0.3894471824169159,
-    "sentiment_confidence": 0.3894471824169159
+    "sentiment_score": -0.43229082226753235,
+    "sentiment_confidence": 0.43229082226753235
   },
   {
     "title": "",
@@ -2300,8 +2300,8 @@
     "language": "en",
     "processed_text": "good game hard",
     "sentiment": "positive",
-    "sentiment_score": 0.962040901184082,
-    "sentiment_confidence": 0.962040901184082
+    "sentiment_score": 0.902958869934082,
+    "sentiment_confidence": 0.902958869934082
   },
   {
     "title": "",
@@ -2312,8 +2312,8 @@
     "language": "nl",
     "processed_text": "it great just ask dendi",
     "sentiment": "positive",
-    "sentiment_score": 0.5033695697784424,
-    "sentiment_confidence": 0.5033695697784424
+    "sentiment_score": 0.8885530233383179,
+    "sentiment_confidence": 0.8885530233383179
   },
   {
     "title": "",
@@ -2324,8 +2324,8 @@
     "language": "en",
     "processed_text": "endless combination hero ally enemy team",
     "sentiment": "positive",
-    "sentiment_score": 0.7869614958763123,
-    "sentiment_confidence": 0.7869614958763123
+    "sentiment_score": 0.5513119697570801,
+    "sentiment_confidence": 0.5513119697570801
   },
   {
     "title": "",
@@ -2336,8 +2336,8 @@
     "language": "en",
     "processed_text": "start start trap",
     "sentiment": "negative",
-    "sentiment_score": 0.3572236895561218,
-    "sentiment_confidence": 0.3572236895561218
+    "sentiment_score": -0.6888057589530945,
+    "sentiment_confidence": 0.6888057589530945
   },
   {
     "title": "",
@@ -2348,8 +2348,8 @@
     "language": "en",
     "processed_text": "play shit people",
     "sentiment": "negative",
-    "sentiment_score": 0.6598588228225708,
-    "sentiment_confidence": 0.6598588228225708
+    "sentiment_score": -0.8335118889808655,
+    "sentiment_confidence": 0.8335118889808655
   },
   {
     "title": "",
@@ -2360,8 +2360,8 @@
     "language": "en",
     "processed_text": "game free pretty fun go shell type currency time prepared literal year life play game power shit man guy spend k hour play shit worth",
     "sentiment": "negative",
-    "sentiment_score": 0.42927804589271545,
-    "sentiment_confidence": 0.42927804589271545
+    "sentiment_score": -0.7579973340034485,
+    "sentiment_confidence": 0.7579973340034485
   },
   {
     "title": "",
@@ -2372,8 +2372,8 @@
     "language": "en",
     "processed_text": "hour healthy",
     "sentiment": "negative",
-    "sentiment_score": 0.42579227685928345,
-    "sentiment_confidence": 0.42579227685928345
+    "sentiment_score": -0.9122424125671387,
+    "sentiment_confidence": 0.9122424125671387
   },
   {
     "title": "",
@@ -2384,8 +2384,8 @@
     "language": "en",
     "processed_text": "good game easy learn practice",
     "sentiment": "positive",
-    "sentiment_score": 0.9030306935310364,
-    "sentiment_confidence": 0.9030306935310364
+    "sentiment_score": 0.944312572479248,
+    "sentiment_confidence": 0.944312572479248
   },
   {
     "title": "",
@@ -2395,9 +2395,9 @@
     "cleaned_text": "if you want to lose a part of your soul this game is for you it is a love hate relationship",
     "language": "en",
     "processed_text": "want lose soul game love hate relationship",
-    "sentiment": "positive",
-    "sentiment_score": 0.49099135398864746,
-    "sentiment_confidence": 0.49099135398864746
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.5775570273399353
   },
   {
     "title": "",
@@ -2408,8 +2408,8 @@
     "language": "en",
     "processed_text": "play dota come warcraft enjoyable level skill lot learn pretty good tutorial massive selection hero add difference match",
     "sentiment": "positive",
-    "sentiment_score": 0.608289897441864,
-    "sentiment_confidence": 0.608289897441864
+    "sentiment_score": 0.8886305093765259,
+    "sentiment_confidence": 0.8886305093765259
   },
   {
     "title": "",
@@ -2420,8 +2420,8 @@
     "language": "es",
     "processed_text": "fun",
     "sentiment": "positive",
-    "sentiment_score": 0.44117721915245056,
-    "sentiment_confidence": 0.44117721915245056
+    "sentiment_score": 0.36479830741882324,
+    "sentiment_confidence": 0.36479830741882324
   },
   {
     "title": "",
@@ -2432,8 +2432,8 @@
     "language": "pt",
     "processed_text": "Not recommend",
     "sentiment": "negative",
-    "sentiment_score": 0.70675128698349,
-    "sentiment_confidence": 0.70675128698349
+    "sentiment_score": -0.7864581942558289,
+    "sentiment_confidence": 0.7864581942558289
   },
   {
     "title": "",
@@ -2443,9 +2443,9 @@
     "cleaned_text": "be kind to your teammates only babies blame their team",
     "language": "en",
     "processed_text": "kind teammate baby blame team",
-    "sentiment": "positive",
-    "sentiment_score": 0.3297489285469055,
-    "sentiment_confidence": 0.3297489285469055
+    "sentiment": "negative",
+    "sentiment_score": -0.6244402527809143,
+    "sentiment_confidence": 0.6244402527809143
   },
   {
     "title": "",
@@ -2456,8 +2456,8 @@
     "language": "en",
     "processed_text": "k hour play suck",
     "sentiment": "negative",
-    "sentiment_score": 0.47505179047584534,
-    "sentiment_confidence": 0.47505179047584534
+    "sentiment_score": -0.9403774738311768,
+    "sentiment_confidence": 0.9403774738311768
   },
   {
     "title": "",
@@ -2467,9 +2467,9 @@
     "cleaned_text": "absolutely percent pure dogshit",
     "language": "en",
     "processed_text": "absolutely percent pure dogshit",
-    "sentiment": "positive",
-    "sentiment_score": 0.7996973991394043,
-    "sentiment_confidence": 0.7996973991394043
+    "sentiment": "negative",
+    "sentiment_score": -0.9318662881851196,
+    "sentiment_confidence": 0.9318662881851196
   },
   {
     "title": "",
@@ -2480,8 +2480,8 @@
     "language": "en",
     "processed_text": "graphic forget reality beautiful good decent bad not look long msdo gameplay good good gameplay mehh watch paint dry instead audio eargasm good good bad bad deaf audience kid teen adult grandma pc requirement check run paint potato decent fast rich boi ask nasa spare computer game size floppy disk old fashioned workable big eat tb hard drive want entire hard drive hold need invest black hole hold datum difficulty press w easy easy learn hard master significant brain usage difficult dark soul grind grind care leaderboardsrank necessary progress average grind level grind need second life grind story story lore average good lovely replace life game time long cup coffee short average long infinity price free worth price sale spare money leave recommend burn money bug hear minor bug annoying ark survival evolve game big terrarium bug",
     "sentiment": "neutral",
-    "sentiment_score": 0.36460620164871216,
-    "sentiment_confidence": 0.36460620164871216
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4287799894809723
   },
   {
     "title": "",
@@ -2492,8 +2492,8 @@
     "language": "en",
     "processed_text": "shity game",
     "sentiment": "negative",
-    "sentiment_score": 0.522251307964325,
-    "sentiment_confidence": 0.522251307964325
+    "sentiment_score": -0.9530028104782104,
+    "sentiment_confidence": 0.9530028104782104
   },
   {
     "title": "",
@@ -2504,8 +2504,8 @@
     "language": "en",
     "processed_text": "game legit rig buy double down inventory game feeder pos sniper dumb shit team matchmaking fucking stupid stop let fucking mexican ruin server annoying fuck",
     "sentiment": "negative",
-    "sentiment_score": 0.9251055121421814,
-    "sentiment_confidence": 0.9251055121421814
+    "sentiment_score": -0.9517855644226074,
+    "sentiment_confidence": 0.9517855644226074
   },
   {
     "title": "",
@@ -2516,8 +2516,8 @@
     "language": "en",
     "processed_text": "free moment install game fa memory leak email phone number dark web new rubbish steam ui observe timestamp correlation dota installation massive fishing email influx massive sms fishing web link new steam ui rubbish decision uninstall year old steam library forget stand new steam ui way buggy standard look terrible x way probably test shop lose kid",
     "sentiment": "negative",
-    "sentiment_score": 0.5780459046363831,
-    "sentiment_confidence": 0.5780459046363831
+    "sentiment_score": -0.8730429410934448,
+    "sentiment_confidence": 0.8730429410934448
   },
   {
     "title": "",
@@ -2528,8 +2528,8 @@
     "language": "id",
     "processed_text": "meh",
     "sentiment": "neutral",
-    "sentiment_score": 0.4561426341533661,
-    "sentiment_confidence": 0.4561426341533661
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3791893720626831
   },
   {
     "title": "",
@@ -2540,8 +2540,8 @@
     "language": "en",
     "processed_text": "play game happypeople super nice everyday life rage monster play game stop madness",
     "sentiment": "negative",
-    "sentiment_score": 0.8121451735496521,
-    "sentiment_confidence": 0.8121451735496521
+    "sentiment_score": -0.9370878338813782,
+    "sentiment_confidence": 0.9370878338813782
   },
   {
     "title": "",
@@ -2552,8 +2552,8 @@
     "language": "en",
     "processed_text": "like good way friend recently go uni dota great way meet people similar interest infinite skill ceiling new learn deal flame teamenemy able weather hard storm",
     "sentiment": "positive",
-    "sentiment_score": 0.5289084315299988,
-    "sentiment_confidence": 0.5289084315299988
+    "sentiment_score": 0.8513653874397278,
+    "sentiment_confidence": 0.8513653874397278
   },
   {
     "title": "",
@@ -2564,8 +2564,8 @@
     "language": "en",
     "processed_text": "tired daily damn update",
     "sentiment": "negative",
-    "sentiment_score": 0.5415456295013428,
-    "sentiment_confidence": 0.5415456295013428
+    "sentiment_score": -0.8804163932800293,
+    "sentiment_confidence": 0.8804163932800293
   },
   {
     "title": "",
@@ -2576,8 +2576,8 @@
     "language": "so",
     "processed_text": "good gamu",
     "sentiment": "positive",
-    "sentiment_score": 0.49374720454216003,
-    "sentiment_confidence": 0.49374720454216003
+    "sentiment_score": 0.5612909197807312,
+    "sentiment_confidence": 0.5612909197807312
   },
   {
     "title": "",
@@ -2588,8 +2588,8 @@
     "language": "en",
     "processed_text": "hate game",
     "sentiment": "negative",
-    "sentiment_score": 0.9271067976951599,
-    "sentiment_confidence": 0.9271067976951599
+    "sentiment_score": -0.9386979937553406,
+    "sentiment_confidence": 0.9386979937553406
   },
   {
     "title": "",
@@ -2600,8 +2600,8 @@
     "language": "en",
     "processed_text": "get time machine game great year ago toxic community imaginable valve combat maximise profit else fault abuse corner",
     "sentiment": "negative",
-    "sentiment_score": 0.6971707940101624,
-    "sentiment_confidence": 0.6971707940101624
+    "sentiment_score": -0.8819184303283691,
+    "sentiment_confidence": 0.8819184303283691
   },
   {
     "title": "",
@@ -2611,9 +2611,9 @@
     "cleaned_text": "would play again",
     "language": "tl",
     "processed_text": "would play again",
-    "sentiment": "neutral",
-    "sentiment_score": 0.3091074824333191,
-    "sentiment_confidence": 0.3091074824333191
+    "sentiment": "positive",
+    "sentiment_score": 0.5217163562774658,
+    "sentiment_confidence": 0.5217163562774658
   },
   {
     "title": "",
@@ -2624,8 +2624,8 @@
     "language": "et",
     "processed_text": "i like it lmao",
     "sentiment": "positive",
-    "sentiment_score": 0.46959635615348816,
-    "sentiment_confidence": 0.46959635615348816
+    "sentiment_score": 0.7892053127288818,
+    "sentiment_confidence": 0.7892053127288818
   },
   {
     "title": "",
@@ -2635,9 +2635,9 @@
     "cleaned_text": "uuu",
     "language": "so",
     "processed_text": "uuu",
-    "sentiment": "negative",
-    "sentiment_score": 0.2256944328546524,
-    "sentiment_confidence": 0.2256944328546524
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.38845527172088623
   },
   {
     "title": "",
@@ -2647,9 +2647,9 @@
     "cleaned_text": "i recommend some people who can play well and i donot like does people doing some trashtalks for me that is not good",
     "language": "en",
     "processed_text": "recommend people play donot like people trashtalk good",
-    "sentiment": "neutral",
-    "sentiment_score": 0.5057582259178162,
-    "sentiment_confidence": 0.5057582259178162
+    "sentiment": "negative",
+    "sentiment_score": -0.9035553932189941,
+    "sentiment_confidence": 0.9035553932189941
   },
   {
     "title": "",
@@ -2660,8 +2660,8 @@
     "language": "en",
     "processed_text": "play bit learn colorful word language trashtalk",
     "sentiment": "positive",
-    "sentiment_score": 0.5155641436576843,
-    "sentiment_confidence": 0.5155641436576843
+    "sentiment_score": 0.3951666057109833,
+    "sentiment_confidence": 0.3951666057109833
   },
   {
     "title": "",
@@ -2671,9 +2671,9 @@
     "cleaned_text": "dota is a good game i have been playing for years but some trash on latest updates must be seriously foccused on specially during events on this game some updates just sucks but dota is still the best for me",
     "language": "en",
     "processed_text": "dota good game play year trash late update seriously foccuse specially event game update suck dota good",
-    "sentiment": "positive",
-    "sentiment_score": 0.5643334984779358,
-    "sentiment_confidence": 0.5643334984779358
+    "sentiment": "negative",
+    "sentiment_score": -0.6874340772628784,
+    "sentiment_confidence": 0.6874340772628784
   },
   {
     "title": "",
@@ -2684,8 +2684,8 @@
     "language": "pl",
     "processed_text": "nice game",
     "sentiment": "positive",
-    "sentiment_score": 0.4888584613800049,
-    "sentiment_confidence": 0.4888584613800049
+    "sentiment_score": 0.7899808883666992,
+    "sentiment_confidence": 0.7899808883666992
   },
   {
     "title": "",
@@ -2696,8 +2696,8 @@
     "language": "nl",
     "processed_text": "great game indeed",
     "sentiment": "positive",
-    "sentiment_score": 0.7080720663070679,
-    "sentiment_confidence": 0.7080720663070679
+    "sentiment_score": 0.9378994107246399,
+    "sentiment_confidence": 0.9378994107246399
   },
   {
     "title": "",
@@ -2708,8 +2708,8 @@
     "language": "en",
     "processed_text": "great game",
     "sentiment": "positive",
-    "sentiment_score": 0.921902060508728,
-    "sentiment_confidence": 0.921902060508728
+    "sentiment_score": 0.9363645315170288,
+    "sentiment_confidence": 0.9363645315170288
   },
   {
     "title": "",
@@ -2719,9 +2719,9 @@
     "cleaned_text": "i am pro here",
     "language": "no",
     "processed_text": "i am pro here",
-    "sentiment": "positive",
-    "sentiment_score": 0.43954336643218994,
-    "sentiment_confidence": 0.43954336643218994
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.5414318442344666
   },
   {
     "title": "",
@@ -2732,8 +2732,8 @@
     "language": "hr",
     "processed_text": "nice moba game ever",
     "sentiment": "positive",
-    "sentiment_score": 0.7922581434249878,
-    "sentiment_confidence": 0.7922581434249878
+    "sentiment_score": 0.9324076771736145,
+    "sentiment_confidence": 0.9324076771736145
   },
   {
     "title": "",
@@ -2743,9 +2743,9 @@
     "cleaned_text": "could not find a better game",
     "language": "en",
     "processed_text": "find well game",
-    "sentiment": "negative",
-    "sentiment_score": 0.36284205317497253,
-    "sentiment_confidence": 0.36284205317497253
+    "sentiment": "positive",
+    "sentiment_score": 0.6514531970024109,
+    "sentiment_confidence": 0.6514531970024109
   },
   {
     "title": "",
@@ -2755,9 +2755,9 @@
     "cleaned_text": "good game toxic playerbase",
     "language": "en",
     "processed_text": "good game toxic playerbase",
-    "sentiment": "positive",
-    "sentiment_score": 0.5456226468086243,
-    "sentiment_confidence": 0.5456226468086243
+    "sentiment": "negative",
+    "sentiment_score": -0.9589660167694092,
+    "sentiment_confidence": 0.9589660167694092
   },
   {
     "title": "",
@@ -2768,8 +2768,8 @@
     "language": "en",
     "processed_text": "addictive good",
     "sentiment": "positive",
-    "sentiment_score": 0.6593120694160461,
-    "sentiment_confidence": 0.6593120694160461
+    "sentiment_score": 0.8442549109458923,
+    "sentiment_confidence": 0.8442549109458923
   },
   {
     "title": "",
@@ -2780,8 +2780,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "neutral",
-    "sentiment_score": 0.2539340555667877,
-    "sentiment_confidence": 0.2539340555667877
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4055079221725464
   },
   {
     "title": "",
@@ -2792,8 +2792,8 @@
     "language": "it",
     "processed_text": "nice game gg",
     "sentiment": "positive",
-    "sentiment_score": 0.4690777659416199,
-    "sentiment_confidence": 0.4690777659416199
+    "sentiment_score": 0.9302432537078857,
+    "sentiment_confidence": 0.9302432537078857
   },
   {
     "title": "",
@@ -2803,9 +2803,9 @@
     "cleaned_text": "hours and i still have no clue how to play",
     "language": "en",
     "processed_text": "hour clue play",
-    "sentiment": "positive",
-    "sentiment_score": 0.37864723801612854,
-    "sentiment_confidence": 0.37864723801612854
+    "sentiment": "negative",
+    "sentiment_score": -0.7753519415855408,
+    "sentiment_confidence": 0.7753519415855408
   },
   {
     "title": "",
@@ -2816,8 +2816,8 @@
     "language": "en",
     "processed_text": "well league",
     "sentiment": "positive",
-    "sentiment_score": 0.6061383485794067,
-    "sentiment_confidence": 0.6061383485794067
+    "sentiment_score": 0.5533788204193115,
+    "sentiment_confidence": 0.5533788204193115
   },
   {
     "title": "",
@@ -2827,9 +2827,9 @@
     "cleaned_text": "should be a warning lable for addiction but seriously its a good game",
     "language": "en",
     "processed_text": "warning lable addiction seriously good game",
-    "sentiment": "neutral",
-    "sentiment_score": 0.440102219581604,
-    "sentiment_confidence": 0.440102219581604
+    "sentiment": "positive",
+    "sentiment_score": 0.5248304605484009,
+    "sentiment_confidence": 0.5248304605484009
   },
   {
     "title": "",
@@ -2839,9 +2839,9 @@
     "cleaned_text": "a",
     "language": "tl",
     "processed_text": "a",
-    "sentiment": "positive",
-    "sentiment_score": 0.3187071979045868,
-    "sentiment_confidence": 0.3187071979045868
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4145859181880951
   },
   {
     "title": "",
@@ -2852,8 +2852,8 @@
     "language": "af",
     "processed_text": "awesome",
     "sentiment": "positive",
-    "sentiment_score": 0.8769168853759766,
-    "sentiment_confidence": 0.8769168853759766
+    "sentiment_score": 0.8372983932495117,
+    "sentiment_confidence": 0.8372983932495117
   },
   {
     "title": "",
@@ -2864,8 +2864,8 @@
     "language": "en",
     "processed_text": "recommend trash game",
     "sentiment": "negative",
-    "sentiment_score": 0.937430202960968,
-    "sentiment_confidence": 0.937430202960968
+    "sentiment_score": -0.9263381361961365,
+    "sentiment_confidence": 0.9263381361961365
   },
   {
     "title": "",
@@ -2875,9 +2875,9 @@
     "cleaned_text": "tried",
     "language": "af",
     "processed_text": "tried",
-    "sentiment": "negative",
-    "sentiment_score": 0.6704133152961731,
-    "sentiment_confidence": 0.6704133152961731
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41815924644470215
   },
   {
     "title": "",
@@ -2888,8 +2888,8 @@
     "language": "en",
     "processed_text": "addict game",
     "sentiment": "positive",
-    "sentiment_score": 0.5495074391365051,
-    "sentiment_confidence": 0.5495074391365051
+    "sentiment_score": 0.46868807077407837,
+    "sentiment_confidence": 0.46868807077407837
   },
   {
     "title": "",
@@ -2900,8 +2900,8 @@
     "language": "en",
     "processed_text": "great game",
     "sentiment": "positive",
-    "sentiment_score": 0.6369730830192566,
-    "sentiment_confidence": 0.6369730830192566
+    "sentiment_score": 0.8973497152328491,
+    "sentiment_confidence": 0.8973497152328491
   },
   {
     "title": "",
@@ -2911,9 +2911,9 @@
     "cleaned_text": "salad",
     "language": "so",
     "processed_text": "salad",
-    "sentiment": "positive",
-    "sentiment_score": 0.3218192160129547,
-    "sentiment_confidence": 0.3218192160129547
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.35538822412490845
   },
   {
     "title": "",
@@ -2924,8 +2924,8 @@
     "language": "en",
     "processed_text": "way community good ignore ingame rage edit k hour play k hour play advice start play game spend time hobby trip time family life offer let game start play game donot edit k hour play worth game mush time possiable player change lot take avarage minute instade hour match worth ton game try waste time edit date hour review game shit start way edit date hour strongly recommend play game",
     "sentiment": "negative",
-    "sentiment_score": 0.7112904191017151,
-    "sentiment_confidence": 0.7112904191017151
+    "sentiment_score": -0.4973999261856079,
+    "sentiment_confidence": 0.4973999261856079
   },
   {
     "title": "",
@@ -2936,8 +2936,8 @@
     "language": "sk",
     "processed_text": "oke",
     "sentiment": "neutral",
-    "sentiment_score": 0.6211128234863281,
-    "sentiment_confidence": 0.6211128234863281
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4218260645866394
   },
   {
     "title": "",
@@ -2948,8 +2948,8 @@
     "language": "tl",
     "processed_text": "gg",
     "sentiment": "positive",
-    "sentiment_score": 0.26324501633644104,
-    "sentiment_confidence": 0.26324501633644104
+    "sentiment_score": 0.5680127143859863,
+    "sentiment_confidence": 0.5680127143859863
   },
   {
     "title": "",
@@ -2959,9 +2959,9 @@
     "cleaned_text": "only played a while kind of fun",
     "language": "en",
     "processed_text": "play kind fun",
-    "sentiment": "neutral",
-    "sentiment_score": 0.5825164914131165,
-    "sentiment_confidence": 0.5825164914131165
+    "sentiment": "positive",
+    "sentiment_score": 0.8088176846504211,
+    "sentiment_confidence": 0.8088176846504211
   },
   {
     "title": "",
@@ -2971,9 +2971,9 @@
     "cleaned_text": "kool",
     "language": "et",
     "processed_text": "kool",
-    "sentiment": "positive",
-    "sentiment_score": 0.322352796792984,
-    "sentiment_confidence": 0.322352796792984
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.39581429958343506
   },
   {
     "title": "",
@@ -2983,9 +2983,9 @@
     "cleaned_text": "is very hardd goood game i play dota warcraft pls like me",
     "language": "en",
     "processed_text": "hardd goood game play dota warcraft pls like",
-    "sentiment": "negative",
-    "sentiment_score": 0.36213359236717224,
-    "sentiment_confidence": 0.36213359236717224
+    "sentiment": "positive",
+    "sentiment_score": 0.6665349006652832,
+    "sentiment_confidence": 0.6665349006652832
   },
   {
     "title": "",
@@ -2996,8 +2996,8 @@
     "language": "en",
     "processed_text": "place dirty staff bunch incompetent subhuman overprice dine place",
     "sentiment": "negative",
-    "sentiment_score": 0.7763604521751404,
-    "sentiment_confidence": 0.7763604521751404
+    "sentiment_score": -0.9642153382301331,
+    "sentiment_confidence": 0.9642153382301331
   },
   {
     "title": "",
@@ -3007,9 +3007,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "positive",
-    "sentiment_score": 0.4784562587738037,
-    "sentiment_confidence": 0.4784562587738037
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4695829451084137
   },
   {
     "title": "",
@@ -3019,9 +3019,9 @@
     "cleaned_text": "hue",
     "language": "vi",
     "processed_text": "hue",
-    "sentiment": "positive",
-    "sentiment_score": 0.2924206852912903,
-    "sentiment_confidence": 0.2924206852912903
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4007192552089691
   },
   {
     "title": "",
@@ -3032,8 +3032,8 @@
     "language": "en",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.5208030343055725,
-    "sentiment_confidence": 0.5208030343055725
+    "sentiment_score": 0.7861238121986389,
+    "sentiment_confidence": 0.7861238121986389
   },
   {
     "title": "",
@@ -3044,8 +3044,8 @@
     "language": "en",
     "processed_text": "like dota saying dota life true",
     "sentiment": "positive",
-    "sentiment_score": 0.4046657383441925,
-    "sentiment_confidence": 0.4046657383441925
+    "sentiment_score": 0.8326590657234192,
+    "sentiment_confidence": 0.8326590657234192
   },
   {
     "title": "",
@@ -3055,9 +3055,9 @@
     "cleaned_text": "sssssssssssssss",
     "language": "fi",
     "processed_text": "sssssssssssssss",
-    "sentiment": "neutral",
-    "sentiment_score": 0.2445078045129776,
-    "sentiment_confidence": 0.2445078045129776
+    "sentiment": "negative",
+    "sentiment_score": -0.3696156144142151,
+    "sentiment_confidence": 0.3696156144142151
   },
   {
     "title": "",
@@ -3068,8 +3068,8 @@
     "language": "en",
     "processed_text": "good game world",
     "sentiment": "positive",
-    "sentiment_score": 0.4888303279876709,
-    "sentiment_confidence": 0.4888303279876709
+    "sentiment_score": 0.919750988483429,
+    "sentiment_confidence": 0.919750988483429
   },
   {
     "title": "",
@@ -3079,9 +3079,9 @@
     "cleaned_text": "nice wedqdqwd",
     "language": "pl",
     "processed_text": "nice wedqdqwd",
-    "sentiment": "positive",
-    "sentiment_score": 0.4292510151863098,
-    "sentiment_confidence": 0.4292510151863098
+    "sentiment": "negative",
+    "sentiment_score": -0.5704361200332642,
+    "sentiment_confidence": 0.5704361200332642
   },
   {
     "title": "",
@@ -3092,8 +3092,8 @@
     "language": "tr",
     "processed_text": "yea",
     "sentiment": "neutral",
-    "sentiment_score": 0.2773668169975281,
-    "sentiment_confidence": 0.2773668169975281
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45433861017227173
   },
   {
     "title": "",
@@ -3103,9 +3103,9 @@
     "cleaned_text": "lifesteal plus cancerous sea servers also account buyers",
     "language": "en",
     "processed_text": "lifesteal plus cancerous sea server account buyer",
-    "sentiment": "positive",
-    "sentiment_score": 0.851137638092041,
-    "sentiment_confidence": 0.851137638092041
+    "sentiment": "negative",
+    "sentiment_score": -0.9257975220680237,
+    "sentiment_confidence": 0.9257975220680237
   },
   {
     "title": "",
@@ -3116,8 +3116,8 @@
     "language": "so",
     "processed_text": "bad game",
     "sentiment": "negative",
-    "sentiment_score": 0.6851129531860352,
-    "sentiment_confidence": 0.6851129531860352
+    "sentiment_score": -0.9070435166358948,
+    "sentiment_confidence": 0.9070435166358948
   },
   {
     "title": "",
@@ -3128,8 +3128,8 @@
     "language": "en",
     "processed_text": "game amazing game play game amazing graphsamaze security",
     "sentiment": "positive",
-    "sentiment_score": 0.9428919553756714,
-    "sentiment_confidence": 0.9428919553756714
+    "sentiment_score": 0.8874403238296509,
+    "sentiment_confidence": 0.8874403238296509
   },
   {
     "title": "",
@@ -3140,8 +3140,8 @@
     "language": "en",
     "processed_text": "nice game play",
     "sentiment": "positive",
-    "sentiment_score": 0.7028684020042419,
-    "sentiment_confidence": 0.7028684020042419
+    "sentiment_score": 0.8987770676612854,
+    "sentiment_confidence": 0.8987770676612854
   },
   {
     "title": "",
@@ -3152,8 +3152,8 @@
     "language": "en",
     "processed_text": "find game grow man screech microphone autistic rage teammate wrong",
     "sentiment": "negative",
-    "sentiment_score": 0.3206498622894287,
-    "sentiment_confidence": 0.3206498622894287
+    "sentiment_score": -0.9057605266571045,
+    "sentiment_confidence": 0.9057605266571045
   },
   {
     "title": "",
@@ -3164,8 +3164,8 @@
     "language": "en",
     "processed_text": "dota warcraft custom map love strategy game game good moba yeah reallythe gameplayjust awesome bunch hero thereuse item powerup need use brain play gameespecially item hero ability graphic good need teamwork win game wait say teamwork f ng way game terrible communitytoxic communityit badreally bad horse dog bull sht play sea server bad server like place crp people attitudeblame supportblame carryblame missuse report system chance newbie feed enemy ruin friend gameplay chat sht f say missused report example experience play game select hero game start wait people load join session long time loading people say report report nub loadingreport report cuz heshe long load start game ald report people cuz load r f kid loading hisher fault purpose report system teamate toxic example feed enemy use bad word maybe need tolerance people play hero propely teach himher respect blameor report bullsht need respect respect people avoid bully herethe community cancercannot cure strong enoughyou play gamebe good peopledo toxic recommend game cuz community know good poeple thereif lucky prefer play bot bot stupid play frienddo try public game community sorry english",
     "sentiment": "negative",
-    "sentiment_score": 0.6143020391464233,
-    "sentiment_confidence": 0.6143020391464233
+    "sentiment_score": -0.6653168201446533,
+    "sentiment_confidence": 0.6653168201446533
   },
   {
     "title": "",
@@ -3176,8 +3176,8 @@
     "language": "pl",
     "processed_text": "nice game",
     "sentiment": "positive",
-    "sentiment_score": 0.4888584613800049,
-    "sentiment_confidence": 0.4888584613800049
+    "sentiment_score": 0.6759805679321289,
+    "sentiment_confidence": 0.6759805679321289
   },
   {
     "title": "",
@@ -3188,8 +3188,8 @@
     "language": "en",
     "processed_text": "like dota challenging game mind game yoneed defeat enemy",
     "sentiment": "positive",
-    "sentiment_score": 0.4876956343650818,
-    "sentiment_confidence": 0.4876956343650818
+    "sentiment_score": 0.42637303471565247,
+    "sentiment_confidence": 0.42637303471565247
   },
   {
     "title": "",
@@ -3200,8 +3200,8 @@
     "language": "cs",
     "processed_text": "very nice",
     "sentiment": "positive",
-    "sentiment_score": 0.6515336632728577,
-    "sentiment_confidence": 0.6515336632728577
+    "sentiment_score": 0.73736172914505,
+    "sentiment_confidence": 0.73736172914505
   },
   {
     "title": "",
@@ -3212,8 +3212,8 @@
     "language": "en",
     "processed_text": "like dota bad word xd hehehe game nice play pro player friend strategic challenge raise mmr way mute player time game start avoid stress xd",
     "sentiment": "positive",
-    "sentiment_score": 0.34053975343704224,
-    "sentiment_confidence": 0.34053975343704224
+    "sentiment_score": 0.583908200263977,
+    "sentiment_confidence": 0.583908200263977
   },
   {
     "title": "",
@@ -3224,8 +3224,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "neutral",
-    "sentiment_score": 0.23595298826694489,
-    "sentiment_confidence": 0.23595298826694489
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3981206715106964
   },
   {
     "title": "",
@@ -3236,8 +3236,8 @@
     "language": "en",
     "processed_text": "game get kill instantly smash moniter break moniter",
     "sentiment": "negative",
-    "sentiment_score": 0.8435246348381042,
-    "sentiment_confidence": 0.8435246348381042
+    "sentiment_score": -0.8145443797111511,
+    "sentiment_confidence": 0.8145443797111511
   },
   {
     "title": "",
@@ -3248,8 +3248,8 @@
     "language": "en",
     "processed_text": "awesome",
     "sentiment": "positive",
-    "sentiment_score": 0.7464638948440552,
-    "sentiment_confidence": 0.7464638948440552
+    "sentiment_score": 0.9008126854896545,
+    "sentiment_confidence": 0.9008126854896545
   },
   {
     "title": "",
@@ -3260,8 +3260,8 @@
     "language": "so",
     "processed_text": "good game",
     "sentiment": "positive",
-    "sentiment_score": 0.5576133728027344,
-    "sentiment_confidence": 0.5576133728027344
+    "sentiment_score": 0.7228869199752808,
+    "sentiment_confidence": 0.7228869199752808
   },
   {
     "title": "",
@@ -3272,8 +3272,8 @@
     "language": "en",
     "processed_text": "dota hard huge reward commit",
     "sentiment": "positive",
-    "sentiment_score": 0.4412021338939667,
-    "sentiment_confidence": 0.4412021338939667
+    "sentiment_score": 0.8588615655899048,
+    "sentiment_confidence": 0.8588615655899048
   },
   {
     "title": "",
@@ -3284,8 +3284,8 @@
     "language": "en",
     "processed_text": "little addctivejust little",
     "sentiment": "neutral",
-    "sentiment_score": 0.548380970954895,
-    "sentiment_confidence": 0.548380970954895
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.506427526473999
   },
   {
     "title": "",
@@ -3296,8 +3296,8 @@
     "language": "en",
     "processed_text": "nice epic",
     "sentiment": "positive",
-    "sentiment_score": 0.7061867117881775,
-    "sentiment_confidence": 0.7061867117881775
+    "sentiment_score": 0.9410974979400635,
+    "sentiment_confidence": 0.9410974979400635
   },
   {
     "title": "",
@@ -3308,8 +3308,8 @@
     "language": "pl",
     "processed_text": "nice game",
     "sentiment": "positive",
-    "sentiment_score": 0.4888584613800049,
-    "sentiment_confidence": 0.4888584613800049
+    "sentiment_score": 0.8794746994972229,
+    "sentiment_confidence": 0.8794746994972229
   },
   {
     "title": "",
@@ -3320,8 +3320,8 @@
     "language": "so",
     "processed_text": "hay",
     "sentiment": "neutral",
-    "sentiment_score": 0.2685190439224243,
-    "sentiment_confidence": 0.2685190439224243
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4058994948863983
   },
   {
     "title": "",
@@ -3331,9 +3331,9 @@
     "cleaned_text": "fix your cancer gamers",
     "language": "en",
     "processed_text": "fix cancer gamer",
-    "sentiment": "positive",
-    "sentiment_score": 0.4492647349834442,
-    "sentiment_confidence": 0.4492647349834442
+    "sentiment": "negative",
+    "sentiment_score": -0.8922523856163025,
+    "sentiment_confidence": 0.8922523856163025
   },
   {
     "title": "",
@@ -3343,9 +3343,9 @@
     "cleaned_text": "y",
     "language": "cy",
     "processed_text": "y",
-    "sentiment": "positive",
-    "sentiment_score": 0.3310393989086151,
-    "sentiment_confidence": 0.3310393989086151
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.40810999274253845
   },
   {
     "title": "",
@@ -3355,9 +3355,9 @@
     "cleaned_text": "easy game to learn but difficult to master",
     "language": "en",
     "processed_text": "easy game learn difficult master",
-    "sentiment": "neutral",
-    "sentiment_score": 0.5871636867523193,
-    "sentiment_confidence": 0.5871636867523193
+    "sentiment": "negative",
+    "sentiment_score": -0.47109395265579224,
+    "sentiment_confidence": 0.47109395265579224
   },
   {
     "title": "",
@@ -3368,8 +3368,8 @@
     "language": "en",
     "processed_text": "fun play challenge player",
     "sentiment": "positive",
-    "sentiment_score": 0.5739696025848389,
-    "sentiment_confidence": 0.5739696025848389
+    "sentiment_score": 0.8849912285804749,
+    "sentiment_confidence": 0.8849912285804749
   },
   {
     "title": "",
@@ -3380,8 +3380,8 @@
     "language": "en",
     "processed_text": "good game play",
     "sentiment": "positive",
-    "sentiment_score": 0.9552150964736938,
-    "sentiment_confidence": 0.9552150964736938
+    "sentiment_score": 0.9217397570610046,
+    "sentiment_confidence": 0.9217397570610046
   },
   {
     "title": "",
@@ -3392,8 +3392,8 @@
     "language": "en",
     "processed_text": "good game play",
     "sentiment": "positive",
-    "sentiment_score": 0.9593766331672668,
-    "sentiment_confidence": 0.9593766331672668
+    "sentiment_score": 0.9228126406669617,
+    "sentiment_confidence": 0.9228126406669617
   },
   {
     "title": "",
@@ -3404,8 +3404,8 @@
     "language": "af",
     "processed_text": "awesome game ever",
     "sentiment": "positive",
-    "sentiment_score": 0.9380043745040894,
-    "sentiment_confidence": 0.9380043745040894
+    "sentiment_score": 0.933047354221344,
+    "sentiment_confidence": 0.933047354221344
   },
   {
     "title": "",
@@ -3416,8 +3416,8 @@
     "language": "tl",
     "processed_text": "asasasas",
     "sentiment": "negative",
-    "sentiment_score": 0.3890392780303955,
-    "sentiment_confidence": 0.3890392780303955
+    "sentiment_score": -0.5224334001541138,
+    "sentiment_confidence": 0.5224334001541138
   },
   {
     "title": "",
@@ -3428,8 +3428,8 @@
     "language": "en",
     "processed_text": "exciting new game try play game dota love dota",
     "sentiment": "positive",
-    "sentiment_score": 0.8350925445556641,
-    "sentiment_confidence": 0.8350925445556641
+    "sentiment_score": 0.871297299861908,
+    "sentiment_confidence": 0.871297299861908
   },
   {
     "title": "",
@@ -3440,8 +3440,8 @@
     "language": "en",
     "processed_text": "screenshot lock screen open distract look phone try unlock b stupid nekobquotechocolaanother garbage need neko doctorquote",
     "sentiment": "negative",
-    "sentiment_score": 0.9061779379844666,
-    "sentiment_confidence": 0.9061779379844666
+    "sentiment_score": -0.8092139363288879,
+    "sentiment_confidence": 0.8092139363288879
   },
   {
     "title": "",
@@ -3451,9 +3451,9 @@
     "cleaned_text": "d",
     "language": "pt",
     "processed_text": "d",
-    "sentiment": "neutral",
-    "sentiment_score": 0.2872094511985779,
-    "sentiment_confidence": 0.2872094511985779
+    "sentiment": "positive",
+    "sentiment_score": 0.4527100622653961,
+    "sentiment_confidence": 0.4527100622653961
   },
   {
     "title": "",
@@ -3463,9 +3463,9 @@
     "cleaned_text": "it would cool but i am just doing this to level up my steam lol",
     "language": "en",
     "processed_text": "cool level steam lol",
-    "sentiment": "neutral",
-    "sentiment_score": 0.4355996549129486,
-    "sentiment_confidence": 0.4355996549129486
+    "sentiment": "positive",
+    "sentiment_score": 0.6127886772155762,
+    "sentiment_confidence": 0.6127886772155762
   },
   {
     "title": "",
@@ -3476,8 +3476,8 @@
     "language": "en",
     "processed_text": "good team game time",
     "sentiment": "positive",
-    "sentiment_score": 0.9835719466209412,
-    "sentiment_confidence": 0.9835719466209412
+    "sentiment_score": 0.9154475331306458,
+    "sentiment_confidence": 0.9154475331306458
   },
   {
     "title": "",
@@ -3488,8 +3488,8 @@
     "language": "et",
     "processed_text": "keep giv me low mmr and stupid teammate",
     "sentiment": "negative",
-    "sentiment_score": 0.4498157799243927,
-    "sentiment_confidence": 0.4498157799243927
+    "sentiment_score": -0.8618425130844116,
+    "sentiment_confidence": 0.8618425130844116
   },
   {
     "title": "",
@@ -3499,9 +3499,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "negative",
-    "sentiment_score": 0.3738161325454712,
-    "sentiment_confidence": 0.3738161325454712
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.8589633107185364
   },
   {
     "title": "",
@@ -3512,8 +3512,8 @@
     "language": "en",
     "processed_text": "fix fucking server fucker want reufnd item transaction dota useless piece fvck play properly",
     "sentiment": "negative",
-    "sentiment_score": 0.7615955471992493,
-    "sentiment_confidence": 0.7615955471992493
+    "sentiment_score": -0.9464340209960938,
+    "sentiment_confidence": 0.9464340209960938
   },
   {
     "title": "",
@@ -3523,9 +3523,9 @@
     "cleaned_text": "percent lifestealergood game but full of stupid player mmr just a numbermaybe",
     "language": "en",
     "processed_text": "percent lifestealergood game stupid player mmr numbermaybe",
-    "sentiment": "neutral",
-    "sentiment_score": 0.4175226092338562,
-    "sentiment_confidence": 0.4175226092338562
+    "sentiment": "negative",
+    "sentiment_score": -0.9230462312698364,
+    "sentiment_confidence": 0.9230462312698364
   },
   {
     "title": "",
@@ -3536,8 +3536,8 @@
     "language": "it",
     "processed_text": "dota uninstalled",
     "sentiment": "neutral",
-    "sentiment_score": 0.2741939425468445,
-    "sentiment_confidence": 0.2741939425468445
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.49036166071891785
   },
   {
     "title": "",
@@ -3547,9 +3547,9 @@
     "cleaned_text": "pick sf ask for tango and ward dominate your lane ez win ggwp",
     "language": "en",
     "processed_text": "pick sf ask tango ward dominate lane ez win ggwp",
-    "sentiment": "positive",
-    "sentiment_score": 0.5055187940597534,
-    "sentiment_confidence": 0.5055187940597534
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.6358134746551514
   },
   {
     "title": "",
@@ -3559,9 +3559,9 @@
     "cleaned_text": "its awsome",
     "language": "en",
     "processed_text": "awsome",
-    "sentiment": "negative",
-    "sentiment_score": 0.2885710597038269,
-    "sentiment_confidence": 0.2885710597038269
+    "sentiment": "positive",
+    "sentiment_score": 0.6564351916313171,
+    "sentiment_confidence": 0.6564351916313171
   },
   {
     "title": "",
@@ -3572,8 +3572,8 @@
     "language": "en",
     "processed_text": "awesome addict like previous dota well mean good d",
     "sentiment": "positive",
-    "sentiment_score": 0.6065670847892761,
-    "sentiment_confidence": 0.6065670847892761
+    "sentiment_score": 0.8752862811088562,
+    "sentiment_confidence": 0.8752862811088562
   },
   {
     "title": "",
@@ -3584,7 +3584,7 @@
     "language": "en",
     "processed_text": "pretty cool game free",
     "sentiment": "positive",
-    "sentiment_score": 0.5777988433837891,
-    "sentiment_confidence": 0.5777988433837891
+    "sentiment_score": 0.8459011316299438,
+    "sentiment_confidence": 0.8459011316299438
   }
 ]

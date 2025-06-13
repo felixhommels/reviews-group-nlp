@@ -2,8 +2,8 @@
 Sentiment Analysis Module.
 
 This module provides sentiment analysis capabilities using multiple approaches:
-- Multilingual sentiment analysis using XLM-RoBERTa for Trustpilot/IMDb
-- BERT-based sentiment analysis for Steam/Playstore
+- XLM-RoBERTa for Steam/Playstore reviews
+- BERT-based sentiment analysis for Trustpilot/IMDb
 - VADER (English) for sentiment analysis
 - TextBlob as a fallback
 """
@@ -13,7 +13,7 @@ from typing import Dict, Union, Optional, Any
 from dataclasses import dataclass
 from enum import Enum
 from functools import lru_cache
-from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification, XLMRobertaTokenizer
 
 from src.utils.dependencies import dependency_manager, DependencyError
 from src.config.manager import ConfigManager, FALLBACK_ORDER
@@ -23,20 +23,38 @@ logger = logging.getLogger(__name__)
 
 # Model mapping for different sources
 SENTIMENT_MODEL_MAP = {
-    'steam': 'nlptown/bert-base-multilingual-uncased-sentiment',
-    'playstore': 'nlptown/bert-base-multilingual-uncased-sentiment',
+    'steam': 'cardiffnlp/twitter-xlm-roberta-base-sentiment',
+    'playstore': 'cardiffnlp/twitter-xlm-roberta-base-sentiment',
     'imdb': 'nlptown/bert-base-multilingual-uncased-sentiment',
     'trustpilot': 'nlptown/bert-base-multilingual-uncased-sentiment',
-    'default': 'nlptown/bert-base-multilingual-uncased-sentiment'
+    'default': 'cardiffnlp/twitter-xlm-roberta-base-sentiment'
 }
 
 # Model configurations
 MODEL_CONFIGS = {
+    'cardiffnlp/twitter-xlm-roberta-base-sentiment': {
+        'use_fast_tokenizer': False,
+        'model_max_length': 512,
+        'truncation': True,
+        'max_length': 512,
+        'label_map': {
+            'positive': 'positive',
+            'negative': 'negative',
+            'neutral': 'neutral'
+        }
+    },
     'nlptown/bert-base-multilingual-uncased-sentiment': {
         'use_fast_tokenizer': True,
         'model_max_length': 512,
         'truncation': True,
-        'max_length': 512
+        'max_length': 512,
+        'label_map': {
+            '1 star': 'negative',
+            '2 stars': 'negative',
+            '3 stars': 'neutral',
+            '4 stars': 'positive',
+            '5 stars': 'positive'
+        }
     }
 }
 
@@ -86,18 +104,28 @@ def get_sentiment_model(source: str):
         model_name = SENTIMENT_MODEL_MAP.get(source.lower(), SENTIMENT_MODEL_MAP['default'])
         config = MODEL_CONFIGS.get(model_name, {})
         
-        tokenizer = AutoTokenizer.from_pretrained(
-            model_name,
-            use_fast=config.get('use_fast_tokenizer', True),
-            model_max_length=config.get('model_max_length', 512)
-        )
+        # Initialize tokenizer with appropriate settings
+        if model_name == 'cardiffnlp/twitter-xlm-roberta-base-sentiment':
+            tokenizer = XLMRobertaTokenizer.from_pretrained(
+                model_name,
+                model_max_length=config.get('model_max_length', 512)
+            )
+        else:
+            tokenizer = AutoTokenizer.from_pretrained(
+                model_name,
+                use_fast=config.get('use_fast_tokenizer', True),
+                model_max_length=config.get('model_max_length', 512)
+            )
+        
+        # Initialize model
         model = AutoModelForSequenceClassification.from_pretrained(model_name)
         
+        # Create pipeline with appropriate settings
         return pipeline(
             "sentiment-analysis",
             model=model,
             tokenizer=tokenizer,
-            device=-1,
+            device=-1,  # Use CPU
             truncation=config.get('truncation', True),
             max_length=config.get('max_length', 512)
         )
@@ -108,24 +136,36 @@ def get_sentiment_model(source: str):
 def normalize_sentiment_output(model_output: dict, source: str, text: str) -> dict:
     """Convert model output to unified format."""
     try:
-        # Nlptown: 1 star (negative) to 5 stars (positive)
+        model_name = SENTIMENT_MODEL_MAP.get(source.lower(), SENTIMENT_MODEL_MAP['default'])
+        config = MODEL_CONFIGS.get(model_name, {})
+        label_map = config.get('label_map', {})
+        
         raw_label = model_output['label']
         score = model_output['score']
         
-        try:
-            stars = int(raw_label.split()[0])
-            if stars <= 2:
-                label = 'negative'
-            elif stars == 3:
-                label = 'neutral'
+        # Map the raw label to our standardized labels
+        mapped_label = label_map.get(raw_label, 'neutral')
+        
+        # Normalize score to [-1, 1] range
+        if model_name == 'nlptown/bert-base-multilingual-uncased-sentiment':
+            # For nlptown model, convert star rating to [-1, 1]
+            try:
+                stars = int(raw_label.split()[0])
+                normalized_score = (stars - 3) / 2  # Convert 1-5 to -1 to 1
+            except Exception:
+                normalized_score = 0.0
+        else:
+            # For XLM-RoBERTa, adjust score based on label
+            if mapped_label == 'negative':
+                normalized_score = -score
+            elif mapped_label == 'positive':
+                normalized_score = score
             else:
-                label = 'positive'
-        except Exception:
-            label = 'neutral'
+                normalized_score = 0.0
             
         return {
-            'sentiment_label': label,
-            'sentiment_score': score,
+            'sentiment_label': mapped_label,
+            'sentiment_score': normalized_score,
             'confidence': score,
             'source': source,
             'raw_model_label': raw_label,

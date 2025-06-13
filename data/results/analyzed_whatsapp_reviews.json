@@ -7,9 +7,9 @@
     "cleaned_text": "anu b ramanagoudar anu b ramanagoudar",
     "language": "id",
     "processed_text": "anu b ramanagoudar anu b ramanagoudar",
-    "sentiment": "neutral",
-    "sentiment_score": 0.24939504265785217,
-    "sentiment_confidence": 0.24939504265785217
+    "sentiment": "negative",
+    "sentiment_score": -0.38612377643585205,
+    "sentiment_confidence": 0.38612377643585205
   },
   {
     "title": "",
@@ -20,8 +20,8 @@
     "language": "sk",
     "processed_text": "ok",
     "sentiment": "neutral",
-    "sentiment_score": 0.49511438608169556,
-    "sentiment_confidence": 0.49511438608169556
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.42623862624168396
   },
   {
     "title": "2.25.15.80",
@@ -32,8 +32,8 @@
     "language": "ca",
     "processed_text": "excellent",
     "sentiment": "positive",
-    "sentiment_score": 0.8669129610061646,
-    "sentiment_confidence": 0.8669129610061646
+    "sentiment_score": 0.5348657965660095,
+    "sentiment_confidence": 0.5348657965660095
   },
   {
     "title": "2.25.16.84",
@@ -44,8 +44,8 @@
     "language": "en",
     "processed_text": "wow good app good service",
     "sentiment": "positive",
-    "sentiment_score": 0.5993555784225464,
-    "sentiment_confidence": 0.5993555784225464
+    "sentiment_score": 0.7381725907325745,
+    "sentiment_confidence": 0.7381725907325745
   },
   {
     "title": "2.25.16.84",
@@ -56,8 +56,8 @@
     "language": "en",
     "processed_text": "account block",
     "sentiment": "negative",
-    "sentiment_score": 0.687242329120636,
-    "sentiment_confidence": 0.687242329120636
+    "sentiment_score": -0.8355359435081482,
+    "sentiment_confidence": 0.8355359435081482
   },
   {
     "title": "2.25.16.82",
@@ -67,9 +67,9 @@
     "cleaned_text": "ali gaming",
     "language": "tl",
     "processed_text": "ali gaming",
-    "sentiment": "positive",
-    "sentiment_score": 0.3096506893634796,
-    "sentiment_confidence": 0.3096506893634796
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.856992781162262
   },
   {
     "title": "2.25.16.84",
@@ -80,8 +80,8 @@
     "language": "en",
     "processed_text": "fact underage school child create channel channel visible world absolutely disturbing",
     "sentiment": "negative",
-    "sentiment_score": 0.6269500851631165,
-    "sentiment_confidence": 0.6269500851631165
+    "sentiment_score": -0.9120455384254456,
+    "sentiment_confidence": 0.9120455384254456
   },
   {
     "title": "2.25.16.84",
@@ -92,8 +92,8 @@
     "language": "en",
     "processed_text": "fun enjoyable",
     "sentiment": "positive",
-    "sentiment_score": 0.535199761390686,
-    "sentiment_confidence": 0.535199761390686
+    "sentiment_score": 0.8986049294471741,
+    "sentiment_confidence": 0.8986049294471741
   },
   {
     "title": "",
@@ -103,9 +103,9 @@
     "cleaned_text": "supper app",
     "language": "it",
     "processed_text": "supper app",
-    "sentiment": "positive",
-    "sentiment_score": 0.3767462968826294,
-    "sentiment_confidence": 0.3767462968826294
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3734373152256012
   },
   {
     "title": "2.23.23.78",
@@ -116,8 +116,8 @@
     "language": "it",
     "processed_text": "nice amazing application",
     "sentiment": "positive",
-    "sentiment_score": 0.7247258424758911,
-    "sentiment_confidence": 0.7247258424758911
+    "sentiment_score": 0.8962751030921936,
+    "sentiment_confidence": 0.8962751030921936
   },
   {
     "title": "2.25.16.84",
@@ -128,8 +128,8 @@
     "language": "en",
     "processed_text": "work",
     "sentiment": "negative",
-    "sentiment_score": 0.6188992261886597,
-    "sentiment_confidence": 0.6188992261886597
+    "sentiment_score": -0.5254201889038086,
+    "sentiment_confidence": 0.5254201889038086
   },
   {
     "title": "2.25.16.82",
@@ -139,9 +139,9 @@
     "cleaned_text": "morya",
     "language": "tl",
     "processed_text": "morya",
-    "sentiment": "neutral",
-    "sentiment_score": 0.2793169617652893,
-    "sentiment_confidence": 0.2793169617652893
+    "sentiment": "positive",
+    "sentiment_score": 0.352325439453125,
+    "sentiment_confidence": 0.352325439453125
   },
   {
     "title": "",
@@ -152,8 +152,8 @@
     "language": "ca",
     "processed_text": "excellent",
     "sentiment": "positive",
-    "sentiment_score": 0.8669129610061646,
-    "sentiment_confidence": 0.8669129610061646
+    "sentiment_score": 0.5366031527519226,
+    "sentiment_confidence": 0.5366031527519226
   },
   {
     "title": "2.24.1.18",
@@ -164,8 +164,8 @@
     "language": "fi",
     "processed_text": "tyuu",
     "sentiment": "neutral",
-    "sentiment_score": 0.21830329298973083,
-    "sentiment_confidence": 0.21830329298973083
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4001375436782837
   },
   {
     "title": "2.25.16.84",
@@ -175,9 +175,9 @@
     "cleaned_text": "girish sa",
     "language": "so",
     "processed_text": "girish sa",
-    "sentiment": "positive",
-    "sentiment_score": 0.27196159958839417,
-    "sentiment_confidence": 0.27196159958839417
+    "sentiment": "negative",
+    "sentiment_score": -0.49343645572662354,
+    "sentiment_confidence": 0.49343645572662354
   },
   {
     "title": "2.25.16.82",
@@ -188,8 +188,8 @@
     "language": "et",
     "processed_text": "just great",
     "sentiment": "positive",
-    "sentiment_score": 0.771393358707428,
-    "sentiment_confidence": 0.771393358707428
+    "sentiment_score": 0.8172599077224731,
+    "sentiment_confidence": 0.8172599077224731
   },
   {
     "title": "2.25.16.84",
@@ -200,8 +200,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.4315045475959778,
+    "sentiment_confidence": 0.4315045475959778
   },
   {
     "title": "2.25.8.84",
@@ -212,8 +212,8 @@
     "language": "pl",
     "processed_text": "nice day",
     "sentiment": "positive",
-    "sentiment_score": 0.4467785060405731,
-    "sentiment_confidence": 0.4467785060405731
+    "sentiment_score": 0.7520525455474854,
+    "sentiment_confidence": 0.7520525455474854
   },
   {
     "title": "2.25.15.80",
@@ -223,9 +223,9 @@
     "cleaned_text": "supan raj",
     "language": "id",
     "processed_text": "supan raj",
-    "sentiment": "positive",
-    "sentiment_score": 0.2554904818534851,
-    "sentiment_confidence": 0.2554904818534851
+    "sentiment": "negative",
+    "sentiment_score": -0.35003766417503357,
+    "sentiment_confidence": 0.35003766417503357
   },
   {
     "title": "2.25.16.84",
@@ -235,9 +235,9 @@
     "cleaned_text": "faysal bbdi",
     "language": "so",
     "processed_text": "faysal bbdi",
-    "sentiment": "positive",
-    "sentiment_score": 0.2578692138195038,
-    "sentiment_confidence": 0.2578692138195038
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.34426453709602356
   },
   {
     "title": "2.25.11.75",
@@ -248,8 +248,8 @@
     "language": "en",
     "processed_text": "kindly desable swipe immediately",
     "sentiment": "negative",
-    "sentiment_score": 0.24879813194274902,
-    "sentiment_confidence": 0.24879813194274902
+    "sentiment_score": -0.7880458235740662,
+    "sentiment_confidence": 0.7880458235740662
   },
   {
     "title": "2.21.9.13",
@@ -260,8 +260,8 @@
     "language": "en",
     "processed_text": "application go worst everyday call connect oftenly",
     "sentiment": "negative",
-    "sentiment_score": 0.691659688949585,
-    "sentiment_confidence": 0.691659688949585
+    "sentiment_score": -0.8865564465522766,
+    "sentiment_confidence": 0.8865564465522766
   },
   {
     "title": "2.25.5.74",
@@ -271,9 +271,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "positive",
-    "sentiment_score": 0.3085777461528778,
-    "sentiment_confidence": 0.3085777461528778
+    "sentiment": "negative",
+    "sentiment_score": -0.5457390546798706,
+    "sentiment_confidence": 0.5457390546798706
   },
   {
     "title": "",
@@ -284,8 +284,8 @@
     "language": "en",
     "processed_text": "good app",
     "sentiment": "positive",
-    "sentiment_score": 0.533740222454071,
-    "sentiment_confidence": 0.533740222454071
+    "sentiment_score": 0.7185609340667725,
+    "sentiment_confidence": 0.7185609340667725
   },
   {
     "title": "2.25.16.84",
@@ -296,8 +296,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.25.16.82",
@@ -308,8 +308,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "positive",
-    "sentiment_score": 0.3085777461528778,
-    "sentiment_confidence": 0.3085777461528778
+    "sentiment_score": 0.7459723353385925,
+    "sentiment_confidence": 0.7459723353385925
   },
   {
     "title": "2.25.16.84",
@@ -319,9 +319,9 @@
     "cleaned_text": "parfacta",
     "language": "ca",
     "processed_text": "parfacta",
-    "sentiment": "positive",
-    "sentiment_score": 0.6250373125076294,
-    "sentiment_confidence": 0.6250373125076294
+    "sentiment": "negative",
+    "sentiment_score": -0.39829495549201965,
+    "sentiment_confidence": 0.39829495549201965
   },
   {
     "title": "2.25.16.84",
@@ -332,8 +332,8 @@
     "language": "en",
     "processed_text": "whatsapp good application mobile phone app fingerprint setting whatsapp end set lock whatsapp show set biometric unable like use face unlock everytime whatsapp update face d fingerprint use lock pattern pin customisable",
     "sentiment": "neutral",
-    "sentiment_score": 0.4308537244796753,
-    "sentiment_confidence": 0.4308537244796753
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.46332865953445435
   },
   {
     "title": "",
@@ -344,8 +344,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.25.16.84",
@@ -356,8 +356,8 @@
     "language": "hr",
     "processed_text": "basavaraj ropan",
     "sentiment": "neutral",
-    "sentiment_score": 0.26577135920524597,
-    "sentiment_confidence": 0.26577135920524597
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4080057442188263
   },
   {
     "title": "2.25.16.84",
@@ -368,8 +368,8 @@
     "language": "it",
     "processed_text": "il cannot open it",
     "sentiment": "negative",
-    "sentiment_score": 0.5573893189430237,
-    "sentiment_confidence": 0.5573893189430237
+    "sentiment_score": -0.8639196753501892,
+    "sentiment_confidence": 0.8639196753501892
   },
   {
     "title": "2.25.16.84",
@@ -380,8 +380,8 @@
     "language": "en",
     "processed_text": "status appear chronological order experience problem month till solution give expect proper improvement",
     "sentiment": "negative",
-    "sentiment_score": 0.40164807438850403,
-    "sentiment_confidence": 0.40164807438850403
+    "sentiment_score": -0.8344749808311462,
+    "sentiment_confidence": 0.8344749808311462
   },
   {
     "title": "2.25.6.74",
@@ -392,8 +392,8 @@
     "language": "en",
     "processed_text": "good app save datum secure",
     "sentiment": "positive",
-    "sentiment_score": 0.5439032316207886,
-    "sentiment_confidence": 0.5439032316207886
+    "sentiment_score": 0.8066533803939819,
+    "sentiment_confidence": 0.8066533803939819
   },
   {
     "title": "2.25.14.76",
@@ -404,8 +404,8 @@
     "language": "it",
     "processed_text": "il cannot made channel sadge",
     "sentiment": "negative",
-    "sentiment_score": 0.4024814963340759,
-    "sentiment_confidence": 0.4024814963340759
+    "sentiment_score": -0.8641586899757385,
+    "sentiment_confidence": 0.8641586899757385
   },
   {
     "title": "2.25.16.84",
@@ -416,8 +416,8 @@
     "language": "so",
     "processed_text": "kabirou",
     "sentiment": "neutral",
-    "sentiment_score": 0.269393652677536,
-    "sentiment_confidence": 0.269393652677536
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3916406035423279
   },
   {
     "title": "2.25.5.74",
@@ -428,8 +428,8 @@
     "language": "af",
     "processed_text": "not good",
     "sentiment": "negative",
-    "sentiment_score": 0.5929605960845947,
-    "sentiment_confidence": 0.5929605960845947
+    "sentiment_score": -0.7891402840614319,
+    "sentiment_confidence": 0.7891402840614319
   },
   {
     "title": "",
@@ -439,9 +439,9 @@
     "cleaned_text": "you can communicate with someone who is too far than you",
     "language": "en",
     "processed_text": "communicate far",
-    "sentiment": "positive",
-    "sentiment_score": 0.34507593512535095,
-    "sentiment_confidence": 0.34507593512535095
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.5841022729873657
   },
   {
     "title": "2.25.16.84",
@@ -452,8 +452,8 @@
     "language": "en",
     "processed_text": "simply good app communication friend family work",
     "sentiment": "positive",
-    "sentiment_score": 0.5366931557655334,
-    "sentiment_confidence": 0.5366931557655334
+    "sentiment_score": 0.829157829284668,
+    "sentiment_confidence": 0.829157829284668
   },
   {
     "title": "2.25.16.84",
@@ -464,8 +464,8 @@
     "language": "af",
     "processed_text": "very good",
     "sentiment": "positive",
-    "sentiment_score": 0.5479443073272705,
-    "sentiment_confidence": 0.5479443073272705
+    "sentiment_score": 0.7152417898178101,
+    "sentiment_confidence": 0.7152417898178101
   },
   {
     "title": "2.25.5.74",
@@ -475,9 +475,9 @@
     "cleaned_text": "not much",
     "language": "en",
     "processed_text": "",
-    "sentiment": "negative",
-    "sentiment_score": 0.4654366374015808,
-    "sentiment_confidence": 0.4654366374015808
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45561763644218445
   },
   {
     "title": "2.25.16.82",
@@ -488,8 +488,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.25.16.84",
@@ -500,8 +500,8 @@
     "language": "en",
     "processed_text": "addition meta ai make sad removable",
     "sentiment": "negative",
-    "sentiment_score": 0.4729484021663666,
-    "sentiment_confidence": 0.4729484021663666
+    "sentiment_score": -0.9453027248382568,
+    "sentiment_confidence": 0.9453027248382568
   },
   {
     "title": "2.25.16.84",
@@ -512,8 +512,8 @@
     "language": "af",
     "processed_text": "best",
     "sentiment": "positive",
-    "sentiment_score": 0.7400626540184021,
-    "sentiment_confidence": 0.7400626540184021
+    "sentiment_score": 0.3724946677684784,
+    "sentiment_confidence": 0.3724946677684784
   },
   {
     "title": "2.25.9.78",
@@ -524,8 +524,8 @@
     "language": "sq",
     "processed_text": "adjustment gujjar nf j n",
     "sentiment": "neutral",
-    "sentiment_score": 0.2962714731693268,
-    "sentiment_confidence": 0.2962714731693268
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41227293014526367
   },
   {
     "title": "2.25.14.76",
@@ -536,8 +536,8 @@
     "language": "ro",
     "processed_text": "great",
     "sentiment": "positive",
-    "sentiment_score": 0.7410832047462463,
-    "sentiment_confidence": 0.7410832047462463
+    "sentiment_score": 0.5717915892601013,
+    "sentiment_confidence": 0.5717915892601013
   },
   {
     "title": "2.25.4.77",
@@ -547,9 +547,9 @@
     "cleaned_text": "rajkumar up",
     "language": "lv",
     "processed_text": "rajkumar up",
-    "sentiment": "negative",
-    "sentiment_score": 0.3172154128551483,
-    "sentiment_confidence": 0.3172154128551483
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4536857604980469
   },
   {
     "title": "2.25.16.84",
@@ -560,8 +560,8 @@
     "language": "en",
     "processed_text": "scammer people run scam ban",
     "sentiment": "negative",
-    "sentiment_score": 0.6278190612792969,
-    "sentiment_confidence": 0.6278190612792969
+    "sentiment_score": -0.9018311500549316,
+    "sentiment_confidence": 0.9018311500549316
   },
   {
     "title": "2.25.16.82",
@@ -571,9 +571,9 @@
     "cleaned_text": "nirajkumar",
     "language": "hr",
     "processed_text": "nirajkumar",
-    "sentiment": "positive",
-    "sentiment_score": 0.23916186392307281,
-    "sentiment_confidence": 0.23916186392307281
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.34819966554641724
   },
   {
     "title": "2.25.7.80",
@@ -584,8 +584,8 @@
     "language": "sl",
     "processed_text": "i love it",
     "sentiment": "positive",
-    "sentiment_score": 0.8333383798599243,
-    "sentiment_confidence": 0.8333383798599243
+    "sentiment_score": 0.9171797633171082,
+    "sentiment_confidence": 0.9171797633171082
   },
   {
     "title": "2.24.13.77",
@@ -595,9 +595,9 @@
     "cleaned_text": "waooo",
     "language": "so",
     "processed_text": "waooo",
-    "sentiment": "neutral",
-    "sentiment_score": 0.2553459405899048,
-    "sentiment_confidence": 0.2553459405899048
+    "sentiment": "positive",
+    "sentiment_score": 0.37568899989128113,
+    "sentiment_confidence": 0.37568899989128113
   },
   {
     "title": "",
@@ -607,9 +607,9 @@
     "cleaned_text": "whatsapp bahut hi new app hai achcha mast hai to",
     "language": "en",
     "processed_text": "whatsapp bahut hi new app hai achcha mast hai",
-    "sentiment": "negative",
-    "sentiment_score": 0.38666555285453796,
-    "sentiment_confidence": 0.38666555285453796
+    "sentiment": "positive",
+    "sentiment_score": 0.41222280263900757,
+    "sentiment_confidence": 0.41222280263900757
   },
   {
     "title": "",
@@ -620,8 +620,8 @@
     "language": "en",
     "processed_text": "good app",
     "sentiment": "positive",
-    "sentiment_score": 0.7315211892127991,
-    "sentiment_confidence": 0.7315211892127991
+    "sentiment_score": 0.9070308804512024,
+    "sentiment_confidence": 0.9070308804512024
   },
   {
     "title": "2.25.16.84",
@@ -632,8 +632,8 @@
     "language": "en",
     "processed_text": "work good",
     "sentiment": "positive",
-    "sentiment_score": 0.49823197722435,
-    "sentiment_confidence": 0.49823197722435
+    "sentiment_score": 0.72530198097229,
+    "sentiment_confidence": 0.72530198097229
   },
   {
     "title": "2.25.16.82",
@@ -644,8 +644,8 @@
     "language": "af",
     "processed_text": "very poor",
     "sentiment": "negative",
-    "sentiment_score": 0.6927267909049988,
-    "sentiment_confidence": 0.6927267909049988
+    "sentiment_score": -0.9179909825325012,
+    "sentiment_confidence": 0.9179909825325012
   },
   {
     "title": "2.25.7.80",
@@ -656,8 +656,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "positive",
-    "sentiment_score": 0.5367152094841003,
-    "sentiment_confidence": 0.5367152094841003
+    "sentiment_score": 0.8469836115837097,
+    "sentiment_confidence": 0.8469836115837097
   },
   {
     "title": "2.25.9.78",
@@ -668,8 +668,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "",
@@ -679,9 +679,9 @@
     "cleaned_text": "imamimam",
     "language": "lt",
     "processed_text": "imamimam",
-    "sentiment": "positive",
-    "sentiment_score": 0.3160777986049652,
-    "sentiment_confidence": 0.3160777986049652
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41287216544151306
   },
   {
     "title": "2.25.16.84",
@@ -692,8 +692,8 @@
     "language": "en",
     "processed_text": "video camera work",
     "sentiment": "negative",
-    "sentiment_score": 0.6521065831184387,
-    "sentiment_confidence": 0.6521065831184387
+    "sentiment_score": -0.6921836733818054,
+    "sentiment_confidence": 0.6921836733818054
   },
   {
     "title": "",
@@ -704,8 +704,8 @@
     "language": "it",
     "processed_text": "Fantastic app",
     "sentiment": "positive",
-    "sentiment_score": 0.8146353960037231,
-    "sentiment_confidence": 0.8146353960037231
+    "sentiment_score": 0.8254064917564392,
+    "sentiment_confidence": 0.8254064917564392
   },
   {
     "title": "2.25.16.84",
@@ -716,8 +716,8 @@
     "language": "en",
     "processed_text": "restore whatsapp",
     "sentiment": "negative",
-    "sentiment_score": 0.29974788427352905,
-    "sentiment_confidence": 0.29974788427352905
+    "sentiment_score": -0.5235788226127625,
+    "sentiment_confidence": 0.5235788226127625
   },
   {
     "title": "2.25.16.84",
@@ -728,8 +728,8 @@
     "language": "en",
     "processed_text": "know love app lot reach friend family far wild",
     "sentiment": "positive",
-    "sentiment_score": 0.6410968899726868,
-    "sentiment_confidence": 0.6410968899726868
+    "sentiment_score": 0.7827120423316956,
+    "sentiment_confidence": 0.7827120423316956
   },
   {
     "title": "2.25.15.80",
@@ -740,8 +740,8 @@
     "language": "en",
     "processed_text": "nice goodfor contact family",
     "sentiment": "positive",
-    "sentiment_score": 0.514710009098053,
-    "sentiment_confidence": 0.514710009098053
+    "sentiment_score": 0.7876937389373779,
+    "sentiment_confidence": 0.7876937389373779
   },
   {
     "title": "2.25.16.84",
@@ -751,9 +751,9 @@
     "cleaned_text": "alex you",
     "language": "so",
     "processed_text": "alex you",
-    "sentiment": "positive",
-    "sentiment_score": 0.27561888098716736,
-    "sentiment_confidence": 0.27561888098716736
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41748374700546265
   },
   {
     "title": "2.25.16.84",
@@ -763,9 +763,9 @@
     "cleaned_text": "exlend",
     "language": "es",
     "processed_text": "exlend",
-    "sentiment": "positive",
-    "sentiment_score": 0.3561582565307617,
-    "sentiment_confidence": 0.3561582565307617
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4374311864376068
   },
   {
     "title": "2.25.16.84",
@@ -776,8 +776,8 @@
     "language": "cs",
     "processed_text": "v nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4069434702396393,
-    "sentiment_confidence": 0.4069434702396393
+    "sentiment_score": 0.6601697206497192,
+    "sentiment_confidence": 0.6601697206497192
   },
   {
     "title": "2.23.2.76",
@@ -788,8 +788,8 @@
     "language": "en",
     "processed_text": "nice app chart family one",
     "sentiment": "positive",
-    "sentiment_score": 0.49141353368759155,
-    "sentiment_confidence": 0.49141353368759155
+    "sentiment_score": 0.8085897564888,
+    "sentiment_confidence": 0.8085897564888
   },
   {
     "title": "2.25.13.74",
@@ -800,8 +800,8 @@
     "language": "cy",
     "processed_text": "gafg",
     "sentiment": "neutral",
-    "sentiment_score": 0.2675360143184662,
-    "sentiment_confidence": 0.2675360143184662
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.40852952003479004
   },
   {
     "title": "2.25.16.82",
@@ -812,8 +812,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.84",
@@ -824,8 +824,8 @@
     "language": "id",
     "processed_text": "murthi malabar neem nursery",
     "sentiment": "neutral",
-    "sentiment_score": 0.26208141446113586,
-    "sentiment_confidence": 0.26208141446113586
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4375247657299042
   },
   {
     "title": "2.25.16.84",
@@ -836,8 +836,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.82",
@@ -848,8 +848,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.24.2.76",
@@ -859,9 +859,9 @@
     "cleaned_text": "h sezjyj zy re dm d",
     "language": "pl",
     "processed_text": "h sezjyj zy re dm d",
-    "sentiment": "negative",
-    "sentiment_score": 0.3422318696975708,
-    "sentiment_confidence": 0.3422318696975708
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45944657921791077
   },
   {
     "title": "2.25.6.74",
@@ -872,8 +872,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.84",
@@ -884,8 +884,8 @@
     "language": "en",
     "processed_text": "good lot update",
     "sentiment": "neutral",
-    "sentiment_score": 0.5499570965766907,
-    "sentiment_confidence": 0.5499570965766907
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.42156779766082764
   },
   {
     "title": "2.25.16.84",
@@ -896,8 +896,8 @@
     "language": "it",
     "processed_text": "usefullo app",
     "sentiment": "positive",
-    "sentiment_score": 0.4135943651199341,
-    "sentiment_confidence": 0.4135943651199341
+    "sentiment_score": 0.46814098954200745,
+    "sentiment_confidence": 0.46814098954200745
   },
   {
     "title": "2.25.16.84",
@@ -908,8 +908,8 @@
     "language": "en",
     "processed_text": "whatsapp work suddenly",
     "sentiment": "negative",
-    "sentiment_score": 0.46690833568573,
-    "sentiment_confidence": 0.46690833568573
+    "sentiment_score": -0.8519002199172974,
+    "sentiment_confidence": 0.8519002199172974
   },
   {
     "title": "2.24.16.76",
@@ -920,8 +920,8 @@
     "language": "ro",
     "processed_text": "nice aap",
     "sentiment": "positive",
-    "sentiment_score": 0.47031480073928833,
-    "sentiment_confidence": 0.47031480073928833
+    "sentiment_score": 0.5668246150016785,
+    "sentiment_confidence": 0.5668246150016785
   },
   {
     "title": "2.25.7.80",
@@ -931,9 +931,9 @@
     "cleaned_text": "whatsapp business was a great app until my old phone got spoilt and i wanted to run my number on this oppo phone every time i request for a code it keeps telling me we could not send an sms or call on this number how can i be helped please",
     "language": "en",
     "processed_text": "whatsapp business great app old phone get spoil want run number oppo phone time request code keep tell send sms number help",
-    "sentiment": "positive",
-    "sentiment_score": 0.2359846830368042,
-    "sentiment_confidence": 0.2359846830368042
+    "sentiment": "negative",
+    "sentiment_score": -0.8484346866607666,
+    "sentiment_confidence": 0.8484346866607666
   },
   {
     "title": "2.25.3.82",
@@ -944,8 +944,8 @@
     "language": "en",
     "processed_text": "amazing whatsapp communicate",
     "sentiment": "positive",
-    "sentiment_score": 0.7516326904296875,
-    "sentiment_confidence": 0.7516326904296875
+    "sentiment_score": 0.9185885787010193,
+    "sentiment_confidence": 0.9185885787010193
   },
   {
     "title": "",
@@ -956,8 +956,8 @@
     "language": "en",
     "processed_text": "good app",
     "sentiment": "positive",
-    "sentiment_score": 0.4914030134677887,
-    "sentiment_confidence": 0.4914030134677887
+    "sentiment_score": 0.8157966136932373,
+    "sentiment_confidence": 0.8157966136932373
   },
   {
     "title": "",
@@ -968,8 +968,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.4739581346511841,
+    "sentiment_confidence": 0.4739581346511841
   },
   {
     "title": "2.25.16.84",
@@ -980,8 +980,8 @@
     "language": "en",
     "processed_text": "face problem need official whatsapp logineven download official whatsappnow suppose dohelp",
     "sentiment": "negative",
-    "sentiment_score": 0.4856005012989044,
-    "sentiment_confidence": 0.4856005012989044
+    "sentiment_score": -0.8232389092445374,
+    "sentiment_confidence": 0.8232389092445374
   },
   {
     "title": "2.25.16.84",
@@ -992,8 +992,8 @@
     "language": "en",
     "processed_text": "app good week ago know work phone",
     "sentiment": "negative",
-    "sentiment_score": 0.474009245634079,
-    "sentiment_confidence": 0.474009245634079
+    "sentiment_score": -0.7458368539810181,
+    "sentiment_confidence": 0.7458368539810181
   },
   {
     "title": "2.25.16.84",
@@ -1004,8 +1004,8 @@
     "language": "en",
     "processed_text": "well chat app",
     "sentiment": "positive",
-    "sentiment_score": 0.9335951209068298,
-    "sentiment_confidence": 0.9335951209068298
+    "sentiment_score": 0.8797300457954407,
+    "sentiment_confidence": 0.8797300457954407
   },
   {
     "title": "2.25.16.82",
@@ -1016,8 +1016,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.84",
@@ -1027,9 +1027,9 @@
     "cleaned_text": "now better",
     "language": "en",
     "processed_text": "well",
-    "sentiment": "neutral",
-    "sentiment_score": 0.41229790449142456,
-    "sentiment_confidence": 0.41229790449142456
+    "sentiment": "positive",
+    "sentiment_score": 0.5753089785575867,
+    "sentiment_confidence": 0.5753089785575867
   },
   {
     "title": "2.25.16.84",
@@ -1040,8 +1040,8 @@
     "language": "sk",
     "processed_text": "ok",
     "sentiment": "neutral",
-    "sentiment_score": 0.49511438608169556,
-    "sentiment_confidence": 0.49511438608169556
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45445212721824646
   },
   {
     "title": "2.25.5.74",
@@ -1052,8 +1052,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.4315045475959778,
+    "sentiment_confidence": 0.4315045475959778
   },
   {
     "title": "2.25.16.84",
@@ -1064,8 +1064,8 @@
     "language": "cy",
     "processed_text": "mdsharif",
     "sentiment": "neutral",
-    "sentiment_score": 0.25324368476867676,
-    "sentiment_confidence": 0.25324368476867676
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3580118715763092
   },
   {
     "title": "2.25.16.84",
@@ -1076,8 +1076,8 @@
     "language": "en",
     "processed_text": "day whatsapp bad ability run properly sell ability person jai hind",
     "sentiment": "negative",
-    "sentiment_score": 0.7902919054031372,
-    "sentiment_confidence": 0.7902919054031372
+    "sentiment_score": -0.941693127155304,
+    "sentiment_confidence": 0.941693127155304
   },
   {
     "title": "2.25.16.84",
@@ -1087,9 +1087,9 @@
     "cleaned_text": "official whatshap",
     "language": "en",
     "processed_text": "official whatshap",
-    "sentiment": "positive",
-    "sentiment_score": 0.328857958316803,
-    "sentiment_confidence": 0.328857958316803
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.6674312353134155
   },
   {
     "title": "",
@@ -1100,8 +1100,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.49037984013557434,
+    "sentiment_confidence": 0.49037984013557434
   },
   {
     "title": "",
@@ -1112,8 +1112,8 @@
     "language": "en",
     "processed_text": "application work fast",
     "sentiment": "positive",
-    "sentiment_score": 0.5929805040359497,
-    "sentiment_confidence": 0.5929805040359497
+    "sentiment_score": 0.7295734882354736,
+    "sentiment_confidence": 0.7295734882354736
   },
   {
     "title": "2.25.16.84",
@@ -1124,8 +1124,8 @@
     "language": "hr",
     "processed_text": "good nice",
     "sentiment": "positive",
-    "sentiment_score": 0.5405433773994446,
-    "sentiment_confidence": 0.5405433773994446
+    "sentiment_score": 0.5912849307060242,
+    "sentiment_confidence": 0.5912849307060242
   },
   {
     "title": "2.24.17.79",
@@ -1136,8 +1136,8 @@
     "language": "af",
     "processed_text": "whatsapp aap not working",
     "sentiment": "negative",
-    "sentiment_score": 0.5729694962501526,
-    "sentiment_confidence": 0.5729694962501526
+    "sentiment_score": -0.7794023752212524,
+    "sentiment_confidence": 0.7794023752212524
   },
   {
     "title": "",
@@ -1148,8 +1148,8 @@
     "language": "en",
     "processed_text": "good whatsapp",
     "sentiment": "positive",
-    "sentiment_score": 0.9165887236595154,
-    "sentiment_confidence": 0.9165887236595154
+    "sentiment_score": 0.8719215989112854,
+    "sentiment_confidence": 0.8719215989112854
   },
   {
     "title": "2.25.2.85",
@@ -1160,8 +1160,8 @@
     "language": "pl",
     "processed_text": "niec",
     "sentiment": "negative",
-    "sentiment_score": 0.2693943679332733,
-    "sentiment_confidence": 0.2693943679332733
+    "sentiment_score": -0.37534061074256897,
+    "sentiment_confidence": 0.37534061074256897
   },
   {
     "title": "2.25.5.74",
@@ -1172,8 +1172,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.24.17.79",
@@ -1183,9 +1183,9 @@
     "cleaned_text": "june",
     "language": "et",
     "processed_text": "june",
-    "sentiment": "negative",
-    "sentiment_score": 0.4318767786026001,
-    "sentiment_confidence": 0.4318767786026001
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.8335760831832886
   },
   {
     "title": "",
@@ -1196,8 +1196,8 @@
     "language": "da",
     "processed_text": "i liked very much",
     "sentiment": "positive",
-    "sentiment_score": 0.537014901638031,
-    "sentiment_confidence": 0.537014901638031
+    "sentiment_score": 0.8713346719741821,
+    "sentiment_confidence": 0.8713346719741821
   },
   {
     "title": "2.25.16.84",
@@ -1207,9 +1207,9 @@
     "cleaned_text": "yas doog naitas",
     "language": "tl",
     "processed_text": "yas doog naitas",
-    "sentiment": "neutral",
-    "sentiment_score": 0.2565673291683197,
-    "sentiment_confidence": 0.2565673291683197
+    "sentiment": "positive",
+    "sentiment_score": 0.4853104054927826,
+    "sentiment_confidence": 0.4853104054927826
   },
   {
     "title": "2.25.16.84",
@@ -1220,8 +1220,8 @@
     "language": "tl",
     "processed_text": "rafay king",
     "sentiment": "positive",
-    "sentiment_score": 0.3566262722015381,
-    "sentiment_confidence": 0.3566262722015381
+    "sentiment_score": 0.7983217239379883,
+    "sentiment_confidence": 0.7983217239379883
   },
   {
     "title": "2.25.15.80",
@@ -1231,9 +1231,9 @@
     "cleaned_text": "whatsapp app bahut achch h",
     "language": "en",
     "processed_text": "whatsapp app bahut achch h",
-    "sentiment": "negative",
-    "sentiment_score": 0.2771129310131073,
-    "sentiment_confidence": 0.2771129310131073
+    "sentiment": "positive",
+    "sentiment_score": 0.4772305488586426,
+    "sentiment_confidence": 0.4772305488586426
   },
   {
     "title": "2.25.16.84",
@@ -1244,8 +1244,8 @@
     "language": "cs",
     "processed_text": "v nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4069434702396393,
-    "sentiment_confidence": 0.4069434702396393
+    "sentiment_score": 0.6179753541946411,
+    "sentiment_confidence": 0.6179753541946411
   },
   {
     "title": "2.25.16.84",
@@ -1255,9 +1255,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "positive",
-    "sentiment_score": 0.23521320521831512,
-    "sentiment_confidence": 0.23521320521831512
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.7862104773521423
   },
   {
     "title": "2.25.16.82",
@@ -1268,8 +1268,8 @@
     "language": "en",
     "processed_text": "whatsapp turn facebook",
     "sentiment": "negative",
-    "sentiment_score": 0.42515915632247925,
-    "sentiment_confidence": 0.42515915632247925
+    "sentiment_score": -0.6671102046966553,
+    "sentiment_confidence": 0.6671102046966553
   },
   {
     "title": "",
@@ -1280,8 +1280,8 @@
     "language": "it",
     "processed_text": "nice app",
     "sentiment": "positive",
-    "sentiment_score": 0.4852146804332733,
-    "sentiment_confidence": 0.4852146804332733
+    "sentiment_score": 0.6356460452079773,
+    "sentiment_confidence": 0.6356460452079773
   },
   {
     "title": "",
@@ -1292,8 +1292,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "",
@@ -1303,9 +1303,9 @@
     "cleaned_text": "gateka",
     "language": "id",
     "processed_text": "gateka",
-    "sentiment": "positive",
-    "sentiment_score": 0.29587724804878235,
-    "sentiment_confidence": 0.29587724804878235
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.36396801471710205
   },
   {
     "title": "",
@@ -1315,9 +1315,9 @@
     "cleaned_text": "md manoon",
     "language": "tl",
     "processed_text": "md manoon",
-    "sentiment": "neutral",
-    "sentiment_score": 0.25891101360321045,
-    "sentiment_confidence": 0.25891101360321045
+    "sentiment": "negative",
+    "sentiment_score": -0.3741855323314667,
+    "sentiment_confidence": 0.3741855323314667
   },
   {
     "title": "2.25.15.80",
@@ -1328,8 +1328,8 @@
     "language": "en",
     "processed_text": "great app like give star like app",
     "sentiment": "positive",
-    "sentiment_score": 0.9552133083343506,
-    "sentiment_confidence": 0.9552133083343506
+    "sentiment_score": 0.9402316808700562,
+    "sentiment_confidence": 0.9402316808700562
   },
   {
     "title": "2.25.16.84",
@@ -1339,9 +1339,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "positive",
-    "sentiment_score": 0.3525407314300537,
-    "sentiment_confidence": 0.3525407314300537
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.40096306800842285
   },
   {
     "title": "2.25.16.84",
@@ -1351,9 +1351,9 @@
     "cleaned_text": "anu b ramanagoudar anu b ramanagoudar",
     "language": "id",
     "processed_text": "anu b ramanagoudar anu b ramanagoudar",
-    "sentiment": "neutral",
-    "sentiment_score": 0.24939504265785217,
-    "sentiment_confidence": 0.24939504265785217
+    "sentiment": "negative",
+    "sentiment_score": -0.38612377643585205,
+    "sentiment_confidence": 0.38612377643585205
   },
   {
     "title": "",
@@ -1364,8 +1364,8 @@
     "language": "sk",
     "processed_text": "ok",
     "sentiment": "neutral",
-    "sentiment_score": 0.49511438608169556,
-    "sentiment_confidence": 0.49511438608169556
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.42623862624168396
   },
   {
     "title": "2.25.15.80",
@@ -1376,8 +1376,8 @@
     "language": "ca",
     "processed_text": "excellent",
     "sentiment": "positive",
-    "sentiment_score": 0.8669129610061646,
-    "sentiment_confidence": 0.8669129610061646
+    "sentiment_score": 0.5348657965660095,
+    "sentiment_confidence": 0.5348657965660095
   },
   {
     "title": "2.25.16.84",
@@ -1388,8 +1388,8 @@
     "language": "en",
     "processed_text": "wow good app good service",
     "sentiment": "positive",
-    "sentiment_score": 0.5993555784225464,
-    "sentiment_confidence": 0.5993555784225464
+    "sentiment_score": 0.7381725907325745,
+    "sentiment_confidence": 0.7381725907325745
   },
   {
     "title": "2.25.16.84",
@@ -1400,8 +1400,8 @@
     "language": "en",
     "processed_text": "account block",
     "sentiment": "negative",
-    "sentiment_score": 0.687242329120636,
-    "sentiment_confidence": 0.687242329120636
+    "sentiment_score": -0.8355359435081482,
+    "sentiment_confidence": 0.8355359435081482
   },
   {
     "title": "2.25.16.82",
@@ -1411,9 +1411,9 @@
     "cleaned_text": "ali gaming",
     "language": "tl",
     "processed_text": "ali gaming",
-    "sentiment": "positive",
-    "sentiment_score": 0.3096506893634796,
-    "sentiment_confidence": 0.3096506893634796
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.856992781162262
   },
   {
     "title": "2.25.16.84",
@@ -1424,8 +1424,8 @@
     "language": "en",
     "processed_text": "fact underage school child create channel channel visible world absolutely disturbing",
     "sentiment": "negative",
-    "sentiment_score": 0.6269500851631165,
-    "sentiment_confidence": 0.6269500851631165
+    "sentiment_score": -0.9120455384254456,
+    "sentiment_confidence": 0.9120455384254456
   },
   {
     "title": "2.25.16.84",
@@ -1436,8 +1436,8 @@
     "language": "en",
     "processed_text": "fun enjoyable",
     "sentiment": "positive",
-    "sentiment_score": 0.535199761390686,
-    "sentiment_confidence": 0.535199761390686
+    "sentiment_score": 0.8986049294471741,
+    "sentiment_confidence": 0.8986049294471741
   },
   {
     "title": "",
@@ -1447,9 +1447,9 @@
     "cleaned_text": "supper app",
     "language": "it",
     "processed_text": "supper app",
-    "sentiment": "positive",
-    "sentiment_score": 0.3767462968826294,
-    "sentiment_confidence": 0.3767462968826294
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3734373152256012
   },
   {
     "title": "2.23.23.78",
@@ -1460,8 +1460,8 @@
     "language": "it",
     "processed_text": "nice amazing application",
     "sentiment": "positive",
-    "sentiment_score": 0.7247258424758911,
-    "sentiment_confidence": 0.7247258424758911
+    "sentiment_score": 0.8962751030921936,
+    "sentiment_confidence": 0.8962751030921936
   },
   {
     "title": "2.25.16.84",
@@ -1472,8 +1472,8 @@
     "language": "en",
     "processed_text": "work",
     "sentiment": "negative",
-    "sentiment_score": 0.6188992261886597,
-    "sentiment_confidence": 0.6188992261886597
+    "sentiment_score": -0.5254201889038086,
+    "sentiment_confidence": 0.5254201889038086
   },
   {
     "title": "2.25.16.82",
@@ -1483,9 +1483,9 @@
     "cleaned_text": "morya",
     "language": "tl",
     "processed_text": "morya",
-    "sentiment": "neutral",
-    "sentiment_score": 0.2793169617652893,
-    "sentiment_confidence": 0.2793169617652893
+    "sentiment": "positive",
+    "sentiment_score": 0.352325439453125,
+    "sentiment_confidence": 0.352325439453125
   },
   {
     "title": "",
@@ -1496,8 +1496,8 @@
     "language": "ca",
     "processed_text": "excellent",
     "sentiment": "positive",
-    "sentiment_score": 0.8669129610061646,
-    "sentiment_confidence": 0.8669129610061646
+    "sentiment_score": 0.5366031527519226,
+    "sentiment_confidence": 0.5366031527519226
   },
   {
     "title": "2.24.1.18",
@@ -1508,8 +1508,8 @@
     "language": "fi",
     "processed_text": "tyuu",
     "sentiment": "neutral",
-    "sentiment_score": 0.21830329298973083,
-    "sentiment_confidence": 0.21830329298973083
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4001375436782837
   },
   {
     "title": "2.25.16.84",
@@ -1519,9 +1519,9 @@
     "cleaned_text": "girish sa",
     "language": "sq",
     "processed_text": "girish sa",
-    "sentiment": "positive",
-    "sentiment_score": 0.27196159958839417,
-    "sentiment_confidence": 0.27196159958839417
+    "sentiment": "negative",
+    "sentiment_score": -0.49343645572662354,
+    "sentiment_confidence": 0.49343645572662354
   },
   {
     "title": "2.25.16.82",
@@ -1532,8 +1532,8 @@
     "language": "et",
     "processed_text": "just great",
     "sentiment": "positive",
-    "sentiment_score": 0.771393358707428,
-    "sentiment_confidence": 0.771393358707428
+    "sentiment_score": 0.8172599077224731,
+    "sentiment_confidence": 0.8172599077224731
   },
   {
     "title": "2.25.16.84",
@@ -1544,8 +1544,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.4315045475959778,
+    "sentiment_confidence": 0.4315045475959778
   },
   {
     "title": "2.25.8.84",
@@ -1556,8 +1556,8 @@
     "language": "pl",
     "processed_text": "nice day",
     "sentiment": "positive",
-    "sentiment_score": 0.4467785060405731,
-    "sentiment_confidence": 0.4467785060405731
+    "sentiment_score": 0.7520525455474854,
+    "sentiment_confidence": 0.7520525455474854
   },
   {
     "title": "2.25.15.80",
@@ -1567,9 +1567,9 @@
     "cleaned_text": "supan raj",
     "language": "id",
     "processed_text": "supan raj",
-    "sentiment": "positive",
-    "sentiment_score": 0.2554904818534851,
-    "sentiment_confidence": 0.2554904818534851
+    "sentiment": "negative",
+    "sentiment_score": -0.35003766417503357,
+    "sentiment_confidence": 0.35003766417503357
   },
   {
     "title": "2.25.16.84",
@@ -1579,9 +1579,9 @@
     "cleaned_text": "faysal bbdi",
     "language": "so",
     "processed_text": "faysal bbdi",
-    "sentiment": "positive",
-    "sentiment_score": 0.2578692138195038,
-    "sentiment_confidence": 0.2578692138195038
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.34426453709602356
   },
   {
     "title": "2.25.11.75",
@@ -1592,8 +1592,8 @@
     "language": "en",
     "processed_text": "kindly desable swipe immediately",
     "sentiment": "negative",
-    "sentiment_score": 0.24879813194274902,
-    "sentiment_confidence": 0.24879813194274902
+    "sentiment_score": -0.7880458235740662,
+    "sentiment_confidence": 0.7880458235740662
   },
   {
     "title": "2.21.9.13",
@@ -1604,8 +1604,8 @@
     "language": "en",
     "processed_text": "application go worst everyday call connect oftenly",
     "sentiment": "negative",
-    "sentiment_score": 0.691659688949585,
-    "sentiment_confidence": 0.691659688949585
+    "sentiment_score": -0.8865564465522766,
+    "sentiment_confidence": 0.8865564465522766
   },
   {
     "title": "2.25.5.74",
@@ -1615,9 +1615,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "positive",
-    "sentiment_score": 0.3085777461528778,
-    "sentiment_confidence": 0.3085777461528778
+    "sentiment": "negative",
+    "sentiment_score": -0.5457390546798706,
+    "sentiment_confidence": 0.5457390546798706
   },
   {
     "title": "",
@@ -1628,8 +1628,8 @@
     "language": "en",
     "processed_text": "good app",
     "sentiment": "positive",
-    "sentiment_score": 0.533740222454071,
-    "sentiment_confidence": 0.533740222454071
+    "sentiment_score": 0.7185609340667725,
+    "sentiment_confidence": 0.7185609340667725
   },
   {
     "title": "2.25.16.84",
@@ -1640,8 +1640,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.25.16.82",
@@ -1652,8 +1652,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "positive",
-    "sentiment_score": 0.3085777461528778,
-    "sentiment_confidence": 0.3085777461528778
+    "sentiment_score": 0.7459723353385925,
+    "sentiment_confidence": 0.7459723353385925
   },
   {
     "title": "2.25.16.84",
@@ -1663,9 +1663,9 @@
     "cleaned_text": "parfacta",
     "language": "ca",
     "processed_text": "parfacta",
-    "sentiment": "positive",
-    "sentiment_score": 0.6250373125076294,
-    "sentiment_confidence": 0.6250373125076294
+    "sentiment": "negative",
+    "sentiment_score": -0.39829495549201965,
+    "sentiment_confidence": 0.39829495549201965
   },
   {
     "title": "2.25.16.84",
@@ -1676,8 +1676,8 @@
     "language": "en",
     "processed_text": "whatsapp good application mobile phone app fingerprint setting whatsapp end set lock whatsapp show set biometric unable like use face unlock everytime whatsapp update face d fingerprint use lock pattern pin customisable",
     "sentiment": "neutral",
-    "sentiment_score": 0.4308537244796753,
-    "sentiment_confidence": 0.4308537244796753
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.46332865953445435
   },
   {
     "title": "",
@@ -1688,8 +1688,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.25.16.84",
@@ -1700,8 +1700,8 @@
     "language": "hr",
     "processed_text": "basavaraj ropan",
     "sentiment": "neutral",
-    "sentiment_score": 0.26577135920524597,
-    "sentiment_confidence": 0.26577135920524597
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4080057442188263
   },
   {
     "title": "2.25.16.84",
@@ -1712,8 +1712,8 @@
     "language": "it",
     "processed_text": "il cannot open it",
     "sentiment": "negative",
-    "sentiment_score": 0.5573893189430237,
-    "sentiment_confidence": 0.5573893189430237
+    "sentiment_score": -0.8639196753501892,
+    "sentiment_confidence": 0.8639196753501892
   },
   {
     "title": "2.25.16.84",
@@ -1724,8 +1724,8 @@
     "language": "en",
     "processed_text": "status appear chronological order experience problem month till solution give expect proper improvement",
     "sentiment": "negative",
-    "sentiment_score": 0.40164807438850403,
-    "sentiment_confidence": 0.40164807438850403
+    "sentiment_score": -0.8344749808311462,
+    "sentiment_confidence": 0.8344749808311462
   },
   {
     "title": "2.25.6.74",
@@ -1736,8 +1736,8 @@
     "language": "en",
     "processed_text": "good app save datum secure",
     "sentiment": "positive",
-    "sentiment_score": 0.5439032316207886,
-    "sentiment_confidence": 0.5439032316207886
+    "sentiment_score": 0.8066533803939819,
+    "sentiment_confidence": 0.8066533803939819
   },
   {
     "title": "2.25.14.76",
@@ -1748,8 +1748,8 @@
     "language": "it",
     "processed_text": "il cannot made channel sadge",
     "sentiment": "negative",
-    "sentiment_score": 0.4024814963340759,
-    "sentiment_confidence": 0.4024814963340759
+    "sentiment_score": -0.8641586899757385,
+    "sentiment_confidence": 0.8641586899757385
   },
   {
     "title": "2.25.16.84",
@@ -1760,8 +1760,8 @@
     "language": "so",
     "processed_text": "kabirou",
     "sentiment": "neutral",
-    "sentiment_score": 0.269393652677536,
-    "sentiment_confidence": 0.269393652677536
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3916406035423279
   },
   {
     "title": "2.25.5.74",
@@ -1772,8 +1772,8 @@
     "language": "af",
     "processed_text": "not good",
     "sentiment": "negative",
-    "sentiment_score": 0.5929605960845947,
-    "sentiment_confidence": 0.5929605960845947
+    "sentiment_score": -0.7891402840614319,
+    "sentiment_confidence": 0.7891402840614319
   },
   {
     "title": "",
@@ -1783,9 +1783,9 @@
     "cleaned_text": "you can communicate with someone who is too far than you",
     "language": "en",
     "processed_text": "communicate far",
-    "sentiment": "positive",
-    "sentiment_score": 0.34507593512535095,
-    "sentiment_confidence": 0.34507593512535095
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.5841022729873657
   },
   {
     "title": "2.25.16.84",
@@ -1796,8 +1796,8 @@
     "language": "en",
     "processed_text": "simply good app communication friend family work",
     "sentiment": "positive",
-    "sentiment_score": 0.5366931557655334,
-    "sentiment_confidence": 0.5366931557655334
+    "sentiment_score": 0.829157829284668,
+    "sentiment_confidence": 0.829157829284668
   },
   {
     "title": "2.25.16.84",
@@ -1808,8 +1808,8 @@
     "language": "af",
     "processed_text": "very good",
     "sentiment": "positive",
-    "sentiment_score": 0.5479443073272705,
-    "sentiment_confidence": 0.5479443073272705
+    "sentiment_score": 0.7152417898178101,
+    "sentiment_confidence": 0.7152417898178101
   },
   {
     "title": "2.25.5.74",
@@ -1819,9 +1819,9 @@
     "cleaned_text": "not much",
     "language": "en",
     "processed_text": "",
-    "sentiment": "negative",
-    "sentiment_score": 0.4654366374015808,
-    "sentiment_confidence": 0.4654366374015808
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45561763644218445
   },
   {
     "title": "2.25.16.82",
@@ -1832,8 +1832,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.25.16.84",
@@ -1844,8 +1844,8 @@
     "language": "en",
     "processed_text": "addition meta ai make sad removable",
     "sentiment": "negative",
-    "sentiment_score": 0.4729484021663666,
-    "sentiment_confidence": 0.4729484021663666
+    "sentiment_score": -0.9453027248382568,
+    "sentiment_confidence": 0.9453027248382568
   },
   {
     "title": "2.25.16.84",
@@ -1856,8 +1856,8 @@
     "language": "af",
     "processed_text": "best",
     "sentiment": "positive",
-    "sentiment_score": 0.7400626540184021,
-    "sentiment_confidence": 0.7400626540184021
+    "sentiment_score": 0.3724946677684784,
+    "sentiment_confidence": 0.3724946677684784
   },
   {
     "title": "2.25.9.78",
@@ -1868,8 +1868,8 @@
     "language": "sq",
     "processed_text": "adjustment gujjar nf j n",
     "sentiment": "neutral",
-    "sentiment_score": 0.2962714731693268,
-    "sentiment_confidence": 0.2962714731693268
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41227293014526367
   },
   {
     "title": "2.25.14.76",
@@ -1880,8 +1880,8 @@
     "language": "ro",
     "processed_text": "great",
     "sentiment": "positive",
-    "sentiment_score": 0.7410832047462463,
-    "sentiment_confidence": 0.7410832047462463
+    "sentiment_score": 0.5717915892601013,
+    "sentiment_confidence": 0.5717915892601013
   },
   {
     "title": "2.25.4.77",
@@ -1891,9 +1891,9 @@
     "cleaned_text": "rajkumar up",
     "language": "lv",
     "processed_text": "rajkumar up",
-    "sentiment": "negative",
-    "sentiment_score": 0.3172154128551483,
-    "sentiment_confidence": 0.3172154128551483
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4536857604980469
   },
   {
     "title": "2.25.16.84",
@@ -1904,8 +1904,8 @@
     "language": "en",
     "processed_text": "scammer people run scam ban",
     "sentiment": "negative",
-    "sentiment_score": 0.6278190612792969,
-    "sentiment_confidence": 0.6278190612792969
+    "sentiment_score": -0.9018311500549316,
+    "sentiment_confidence": 0.9018311500549316
   },
   {
     "title": "2.25.16.82",
@@ -1915,9 +1915,9 @@
     "cleaned_text": "nirajkumar",
     "language": "hr",
     "processed_text": "nirajkumar",
-    "sentiment": "positive",
-    "sentiment_score": 0.23916186392307281,
-    "sentiment_confidence": 0.23916186392307281
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.34819966554641724
   },
   {
     "title": "2.25.7.80",
@@ -1928,8 +1928,8 @@
     "language": "sl",
     "processed_text": "i love it",
     "sentiment": "positive",
-    "sentiment_score": 0.8333383798599243,
-    "sentiment_confidence": 0.8333383798599243
+    "sentiment_score": 0.9171797633171082,
+    "sentiment_confidence": 0.9171797633171082
   },
   {
     "title": "2.24.13.77",
@@ -1939,9 +1939,9 @@
     "cleaned_text": "waooo",
     "language": "so",
     "processed_text": "waooo",
-    "sentiment": "neutral",
-    "sentiment_score": 0.2553459405899048,
-    "sentiment_confidence": 0.2553459405899048
+    "sentiment": "positive",
+    "sentiment_score": 0.37568899989128113,
+    "sentiment_confidence": 0.37568899989128113
   },
   {
     "title": "",
@@ -1951,9 +1951,9 @@
     "cleaned_text": "whatsapp bahut hi new app hai achcha mast hai to",
     "language": "en",
     "processed_text": "whatsapp bahut hi new app hai achcha mast hai",
-    "sentiment": "negative",
-    "sentiment_score": 0.38666555285453796,
-    "sentiment_confidence": 0.38666555285453796
+    "sentiment": "positive",
+    "sentiment_score": 0.41222280263900757,
+    "sentiment_confidence": 0.41222280263900757
   },
   {
     "title": "",
@@ -1964,8 +1964,8 @@
     "language": "en",
     "processed_text": "good app",
     "sentiment": "positive",
-    "sentiment_score": 0.7315211892127991,
-    "sentiment_confidence": 0.7315211892127991
+    "sentiment_score": 0.9070308804512024,
+    "sentiment_confidence": 0.9070308804512024
   },
   {
     "title": "2.25.16.84",
@@ -1976,8 +1976,8 @@
     "language": "en",
     "processed_text": "work good",
     "sentiment": "positive",
-    "sentiment_score": 0.49823197722435,
-    "sentiment_confidence": 0.49823197722435
+    "sentiment_score": 0.72530198097229,
+    "sentiment_confidence": 0.72530198097229
   },
   {
     "title": "2.25.16.82",
@@ -1988,8 +1988,8 @@
     "language": "af",
     "processed_text": "very poor",
     "sentiment": "negative",
-    "sentiment_score": 0.6927267909049988,
-    "sentiment_confidence": 0.6927267909049988
+    "sentiment_score": -0.9179909825325012,
+    "sentiment_confidence": 0.9179909825325012
   },
   {
     "title": "2.25.7.80",
@@ -2000,8 +2000,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "positive",
-    "sentiment_score": 0.5367152094841003,
-    "sentiment_confidence": 0.5367152094841003
+    "sentiment_score": 0.8469836115837097,
+    "sentiment_confidence": 0.8469836115837097
   },
   {
     "title": "2.25.9.78",
@@ -2012,8 +2012,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "",
@@ -2023,9 +2023,9 @@
     "cleaned_text": "imamimam",
     "language": "lt",
     "processed_text": "imamimam",
-    "sentiment": "positive",
-    "sentiment_score": 0.3160777986049652,
-    "sentiment_confidence": 0.3160777986049652
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41287216544151306
   },
   {
     "title": "2.25.16.84",
@@ -2036,8 +2036,8 @@
     "language": "en",
     "processed_text": "video camera work",
     "sentiment": "negative",
-    "sentiment_score": 0.6521065831184387,
-    "sentiment_confidence": 0.6521065831184387
+    "sentiment_score": -0.6921836733818054,
+    "sentiment_confidence": 0.6921836733818054
   },
   {
     "title": "",
@@ -2048,8 +2048,8 @@
     "language": "it",
     "processed_text": "Fantastic app",
     "sentiment": "positive",
-    "sentiment_score": 0.8146353960037231,
-    "sentiment_confidence": 0.8146353960037231
+    "sentiment_score": 0.8254064917564392,
+    "sentiment_confidence": 0.8254064917564392
   },
   {
     "title": "2.25.16.84",
@@ -2060,8 +2060,8 @@
     "language": "en",
     "processed_text": "restore whatsapp",
     "sentiment": "negative",
-    "sentiment_score": 0.29974788427352905,
-    "sentiment_confidence": 0.29974788427352905
+    "sentiment_score": -0.5235788226127625,
+    "sentiment_confidence": 0.5235788226127625
   },
   {
     "title": "2.25.16.84",
@@ -2072,8 +2072,8 @@
     "language": "en",
     "processed_text": "know love app lot reach friend family far wild",
     "sentiment": "positive",
-    "sentiment_score": 0.6410968899726868,
-    "sentiment_confidence": 0.6410968899726868
+    "sentiment_score": 0.7827120423316956,
+    "sentiment_confidence": 0.7827120423316956
   },
   {
     "title": "2.25.15.80",
@@ -2084,8 +2084,8 @@
     "language": "en",
     "processed_text": "nice goodfor contact family",
     "sentiment": "positive",
-    "sentiment_score": 0.514710009098053,
-    "sentiment_confidence": 0.514710009098053
+    "sentiment_score": 0.7876937389373779,
+    "sentiment_confidence": 0.7876937389373779
   },
   {
     "title": "2.25.16.84",
@@ -2095,9 +2095,9 @@
     "cleaned_text": "alex you",
     "language": "so",
     "processed_text": "alex you",
-    "sentiment": "positive",
-    "sentiment_score": 0.27561888098716736,
-    "sentiment_confidence": 0.27561888098716736
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41748374700546265
   },
   {
     "title": "2.25.16.84",
@@ -2107,9 +2107,9 @@
     "cleaned_text": "exlend",
     "language": "es",
     "processed_text": "exlend",
-    "sentiment": "positive",
-    "sentiment_score": 0.3561582565307617,
-    "sentiment_confidence": 0.3561582565307617
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4374311864376068
   },
   {
     "title": "2.25.16.84",
@@ -2120,8 +2120,8 @@
     "language": "cs",
     "processed_text": "v nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4069434702396393,
-    "sentiment_confidence": 0.4069434702396393
+    "sentiment_score": 0.6601697206497192,
+    "sentiment_confidence": 0.6601697206497192
   },
   {
     "title": "2.23.2.76",
@@ -2132,8 +2132,8 @@
     "language": "en",
     "processed_text": "nice app chart family one",
     "sentiment": "positive",
-    "sentiment_score": 0.49141353368759155,
-    "sentiment_confidence": 0.49141353368759155
+    "sentiment_score": 0.8085897564888,
+    "sentiment_confidence": 0.8085897564888
   },
   {
     "title": "2.25.13.74",
@@ -2144,8 +2144,8 @@
     "language": "cy",
     "processed_text": "gafg",
     "sentiment": "neutral",
-    "sentiment_score": 0.2675360143184662,
-    "sentiment_confidence": 0.2675360143184662
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.40852952003479004
   },
   {
     "title": "2.25.16.82",
@@ -2156,8 +2156,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.84",
@@ -2168,8 +2168,8 @@
     "language": "id",
     "processed_text": "murthi malabar neem nursery",
     "sentiment": "neutral",
-    "sentiment_score": 0.26208141446113586,
-    "sentiment_confidence": 0.26208141446113586
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4375247657299042
   },
   {
     "title": "2.25.16.84",
@@ -2180,8 +2180,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.82",
@@ -2192,8 +2192,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.24.2.76",
@@ -2203,9 +2203,9 @@
     "cleaned_text": "h sezjyj zy re dm d",
     "language": "pl",
     "processed_text": "h sezjyj zy re dm d",
-    "sentiment": "negative",
-    "sentiment_score": 0.3422318696975708,
-    "sentiment_confidence": 0.3422318696975708
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45944657921791077
   },
   {
     "title": "2.25.6.74",
@@ -2216,8 +2216,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.84",
@@ -2228,8 +2228,8 @@
     "language": "en",
     "processed_text": "good lot update",
     "sentiment": "neutral",
-    "sentiment_score": 0.5499570965766907,
-    "sentiment_confidence": 0.5499570965766907
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.42156779766082764
   },
   {
     "title": "2.25.16.84",
@@ -2240,8 +2240,8 @@
     "language": "it",
     "processed_text": "usefullo app",
     "sentiment": "positive",
-    "sentiment_score": 0.4135943651199341,
-    "sentiment_confidence": 0.4135943651199341
+    "sentiment_score": 0.46814098954200745,
+    "sentiment_confidence": 0.46814098954200745
   },
   {
     "title": "2.25.16.84",
@@ -2252,8 +2252,8 @@
     "language": "en",
     "processed_text": "whatsapp work suddenly",
     "sentiment": "negative",
-    "sentiment_score": 0.46690833568573,
-    "sentiment_confidence": 0.46690833568573
+    "sentiment_score": -0.8519002199172974,
+    "sentiment_confidence": 0.8519002199172974
   },
   {
     "title": "2.24.16.76",
@@ -2264,8 +2264,8 @@
     "language": "ro",
     "processed_text": "nice aap",
     "sentiment": "positive",
-    "sentiment_score": 0.47031480073928833,
-    "sentiment_confidence": 0.47031480073928833
+    "sentiment_score": 0.5668246150016785,
+    "sentiment_confidence": 0.5668246150016785
   },
   {
     "title": "2.25.7.80",
@@ -2275,9 +2275,9 @@
     "cleaned_text": "whatsapp business was a great app until my old phone got spoilt and i wanted to run my number on this oppo phone every time i request for a code it keeps telling me we could not send an sms or call on this number how can i be helped please",
     "language": "en",
     "processed_text": "whatsapp business great app old phone get spoil want run number oppo phone time request code keep tell send sms number help",
-    "sentiment": "positive",
-    "sentiment_score": 0.2359846830368042,
-    "sentiment_confidence": 0.2359846830368042
+    "sentiment": "negative",
+    "sentiment_score": -0.8484346866607666,
+    "sentiment_confidence": 0.8484346866607666
   },
   {
     "title": "2.25.3.82",
@@ -2288,8 +2288,8 @@
     "language": "en",
     "processed_text": "amazing whatsapp communicate",
     "sentiment": "positive",
-    "sentiment_score": 0.7516326904296875,
-    "sentiment_confidence": 0.7516326904296875
+    "sentiment_score": 0.9185885787010193,
+    "sentiment_confidence": 0.9185885787010193
   },
   {
     "title": "",
@@ -2300,8 +2300,8 @@
     "language": "en",
     "processed_text": "good app",
     "sentiment": "positive",
-    "sentiment_score": 0.4914030134677887,
-    "sentiment_confidence": 0.4914030134677887
+    "sentiment_score": 0.8157966136932373,
+    "sentiment_confidence": 0.8157966136932373
   },
   {
     "title": "",
@@ -2312,8 +2312,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.4739581346511841,
+    "sentiment_confidence": 0.4739581346511841
   },
   {
     "title": "2.25.16.84",
@@ -2324,8 +2324,8 @@
     "language": "en",
     "processed_text": "face problem need official whatsapp logineven download official whatsappnow suppose dohelp",
     "sentiment": "negative",
-    "sentiment_score": 0.4856005012989044,
-    "sentiment_confidence": 0.4856005012989044
+    "sentiment_score": -0.8232389092445374,
+    "sentiment_confidence": 0.8232389092445374
   },
   {
     "title": "2.25.16.84",
@@ -2336,8 +2336,8 @@
     "language": "en",
     "processed_text": "app good week ago know work phone",
     "sentiment": "negative",
-    "sentiment_score": 0.474009245634079,
-    "sentiment_confidence": 0.474009245634079
+    "sentiment_score": -0.7458368539810181,
+    "sentiment_confidence": 0.7458368539810181
   },
   {
     "title": "2.25.16.84",
@@ -2348,8 +2348,8 @@
     "language": "en",
     "processed_text": "well chat app",
     "sentiment": "positive",
-    "sentiment_score": 0.9335951209068298,
-    "sentiment_confidence": 0.9335951209068298
+    "sentiment_score": 0.8797300457954407,
+    "sentiment_confidence": 0.8797300457954407
   },
   {
     "title": "2.25.16.82",
@@ -2360,8 +2360,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.84",
@@ -2371,9 +2371,9 @@
     "cleaned_text": "now better",
     "language": "en",
     "processed_text": "well",
-    "sentiment": "neutral",
-    "sentiment_score": 0.41229790449142456,
-    "sentiment_confidence": 0.41229790449142456
+    "sentiment": "positive",
+    "sentiment_score": 0.5753089785575867,
+    "sentiment_confidence": 0.5753089785575867
   },
   {
     "title": "2.25.16.84",
@@ -2384,8 +2384,8 @@
     "language": "sk",
     "processed_text": "ok",
     "sentiment": "neutral",
-    "sentiment_score": 0.49511438608169556,
-    "sentiment_confidence": 0.49511438608169556
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45445212721824646
   },
   {
     "title": "2.25.5.74",
@@ -2396,8 +2396,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.4315045475959778,
+    "sentiment_confidence": 0.4315045475959778
   },
   {
     "title": "2.25.16.84",
@@ -2407,9 +2407,9 @@
     "cleaned_text": "anu b ramanagoudar anu b ramanagoudar",
     "language": "id",
     "processed_text": "anu b ramanagoudar anu b ramanagoudar",
-    "sentiment": "neutral",
-    "sentiment_score": 0.24939504265785217,
-    "sentiment_confidence": 0.24939504265785217
+    "sentiment": "negative",
+    "sentiment_score": -0.38612377643585205,
+    "sentiment_confidence": 0.38612377643585205
   },
   {
     "title": "",
@@ -2420,8 +2420,8 @@
     "language": "sk",
     "processed_text": "ok",
     "sentiment": "neutral",
-    "sentiment_score": 0.49511438608169556,
-    "sentiment_confidence": 0.49511438608169556
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.42623862624168396
   },
   {
     "title": "2.25.15.80",
@@ -2432,8 +2432,8 @@
     "language": "ca",
     "processed_text": "excellent",
     "sentiment": "positive",
-    "sentiment_score": 0.8669129610061646,
-    "sentiment_confidence": 0.8669129610061646
+    "sentiment_score": 0.5348657965660095,
+    "sentiment_confidence": 0.5348657965660095
   },
   {
     "title": "2.25.16.84",
@@ -2444,8 +2444,8 @@
     "language": "en",
     "processed_text": "wow good app good service",
     "sentiment": "positive",
-    "sentiment_score": 0.5993555784225464,
-    "sentiment_confidence": 0.5993555784225464
+    "sentiment_score": 0.7381725907325745,
+    "sentiment_confidence": 0.7381725907325745
   },
   {
     "title": "2.25.16.84",
@@ -2456,8 +2456,8 @@
     "language": "en",
     "processed_text": "account block",
     "sentiment": "negative",
-    "sentiment_score": 0.687242329120636,
-    "sentiment_confidence": 0.687242329120636
+    "sentiment_score": -0.8355359435081482,
+    "sentiment_confidence": 0.8355359435081482
   },
   {
     "title": "2.25.16.82",
@@ -2467,9 +2467,9 @@
     "cleaned_text": "ali gaming",
     "language": "tl",
     "processed_text": "ali gaming",
-    "sentiment": "positive",
-    "sentiment_score": 0.3096506893634796,
-    "sentiment_confidence": 0.3096506893634796
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.856992781162262
   },
   {
     "title": "2.25.16.84",
@@ -2480,8 +2480,8 @@
     "language": "en",
     "processed_text": "fact underage school child create channel channel visible world absolutely disturbing",
     "sentiment": "negative",
-    "sentiment_score": 0.6269500851631165,
-    "sentiment_confidence": 0.6269500851631165
+    "sentiment_score": -0.9120455384254456,
+    "sentiment_confidence": 0.9120455384254456
   },
   {
     "title": "2.25.16.84",
@@ -2492,8 +2492,8 @@
     "language": "en",
     "processed_text": "fun enjoyable",
     "sentiment": "positive",
-    "sentiment_score": 0.535199761390686,
-    "sentiment_confidence": 0.535199761390686
+    "sentiment_score": 0.8986049294471741,
+    "sentiment_confidence": 0.8986049294471741
   },
   {
     "title": "",
@@ -2503,9 +2503,9 @@
     "cleaned_text": "supper app",
     "language": "it",
     "processed_text": "supper app",
-    "sentiment": "positive",
-    "sentiment_score": 0.3767462968826294,
-    "sentiment_confidence": 0.3767462968826294
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3734373152256012
   },
   {
     "title": "2.23.23.78",
@@ -2516,8 +2516,8 @@
     "language": "it",
     "processed_text": "nice amazing application",
     "sentiment": "positive",
-    "sentiment_score": 0.7247258424758911,
-    "sentiment_confidence": 0.7247258424758911
+    "sentiment_score": 0.8962751030921936,
+    "sentiment_confidence": 0.8962751030921936
   },
   {
     "title": "2.25.16.84",
@@ -2528,8 +2528,8 @@
     "language": "en",
     "processed_text": "work",
     "sentiment": "negative",
-    "sentiment_score": 0.6188992261886597,
-    "sentiment_confidence": 0.6188992261886597
+    "sentiment_score": -0.5254201889038086,
+    "sentiment_confidence": 0.5254201889038086
   },
   {
     "title": "2.25.16.82",
@@ -2539,9 +2539,9 @@
     "cleaned_text": "morya",
     "language": "en",
     "processed_text": "morya",
-    "sentiment": "neutral",
-    "sentiment_score": 0.2793169617652893,
-    "sentiment_confidence": 0.2793169617652893
+    "sentiment": "positive",
+    "sentiment_score": 0.352325439453125,
+    "sentiment_confidence": 0.352325439453125
   },
   {
     "title": "",
@@ -2552,8 +2552,8 @@
     "language": "ca",
     "processed_text": "excellent",
     "sentiment": "positive",
-    "sentiment_score": 0.8669129610061646,
-    "sentiment_confidence": 0.8669129610061646
+    "sentiment_score": 0.5366031527519226,
+    "sentiment_confidence": 0.5366031527519226
   },
   {
     "title": "2.24.1.18",
@@ -2564,8 +2564,8 @@
     "language": "fi",
     "processed_text": "tyuu",
     "sentiment": "neutral",
-    "sentiment_score": 0.21830329298973083,
-    "sentiment_confidence": 0.21830329298973083
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4001375436782837
   },
   {
     "title": "2.25.16.84",
@@ -2575,9 +2575,9 @@
     "cleaned_text": "girish sa",
     "language": "tl",
     "processed_text": "girish sa",
-    "sentiment": "positive",
-    "sentiment_score": 0.27196159958839417,
-    "sentiment_confidence": 0.27196159958839417
+    "sentiment": "negative",
+    "sentiment_score": -0.49343645572662354,
+    "sentiment_confidence": 0.49343645572662354
   },
   {
     "title": "2.25.16.82",
@@ -2588,8 +2588,8 @@
     "language": "et",
     "processed_text": "just great",
     "sentiment": "positive",
-    "sentiment_score": 0.771393358707428,
-    "sentiment_confidence": 0.771393358707428
+    "sentiment_score": 0.8172599077224731,
+    "sentiment_confidence": 0.8172599077224731
   },
   {
     "title": "2.25.16.84",
@@ -2600,8 +2600,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.4315045475959778,
+    "sentiment_confidence": 0.4315045475959778
   },
   {
     "title": "2.25.8.84",
@@ -2612,8 +2612,8 @@
     "language": "pl",
     "processed_text": "nice day",
     "sentiment": "positive",
-    "sentiment_score": 0.4467785060405731,
-    "sentiment_confidence": 0.4467785060405731
+    "sentiment_score": 0.7520525455474854,
+    "sentiment_confidence": 0.7520525455474854
   },
   {
     "title": "2.25.15.80",
@@ -2623,9 +2623,9 @@
     "cleaned_text": "supan raj",
     "language": "id",
     "processed_text": "supan raj",
-    "sentiment": "positive",
-    "sentiment_score": 0.2554904818534851,
-    "sentiment_confidence": 0.2554904818534851
+    "sentiment": "negative",
+    "sentiment_score": -0.35003766417503357,
+    "sentiment_confidence": 0.35003766417503357
   },
   {
     "title": "2.25.16.84",
@@ -2635,9 +2635,9 @@
     "cleaned_text": "faysal bbdi",
     "language": "so",
     "processed_text": "faysal bbdi",
-    "sentiment": "positive",
-    "sentiment_score": 0.2578692138195038,
-    "sentiment_confidence": 0.2578692138195038
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.34426453709602356
   },
   {
     "title": "2.25.11.75",
@@ -2648,8 +2648,8 @@
     "language": "en",
     "processed_text": "kindly desable swipe immediately",
     "sentiment": "negative",
-    "sentiment_score": 0.24879813194274902,
-    "sentiment_confidence": 0.24879813194274902
+    "sentiment_score": -0.7880458235740662,
+    "sentiment_confidence": 0.7880458235740662
   },
   {
     "title": "2.21.9.13",
@@ -2660,8 +2660,8 @@
     "language": "en",
     "processed_text": "application go worst everyday call connect oftenly",
     "sentiment": "negative",
-    "sentiment_score": 0.691659688949585,
-    "sentiment_confidence": 0.691659688949585
+    "sentiment_score": -0.8865564465522766,
+    "sentiment_confidence": 0.8865564465522766
   },
   {
     "title": "2.25.5.74",
@@ -2671,9 +2671,9 @@
     "cleaned_text": "",
     "language": "unknown",
     "processed_text": "",
-    "sentiment": "positive",
-    "sentiment_score": 0.3085777461528778,
-    "sentiment_confidence": 0.3085777461528778
+    "sentiment": "negative",
+    "sentiment_score": -0.5457390546798706,
+    "sentiment_confidence": 0.5457390546798706
   },
   {
     "title": "",
@@ -2684,8 +2684,8 @@
     "language": "en",
     "processed_text": "good app",
     "sentiment": "positive",
-    "sentiment_score": 0.533740222454071,
-    "sentiment_confidence": 0.533740222454071
+    "sentiment_score": 0.7185609340667725,
+    "sentiment_confidence": 0.7185609340667725
   },
   {
     "title": "2.25.16.84",
@@ -2696,8 +2696,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.25.16.82",
@@ -2708,8 +2708,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "positive",
-    "sentiment_score": 0.3085777461528778,
-    "sentiment_confidence": 0.3085777461528778
+    "sentiment_score": 0.7459723353385925,
+    "sentiment_confidence": 0.7459723353385925
   },
   {
     "title": "2.25.16.84",
@@ -2719,9 +2719,9 @@
     "cleaned_text": "parfacta",
     "language": "ca",
     "processed_text": "parfacta",
-    "sentiment": "positive",
-    "sentiment_score": 0.6250373125076294,
-    "sentiment_confidence": 0.6250373125076294
+    "sentiment": "negative",
+    "sentiment_score": -0.39829495549201965,
+    "sentiment_confidence": 0.39829495549201965
   },
   {
     "title": "2.25.16.84",
@@ -2732,8 +2732,8 @@
     "language": "en",
     "processed_text": "whatsapp good application mobile phone app fingerprint setting whatsapp end set lock whatsapp show set biometric unable like use face unlock everytime whatsapp update face d fingerprint use lock pattern pin customisable",
     "sentiment": "neutral",
-    "sentiment_score": 0.4308537244796753,
-    "sentiment_confidence": 0.4308537244796753
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.46332865953445435
   },
   {
     "title": "",
@@ -2744,8 +2744,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.25.16.84",
@@ -2756,8 +2756,8 @@
     "language": "hr",
     "processed_text": "basavaraj ropan",
     "sentiment": "neutral",
-    "sentiment_score": 0.26577135920524597,
-    "sentiment_confidence": 0.26577135920524597
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4080057442188263
   },
   {
     "title": "2.25.16.84",
@@ -2768,8 +2768,8 @@
     "language": "it",
     "processed_text": "il cannot open it",
     "sentiment": "negative",
-    "sentiment_score": 0.5573893189430237,
-    "sentiment_confidence": 0.5573893189430237
+    "sentiment_score": -0.8639196753501892,
+    "sentiment_confidence": 0.8639196753501892
   },
   {
     "title": "2.25.16.84",
@@ -2780,8 +2780,8 @@
     "language": "en",
     "processed_text": "status appear chronological order experience problem month till solution give expect proper improvement",
     "sentiment": "negative",
-    "sentiment_score": 0.40164807438850403,
-    "sentiment_confidence": 0.40164807438850403
+    "sentiment_score": -0.8344749808311462,
+    "sentiment_confidence": 0.8344749808311462
   },
   {
     "title": "2.25.6.74",
@@ -2792,8 +2792,8 @@
     "language": "en",
     "processed_text": "good app save datum secure",
     "sentiment": "positive",
-    "sentiment_score": 0.5439032316207886,
-    "sentiment_confidence": 0.5439032316207886
+    "sentiment_score": 0.8066533803939819,
+    "sentiment_confidence": 0.8066533803939819
   },
   {
     "title": "2.25.14.76",
@@ -2804,8 +2804,8 @@
     "language": "it",
     "processed_text": "il cannot made channel sadge",
     "sentiment": "negative",
-    "sentiment_score": 0.4024814963340759,
-    "sentiment_confidence": 0.4024814963340759
+    "sentiment_score": -0.8641586899757385,
+    "sentiment_confidence": 0.8641586899757385
   },
   {
     "title": "2.25.16.84",
@@ -2816,8 +2816,8 @@
     "language": "so",
     "processed_text": "kabirou",
     "sentiment": "neutral",
-    "sentiment_score": 0.269393652677536,
-    "sentiment_confidence": 0.269393652677536
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3916406035423279
   },
   {
     "title": "2.25.5.74",
@@ -2828,8 +2828,8 @@
     "language": "af",
     "processed_text": "not good",
     "sentiment": "negative",
-    "sentiment_score": 0.5929605960845947,
-    "sentiment_confidence": 0.5929605960845947
+    "sentiment_score": -0.7891402840614319,
+    "sentiment_confidence": 0.7891402840614319
   },
   {
     "title": "",
@@ -2839,9 +2839,9 @@
     "cleaned_text": "you can communicate with someone who is too far than you",
     "language": "en",
     "processed_text": "communicate far",
-    "sentiment": "positive",
-    "sentiment_score": 0.34507593512535095,
-    "sentiment_confidence": 0.34507593512535095
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.5841022729873657
   },
   {
     "title": "2.25.16.84",
@@ -2852,8 +2852,8 @@
     "language": "en",
     "processed_text": "simply good app communication friend family work",
     "sentiment": "positive",
-    "sentiment_score": 0.5366931557655334,
-    "sentiment_confidence": 0.5366931557655334
+    "sentiment_score": 0.829157829284668,
+    "sentiment_confidence": 0.829157829284668
   },
   {
     "title": "2.25.16.84",
@@ -2864,8 +2864,8 @@
     "language": "af",
     "processed_text": "very good",
     "sentiment": "positive",
-    "sentiment_score": 0.5479443073272705,
-    "sentiment_confidence": 0.5479443073272705
+    "sentiment_score": 0.7152417898178101,
+    "sentiment_confidence": 0.7152417898178101
   },
   {
     "title": "2.25.5.74",
@@ -2875,9 +2875,9 @@
     "cleaned_text": "not much",
     "language": "en",
     "processed_text": "",
-    "sentiment": "negative",
-    "sentiment_score": 0.4654366374015808,
-    "sentiment_confidence": 0.4654366374015808
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45561763644218445
   },
   {
     "title": "2.25.16.82",
@@ -2888,8 +2888,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.25.16.84",
@@ -2900,8 +2900,8 @@
     "language": "en",
     "processed_text": "addition meta ai make sad removable",
     "sentiment": "negative",
-    "sentiment_score": 0.4729484021663666,
-    "sentiment_confidence": 0.4729484021663666
+    "sentiment_score": -0.9453027248382568,
+    "sentiment_confidence": 0.9453027248382568
   },
   {
     "title": "2.25.16.84",
@@ -2912,8 +2912,8 @@
     "language": "af",
     "processed_text": "best",
     "sentiment": "positive",
-    "sentiment_score": 0.7400626540184021,
-    "sentiment_confidence": 0.7400626540184021
+    "sentiment_score": 0.3724946677684784,
+    "sentiment_confidence": 0.3724946677684784
   },
   {
     "title": "2.25.9.78",
@@ -2924,8 +2924,8 @@
     "language": "sq",
     "processed_text": "adjustment gujjar nf j n",
     "sentiment": "neutral",
-    "sentiment_score": 0.2962714731693268,
-    "sentiment_confidence": 0.2962714731693268
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41227293014526367
   },
   {
     "title": "2.25.14.76",
@@ -2936,8 +2936,8 @@
     "language": "ro",
     "processed_text": "great",
     "sentiment": "positive",
-    "sentiment_score": 0.7410832047462463,
-    "sentiment_confidence": 0.7410832047462463
+    "sentiment_score": 0.5717915892601013,
+    "sentiment_confidence": 0.5717915892601013
   },
   {
     "title": "2.25.4.77",
@@ -2947,9 +2947,9 @@
     "cleaned_text": "rajkumar up",
     "language": "lv",
     "processed_text": "rajkumar up",
-    "sentiment": "negative",
-    "sentiment_score": 0.3172154128551483,
-    "sentiment_confidence": 0.3172154128551483
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4536857604980469
   },
   {
     "title": "2.25.16.84",
@@ -2960,8 +2960,8 @@
     "language": "en",
     "processed_text": "scammer people run scam ban",
     "sentiment": "negative",
-    "sentiment_score": 0.6278190612792969,
-    "sentiment_confidence": 0.6278190612792969
+    "sentiment_score": -0.9018311500549316,
+    "sentiment_confidence": 0.9018311500549316
   },
   {
     "title": "2.25.16.82",
@@ -2971,9 +2971,9 @@
     "cleaned_text": "nirajkumar",
     "language": "hr",
     "processed_text": "nirajkumar",
-    "sentiment": "positive",
-    "sentiment_score": 0.23916186392307281,
-    "sentiment_confidence": 0.23916186392307281
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.34819966554641724
   },
   {
     "title": "2.25.7.80",
@@ -2984,8 +2984,8 @@
     "language": "sl",
     "processed_text": "i love it",
     "sentiment": "positive",
-    "sentiment_score": 0.8333383798599243,
-    "sentiment_confidence": 0.8333383798599243
+    "sentiment_score": 0.9171797633171082,
+    "sentiment_confidence": 0.9171797633171082
   },
   {
     "title": "2.24.13.77",
@@ -2995,9 +2995,9 @@
     "cleaned_text": "waooo",
     "language": "so",
     "processed_text": "waooo",
-    "sentiment": "neutral",
-    "sentiment_score": 0.2553459405899048,
-    "sentiment_confidence": 0.2553459405899048
+    "sentiment": "positive",
+    "sentiment_score": 0.37568899989128113,
+    "sentiment_confidence": 0.37568899989128113
   },
   {
     "title": "",
@@ -3007,9 +3007,9 @@
     "cleaned_text": "whatsapp bahut hi new app hai achcha mast hai to",
     "language": "en",
     "processed_text": "whatsapp bahut hi new app hai achcha mast hai",
-    "sentiment": "negative",
-    "sentiment_score": 0.38666555285453796,
-    "sentiment_confidence": 0.38666555285453796
+    "sentiment": "positive",
+    "sentiment_score": 0.41222280263900757,
+    "sentiment_confidence": 0.41222280263900757
   },
   {
     "title": "",
@@ -3020,8 +3020,8 @@
     "language": "en",
     "processed_text": "good app",
     "sentiment": "positive",
-    "sentiment_score": 0.7315211892127991,
-    "sentiment_confidence": 0.7315211892127991
+    "sentiment_score": 0.9070308804512024,
+    "sentiment_confidence": 0.9070308804512024
   },
   {
     "title": "2.25.16.84",
@@ -3032,8 +3032,8 @@
     "language": "en",
     "processed_text": "work good",
     "sentiment": "positive",
-    "sentiment_score": 0.49823197722435,
-    "sentiment_confidence": 0.49823197722435
+    "sentiment_score": 0.72530198097229,
+    "sentiment_confidence": 0.72530198097229
   },
   {
     "title": "2.25.16.82",
@@ -3044,8 +3044,8 @@
     "language": "af",
     "processed_text": "very poor",
     "sentiment": "negative",
-    "sentiment_score": 0.6927267909049988,
-    "sentiment_confidence": 0.6927267909049988
+    "sentiment_score": -0.9179909825325012,
+    "sentiment_confidence": 0.9179909825325012
   },
   {
     "title": "2.25.7.80",
@@ -3056,8 +3056,8 @@
     "language": "unknown",
     "processed_text": "",
     "sentiment": "positive",
-    "sentiment_score": 0.5367152094841003,
-    "sentiment_confidence": 0.5367152094841003
+    "sentiment_score": 0.8469836115837097,
+    "sentiment_confidence": 0.8469836115837097
   },
   {
     "title": "2.25.9.78",
@@ -3068,8 +3068,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "",
@@ -3079,9 +3079,9 @@
     "cleaned_text": "imamimam",
     "language": "lt",
     "processed_text": "imamimam",
-    "sentiment": "positive",
-    "sentiment_score": 0.3160777986049652,
-    "sentiment_confidence": 0.3160777986049652
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41287216544151306
   },
   {
     "title": "2.25.16.84",
@@ -3092,8 +3092,8 @@
     "language": "en",
     "processed_text": "video camera work",
     "sentiment": "negative",
-    "sentiment_score": 0.6521065831184387,
-    "sentiment_confidence": 0.6521065831184387
+    "sentiment_score": -0.6921836733818054,
+    "sentiment_confidence": 0.6921836733818054
   },
   {
     "title": "",
@@ -3104,8 +3104,8 @@
     "language": "it",
     "processed_text": "Fantastic app",
     "sentiment": "positive",
-    "sentiment_score": 0.8146353960037231,
-    "sentiment_confidence": 0.8146353960037231
+    "sentiment_score": 0.8254064917564392,
+    "sentiment_confidence": 0.8254064917564392
   },
   {
     "title": "2.25.16.84",
@@ -3116,8 +3116,8 @@
     "language": "en",
     "processed_text": "restore whatsapp",
     "sentiment": "negative",
-    "sentiment_score": 0.29974788427352905,
-    "sentiment_confidence": 0.29974788427352905
+    "sentiment_score": -0.5235788226127625,
+    "sentiment_confidence": 0.5235788226127625
   },
   {
     "title": "2.25.16.84",
@@ -3128,8 +3128,8 @@
     "language": "en",
     "processed_text": "know love app lot reach friend family far wild",
     "sentiment": "positive",
-    "sentiment_score": 0.6410968899726868,
-    "sentiment_confidence": 0.6410968899726868
+    "sentiment_score": 0.7827120423316956,
+    "sentiment_confidence": 0.7827120423316956
   },
   {
     "title": "2.25.15.80",
@@ -3140,8 +3140,8 @@
     "language": "en",
     "processed_text": "nice goodfor contact family",
     "sentiment": "positive",
-    "sentiment_score": 0.514710009098053,
-    "sentiment_confidence": 0.514710009098053
+    "sentiment_score": 0.7876937389373779,
+    "sentiment_confidence": 0.7876937389373779
   },
   {
     "title": "2.25.16.84",
@@ -3151,9 +3151,9 @@
     "cleaned_text": "alex you",
     "language": "so",
     "processed_text": "alex you",
-    "sentiment": "positive",
-    "sentiment_score": 0.27561888098716736,
-    "sentiment_confidence": 0.27561888098716736
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.41748374700546265
   },
   {
     "title": "2.25.16.84",
@@ -3163,9 +3163,9 @@
     "cleaned_text": "exlend",
     "language": "es",
     "processed_text": "exlend",
-    "sentiment": "positive",
-    "sentiment_score": 0.3561582565307617,
-    "sentiment_confidence": 0.3561582565307617
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4374311864376068
   },
   {
     "title": "2.25.16.84",
@@ -3176,8 +3176,8 @@
     "language": "cs",
     "processed_text": "v nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4069434702396393,
-    "sentiment_confidence": 0.4069434702396393
+    "sentiment_score": 0.6601697206497192,
+    "sentiment_confidence": 0.6601697206497192
   },
   {
     "title": "2.23.2.76",
@@ -3188,8 +3188,8 @@
     "language": "en",
     "processed_text": "nice app chart family one",
     "sentiment": "positive",
-    "sentiment_score": 0.49141353368759155,
-    "sentiment_confidence": 0.49141353368759155
+    "sentiment_score": 0.8085897564888,
+    "sentiment_confidence": 0.8085897564888
   },
   {
     "title": "2.25.13.74",
@@ -3200,8 +3200,8 @@
     "language": "cy",
     "processed_text": "gafg",
     "sentiment": "neutral",
-    "sentiment_score": 0.2675360143184662,
-    "sentiment_confidence": 0.2675360143184662
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.40852952003479004
   },
   {
     "title": "2.25.16.82",
@@ -3212,8 +3212,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.84",
@@ -3224,8 +3224,8 @@
     "language": "id",
     "processed_text": "murthi malabar neem nursery",
     "sentiment": "neutral",
-    "sentiment_score": 0.26208141446113586,
-    "sentiment_confidence": 0.26208141446113586
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.4375247657299042
   },
   {
     "title": "2.25.16.84",
@@ -3236,8 +3236,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.82",
@@ -3248,8 +3248,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.24.2.76",
@@ -3259,9 +3259,9 @@
     "cleaned_text": "h sezjyj zy re dm d",
     "language": "pl",
     "processed_text": "h sezjyj zy re dm d",
-    "sentiment": "negative",
-    "sentiment_score": 0.3422318696975708,
-    "sentiment_confidence": 0.3422318696975708
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45944657921791077
   },
   {
     "title": "2.25.6.74",
@@ -3272,8 +3272,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.84",
@@ -3284,8 +3284,8 @@
     "language": "en",
     "processed_text": "good lot update",
     "sentiment": "neutral",
-    "sentiment_score": 0.5499570965766907,
-    "sentiment_confidence": 0.5499570965766907
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.42156779766082764
   },
   {
     "title": "2.25.16.84",
@@ -3296,8 +3296,8 @@
     "language": "it",
     "processed_text": "usefullo app",
     "sentiment": "positive",
-    "sentiment_score": 0.4135943651199341,
-    "sentiment_confidence": 0.4135943651199341
+    "sentiment_score": 0.46814098954200745,
+    "sentiment_confidence": 0.46814098954200745
   },
   {
     "title": "2.25.16.84",
@@ -3308,8 +3308,8 @@
     "language": "en",
     "processed_text": "whatsapp work suddenly",
     "sentiment": "negative",
-    "sentiment_score": 0.46690833568573,
-    "sentiment_confidence": 0.46690833568573
+    "sentiment_score": -0.8519002199172974,
+    "sentiment_confidence": 0.8519002199172974
   },
   {
     "title": "2.24.16.76",
@@ -3320,8 +3320,8 @@
     "language": "ro",
     "processed_text": "nice aap",
     "sentiment": "positive",
-    "sentiment_score": 0.47031480073928833,
-    "sentiment_confidence": 0.47031480073928833
+    "sentiment_score": 0.5668246150016785,
+    "sentiment_confidence": 0.5668246150016785
   },
   {
     "title": "2.25.7.80",
@@ -3331,9 +3331,9 @@
     "cleaned_text": "whatsapp business was a great app until my old phone got spoilt and i wanted to run my number on this oppo phone every time i request for a code it keeps telling me we could not send an sms or call on this number how can i be helped please",
     "language": "en",
     "processed_text": "whatsapp business great app old phone get spoil want run number oppo phone time request code keep tell send sms number help",
-    "sentiment": "positive",
-    "sentiment_score": 0.2359846830368042,
-    "sentiment_confidence": 0.2359846830368042
+    "sentiment": "negative",
+    "sentiment_score": -0.8484346866607666,
+    "sentiment_confidence": 0.8484346866607666
   },
   {
     "title": "2.25.3.82",
@@ -3344,8 +3344,8 @@
     "language": "en",
     "processed_text": "amazing whatsapp communicate",
     "sentiment": "positive",
-    "sentiment_score": 0.7516326904296875,
-    "sentiment_confidence": 0.7516326904296875
+    "sentiment_score": 0.9185885787010193,
+    "sentiment_confidence": 0.9185885787010193
   },
   {
     "title": "",
@@ -3356,8 +3356,8 @@
     "language": "en",
     "processed_text": "good app",
     "sentiment": "positive",
-    "sentiment_score": 0.4914030134677887,
-    "sentiment_confidence": 0.4914030134677887
+    "sentiment_score": 0.8157966136932373,
+    "sentiment_confidence": 0.8157966136932373
   },
   {
     "title": "",
@@ -3368,8 +3368,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.4739581346511841,
+    "sentiment_confidence": 0.4739581346511841
   },
   {
     "title": "2.25.16.84",
@@ -3380,8 +3380,8 @@
     "language": "en",
     "processed_text": "face problem need official whatsapp logineven download official whatsappnow suppose dohelp",
     "sentiment": "negative",
-    "sentiment_score": 0.4856005012989044,
-    "sentiment_confidence": 0.4856005012989044
+    "sentiment_score": -0.8232389092445374,
+    "sentiment_confidence": 0.8232389092445374
   },
   {
     "title": "2.25.16.84",
@@ -3392,8 +3392,8 @@
     "language": "en",
     "processed_text": "app good week ago know work phone",
     "sentiment": "negative",
-    "sentiment_score": 0.474009245634079,
-    "sentiment_confidence": 0.474009245634079
+    "sentiment_score": -0.7458368539810181,
+    "sentiment_confidence": 0.7458368539810181
   },
   {
     "title": "2.25.16.84",
@@ -3404,8 +3404,8 @@
     "language": "en",
     "processed_text": "well chat app",
     "sentiment": "positive",
-    "sentiment_score": 0.9335951209068298,
-    "sentiment_confidence": 0.9335951209068298
+    "sentiment_score": 0.8797300457954407,
+    "sentiment_confidence": 0.8797300457954407
   },
   {
     "title": "2.25.16.82",
@@ -3416,8 +3416,8 @@
     "language": "pl",
     "processed_text": "nice",
     "sentiment": "positive",
-    "sentiment_score": 0.4368407726287842,
-    "sentiment_confidence": 0.4368407726287842
+    "sentiment_score": 0.45184358954429626,
+    "sentiment_confidence": 0.45184358954429626
   },
   {
     "title": "2.25.16.84",
@@ -3427,9 +3427,9 @@
     "cleaned_text": "now better",
     "language": "en",
     "processed_text": "well",
-    "sentiment": "neutral",
-    "sentiment_score": 0.41229790449142456,
-    "sentiment_confidence": 0.41229790449142456
+    "sentiment": "positive",
+    "sentiment_score": 0.5753089785575867,
+    "sentiment_confidence": 0.5753089785575867
   },
   {
     "title": "2.25.16.84",
@@ -3440,8 +3440,8 @@
     "language": "sk",
     "processed_text": "ok",
     "sentiment": "neutral",
-    "sentiment_score": 0.49511438608169556,
-    "sentiment_confidence": 0.49511438608169556
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.45445212721824646
   },
   {
     "title": "2.25.5.74",
@@ -3452,8 +3452,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.4315045475959778,
+    "sentiment_confidence": 0.4315045475959778
   },
   {
     "title": "2.25.16.84",
@@ -3464,8 +3464,8 @@
     "language": "cy",
     "processed_text": "mdsharif",
     "sentiment": "neutral",
-    "sentiment_score": 0.25324368476867676,
-    "sentiment_confidence": 0.25324368476867676
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.3580118715763092
   },
   {
     "title": "2.25.16.84",
@@ -3476,8 +3476,8 @@
     "language": "en",
     "processed_text": "day whatsapp bad ability run properly sell ability person jai hind",
     "sentiment": "negative",
-    "sentiment_score": 0.7902919054031372,
-    "sentiment_confidence": 0.7902919054031372
+    "sentiment_score": -0.941693127155304,
+    "sentiment_confidence": 0.941693127155304
   },
   {
     "title": "2.25.16.84",
@@ -3487,9 +3487,9 @@
     "cleaned_text": "official whatshap",
     "language": "en",
     "processed_text": "official whatshap",
-    "sentiment": "positive",
-    "sentiment_score": 0.328857958316803,
-    "sentiment_confidence": 0.328857958316803
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.6674312353134155
   },
   {
     "title": "",
@@ -3500,8 +3500,8 @@
     "language": "so",
     "processed_text": "good",
     "sentiment": "positive",
-    "sentiment_score": 0.49696317315101624,
-    "sentiment_confidence": 0.49696317315101624
+    "sentiment_score": 0.49037984013557434,
+    "sentiment_confidence": 0.49037984013557434
   },
   {
     "title": "",
@@ -3512,8 +3512,8 @@
     "language": "en",
     "processed_text": "application work fast",
     "sentiment": "positive",
-    "sentiment_score": 0.5929805040359497,
-    "sentiment_confidence": 0.5929805040359497
+    "sentiment_score": 0.7295734882354736,
+    "sentiment_confidence": 0.7295734882354736
   },
   {
     "title": "2.25.16.84",
@@ -3524,8 +3524,8 @@
     "language": "hr",
     "processed_text": "good nice",
     "sentiment": "positive",
-    "sentiment_score": 0.5405433773994446,
-    "sentiment_confidence": 0.5405433773994446
+    "sentiment_score": 0.5912849307060242,
+    "sentiment_confidence": 0.5912849307060242
   },
   {
     "title": "2.24.17.79",
@@ -3536,8 +3536,8 @@
     "language": "af",
     "processed_text": "whatsapp aap not working",
     "sentiment": "negative",
-    "sentiment_score": 0.5729694962501526,
-    "sentiment_confidence": 0.5729694962501526
+    "sentiment_score": -0.7794023752212524,
+    "sentiment_confidence": 0.7794023752212524
   },
   {
     "title": "",
@@ -3548,8 +3548,8 @@
     "language": "en",
     "processed_text": "good whatsapp",
     "sentiment": "positive",
-    "sentiment_score": 0.9165887236595154,
-    "sentiment_confidence": 0.9165887236595154
+    "sentiment_score": 0.8719215989112854,
+    "sentiment_confidence": 0.8719215989112854
   },
   {
     "title": "2.25.2.85",
@@ -3560,8 +3560,8 @@
     "language": "pl",
     "processed_text": "niec",
     "sentiment": "negative",
-    "sentiment_score": 0.2693943679332733,
-    "sentiment_confidence": 0.2693943679332733
+    "sentiment_score": -0.37534061074256897,
+    "sentiment_confidence": 0.37534061074256897
   },
   {
     "title": "2.25.5.74",
@@ -3572,8 +3572,8 @@
     "language": "ro",
     "processed_text": "super",
     "sentiment": "positive",
-    "sentiment_score": 0.7829088568687439,
-    "sentiment_confidence": 0.7829088568687439
+    "sentiment_score": 0.5531970858573914,
+    "sentiment_confidence": 0.5531970858573914
   },
   {
     "title": "2.24.17.79",
@@ -3583,9 +3583,9 @@
     "cleaned_text": "june",
     "language": "et",
     "processed_text": "june",
-    "sentiment": "negative",
-    "sentiment_score": 0.4318767786026001,
-    "sentiment_confidence": 0.4318767786026001
+    "sentiment": "neutral",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.8335760831832886
   },
   {
     "title": "",
@@ -3596,7 +3596,7 @@
     "language": "da",
     "processed_text": "i liked very much",
     "sentiment": "positive",
-    "sentiment_score": 0.537014901638031,
-    "sentiment_confidence": 0.537014901638031
+    "sentiment_score": 0.8713346719741821,
+    "sentiment_confidence": 0.8713346719741821
   }
 ]
