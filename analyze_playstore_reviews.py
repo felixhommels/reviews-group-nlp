@@ -48,7 +48,6 @@ def main():
         if 'rating' in analyzed_df.columns:
             logger.info("Rating distribution:")
             logger.info(analyzed_df['rating'].value_counts())
-    
     logger.info("Analysis complete!")
 
 if __name__ == "__main__":

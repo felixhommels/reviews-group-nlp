@@ -1,0 +1,3 @@
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+AutoTokenizer.from_pretrained("pysentimiento/robertuito-emotion-analysis")
+AutoModelForSequenceClassification.from_pretrained("pysentimiento/robertuito-emotion-analysis")

@@ -16,47 +16,10 @@ from functools import lru_cache
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification, XLMRobertaTokenizer
 
 from src.utils.dependencies import dependency_manager, DependencyError
-from src.config.manager import ConfigManager, FALLBACK_ORDER
+from src.config.manager import ConfigManager
 
 # Configure logging
 logger = logging.getLogger(__name__)
-
-# Model mapping for different sources
-SENTIMENT_MODEL_MAP = {
-    'steam': 'cardiffnlp/twitter-xlm-roberta-base-sentiment',
-    'playstore': 'cardiffnlp/twitter-xlm-roberta-base-sentiment',
-    'imdb': 'nlptown/bert-base-multilingual-uncased-sentiment',
-    'trustpilot': 'nlptown/bert-base-multilingual-uncased-sentiment',
-    'default': 'cardiffnlp/twitter-xlm-roberta-base-sentiment'
-}
-
-# Model configurations
-MODEL_CONFIGS = {
-    'cardiffnlp/twitter-xlm-roberta-base-sentiment': {
-        'use_fast_tokenizer': False,
-        'model_max_length': 512,
-        'truncation': True,
-        'max_length': 512,
-        'label_map': {
-            'positive': 'positive',
-            'negative': 'negative',
-            'neutral': 'neutral'
-        }
-    },
-    'nlptown/bert-base-multilingual-uncased-sentiment': {
-        'use_fast_tokenizer': True,
-        'model_max_length': 512,
-        'truncation': True,
-        'max_length': 512,
-        'label_map': {
-            '1 star': 'negative',
-            '2 stars': 'negative',
-            '3 stars': 'neutral',
-            '4 stars': 'positive',
-            '5 stars': 'positive'
-        }
-    }
-}
 
 # Sentiment analysis: VADER (for English) or fallback to TextBlob
 try:
@@ -73,256 +36,44 @@ except ImportError:
     TEXTBLOB_AVAILABLE = False
     logger.error("Neither VADER nor TextBlob available. Sentiment analysis will be limited.")
 
-class SentimentLabel(str, Enum):
-    """Enum for sentiment classification labels."""
-    POSITIVE = 'positive'
-    NEGATIVE = 'negative'
-    NEUTRAL = 'neutral'
-    UNKNOWN = 'unknown'
-
-@dataclass
-class SentimentAnalysis:
-    """Container for sentiment analysis results."""
-    sentiment: SentimentLabel
-    polarity: float
-    subjectivity: Optional[float] = None
-    compound_score: Optional[float] = None
-
-    def to_dict(self) -> Dict[str, Any]:
-        """Convert the sentiment analysis result to a dictionary."""
-        return {
-            'label': self.sentiment,
-            'score': self.polarity,
-            'compound_score': self.compound_score,
-            'subjectivity': self.subjectivity
-        }
-
 @lru_cache(maxsize=8)
-def get_sentiment_model(source: str):
+def get_sentiment_model(source: str, language: str = 'en'):
     """Return the correct Hugging Face pipeline for the platform."""
     try:
-        model_name = SENTIMENT_MODEL_MAP.get(source.lower(), SENTIMENT_MODEL_MAP['default'])
-        config = MODEL_CONFIGS.get(model_name, {})
-        
+        # Use SENTIMENT_MODEL_MAP to map source to model name
+        model_map = getattr(ConfigManager, 'SENTIMENT_MODEL_MAP', None)
+        if model_map is None:
+            from src.config.manager import SENTIMENT_MODEL_MAP as model_map
+        model_name = model_map.get(source.lower())
+        if not model_name:
+            model_name = ConfigManager.get_model_configs().get('default')
+        model_config = ConfigManager.get_model_configs().get(model_name, {})
         # Initialize tokenizer with appropriate settings
         if model_name == 'cardiffnlp/twitter-xlm-roberta-base-sentiment':
             tokenizer = XLMRobertaTokenizer.from_pretrained(
                 model_name,
-                model_max_length=config.get('model_max_length', 512)
+                model_max_length=model_config.get('model_max_length', 512)
             )
         else:
             tokenizer = AutoTokenizer.from_pretrained(
                 model_name,
-                use_fast=config.get('use_fast_tokenizer', True),
-                model_max_length=config.get('model_max_length', 512)
+                use_fast=model_config.get('use_fast_tokenizer', True),
+                model_max_length=model_config.get('model_max_length', 512)
             )
-        
         # Initialize model
         model = AutoModelForSequenceClassification.from_pretrained(model_name)
-        
         # Create pipeline with appropriate settings
         return pipeline(
             "sentiment-analysis",
             model=model,
             tokenizer=tokenizer,
             device=-1,  # Use CPU
-            truncation=config.get('truncation', True),
-            max_length=config.get('max_length', 512)
+            truncation=model_config.get('truncation', True),
+            max_length=model_config.get('model_max_length', 512)
         )
     except Exception as e:
         logger.error(f"Error loading sentiment model for source '{source}': {e}")
         return None
-
-def normalize_sentiment_output(model_output: dict, source: str, text: str) -> dict:
-    """Convert model output to unified format."""
-    try:
-        model_name = SENTIMENT_MODEL_MAP.get(source.lower(), SENTIMENT_MODEL_MAP['default'])
-        config = MODEL_CONFIGS.get(model_name, {})
-        label_map = config.get('label_map', {})
-        
-        raw_label = model_output['label']
-        score = model_output['score']
-        
-        # Map the raw label to our standardized labels
-        mapped_label = label_map.get(raw_label, 'neutral')
-        
-        # Normalize score to [-1, 1] range
-        if model_name == 'nlptown/bert-base-multilingual-uncased-sentiment':
-            # For nlptown model, convert star rating to [-1, 1]
-            try:
-                stars = int(raw_label.split()[0])
-                normalized_score = (stars - 3) / 2  # Convert 1-5 to -1 to 1
-            except Exception:
-                normalized_score = 0.0
-        else:
-            # For XLM-RoBERTa, adjust score based on label
-            if mapped_label == 'negative':
-                normalized_score = -score
-            elif mapped_label == 'positive':
-                normalized_score = score
-            else:
-                normalized_score = 0.0
-            
-        return {
-            'sentiment_label': mapped_label,
-            'sentiment_score': normalized_score,
-            'confidence': score,
-            'source': source,
-            'raw_model_label': raw_label,
-            'original_text': text
-        }
-    except Exception as e:
-        logger.error(f"Error normalizing sentiment output: {e}")
-        return {
-            'sentiment_label': 'neutral',
-            'sentiment_score': 0.0,
-            'confidence': 0.0,
-            'source': source,
-            'raw_model_label': 'unknown',
-            'original_text': text
-        }
-
-def analyze_sentiment(text: str, source: str = "default") -> Dict[str, Any]:
-    """Analyze sentiment of text using appropriate model for source."""
-    if not text or not isinstance(text, str):
-        return {
-            'sentiment_label': 'neutral',
-            'sentiment_score': 0.0,
-            'confidence': 0.0
-        }
-    
-    try:
-        # Get appropriate model for source
-        model = get_sentiment_model(source)
-        if model is None:
-            logger.warning(f"Could not load model for source '{source}', falling back to VADER/TextBlob")
-            return _fallback_sentiment_analysis(text)
-        
-        # Get sentiment prediction with automatic truncation
-        result = model(text)[0]
-        return normalize_sentiment_output(result, source, text)
-        
-    except Exception as e:
-        logger.error(f"Error in sentiment analysis: {str(e)}")
-        return _fallback_sentiment_analysis(text)
-
-def _fallback_sentiment_analysis(text: str) -> Dict[str, Any]:
-    """Fallback sentiment analysis using VADER or TextBlob."""
-    try:
-        if VADER_AVAILABLE:
-            analyzer = SentimentIntensityAnalyzer()
-            scores = analyzer.polarity_scores(text)
-            compound_score = scores['compound']
-            
-            if compound_score >= 0.05:
-                label = 'positive'
-            elif compound_score <= -0.05:
-                label = 'negative'
-            else:
-                label = 'neutral'
-                
-            return {
-                'sentiment_label': label,
-                'sentiment_score': compound_score,
-                'confidence': abs(compound_score)
-            }
-        elif TEXTBLOB_AVAILABLE:
-            blob = TextBlob(text)
-            polarity = blob.sentiment.polarity
-            
-            if polarity > 0:
-                label = 'positive'
-            elif polarity < 0:
-                label = 'negative'
-            else:
-                label = 'neutral'
-                
-            return {
-                'sentiment_label': label,
-                'sentiment_score': polarity,
-                'confidence': abs(polarity)
-            }
-    except Exception as e:
-        logger.error(f"Error in fallback sentiment analysis: {e}")
-    
-    return {
-        'sentiment_label': 'neutral',
-        'sentiment_score': 0.0,
-        'confidence': 0.0
-    }
-
-class MultilingualSentimentAnalyzer:
-    """Multilingual sentiment analysis using transformer models."""
-    
-    def __init__(self, source: str = 'trustpilot'):
-        """Initialize the multilingual sentiment analyzer with model based on source."""
-        try:
-            from transformers import pipeline
-            self.source = source.lower()
-            self.model_name = SENTIMENT_MODEL_MAP.get(self.source, SENTIMENT_MODEL_MAP['trustpilot'])
-            config = MODEL_CONFIGS.get(self.model_name, {})
-            self.pipeline = pipeline(
-                task="sentiment-analysis",
-                model=self.model_name,
-                truncation=config.get('truncation', True),
-                max_length=config.get('max_length', 512)
-            )
-            logger.info(f"Initialized multilingual sentiment analyzer with model: {self.model_name} for source: {self.source}")
-        except Exception as e:
-            logger.error(f"Failed to initialize multilingual analyzer for source '{self.source}' with model '{getattr(self, 'model_name', 'unknown')}': {e}")
-            raise
-
-    def analyze_text(self, text: str) -> Dict[str, Union[str, float, Dict]]:
-        """Analyze text using the multilingual model.
-        
-        Args:
-            text: The text to analyze
-            
-        Returns:
-            Dictionary containing:
-                - label: The sentiment label (positive/negative/neutral)
-                - score: The confidence score
-                - detailed_scores: Optional detailed analysis
-        """
-        try:
-            if not text or not isinstance(text, str):
-                return {
-                    'label': SentimentLabel.UNKNOWN,
-                    'score': 0.0,
-                    'detailed_scores': {'raw_score': 0.0}
-                }
-
-            result = self.pipeline(text)[0]
-            score = result['score']
-            
-            # Convert raw score to standardized range [-1, 1]
-            standardized_score = (2 * score) - 1
-            
-            # Use thresholds from config
-            config = ConfigManager.get_sentiment_config()
-            label = (SentimentLabel.POSITIVE 
-                    if standardized_score > config['thresholds']['positive']
-                    else SentimentLabel.NEGATIVE 
-                    if standardized_score < config['thresholds']['negative']
-                    else SentimentLabel.NEUTRAL)
-            
-            return {
-                'label': label,
-                'score': standardized_score,
-                'detailed_scores': {
-                    'raw_score': score
-                }
-            }
-        
-        except Exception as e:
-            logger.error(f"Error in multilingual sentiment analysis: {e}")
-            return {
-                'label': SentimentLabel.UNKNOWN,
-                'score': 0.0,
-                'detailed_scores': {
-                    'raw_score': 0.0
-                }
-            }
 
 class SentimentAnalyzer:
     """Class for analyzing sentiment in text using multiple approaches."""
@@ -345,10 +96,10 @@ class SentimentAnalyzer:
         # Try to initialize all possible analyzers, but don't fail if one fails
         if dependency_manager.transformers_available:
             try:
-                self.backends['transformers'] = MultilingualSentimentAnalyzer(source=self.source)
-                logger.info("Initialized multilingual sentiment analyzer")
+                self.backends['transformers'] = get_sentiment_model(self.source, self.language)
+                logger.info("Initialized transformer sentiment analyzer")
             except Exception as e:
-                error_msg = f"Could not initialize multilingual analyzer for source '{self.source}': {e}"
+                error_msg = f"Could not initialize transformer analyzer for source '{self.source}': {e}"
                 logger.warning(error_msg)
                 self.initialization_errors.append(error_msg)
         if dependency_manager.vader_available:
@@ -371,103 +122,188 @@ class SentimentAnalyzer:
             error_details = "\n".join(self.initialization_errors) if self.initialization_errors else "No analyzers available."
             raise ImportError(f"No sentiment analysis tools available for source '{self.source}'. Details:\n{error_details}\nInstall transformers, vaderSentiment, or textblob.")
 
+    @staticmethod
+    def normalize_sentiment_output(model_output: dict, source: str, text: str, language: str = 'en') -> dict:
+        """Convert model output to unified format."""
+        try:
+            model_map = getattr(ConfigManager, 'SENTIMENT_MODEL_MAP', None)
+            if model_map is None:
+                from src.config.manager import SENTIMENT_MODEL_MAP as model_map
+            model_name = model_map.get(source.lower())
+            if not model_name:
+                model_name = ConfigManager.get_model_configs().get('default')
+            model_config = ConfigManager.get_model_configs().get(model_name, {})
+            label_map = model_config.get('label_map', {})
+            raw_label = model_output['label']
+            score = model_output['score']
+
+            # If the raw_label is already a mapped value, use it directly
+            if raw_label in label_map:
+                mapped_label = label_map[raw_label]
+            elif raw_label in label_map.values():
+                mapped_label = raw_label
+            else:
+                logger.warning(f"Label '{raw_label}' not found in label_map for model '{model_name}'. label_map: {label_map}")
+                mapped_label = 'neutral'
+
+            logger.debug(f"Model: {model_name}, Raw label: {raw_label}, Mapped label: {mapped_label}, Label map: {label_map}")
+
+            if model_name == 'nlptown/bert-base-multilingual-uncased-sentiment':
+                try:
+                    stars = int(raw_label.split()[0])
+                    normalized_score = (stars - 3) / 2
+                except Exception:
+                    normalized_score = 0.0
+            elif model_name == 'cardiffnlp/twitter-xlm-roberta-base-sentiment':
+                if mapped_label == 'negative':
+                    normalized_score = -score
+                elif mapped_label == 'positive':
+                    normalized_score = score
+                else:
+                    normalized_score = 0.0
+            else:
+                normalized_score = 0.0
+
+            return {
+                'sentiment_label': mapped_label,
+                'sentiment_score': normalized_score,
+                'confidence': score,
+                'source': source,
+                'raw_model_label': raw_label,
+                'original_text': text
+            }
+        except Exception as e:
+            logger.error(f"Error normalizing sentiment output: {e}")
+            return {
+                'sentiment_label': 'neutral',
+                'sentiment_score': 0.0,
+                'confidence': 0.0,
+                'source': source,
+                'raw_model_label': 'unknown',
+                'original_text': text
+            }
+
+    @staticmethod
+    def _fallback_sentiment_analysis(text: str) -> Dict[str, Any]:
+        """Fallback sentiment analysis using VADER or TextBlob."""
+        try:
+            if VADER_AVAILABLE:
+                analyzer = SentimentIntensityAnalyzer()
+                scores = analyzer.polarity_scores(text)
+                compound_score = scores['compound']
+                if compound_score >= 0.05:
+                    label = 'positive'
+                elif compound_score <= -0.05:
+                    label = 'negative'
+                else:
+                    label = 'neutral'
+                return {
+                    'sentiment_label': label,
+                    'sentiment_score': compound_score,
+                    'confidence': abs(compound_score)
+                }
+            elif TEXTBLOB_AVAILABLE:
+                blob = TextBlob(text)
+                polarity = blob.sentiment.polarity
+                if polarity > 0:
+                    label = 'positive'
+                elif polarity < 0:
+                    label = 'negative'
+                else:
+                    label = 'neutral'
+                return {
+                    'sentiment_label': label,
+                    'sentiment_score': polarity,
+                    'confidence': abs(polarity)
+                }
+        except Exception as e:
+            logger.error(f"Error in fallback sentiment analysis: {e}")
+        return {
+            'sentiment_label': 'neutral',
+            'sentiment_score': 0.0,
+            'confidence': 0.0
+        }
+
     def analyze_sentiment(self, text: str, source: str = None) -> Dict[str, Any]:
         """Analyze sentiment in text using available tools.
         
         Args:
             text: The text to analyze
             source: Optional source override (trustpilot, imdb, playstore, steam)
-            
         Returns:
             Dictionary containing sentiment analysis results
         """
         if not text or not isinstance(text, str):
             return {
-                'label': SentimentLabel.UNKNOWN,
-                'score': 0.0,
-                'compound_score': 0.0
+                'sentiment_label': 'unknown',
+                'sentiment_score': 0.0,
+                'confidence': 0.0
             }
-
         # Use provided source or default to instance source
-        source = source.lower() if source else self.source
-        
-        # Check if source is valid
-        if source not in SENTIMENT_MODEL_MAP:
-            logger.warning(f"Invalid source '{source}'. Using default source '{self.source}'.")
+        src = source.lower() if source else self.source
+        # Check if source is valid (now check SENTIMENT_MODEL_MAP)
+        model_map = getattr(ConfigManager, 'SENTIMENT_MODEL_MAP', None)
+        if model_map is None:
+            from src.config.manager import SENTIMENT_MODEL_MAP as model_map
+        model_name = model_map.get(src)
+        if not model_name or model_name not in ConfigManager.get_model_configs():
+            logger.warning(f"Invalid source '{src}'. Using default model.")
             return {
-                'label': SentimentLabel.UNKNOWN,
-                'score': 0.0,
-                'compound_score': 0.0
+                'sentiment_label': 'unknown',
+                'sentiment_score': 0.0,
+                'confidence': 0.0
             }
-
-        # Try transformers first if available
+        # Try transformer first if available
         if 'transformers' in self.backends:
+            model = self.backends['transformers']
+            if model is None:
+                logger.warning(f"Could not load model for source '{src}', falling back to VADER/TextBlob")
+                return self._fallback_sentiment_analysis(text)
             try:
-                result = self.backends['transformers'].analyze_text(text)
-                return result
+                result = model(text)[0]
+                return SentimentAnalyzer.normalize_sentiment_output(result, src, text, self.language)
             except Exception as e:
-                logger.warning(f"Transformers analysis failed: {e}")
-
+                logger.error(f"Error in transformer sentiment analysis: {e}")
+                return self._fallback_sentiment_analysis(text)
         # Try VADER for English text
         if self.language == 'en' and 'vader' in self.backends:
             try:
                 scores = self.backends['vader'].polarity_scores(text)
                 compound_score = scores['compound']
-                
-                # Convert compound score to label
                 if compound_score >= 0.05:
-                    label = SentimentLabel.POSITIVE
+                    label = 'positive'
                 elif compound_score <= -0.05:
-                    label = SentimentLabel.NEGATIVE
+                    label = 'negative'
                 else:
-                    label = SentimentLabel.NEUTRAL
-                
+                    label = 'neutral'
                 return {
-                    'label': label,
-                    'score': compound_score,
-                    'compound_score': compound_score
+                    'sentiment_label': label,
+                    'sentiment_score': compound_score,
+                    'confidence': abs(compound_score)
                 }
             except Exception as e:
                 logger.warning(f"VADER analysis failed: {e}")
-
         # Try TextBlob as last resort
         if 'textblob' in self.backends:
             try:
                 blob = self.backends['textblob'](text)
                 polarity = blob.sentiment.polarity
-                subjectivity = blob.sentiment.subjectivity
-                
-                # Convert polarity to label
                 if polarity > 0:
-                    label = SentimentLabel.POSITIVE
+                    label = 'positive'
                 elif polarity < 0:
-                    label = SentimentLabel.NEGATIVE
+                    label = 'negative'
                 else:
-                    label = SentimentLabel.NEUTRAL
-                
+                    label = 'neutral'
                 return {
-                    'label': label,
-                    'score': polarity,
-                    'compound_score': polarity,
-                    'subjectivity': subjectivity
+                    'sentiment_label': label,
+                    'sentiment_score': polarity,
+                    'confidence': abs(polarity)
                 }
             except Exception as e:
                 logger.warning(f"TextBlob analysis failed: {e}")
-
         # If all analyzers fail, return unknown
         return {
-            'label': SentimentLabel.UNKNOWN,
-            'score': 0.0,
-            'compound_score': 0.0
+            'sentiment_label': 'unknown',
+            'sentiment_score': 0.0,
+            'confidence': 0.0
         }
-
-class BaseAnalyzer:
-    """Base class for all analyzers with dependency management."""
-    
-    def __init__(self, language: str = 'en'):
-        self.language = language
-        self._check_dependencies()
-    
-    def _check_dependencies(self):
-        """Verify required dependencies are available."""
-        pass

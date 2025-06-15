@@ -52,23 +52,5 @@ def main():
     
     logger.info("Analysis complete!")
 
-def map_imdb_rating_to_sentiment(rating):
-    try:
-        r = int(rating)
-        if r <= 4:
-            return 'negative'
-        elif r <= 6:
-            return 'neutral'
-        else:
-            return 'positive'
-    except:
-        return 'N/A'
-
-df = pd.read_json('data/results/analyzed_imdb_reviews.json')
-df['rating_sentiment'] = df['rating'].apply(map_imdb_rating_to_sentiment)
-df['correct'] = df['sentiment'] == df['rating_sentiment']
-accuracy = df[df['rating_sentiment'] != 'N/A']['correct'].mean()
-print(f"Sentiment accuracy vs. rating: {accuracy:.2%}")
-
 if __name__ == "__main__":
     main() 

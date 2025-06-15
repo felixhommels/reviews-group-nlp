@@ -6,7 +6,6 @@ review text data, including:
 - Sentiment analysis (via sentiment_analysis module)
 - Keyword extraction (via keyword_extraction module)
 - Emotion classification (via emotion_analysis module)
-- Star rating prediction (via star_rating_predictor module) [currently commented out]
 """
 
 import logging
@@ -14,15 +13,16 @@ from typing import Dict, List, Optional, Union, Tuple
 import pandas as pd
 from dataclasses import dataclass
 from enum import Enum
+from pathlib import Path
+import json
 
 from src.utils.dependencies import dependency_manager, DependencyError
 from src.config.manager import ConfigManager
 from src.analysis.sentiment_analysis import (
-    SentimentAnalyzer, SentimentLabel
+    SentimentAnalyzer
 )
 from src.analysis.emotion_analysis import EmotionAnalyzer, EmotionLabel, MultilingualEmotionAnalyzer
 from src.analysis.keyword_extraction import KeywordExtractor
-# from src.analysis.star_rating_predictor import StarRatingPredictor  # Commented out for now
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -44,14 +44,12 @@ class ReviewAnalyzer:
         self._sentiment_analyzer = None
         self._emotion_analyzer = None
         self._keyword_extractor = None
-        # self._star_rating_predictor = None  # Commented out for now
     
     def _load_config(self):
         """Load language-specific configuration."""
         self.config = {
-            'sentiment': ConfigManager.get_sentiment_config(self.language),
+            'sentiment': None,  # Or you could use a default model config if needed
             'emotion': ConfigManager.get_emotion_config(self.language),
-            # 'rating': ConfigManager.get_rating_config(),  # Commented out for now
             'tfidf': ConfigManager.get_tfidf_config(self.language),
             'logging': ConfigManager.get_logging_config()
         }
@@ -78,12 +76,6 @@ class ReviewAnalyzer:
         if self._keyword_extractor is None:
             self._keyword_extractor = KeywordExtractor(self.language)
         return self._keyword_extractor
-    
-    # @property
-    # def star_rating_predictor(self) -> StarRatingPredictor:
-    #     if self._star_rating_predictor is None:
-    #         self._star_rating_predictor = StarRatingPredictor(self.language)
-    #     return self._star_rating_predictor
     
     def analyze_sentiment(self, text: str, source: str = None) -> dict:
         """
@@ -151,13 +143,9 @@ class ReviewAnalyzer:
         result_df['sentiment_score'] = [s['sentiment_score'] for s in sentiment_dicts]
         result_df['sentiment_confidence'] = [s['confidence'] for s in sentiment_dicts]
         
-        # Extract keywords
+        # Extract keywords using batch processing
         logger.info("Extracting keywords...")
-        result_df['keywords'] = [self.extract_keywords(t) for t in texts]
-        
-        # # Predict star ratings (commented out for now)
-        # logger.info("Predicting star ratings...")
-        # result_df['predicted_stars'] = [self.predict_star_rating(t) for t in texts]
+        result_df['keywords'] = self.extract_keywords(texts)
         
         # Analyze emotions
         logger.info("Analyzing emotions...")
@@ -172,28 +160,25 @@ class ReviewAnalyzer:
         logger.info("Review analysis completed successfully.")
         return result_df
 
-    # def predict_star_rating(self, text: str) -> int:
-    #     """Predict star rating (1-5) based on sentiment analysis.
-    #     
-    #     Args:
-    #         text: The preprocessed text
-    #         
-    #     Returns:
-    #         Predicted star rating (1-5)
-    #     """
-    #     return self.star_rating_predictor.predict_star_rating(text)
-
-    def extract_keywords(self, text: str, top_k: int = 10) -> List[str]:
-        """Extract keywords from text using the keyword extractor.
+    def extract_keywords(self, texts: List[str], batch_size: int = 16) -> List[List[str]]:
+        """Extract keywords from a list of texts using batch processing.
         
         Args:
-            text: The preprocessed text
-            top_k: Number of top keywords to return
+            texts: List of texts to extract keywords from
+            batch_size: Size of batches for processing
             
         Returns:
-            List of keywords
+            List of keyword lists, one for each input text
         """
-        return self.keyword_extractor.extract_keywords(text, top_k)
+        try:
+            return self.keyword_extractor.extract_keywords_batch(
+                texts,
+                language=self.language,
+                batch_size=batch_size
+            )
+        except Exception as e:
+            logger.error(f"Error in batch keyword extraction: {e}")
+            return [[] for _ in texts]
 
     def analyze_emotion(self, text: str) -> Dict[EmotionLabel, float]:
         """Analyze emotions in text using the emotion analyzer.
@@ -205,4 +190,6 @@ class ReviewAnalyzer:
             Dictionary mapping emotions to scores
         """
         return self.emotion_analyzer.analyze_emotion(text)
+    # this is wrong, functon no longer used - its analyze_emotion from EnglishEmotionAnalyzerHartmann and 
+    # SpanishEmotionAnalyzerRobertuito
         

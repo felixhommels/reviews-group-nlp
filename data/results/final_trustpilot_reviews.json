@@ -11,11 +11,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8629514575004578,
     "keywords": [
-      "congelado",
-      "pago",
-      "mes",
-      "hijo",
-      "activo"
+      "hijo congelado",
+      "nacido congelado",
+      "pago congelado",
+      "congelado mes",
+      "hijo enfermo"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -33,11 +33,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.9509528279304504,
     "keywords": [
-      "bloquear",
-      "banco",
-      "santander",
-      "dinero",
-      "consentimiento"
+      "fraudulento bloquear",
+      "sencillo bloquear",
+      "bloquear consentimiento",
+      "bloquear tarjeta",
+      "bloquearme"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -55,11 +55,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8951157927513123,
     "keywords": [
-      "él",
-      "banco",
+      "app banco",
       "app",
-      "arreglir",
-      "anular"
+      "penoso bloquear",
+      "bloquear seguido",
+      "bloquear"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -77,11 +77,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8586329817771912,
     "keywords": [
-      "suceso",
-      "subida",
-      "sigiente",
-      "poner",
-      "acabar"
+      "demuestreme llovi",
+      "subida tensin",
+      "acabar",
+      "acabar palabra",
+      "aportar disgnositico"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -99,11 +99,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.9031680822372437,
     "keywords": [
-      "dinero",
-      "santander",
-      "él",
-      "oficina",
-      "culpa"
+      "salido dinero",
+      "dinero mo",
+      "dinero criticar",
+      "culpa haber",
+      "haber dinero"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -121,11 +121,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.9770410656929016,
     "keywords": [
-      "incompetent",
-      "titular",
-      "santander",
+      "incompetent openbank",
+      "openbank",
       "reclamacionesetcc",
-      "actuan"
+      "incompetent",
+      "contestar reclamacionesetcc"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -143,11 +143,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.7428882718086243,
     "keywords": [
-      "malo",
-      "incapacidad",
-      "general",
+      "recomeir enemigo",
       "enemigo",
-      "desastroso"
+      "mala desastroso",
+      "desastroso incapacidad",
+      "praxi trabajador"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -165,11 +165,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.9023507237434387,
     "keywords": [
-      "mayo",
-      "banco",
-      "ilegal",
-      "euro",
-      "da"
+      "banco mensaje",
+      "cerrado euro",
+      "euro deuda",
+      "hbil banco",
+      "aplicacin banco"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -187,11 +187,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.83127361536026,
     "keywords": [
-      "psimo",
-      "banco",
-      "explicacin",
-      "dinero",
-      "alguien"
+      "explicacin banco",
+      "psimo banco",
+      "banco psimo",
+      "francia pag",
+      "francia"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -209,11 +209,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.7700965404510498,
     "keywords": [
-      "tercero",
-      "entidad",
-      "empresa",
-      "concurso",
-      "acreedor"
+      "acreedor cobrar",
+      "entidad bancario",
+      "bancario",
+      "deuda",
+      "bancario espaa"
     ],
     "primary_emotion": "trust",
     "emotion_neutral": 0.0,
@@ -231,11 +231,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.4692395031452179,
     "keywords": [
-      "permitir",
-      "palmo",
-      "operacin",
-      "oficín",
-      "amenazante"
+      "amenazante cancelar",
+      "cliente cajera",
+      "cancelar operacin",
+      "atender cliente",
+      "permitir comportamiento"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -253,11 +253,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8840207457542419,
     "keywords": [
-      "saludo",
-      "cita",
-      "mundo",
-      "mkt",
-      "alucinado"
+      "recibidocojo cita",
+      "perfil financieropeor",
+      "jams recibidocojo",
+      "recibo saludo",
+      "saludo gestor"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -275,11 +275,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.7036798596382141,
     "keywords": [
-      "pregunta",
-      "entrar",
-      "web",
-      "solucionar",
-      "app"
+      "entrar app",
+      "ordenador solucionar",
+      "pregunta identificar",
+      "entrar web",
+      "oficina personalmente"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -297,11 +297,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.7786582708358765,
     "keywords": [
-      "banco",
-      "atender",
-      "ir",
-      "tiempo",
-      "compraventa"
+      "profesionalidad banco",
+      "atender banco",
+      "galdar banco",
+      "banco atender",
+      "banco cita"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -319,11 +319,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.9109999537467957,
     "keywords": [
-      "suscripcin",
-      "sentimiento",
-      "santander",
-      "reparo",
-      "acessorio"
+      "estafador explico",
+      "suscripcin com",
+      "reparo tomar",
+      "estafador",
+      "pertenecer santander"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -341,11 +341,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.6119353175163269,
     "keywords": [
-      "usar",
-      "tpv",
-      "semana",
-      "qu",
-      "arreglaran"
+      "tpv negocio",
+      "comisin",
+      "cobrar comisin",
+      "comisin vergenza",
+      "negocio dej"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -363,11 +363,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.9264766573905945,
     "keywords": [
-      "seguro",
+      "informe traumatlogo",
+      "traumatlogo diagnstico",
       "traumatlogo",
-      "informe",
-      "indemnizar",
-      "est"
+      "traumatlogo explicar",
+      "seguro accidente"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -385,11 +385,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.7165839672088623,
     "keywords": [
-      "esperar",
-      "tarimo",
-      "supuestamente",
-      "servicio",
-      "arreglar"
+      "venir humedad",
+      "humedad cuyo",
+      "dos psimo",
+      "psimo trato",
+      "psimo"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -407,11 +407,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.9522443413734436,
     "keywords": [
-      "seguro",
-      "contratar",
-      "santander",
-      "querer",
-      "absoluto"
+      "contratar seguro",
+      "trabajar nefasto",
+      "pasar contratar",
+      "jams contratar",
+      "seguro hogar"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -429,11 +429,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8873574733734131,
     "keywords": [
-      "usurero",
-      "seguro",
-      "bancoyo",
-      "banca",
-      "abusivo"
+      "cancelar hipoteca",
+      "hipoteca tendre",
+      "seguro bancoyo",
+      "hipoteca",
+      "dacon banca"
     ],
     "primary_emotion": "trust",
     "emotion_neutral": 0.0,
@@ -451,11 +451,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8389415740966797,
     "keywords": [
-      "seguro",
-      "santander",
-      "cubrir",
-      "banco",
-      "ao"
+      "inseguro banco",
+      "compaa banco",
+      "banco santander",
+      "seguro compaa",
+      "banco"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -473,11 +473,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.38679903745651245,
     "keywords": [
-      "santander",
-      "sanitario",
-      "psimo",
-      "peritoservio",
-      "abombado"
+      "sanitario suelo",
+      "casa patas",
+      "humedadno informe",
+      "pared humedadno",
+      "suelo abombado"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -495,11 +495,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.4561447501182556,
     "keywords": [
-      "él",
-      "ver",
-      "tratar",
-      "persona",
-      "parecar"
+      "eugenio persona",
+      "san eugenio",
+      "persona parecar",
+      "blancar directora",
+      "atender tipo"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -517,11 +517,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.7519150376319885,
     "keywords": [
-      "seguro",
-      "entrar",
-      "contratar",
-      "basura",
-      "atender"
+      "basura seguro",
+      "contratar seguro",
+      "intilesel servicio",
+      "servicio manita",
+      "infierno personal"
     ],
     "primary_emotion": "trust",
     "emotion_neutral": 0.0,
@@ -539,11 +539,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.7106907963752747,
     "keywords": [
-      "servicio",
-      "sucursal",
-      "oficina",
-      "banco",
-      "bsico"
+      "empresa desear",
+      "felicitar empresa",
+      "corporativo banco",
+      "marca corporativo",
+      "empresa"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -561,11 +561,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.5013370513916016,
     "keywords": [
-      "seguro",
-      "electrodomstico",
-      "avera",
-      "euros",
-      "especificar"
+      "electrodomstico cubrirlosconclusin",
+      "energtico seguro",
+      "electrodomstico cero",
+      "avera electrodomstico",
+      "electrodomstico"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -583,11 +583,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.6572589874267578,
     "keywords": [
-      "cuandoeste",
-      "banco",
-      "ayuda",
-      "asco",
-      "adelantar"
+      "mayo pagar",
+      "pagar ayuda",
+      "ayuda paroy",
+      "cuandoeste banco",
+      "pagar"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -605,11 +605,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.47357553243637085,
     "keywords": [
-      "cambiar",
-      "banco",
-      "atender",
-      "altanero",
-      "abrir"
+      "psimo online",
+      "online sucursal",
+      "online",
+      "atender pblico",
+      "banco gracias"
     ],
     "primary_emotion": "trust",
     "emotion_neutral": 0.0,
@@ -627,9 +627,11 @@
     "sentiment_score": 1.0,
     "sentiment_confidence": 0.34720367193222046,
     "keywords": [
+      "ofrecer telfono",
+      "telfono querer",
       "telfono",
-      "querer",
-      "ofrecer"
+      "ofrecer",
+      "querer"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -647,11 +649,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8023006916046143,
     "keywords": [
-      "tipo",
-      "sustituir",
-      "sucursal",
-      "seor",
-      "algn"
+      "casarrubio monte",
+      "sucursal casarrubio",
+      "pretexto alguien",
+      "cajero dinero",
+      "colmo cajero"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -669,11 +671,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.4748460650444031,
     "keywords": [
-      "cliente",
-      "sucursal",
-      "sobr",
-      "significar",
-      "adems"
+      "significar cliente",
+      "tratar cliente",
+      "profesionalidad director",
+      "familiaridad profesionalidad",
+      "cliente santander"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -691,11 +693,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.4518326222896576,
     "keywords": [
-      "gomez",
-      "dejar",
-      "contratar",
-      "atender",
-      "asesorar"
+      "oficina teatinos",
+      "isabel gomez",
+      "teatinos",
+      "contratar atender",
+      "contratar"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -713,11 +715,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8498057723045349,
     "keywords": [
-      "nomín",
-      "dicho",
-      "ver",
-      "santander",
-      "adjunto"
+      "excusa barato",
+      "callar decir",
+      "llegar",
+      "nomín callar",
+      "nomín reclamar"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -735,11 +737,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.9725537896156311,
     "keywords": [
-      "impuesto",
-      "beneficio",
-      "él",
-      "robar",
-      "rescatar"
+      "robar dinero",
+      "obtenis robar",
+      "comisión robar",
+      "ladrón carente",
+      "robar cliente"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -757,11 +759,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8283048272132874,
     "keywords": [
-      "descubierto",
-      "dejar",
-      "cosa",
-      "cerrar",
-      "as"
+      "malo gestion",
+      "gestion gestor",
+      "gestor informar",
+      "querer cerrar",
+      "cerrar dejar"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -779,11 +781,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8818657994270325,
     "keywords": [
-      "subir",
-      "fondo",
-      "banco",
-      "abr",
-      "oficina"
+      "banco ladrn",
+      "perd banco",
+      "problema banco",
+      "fiscal tocar",
+      "pedir cita"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -801,11 +803,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.8838949203491211,
     "keywords": [
-      "movimiento",
-      "gratuito",
-      "cliente",
-      "os",
-      "as"
+      "mentir cliente",
+      "bancario gratuito",
+      "movimiento bancario",
+      "os cliente",
+      "costar dinero"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -823,11 +825,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.5735733509063721,
     "keywords": [
-      "ingresar",
-      "cheque",
-      "banco",
-      "manejar",
-      "madre"
+      "operación banco",
+      "cheque bancario",
+      "banco despu",
+      "bancario",
+      "bancario ingresar"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -845,11 +847,11 @@
     "sentiment_score": -1.0,
     "sentiment_confidence": 0.2736216187477112,
     "keywords": [
-      "sucursal",
-      "sacar",
-      "hazeir",
-      "cliient",
-      "cambiar"
+      "trabajadora cliient",
+      "trabajadora",
+      "cambiar él",
+      "sacar sucursal",
+      "cliient sacar"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,
@@ -867,11 +869,11 @@
     "sentiment_score": 1.0,
     "sentiment_confidence": 0.5594784617424011,
     "keywords": [
-      "jos",
-      "servicio",
-      "santander",
-      "oficina",
-      "banco"
+      "oficina banco",
+      "bancomucha gracias",
+      "bancomucha",
+      "banco",
+      "cliente excelente"
     ],
     "primary_emotion": "neutral",
     "emotion_neutral": 1.0,

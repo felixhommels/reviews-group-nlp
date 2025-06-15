@@ -11,8 +11,7 @@
     "sentiment_score": 0.7722170948982239,
     "sentiment_confidence": 0.7722170948982239,
     "keywords": [
-      "love",
-      "it"
+      "love"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -31,11 +30,11 @@
     "sentiment_score": 0.6862177848815918,
     "sentiment_confidence": 0.6862177848815918,
     "keywords": [
-      "game",
-      "fun",
-      "experience",
-      "engage",
-      "challenge"
+      "fun challenge",
+      "challenge experience",
+      "good game",
+      "game want",
+      "engage fun"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -73,11 +72,11 @@
     "sentiment_score": -0.5766997933387756,
     "sentiment_confidence": 0.5766997933387756,
     "keywords": [
-      "score",
-      "communication",
-      "system",
-      "shitty",
-      "assign"
+      "word play",
+      "game shitty",
+      "communication score",
+      "decent game",
+      "good communication"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -96,11 +95,11 @@
     "sentiment_score": -0.8851189613342285,
     "sentiment_confidence": 0.8851189613342285,
     "keywords": [
-      "life",
-      "fall",
-      "caution",
-      "apart",
-      "addictive"
+      "addictive play",
+      "play caution",
+      "caution life",
+      "addictive",
+      "apart warn"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -119,11 +118,11 @@
     "sentiment_score": -0.9445657134056091,
     "sentiment_confidence": 0.9445657134056091,
     "keywords": [
-      "piece",
-      "know",
-      "enjoy",
+      "enjoy bury",
+      "bury alive",
       "bury",
-      "alive"
+      "utter trash",
+      "trash know"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -142,10 +141,10 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.6716688275337219,
     "keywords": [
-      "precisar",
-      "ir",
+      "hora avaliar",
+      "precisar hora",
+      "avaliar corretamente",
       "hora",
-      "corretamente",
       "avaliar"
     ],
     "primary_emotion": "neutral",
@@ -184,11 +183,11 @@
     "sentiment_score": 0.3700825572013855,
     "sentiment_confidence": 0.3700825572013855,
     "keywords": [
-      "game",
-      "come",
-      "dota",
-      "bore",
-      "allway"
+      "come game",
+      "game come",
+      "perfect game",
+      "game bore",
+      "come round"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -206,13 +205,7 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.7740052938461304,
-    "keywords": [
-      "league",
-      "dota",
-      "credit",
-      "conversion",
-      "concurrent"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -230,7 +223,11 @@
     "sentiment_score": 0.4315045475959778,
     "sentiment_confidence": 0.4315045475959778,
     "keywords": [
-      "good"
+      "league legend",
+      "score new",
+      "dota league",
+      "league",
+      "player past"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -249,11 +246,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5490086674690247,
     "keywords": [
-      "probably",
-      "play",
-      "game",
-      "expire",
-      "earth"
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -272,7 +265,11 @@
     "sentiment_score": -0.49561047554016113,
     "sentiment_confidence": 0.49561047554016113,
     "keywords": [
-      "shit"
+      "earth expire",
+      "time earth",
+      "till time",
+      "game probably",
+      "expire"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -291,11 +288,7 @@
     "sentiment_score": -0.9049679636955261,
     "sentiment_confidence": 0.9049679636955261,
     "keywords": [
-      "play",
-      "legend",
-      "league",
-      "hate",
-      "game"
+      "shit"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -314,11 +307,11 @@
     "sentiment_score": -0.9015336036682129,
     "sentiment_confidence": 0.9015336036682129,
     "keywords": [
-      "troll",
-      "toxic",
-      "loss",
-      "exist",
-      "auto"
+      "game hate",
+      "play league",
+      "hate play",
+      "unbalanced play",
+      "league legend"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -337,8 +330,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4778260886669159,
     "keywords": [
-      "game",
-      "free"
+      "toxic auto",
+      "auto loss",
+      "loss troll",
+      "toxic",
+      "troll exist"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -357,10 +353,9 @@
     "sentiment_score": -0.6283296346664429,
     "sentiment_confidence": 0.6283296346664429,
     "keywords": [
-      "stupid",
-      "try",
-      "river",
-      "ocean"
+      "free game",
+      "free",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -379,8 +374,11 @@
     "sentiment_score": 0.7722170948982239,
     "sentiment_confidence": 0.7722170948982239,
     "keywords": [
-      "love",
-      "it"
+      "stupid river",
+      "river ocean",
+      "ocean",
+      "river",
+      "try stupid"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -399,11 +397,7 @@
     "sentiment_score": -0.8741608262062073,
     "sentiment_confidence": 0.8741608262062073,
     "keywords": [
-      "play",
-      "nerd",
-      "hear",
-      "game",
-      "ew"
+      "love"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -422,10 +416,11 @@
     "sentiment_score": -0.9453601837158203,
     "sentiment_confidence": 0.9453601837158203,
     "keywords": [
-      "time",
-      "thing",
-      "killer",
-      "dangerous"
+      "hear game",
+      "play nerd",
+      "game play",
+      "game",
+      "play"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -443,10 +438,7 @@
     "sentiment": "positive",
     "sentiment_score": 0.7228869199752808,
     "sentiment_confidence": 0.7228869199752808,
-    "keywords": [
-      "good",
-      "game"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -464,8 +456,11 @@
     "sentiment_score": 0.5615512132644653,
     "sentiment_confidence": 0.5615512132644653,
     "keywords": [
-      "love",
-      "game"
+      "time killer",
+      "thing dangerous",
+      "killer thing",
+      "dangerous",
+      "time"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -484,11 +479,9 @@
     "sentiment_score": -0.9602181911468506,
     "sentiment_confidence": 0.9602181911468506,
     "keywords": [
-      "horrible",
+      "good game",
       "game",
-      "day",
-      "community",
-      "calipration"
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -507,10 +500,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.38405635952949524,
     "keywords": [
-      "start",
-      "heed",
-      "go",
-      "caution"
+      "love game",
+      "love",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -529,11 +521,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5576657056808472,
     "keywords": [
-      "game",
-      "work",
-      "sure",
-      "mouse",
-      "pad"
+      "trash game",
+      "toxic community",
+      "piece trash",
+      "trash",
+      "toxic"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -552,9 +544,11 @@
     "sentiment_score": -0.943787693977356,
     "sentiment_confidence": 0.943787693977356,
     "keywords": [
-      "worst",
-      "gaam",
-      "ever"
+      "caution start",
+      "heed caution",
+      "caution",
+      "heed",
+      "start"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -573,7 +567,11 @@
     "sentiment_score": 0.6009796857833862,
     "sentiment_confidence": 0.6009796857833862,
     "keywords": [
-      "good"
+      "hobby game",
+      "work mouse",
+      "game fun",
+      "want hobby",
+      "mouse"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -592,9 +590,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5324987769126892,
     "keywords": [
-      "xd",
-      "road",
-      "mmr"
+      "worst gaam",
+      "worst",
+      "gaam"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -613,9 +611,8 @@
     "sentiment_score": -0.9530019164085388,
     "sentiment_confidence": 0.9530019164085388,
     "keywords": [
-      "suck",
-      "good",
-      "game"
+      "good good",
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -634,7 +631,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3575511574745178,
     "keywords": [
-      "adsa"
+      "road mmr",
+      "mmr xd",
+      "road",
+      "mmr",
+      "xd"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -653,9 +654,11 @@
     "sentiment_score": 0.847170352935791,
     "sentiment_confidence": 0.847170352935791,
     "keywords": [
-      "wars",
-      "gg",
-      "amazing"
+      "game suck",
+      "good game",
+      "game",
+      "suck",
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -674,11 +677,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5404287576675415,
     "keywords": [
-      "impossible",
-      "game",
-      "fun",
-      "dota",
-      "curve"
+      "adsa"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -697,8 +696,11 @@
     "sentiment_score": 0.5305497050285339,
     "sentiment_confidence": 0.5305497050285339,
     "keywords": [
-      "lol",
-      "fun"
+      "wars amazing",
+      "wars",
+      "amazing gg",
+      "gg",
+      "amazing"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -717,9 +719,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4184938967227936,
     "keywords": [
-      "said",
-      "enough",
-      "doto"
+      "impossible game",
+      "game try",
+      "fun learning",
+      "learning curve",
+      "play dota"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -738,8 +742,9 @@
     "sentiment_score": -0.6047756671905518,
     "sentiment_confidence": 0.6047756671905518,
     "keywords": [
-      "not",
-      "it"
+      "fun lol",
+      "fun",
+      "lol"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -758,7 +763,9 @@
     "sentiment_score": 0.4315045475959778,
     "sentiment_confidence": 0.4315045475959778,
     "keywords": [
-      "good"
+      "doto said",
+      "said",
+      "doto"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -776,9 +783,7 @@
     "sentiment": "negative",
     "sentiment_score": -0.3667406141757965,
     "sentiment_confidence": 0.3667406141757965,
-    "keywords": [
-      "parasha"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -796,7 +801,7 @@
     "sentiment_score": 0.39260342717170715,
     "sentiment_confidence": 0.39260342717170715,
     "keywords": [
-      "beste"
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -815,11 +820,7 @@
     "sentiment_score": -0.9225645065307617,
     "sentiment_confidence": 0.9225645065307617,
     "keywords": [
-      "frustrating",
-      "distress",
-      "chaotic",
-      "cause",
-      "bretty"
+      "parasha"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -838,8 +839,7 @@
     "sentiment_score": 0.7272894978523254,
     "sentiment_confidence": 0.7272894978523254,
     "keywords": [
-      "pretty",
-      "good"
+      "beste"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -858,7 +858,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3915553092956543,
     "keywords": [
-      "dotr"
+      "frustrating chaotic",
+      "chaotic cause",
+      "chaotic",
+      "manner distress",
+      "distress bretty"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -877,10 +881,9 @@
     "sentiment_score": 0.5715768933296204,
     "sentiment_confidence": 0.5715768933296204,
     "keywords": [
-      "respect",
-      "people",
-      "love",
-      "culture"
+      "pretty good",
+      "good",
+      "pretty"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -899,7 +902,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3950681686401367,
     "keywords": [
-      "ty"
+      "dotr"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -918,8 +921,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3582906126976013,
     "keywords": [
-      "hère",
-      "get"
+      "love culture",
+      "culture respect",
+      "respect people",
+      "respect",
+      "love"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -938,8 +944,7 @@
     "sentiment_score": -0.532558798789978,
     "sentiment_confidence": 0.532558798789978,
     "keywords": [
-      "racist",
-      "made"
+      "ty"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -958,7 +963,7 @@
     "sentiment_score": 0.40979620814323425,
     "sentiment_confidence": 0.40979620814323425,
     "keywords": [
-      "classic"
+      "hère"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -977,7 +982,7 @@
     "sentiment_score": -0.7125112414360046,
     "sentiment_confidence": 0.7125112414360046,
     "keywords": [
-      "trash"
+      "racist"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -996,7 +1001,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4270886480808258,
     "keywords": [
-      "yes"
+      "classic"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1015,8 +1020,7 @@
     "sentiment_score": 0.6968481540679932,
     "sentiment_confidence": 0.6968481540679932,
     "keywords": [
-      "game",
-      "fun"
+      "trash"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1035,11 +1039,7 @@
     "sentiment_score": -0.6253356337547302,
     "sentiment_confidence": 0.6253356337547302,
     "keywords": [
-      "game",
-      "year",
-      "wait",
-      "play",
-      "hour"
+      "yes"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1058,8 +1058,9 @@
     "sentiment_score": -0.8437376022338867,
     "sentiment_confidence": 0.8437376022338867,
     "keywords": [
-      "hate",
-      "game"
+      "fun game",
+      "game",
+      "fun"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1077,13 +1078,7 @@
     "sentiment": "negative",
     "sentiment_score": -0.8590337634086609,
     "sentiment_confidence": 0.8590337634086609,
-    "keywords": [
-      "toxic",
-      "game",
-      "play",
-      "necbeard",
-      "hour"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -1101,11 +1096,11 @@
     "sentiment_score": 0.6380343437194824,
     "sentiment_confidence": 0.6380343437194824,
     "keywords": [
-      "play",
-      "people",
-      "game",
-      "experience",
-      "awesome"
+      "leave game",
+      "game wait",
+      "play game",
+      "game treat",
+      "game stomp"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1124,11 +1119,10 @@
     "sentiment_score": -0.9012261033058167,
     "sentiment_confidence": 0.9012261033058167,
     "keywords": [
-      "escolher",
-      "dota",
-      "desinstalei",
-      "desequilibrio",
-      "bastasse"
+      "hate game",
+      "game hate",
+      "hate",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1147,11 +1141,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.49141791462898254,
     "keywords": [
-      "play",
+      "toxic game",
+      "hour toxic",
+      "game necbeard",
       "game",
-      "valve",
-      "release",
-      "find"
+      "toxic"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1170,11 +1164,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.35876336693763733,
     "keywords": [
-      "play",
-      "game",
-      "suboptimal",
-      "stuff",
-      "avoid"
+      "game game",
+      "good people",
+      "play game",
+      "game awesome",
+      "play experience"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1193,7 +1187,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4270886480808258,
     "keywords": [
-      "yes"
+      "desequilibrio herois",
+      "escolher skill",
+      "herois fazer",
+      "bastasse desequilibrio",
+      "herois"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1212,11 +1210,11 @@
     "sentiment_score": -0.9227147102355957,
     "sentiment_confidence": 0.9227147102355957,
     "keywords": [
-      "thing",
-      "issue",
-      "game",
-      "fix",
-      "annoying"
+      "goodh gameplay",
+      "update game",
+      "online game",
+      "game play",
+      "gameplay"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1235,9 +1233,11 @@
     "sentiment_score": 0.7805572152137756,
     "sentiment_confidence": 0.7805572152137756,
     "keywords": [
-      "yea",
-      "pretty",
-      "good"
+      "fun game",
+      "game friend",
+      "game like",
+      "avoid game",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1256,11 +1256,7 @@
     "sentiment_score": -0.7316036820411682,
     "sentiment_confidence": 0.7316036820411682,
     "keywords": [
-      "game",
-      "play",
-      "suck",
-      "time",
-      "away"
+      "yes"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1279,9 +1275,11 @@
     "sentiment_score": -0.9039171934127808,
     "sentiment_confidence": 0.9039171934127808,
     "keywords": [
-      "system",
-      "matchmaking",
-      "broken"
+      "reinstall annoying",
+      "thing reinstall",
+      "scan fix",
+      "issue update",
+      "reinstall"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1300,8 +1298,11 @@
     "sentiment_score": 0.6645458936691284,
     "sentiment_confidence": 0.6645458936691284,
     "keywords": [
+      "pretty good",
       "good",
-      "fun"
+      "yea pretty",
+      "yea",
+      "pretty"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1320,11 +1321,11 @@
     "sentiment_score": -0.8802498579025269,
     "sentiment_confidence": 0.8802498579025269,
     "keywords": [
-      "game",
-      "get",
-      "bad",
-      "toxicity",
-      "abandon"
+      "suck game",
+      "play game",
+      "video game",
+      "game suck",
+      "game hour"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1343,9 +1344,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.42692819237709045,
     "keywords": [
-      "uninstalling",
-      "game",
-      "brink"
+      "broken matchmaking",
+      "matchmaking",
+      "broken"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1364,11 +1365,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.38190433382987976,
     "keywords": [
-      "dota",
-      "occasional",
-      "like",
-      "experience",
-      "community"
+      "good fun",
+      "fun",
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1387,11 +1386,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.42911913990974426,
     "keywords": [
-      "complete",
-      "free",
-      "come",
-      "card",
-      "buy"
+      "game toxicity",
+      "lose game",
+      "recommend game",
+      "community game",
+      "game match"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1410,11 +1409,11 @@
     "sentiment_score": -0.5095126628875732,
     "sentiment_confidence": 0.5095126628875732,
     "keywords": [
-      "way",
-      "toxic",
-      "fun",
-      "community",
-      "addict"
+      "uninstalling game",
+      "brink uninstalling",
+      "uninstalling",
+      "game",
+      "brink"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1433,9 +1432,11 @@
     "sentiment_score": 0.44317197799682617,
     "sentiment_confidence": 0.44317197799682617,
     "keywords": [
-      "fun",
-      "demonic",
-      "battleground"
+      "game toxicity",
+      "rollercoaster emotional",
+      "joy encounter",
+      "start joy",
+      "flame dare"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1454,11 +1455,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.44696101546287537,
     "keywords": [
-      "game",
-      "dota",
-      "cost",
-      "wc",
-      "complaining"
+      "steam trading",
+      "buy steam",
+      "card money",
+      "trading card",
+      "value buy"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1477,8 +1478,11 @@
     "sentiment_score": 0.40023931860923767,
     "sentiment_confidence": 0.40023931860923767,
     "keywords": [
-      "techie",
-      "fun"
+      "bot community",
+      "toxic fun",
+      "custom bot",
+      "toxic community",
+      "game toxic"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1497,7 +1501,11 @@
     "sentiment_score": 0.5531970858573914,
     "sentiment_confidence": 0.5531970858573914,
     "keywords": [
-      "super"
+      "demonic battleground",
+      "battleground fun",
+      "demonic",
+      "battleground",
+      "fun"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1516,10 +1524,11 @@
     "sentiment_score": -0.6048142313957214,
     "sentiment_confidence": 0.6048142313957214,
     "keywords": [
-      "hour",
-      "die",
-      "death",
-      "continue"
+      "game cost",
+      "game dota",
+      "playable game",
+      "life game",
+      "free game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1538,10 +1547,9 @@
     "sentiment_score": 0.8509184122085571,
     "sentiment_confidence": 0.8509184122085571,
     "keywords": [
-      "well",
-      "legend",
-      "league",
-      "develop"
+      "techie fun",
+      "fun",
+      "techie"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1560,11 +1568,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5041519403457642,
     "keywords": [
-      "hero",
-      "need",
-      "item",
-      "game",
-      "interesting"
+      "super"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1583,11 +1587,11 @@
     "sentiment_score": 0.7763908505439758,
     "sentiment_confidence": 0.7763908505439758,
     "keywords": [
-      "year",
-      "play",
-      "like",
-      "good",
-      "game"
+      "hour death",
+      "death continue",
+      "death",
+      "continue die",
+      "hour"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1606,9 +1610,11 @@
     "sentiment_score": 0.8126966953277588,
     "sentiment_confidence": 0.8126966953277588,
     "keywords": [
-      "timepass",
-      "great",
-      "game"
+      "league legend",
+      "league",
+      "develop league",
+      "legend",
+      "develop"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1627,10 +1633,11 @@
     "sentiment_score": -0.8266431093215942,
     "sentiment_confidence": 0.8266431093215942,
     "keywords": [
-      "toxic",
-      "render",
-      "poison",
-      "immune"
+      "eachother game",
+      "hero balance",
+      "hero select",
+      "game item",
+      "play hero"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1649,7 +1656,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.39143607020378113,
     "keywords": [
-      "worth"
+      "good game",
+      "game play",
+      "game",
+      "play like",
+      "like year"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1668,11 +1679,11 @@
     "sentiment_score": -0.9182930588722229,
     "sentiment_confidence": 0.9182930588722229,
     "keywords": [
-      "time",
+      "game timepass",
+      "timepass",
+      "great game",
       "game",
-      "recoommend",
-      "imho",
-      "consume"
+      "great"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1691,11 +1702,11 @@
     "sentiment_score": 0.41391488909721375,
     "sentiment_confidence": 0.41391488909721375,
     "keywords": [
-      "game",
-      "good",
-      "freedom",
-      "express",
-      "ban"
+      "immune poison",
+      "poison",
+      "toxic",
+      "toxic render",
+      "render immune"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1714,8 +1725,7 @@
     "sentiment_score": 0.7228869199752808,
     "sentiment_confidence": 0.7228869199752808,
     "keywords": [
-      "good",
-      "game"
+      "worth"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1734,11 +1744,11 @@
     "sentiment_score": 0.5888850688934326,
     "sentiment_confidence": 0.5888850688934326,
     "keywords": [
-      "time",
-      "match",
-      "make",
-      "game",
-      "capacity"
+      "time game",
+      "time consume",
+      "toxic time",
+      "spend time",
+      "game imho"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1757,11 +1767,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.7241034507751465,
     "keywords": [
-      "recreational",
+      "game strict",
+      "game self",
+      "good game",
       "game",
-      "drug",
-      "discover",
-      "child"
+      "express game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1780,9 +1790,9 @@
     "sentiment_score": 0.5965079069137573,
     "sentiment_confidence": 0.5965079069137573,
     "keywords": [
-      "well",
+      "good game",
       "game",
-      "find"
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1801,7 +1811,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.36507004499435425,
     "keywords": [
-      "recommend"
+      "game complexity",
+      "match long",
+      "pace game",
+      "game hard",
+      "strategy game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1820,11 +1834,11 @@
     "sentiment_score": 0.43302929401397705,
     "sentiment_confidence": 0.43302929401397705,
     "keywords": [
-      "state",
-      "skin",
-      "simple",
-      "relaxed",
-      "ancient"
+      "drug discover",
+      "recreational drug",
+      "drug",
+      "discover game",
+      "child recreational"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1843,9 +1857,7 @@
     "sentiment_score": -0.9479373693466187,
     "sentiment_confidence": 0.9479373693466187,
     "keywords": [
-      "moba",
-      "fucking",
-      "bad"
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1864,11 +1876,7 @@
     "sentiment_score": 0.5742847919464111,
     "sentiment_confidence": 0.5742847919464111,
     "keywords": [
-      "new",
-      "level",
-      "help",
-      "format",
-      "chess"
+      "recommend"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1887,11 +1895,11 @@
     "sentiment_score": 0.4747333228588104,
     "sentiment_confidence": 0.4747333228588104,
     "keywords": [
-      "special",
-      "people",
-      "game",
-      "believe",
-      "agree"
+      "hero customization",
+      "gameplay",
+      "simple gameplay",
+      "player simple",
+      "gameplay destroy"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1910,11 +1918,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4307064712047577,
     "keywords": [
-      "game",
-      "good",
-      "go",
-      "date",
-      "balancing"
+      "fucking moba",
+      "bad fucking",
+      "moba",
+      "fucking",
+      "bad"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1933,10 +1941,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5440036654472351,
     "keywords": [
-      "worth",
-      "trust",
-      "later",
-      "hour"
+      "chess help",
+      "format chess",
+      "chess",
+      "relieve stress",
+      "stress"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1955,7 +1964,11 @@
     "sentiment_score": 0.4315045475959778,
     "sentiment_confidence": 0.4315045475959778,
     "keywords": [
-      "good"
+      "hero combination",
+      "game different",
+      "diverse hero",
+      "good game",
+      "play dota"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1974,10 +1987,11 @@
     "sentiment_score": -0.5882055163383484,
     "sentiment_confidence": 0.5882055163383484,
     "keywords": [
-      "él",
-      "juego",
-      "hermoso",
-      "estresar"
+      "game date",
+      "multiplayer game",
+      "good multiplayer",
+      "multiplayer",
+      "game balancing"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -1996,10 +2010,11 @@
     "sentiment_score": 0.39697685837745667,
     "sentiment_confidence": 0.39697685837745667,
     "keywords": [
-      "xd",
-      "time",
-      "sink",
-      "good"
+      "worth trust",
+      "trust hour",
+      "later worth",
+      "trust",
+      "worth"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2018,8 +2033,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4390590190887451,
     "keywords": [
-      "relax",
-      "play"
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2038,7 +2052,11 @@
     "sentiment_score": 0.3724946677684784,
     "sentiment_confidence": 0.3724946677684784,
     "keywords": [
-      "best"
+      "hermoso juego",
+      "estresar él",
+      "juego estresar",
+      "juego",
+      "hermoso"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2057,9 +2075,11 @@
     "sentiment_score": 0.9086941480636597,
     "sentiment_confidence": 0.9086941480636597,
     "keywords": [
-      "legend",
-      "league",
-      "enjoyable"
+      "sink xd",
+      "time sink",
+      "sink",
+      "good time",
+      "xd"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2077,13 +2097,7 @@
     "sentiment": "negative",
     "sentiment_score": -0.8509263396263123,
     "sentiment_confidence": 0.8509263396263123,
-    "keywords": [
-      "russian",
-      "myself",
-      "me",
-      "man",
-      "kill"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -2101,9 +2115,9 @@
     "sentiment_score": -0.5771901607513428,
     "sentiment_confidence": 0.5771901607513428,
     "keywords": [
-      "game",
-      "unquittable",
-      "break"
+      "play relax",
+      "relax",
+      "play"
     ],
     "primary_emotion": "surprise",
     "emotion_surprise": 1.0,
@@ -2122,11 +2136,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.40474188327789307,
     "keywords": [
-      "maybe",
-      "kill",
-      "group",
-      "good",
-      "century"
+      "best"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2145,10 +2155,11 @@
     "sentiment_score": 0.6802534461021423,
     "sentiment_confidence": 0.6802534461021423,
     "keywords": [
-      "og",
-      "mod",
-      "heir",
-      "good"
+      "league legend",
+      "league",
+      "legend enjoyable",
+      "enjoyable",
+      "legend"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2167,9 +2178,11 @@
     "sentiment_score": -0.7042967677116394,
     "sentiment_confidence": 0.7042967677116394,
     "keywords": [
-      "play",
-      "hour",
-      "hate"
+      "russian man",
+      "told kill",
+      "russian",
+      "kill",
+      "man told"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2188,9 +2201,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3936072587966919,
     "keywords": [
-      "well",
-      "lesbian",
-      "league"
+      "break game",
+      "unquittable game",
+      "game break",
+      "game",
+      "unquittable"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2208,13 +2223,7 @@
     "sentiment": "positive",
     "sentiment_score": 0.6820807456970215,
     "sentiment_confidence": 0.6820807456970215,
-    "keywords": [
-      "way",
-      "valve",
-      "update",
-      "new",
-      "love"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -2232,9 +2241,11 @@
     "sentiment_score": 0.818038284778595,
     "sentiment_confidence": 0.818038284778595,
     "keywords": [
-      "is",
-      "good",
-      "game"
+      "time kill",
+      "century group",
+      "way century",
+      "group time",
+      "century"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2253,11 +2264,11 @@
     "sentiment_score": -0.8722413182258606,
     "sentiment_confidence": 0.8722413182258606,
     "keywords": [
-      "time",
-      "plenty",
-      "lvl",
-      "like",
-      "destroy"
+      "heir og",
+      "heir",
+      "og good",
+      "mod",
+      "og"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2276,11 +2287,11 @@
     "sentiment_score": 0.7033289074897766,
     "sentiment_confidence": 0.7033289074897766,
     "keywords": [
-      "storm",
-      "hero",
-      "game",
-      "actually",
-      "abandon"
+      "hate play",
+      "play hour",
+      "hate",
+      "play",
+      "hour"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2299,11 +2310,9 @@
     "sentiment_score": 0.44359835982322693,
     "sentiment_confidence": 0.44359835982322693,
     "keywords": [
-      "volvo",
-      "game",
-      "wait",
-      "sure",
-      "ban"
+      "league lesbian",
+      "lesbian",
+      "league"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2322,11 +2331,11 @@
     "sentiment_score": -0.9069206714630127,
     "sentiment_confidence": 0.9069206714630127,
     "keywords": [
-      "toxicity",
-      "play",
-      "know",
-      "game",
-      "community"
+      "way valve",
+      "update way",
+      "new update",
+      "valve",
+      "update"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2344,11 +2353,7 @@
     "sentiment": "positive",
     "sentiment_score": 0.818038284778595,
     "sentiment_confidence": 0.818038284778595,
-    "keywords": [
-      "is",
-      "good",
-      "game"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -2366,9 +2371,9 @@
     "sentiment_score": 0.6106546521186829,
     "sentiment_confidence": 0.6106546521186829,
     "keywords": [
-      "mother",
+      "game good",
       "good",
-      "compediumr"
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2386,7 +2391,13 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.378122478723526,
-    "keywords": [],
+    "keywords": [
+      "game moba",
+      "hate mobas",
+      "moba like",
+      "match destroy",
+      "destroy everytime"
+    ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -2404,11 +2415,11 @@
     "sentiment_score": 0.45509985089302063,
     "sentiment_confidence": 0.45509985089302063,
     "keywords": [
-      "play",
-      "king",
-      "strategy",
-      "step",
-      "backdoor"
+      "hero storm",
+      "game hero",
+      "casualfun gaming",
+      "gaming",
+      "gaming experience"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2427,8 +2438,11 @@
     "sentiment_score": 0.6968481540679932,
     "sentiment_confidence": 0.6968481540679932,
     "keywords": [
-      "game",
-      "fun"
+      "winno skill",
+      "min game",
+      "mouse help",
+      "macro mouse",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2447,11 +2461,11 @@
     "sentiment_score": 0.7670689821243286,
     "sentiment_confidence": 0.7670689821243286,
     "keywords": [
-      "game",
-      "experience",
-      "enjoy",
-      "compare",
-      "comp"
+      "trash game",
+      "play toxicity",
+      "toxicity community",
+      "trash",
+      "toxicity"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2470,9 +2484,9 @@
     "sentiment_score": -0.7234221696853638,
     "sentiment_confidence": 0.7234221696853638,
     "keywords": [
-      "meth",
-      "life",
-      "addictive"
+      "game good",
+      "good",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2491,11 +2505,11 @@
     "sentiment_score": 0.6439749002456665,
     "sentiment_confidence": 0.6439749002456665,
     "keywords": [
-      "steep",
-      "satisfy",
-      "pro",
-      "online",
-      "af"
+      "compediumr mother",
+      "mother",
+      "good compediumr",
+      "compediumr",
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2513,11 +2527,7 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4548191428184509,
-    "keywords": [
-      "repeat",
-      "die",
-      "charge"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -2535,10 +2545,11 @@
     "sentiment_score": 0.6996012330055237,
     "sentiment_confidence": 0.6996012330055237,
     "keywords": [
-      "update",
-      "moba",
-      "great",
-      "event"
+      "moba play",
+      "game play",
+      "kowtow china",
+      "map control",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2556,7 +2567,11 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3579161465167999,
-    "keywords": [],
+    "keywords": [
+      "fun game",
+      "game",
+      "fun"
+    ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -2574,11 +2589,11 @@
     "sentiment_score": 0.877713143825531,
     "sentiment_confidence": 0.877713143825531,
     "keywords": [
-      "play",
-      "game",
-      "engage",
-      "take",
-      "absolute"
+      "enjoy game",
+      "good game",
+      "game play",
+      "league rewarding",
+      "play time"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2597,11 +2612,11 @@
     "sentiment_score": 0.5250130891799927,
     "sentiment_confidence": 0.5250130891799927,
     "keywords": [
-      "play",
-      "game",
-      "try",
-      "recent",
-      "appreciate"
+      "addictive meth",
+      "life addictive",
+      "meth",
+      "addictive",
+      "life"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2620,11 +2635,11 @@
     "sentiment_score": -0.9170647859573364,
     "sentiment_confidence": 0.9170647859573364,
     "keywords": [
-      "game",
-      "community",
-      "camp",
-      "absurdly",
-      "ability"
+      "online toxicity",
+      "toxicity steep",
+      "consume life",
+      "toxicity",
+      "life"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2643,7 +2658,11 @@
     "sentiment_score": 0.5162185430526733,
     "sentiment_confidence": 0.5162185430526733,
     "keywords": [
-      "fenomenal"
+      "charge die",
+      "charge",
+      "die repeat",
+      "repeat",
+      "die"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2662,11 +2681,11 @@
     "sentiment_score": 0.755200982093811,
     "sentiment_confidence": 0.755200982093811,
     "keywords": [
-      "time",
-      "start",
-      "place",
-      "good",
-      "game"
+      "great update",
+      "update event",
+      "moba great",
+      "update",
+      "moba"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2684,13 +2703,7 @@
     "sentiment": "negative",
     "sentiment_score": -0.7675182819366455,
     "sentiment_confidence": 0.7675182819366455,
-    "keywords": [
-      "patch",
-      "low",
-      "game",
-      "crash",
-      "abandon"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -2708,11 +2721,11 @@
     "sentiment_score": -0.7910072207450867,
     "sentiment_confidence": 0.7910072207450867,
     "keywords": [
-      "toxic",
-      "well",
-      "time",
-      "terrible",
-      "anyone"
+      "engage multiplayer",
+      "multiplayer",
+      "multiplayer mode",
+      "exciting gaming",
+      "gaming experience"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2731,10 +2744,11 @@
     "sentiment_score": -0.931840717792511,
     "sentiment_confidence": 0.931840717792511,
     "keywords": [
-      "update",
-      "kill",
-      "game",
-      "bad"
+      "change game",
+      "game play",
+      "game feel",
+      "patch new",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2753,11 +2767,11 @@
     "sentiment_score": -0.575552761554718,
     "sentiment_confidence": 0.575552761554718,
     "keywords": [
-      "nerf",
-      "character",
-      "continuous",
-      "completely",
-      "away"
+      "game toxic",
+      "game ability",
+      "ability fountain",
+      "long game",
+      "hour ruin"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2776,11 +2790,7 @@
     "sentiment_score": -0.9124606251716614,
     "sentiment_confidence": 0.9124606251716614,
     "keywords": [
-      "way",
-      "like",
-      "horrrrrrrrrrrible",
-      "busy",
-      "add"
+      "fenomenal"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2799,11 +2809,11 @@
     "sentiment_score": -0.9544293284416199,
     "sentiment_confidence": 0.9544293284416199,
     "keywords": [
-      "ruin",
-      "mental",
-      "health",
+      "game good",
+      "time start",
+      "place time",
       "game",
-      "dogshit"
+      "good place"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2822,8 +2832,11 @@
     "sentiment_score": 0.7228869199752808,
     "sentiment_confidence": 0.7228869199752808,
     "keywords": [
-      "good",
-      "game"
+      "patch game",
+      "update crash",
+      "stay update",
+      "pc win",
+      "unplayable pc"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2842,11 +2855,11 @@
     "sentiment_score": -0.4375019371509552,
     "sentiment_confidence": 0.4375019371509552,
     "keywords": [
-      "game",
-      "old",
-      "level",
-      "fun",
-      "ability"
+      "fun toxic",
+      "toxic group",
+      "review toxic",
+      "toxic terrible",
+      "toxic"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2865,11 +2878,11 @@
     "sentiment_score": -0.945500910282135,
     "sentiment_confidence": 0.945500910282135,
     "keywords": [
-      "play",
-      "piece",
-      "party",
-      "game",
-      "arg"
+      "kill game",
+      "update kill",
+      "bad update",
+      "kill",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2888,11 +2901,11 @@
     "sentiment_score": -0.6303310394287109,
     "sentiment_confidence": 0.6303310394287109,
     "keywords": [
-      "hang",
-      "match",
-      "linux",
-      "headphone",
-      "game"
+      "nerf character",
+      "character dominate",
+      "jerk nerf",
+      "stop play",
+      "character identity"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2911,11 +2924,11 @@
     "sentiment_score": 0.6718946695327759,
     "sentiment_confidence": 0.6718946695327759,
     "keywords": [
-      "wee",
-      "girlfriend",
-      "game",
-      "change",
-      "absolutely"
+      "patch horrrrrrrrrrrible",
+      "new patch",
+      "make map",
+      "map way",
+      "map"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2934,11 +2947,11 @@
     "sentiment_score": -0.941002607345581,
     "sentiment_confidence": 0.941002607345581,
     "keywords": [
-      "super",
-      "shitty",
-      "match",
-      "make",
-      "level"
+      "dogshit game",
+      "ruin mental",
+      "mental health",
+      "game ruin",
+      "mental"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2957,11 +2970,9 @@
     "sentiment_score": 0.709044337272644,
     "sentiment_confidence": 0.709044337272644,
     "keywords": [
+      "good game",
       "game",
-      "view",
-      "valve",
-      "time",
-      "add"
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2980,7 +2991,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4089444875717163,
     "keywords": [
-      "hour"
+      "try game",
+      "game experience",
+      "play try",
+      "game pure",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -2998,11 +3013,7 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.572893500328064,
-    "keywords": [
-      "speak",
-      "hour",
-      "game"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -3020,11 +3031,11 @@
     "sentiment_score": -0.5236867666244507,
     "sentiment_confidence": 0.5236867666244507,
     "keywords": [
-      "balance",
-      "season",
-      "run",
-      "rampant",
-      "quality"
+      "play party",
+      "game toxic",
+      "party arg",
+      "arg game",
+      "solo player"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3043,11 +3054,11 @@
     "sentiment_score": 0.7084354162216187,
     "sentiment_confidence": 0.7084354162216187,
     "keywords": [
-      "strategic",
-      "recommend",
-      "highly",
-      "game",
-      "fun"
+      "hang noise",
+      "noise headphone",
+      "headphone",
+      "noise",
+      "hang match"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3066,11 +3077,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.45036208629608154,
     "keywords": [
-      "you",
-      "ps",
-      "pps",
-      "know",
-      "kekw"
+      "change game",
+      "wee girlfriend",
+      "game pretty",
+      "play small",
+      "small wee"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3089,7 +3100,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.38753974437713623,
     "keywords": [
-      "no"
+      "supertoxic level",
+      "supertoxic",
+      "make supertoxic",
+      "shitty match",
+      "super shitty"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3108,11 +3123,11 @@
     "sentiment_score": -0.8812721967697144,
     "sentiment_confidence": 0.8812721967697144,
     "keywords": [
-      "check",
-      "mean",
-      "later",
-      "game",
-      "friend"
+      "love game",
+      "game queue",
+      "partake game",
+      "extra game",
+      "game valve"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3130,7 +3145,9 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.38341376185417175,
-    "keywords": [],
+    "keywords": [
+      "hour"
+    ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -3148,11 +3165,11 @@
     "sentiment_score": 0.801024854183197,
     "sentiment_confidence": 0.801024854183197,
     "keywords": [
+      "hour game",
+      "game speak",
+      "hour",
       "game",
-      "good",
-      "entertain",
-      "dota",
-      "continue"
+      "speak"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3171,8 +3188,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3655267655849457,
     "keywords": [
-      "mush",
-      "game"
+      "balance imbalance",
+      "balance exist",
+      "game run",
+      "moba game",
+      "imbalance"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3191,7 +3211,11 @@
     "sentiment_score": -0.37522760033607483,
     "sentiment_confidence": 0.37522760033607483,
     "keywords": [
-      "addict"
+      "fun strategic",
+      "strategic game",
+      "recommend fun",
+      "game",
+      "fun"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3210,8 +3234,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4386218190193176,
     "keywords": [
-      "game",
-      "feel"
+      "know ps",
+      "ps pps",
+      "kekw know",
+      "ps",
+      "pps"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3229,10 +3256,7 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5550643801689148,
-    "keywords": [
-      "time",
-      "work"
-    ],
+    "keywords": [],
     "primary_emotion": "anticipation",
     "emotion_surprise": 0.0,
     "emotion_neutral": 0.0,
@@ -3250,11 +3274,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.6988007426261902,
     "keywords": [
-      "map",
-      "dota",
-      "classic",
-      "player",
-      "change"
+      "check multiplayer",
+      "friend check",
+      "multiplayer game",
+      "multiplayer",
+      "game year"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3272,13 +3296,7 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5326232314109802,
-    "keywords": [
-      "moba",
-      "lover",
-      "jealous",
-      "gaming",
-      "game"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -3296,7 +3314,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.42623862624168396,
     "keywords": [
-      "ok"
+      "good moba",
+      "game great",
+      "entertain yrs",
+      "game",
+      "continue entertain"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3315,11 +3337,9 @@
     "sentiment_score": -0.8332456946372986,
     "sentiment_confidence": 0.8332456946372986,
     "keywords": [
+      "mush game",
       "game",
-      "way",
-      "player",
-      "issue",
-      "toxic"
+      "mush"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3338,9 +3358,7 @@
     "sentiment_score": -0.8605344891548157,
     "sentiment_confidence": 0.8605344891548157,
     "keywords": [
-      "ruin",
-      "life",
-      "game"
+      "addict"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3359,11 +3377,9 @@
     "sentiment_score": -0.6123735308647156,
     "sentiment_confidence": 0.6123735308647156,
     "keywords": [
-      "lead",
-      "issue",
-      "hey",
-      "game",
-      "dota"
+      "game feel",
+      "feel",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3382,7 +3398,10 @@
     "sentiment_score": -0.7741212248802185,
     "sentiment_confidence": 0.7741212248802185,
     "keywords": [
-      "wack"
+      "work time",
+      "time work",
+      "time",
+      "work"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3401,7 +3420,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.391803115606308,
     "keywords": [
-      "compare"
+      "map player",
+      "classic map",
+      "change classic",
+      "play classic",
+      "classic rollbackdota"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3420,10 +3443,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4996802508831024,
     "keywords": [
-      "link",
-      "like",
-      "know",
-      "hour"
+      "lover gaming",
+      "gaming time",
+      "game jealous",
+      "warn game",
+      "gaming"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3442,7 +3466,7 @@
     "sentiment_score": 0.5115212202072144,
     "sentiment_confidence": 0.5115212202072144,
     "keywords": [
-      "fun"
+      "ok"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3461,11 +3485,11 @@
     "sentiment_score": -0.9623430967330933,
     "sentiment_confidence": 0.9623430967330933,
     "keywords": [
-      "it",
-      "not",
-      "is",
-      "damn",
-      "awful"
+      "game addictive",
+      "game issue",
+      "loss game",
+      "game adjust",
+      "issue game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3484,11 +3508,11 @@
     "sentiment_score": -0.9005038738250732,
     "sentiment_confidence": 0.9005038738250732,
     "keywords": [
-      "play",
-      "match",
+      "game ruin",
+      "ruin life",
       "game",
-      "dota",
-      "angry"
+      "ruin",
+      "life"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3507,11 +3531,11 @@
     "sentiment_score": -0.7578288316726685,
     "sentiment_confidence": 0.7578288316726685,
     "keywords": [
-      "my",
-      "life",
-      "drain",
-      "away",
-      "all"
+      "reboot game",
+      "play issue",
+      "lead reboot",
+      "update dota",
+      "reboot"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3530,7 +3554,7 @@
     "sentiment_score": -0.4557451903820038,
     "sentiment_confidence": 0.4557451903820038,
     "keywords": [
-      "addictive"
+      "wack"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3549,8 +3573,7 @@
     "sentiment_score": -0.9136099815368652,
     "sentiment_confidence": 0.9136099815368652,
     "keywords": [
-      "toxic",
-      "community"
+      "compare"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3568,13 +3591,7 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4111884534358978,
-    "keywords": [
-      "skill",
-      "player",
-      "high",
-      "game",
-      "moba"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -3592,11 +3609,11 @@
     "sentiment_score": 0.3427787721157074,
     "sentiment_confidence": 0.3427787721157074,
     "keywords": [
-      "play",
-      "nerfe",
-      "early",
-      "begin",
-      "awesome"
+      "know hour",
+      "hour like",
+      "hour",
+      "link know",
+      "link"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3615,11 +3632,8 @@
     "sentiment_score": 0.7479522228240967,
     "sentiment_confidence": 0.7479522228240967,
     "keywords": [
-      "game",
-      "mechanic",
-      "great",
-      "community",
-      "awesome"
+      "fun fun",
+      "fun"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3638,11 +3652,9 @@
     "sentiment_score": 0.36332395672798157,
     "sentiment_confidence": 0.36332395672798157,
     "keywords": [
-      "pretty",
-      "game",
-      "frustrating",
-      "curve",
-      "challenge"
+      "damn awful",
+      "awful",
+      "damn"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3661,11 +3673,11 @@
     "sentiment_score": -0.8683108687400818,
     "sentiment_confidence": 0.8683108687400818,
     "keywords": [
-      "game",
-      "shit",
-      "plus",
-      "diss",
-      "volvo"
+      "play suffer",
+      "dota game",
+      "suffer angry",
+      "game play",
+      "angry"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3684,7 +3696,11 @@
     "sentiment_score": 0.4315045475959778,
     "sentiment_confidence": 0.4315045475959778,
     "keywords": [
-      "good"
+      "drain life",
+      "life away",
+      "drain",
+      "away",
+      "life"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3703,11 +3719,7 @@
     "sentiment_score": -0.9209323525428772,
     "sentiment_confidence": 0.9209323525428772,
     "keywords": [
-      "game",
-      "player",
-      "people",
-      "troll",
-      "actually"
+      "addictive"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3725,10 +3737,7 @@
     "sentiment": "positive",
     "sentiment_score": 0.6759805679321289,
     "sentiment_confidence": 0.6759805679321289,
-    "keywords": [
-      "nice",
-      "game"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -3746,11 +3755,9 @@
     "sentiment_score": -0.39036139845848083,
     "sentiment_confidence": 0.39036139845848083,
     "keywords": [
-      "team",
-      "hole",
-      "fuck",
-      "bum",
-      "bash"
+      "toxic community",
+      "toxic",
+      "community"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3769,8 +3776,11 @@
     "sentiment_score": 0.7722170948982239,
     "sentiment_confidence": 0.7722170948982239,
     "keywords": [
-      "love",
-      "it"
+      "moba game",
+      "unranked game",
+      "player community",
+      "game viewer",
+      "skill ceiling"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3789,11 +3799,11 @@
     "sentiment_score": -0.7274602055549622,
     "sentiment_confidence": 0.7274602055549622,
     "keywords": [
-      "edit",
-      "toxic",
-      "dota",
-      "arcade",
-      "af"
+      "game zeus",
+      "warcraft awesome",
+      "early game",
+      "warcraft",
+      "hero play"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3812,11 +3822,11 @@
     "sentiment_score": -0.9268361926078796,
     "sentiment_confidence": 0.9268361926078796,
     "keywords": [
+      "community game",
+      "game awesome",
+      "awesome synergy",
       "game",
-      "friend",
-      "trouble",
-      "trash",
-      "create"
+      "great game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3835,7 +3845,11 @@
     "sentiment_score": 0.4315045475959778,
     "sentiment_confidence": 0.4315045475959778,
     "keywords": [
-      "good"
+      "learn multitask",
+      "curve game",
+      "multitask like",
+      "learning curve",
+      "frustrating learn"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3854,11 +3868,11 @@
     "sentiment_score": -0.6721041798591614,
     "sentiment_confidence": 0.6721041798591614,
     "keywords": [
-      "starcraft",
-      "play",
-      "game",
-      "time",
-      "abandon"
+      "game hacker",
+      "volvo game",
+      "game diss",
+      "diss game",
+      "game shit"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3877,7 +3891,7 @@
     "sentiment_score": 0.3600734770298004,
     "sentiment_confidence": 0.3600734770298004,
     "keywords": [
-      "fun"
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3896,7 +3910,11 @@
     "sentiment_score": -0.49561047554016113,
     "sentiment_confidence": 0.49561047554016113,
     "keywords": [
-      "shit"
+      "game trash",
+      "shitty game",
+      "player culture",
+      "game lately",
+      "life game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3915,11 +3933,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4437711238861084,
     "keywords": [
-      "play",
-      "work",
-      "time",
+      "nice game",
       "game",
-      "dota"
+      "nice"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3938,9 +3954,11 @@
     "sentiment_score": 0.7509886622428894,
     "sentiment_confidence": 0.7509886622428894,
     "keywords": [
-      "hard",
-      "good",
-      "game"
+      "team bash",
+      "fuck team",
+      "throw team",
+      "team throw",
+      "weekly recommend"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3959,11 +3977,7 @@
     "sentiment_score": 0.4477521479129791,
     "sentiment_confidence": 0.4477521479129791,
     "keywords": [
-      "just",
-      "it",
-      "great",
-      "dendi",
-      "ask"
+      "love"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -3982,11 +3996,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3821120262145996,
     "keywords": [
-      "hero",
-      "enemy",
-      "endless",
-      "combination",
-      "ally"
+      "edit toxic",
+      "dota toxicity",
+      "toxicity need",
+      "toxicity",
+      "toxic af"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4005,8 +4019,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.45504865050315857,
     "keywords": [
-      "start",
-      "trap"
+      "restart game",
+      "game restart",
+      "friend waste",
+      "game friend",
+      "sync game"
     ],
     "primary_emotion": "anticipation",
     "emotion_surprise": 0.0,
@@ -4025,9 +4042,7 @@
     "sentiment_score": -0.7837324142456055,
     "sentiment_confidence": 0.7837324142456055,
     "keywords": [
-      "shit",
-      "play",
-      "people"
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4046,11 +4061,11 @@
     "sentiment_score": 0.49294552206993103,
     "sentiment_confidence": 0.49294552206993103,
     "keywords": [
-      "shit",
-      "play",
-      "game",
-      "type",
-      "time"
+      "abandon starcraft",
+      "starcraft leave",
+      "void starcraft",
+      "game problem",
+      "starcraft suspect"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4069,8 +4084,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3883022665977478,
     "keywords": [
-      "hour",
-      "healthy"
+      "fun"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4089,11 +4103,7 @@
     "sentiment_score": 0.7416277527809143,
     "sentiment_confidence": 0.7416277527809143,
     "keywords": [
-      "practice",
-      "learn",
-      "good",
-      "game",
-      "easy"
+      "shit"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4112,11 +4122,11 @@
     "sentiment_score": -0.5489059090614319,
     "sentiment_confidence": 0.5489059090614319,
     "keywords": [
-      "relationship",
-      "love",
-      "lose",
-      "hate",
-      "game"
+      "lol game",
+      "play league",
+      "leave lol",
+      "highschoolabout love",
+      "league friend"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4135,11 +4145,11 @@
     "sentiment_score": 0.705156683921814,
     "sentiment_confidence": 0.705156683921814,
     "keywords": [
-      "skill",
-      "selection",
-      "pretty",
-      "play",
-      "add"
+      "good game",
+      "game hard",
+      "game",
+      "good",
+      "hard"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4158,7 +4168,11 @@
     "sentiment_score": 0.3600734770298004,
     "sentiment_confidence": 0.3600734770298004,
     "keywords": [
-      "fun"
+      "ask dendi",
+      "dendi",
+      "great just",
+      "just ask",
+      "great"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4177,8 +4191,11 @@
     "sentiment_score": -0.7584860920906067,
     "sentiment_confidence": 0.7584860920906067,
     "keywords": [
-      "recommend",
-      "not"
+      "enemy team",
+      "ally enemy",
+      "enemy",
+      "hero ally",
+      "combination hero"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4197,11 +4214,10 @@
     "sentiment_score": 0.3888112008571625,
     "sentiment_confidence": 0.3888112008571625,
     "keywords": [
-      "teammate",
-      "team",
-      "kind",
-      "blame",
-      "baby"
+      "start trap",
+      "start start",
+      "start",
+      "trap"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4220,9 +4236,11 @@
     "sentiment_score": -0.9420082569122314,
     "sentiment_confidence": 0.9420082569122314,
     "keywords": [
-      "suck",
+      "play shit",
+      "shit people",
       "play",
-      "hour"
+      "shit",
+      "people"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4241,10 +4259,11 @@
     "sentiment_score": -0.9077084064483643,
     "sentiment_confidence": 0.9077084064483643,
     "keywords": [
-      "pure",
-      "percent",
-      "dogshit",
-      "absolutely"
+      "currency time",
+      "game free",
+      "game power",
+      "play game",
+      "play shit"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4263,11 +4282,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.43157464265823364,
     "keywords": [
-      "good",
-      "grind",
-      "long",
-      "hard",
-      "average"
+      "hour healthy",
+      "hour",
+      "healthy"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4286,7 +4303,10 @@
     "sentiment_score": -0.87665194272995,
     "sentiment_confidence": 0.87665194272995,
     "keywords": [
-      "shity",
+      "game easy",
+      "learn practice",
+      "easy learn",
+      "good game",
       "game"
     ],
     "primary_emotion": "neutral",
@@ -4306,11 +4326,11 @@
     "sentiment_score": -0.9163147807121277,
     "sentiment_confidence": 0.9163147807121277,
     "keywords": [
-      "game",
-      "fucking",
-      "stop",
-      "sniper",
-      "annoying"
+      "love hate",
+      "hate relationship",
+      "game love",
+      "soul game",
+      "lose soul"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4329,11 +4349,11 @@
     "sentiment_score": -0.781225323677063,
     "sentiment_confidence": 0.781225323677063,
     "keywords": [
-      "steam",
-      "ui",
-      "new",
-      "way",
-      "massive"
+      "selection hero",
+      "warcraft enjoyable",
+      "come warcraft",
+      "hero add",
+      "skill lot"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4352,7 +4372,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3791893720626831,
     "keywords": [
-      "meh"
+      "fun"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4371,11 +4391,7 @@
     "sentiment_score": -0.3723278045654297,
     "sentiment_confidence": 0.3723278045654297,
     "keywords": [
-      "play",
-      "game",
-      "life",
-      "happypeople",
-      "everyday"
+      "recommend"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4394,11 +4410,11 @@
     "sentiment_score": 0.6812063455581665,
     "sentiment_confidence": 0.6812063455581665,
     "keywords": [
-      "way",
-      "uni",
-      "teamenemy",
-      "storm",
-      "able"
+      "blame team",
+      "baby blame",
+      "teammate baby",
+      "kind teammate",
+      "team"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4417,10 +4433,11 @@
     "sentiment_score": -0.8926233053207397,
     "sentiment_confidence": 0.8926233053207397,
     "keywords": [
-      "update",
-      "tired",
-      "damn",
-      "daily"
+      "play suck",
+      "hour play",
+      "suck",
+      "hour",
+      "play"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4439,8 +4456,11 @@
     "sentiment_score": 0.4871974587440491,
     "sentiment_confidence": 0.4871974587440491,
     "keywords": [
-      "good",
-      "gamu"
+      "pure dogshit",
+      "absolutely percent",
+      "percent pure",
+      "dogshit",
+      "percent"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4459,8 +4479,11 @@
     "sentiment_score": -0.8343153595924377,
     "sentiment_confidence": 0.8343153595924377,
     "keywords": [
-      "hate",
-      "game"
+      "gameplay good",
+      "good gameplay",
+      "good good",
+      "hear minor",
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4479,11 +4502,9 @@
     "sentiment_score": -0.5574715733528137,
     "sentiment_confidence": 0.5574715733528137,
     "keywords": [
-      "toxic",
-      "time",
-      "profit",
-      "maximise",
-      "abuse"
+      "shity game",
+      "game",
+      "shity"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4502,9 +4523,11 @@
     "sentiment_score": 0.4507274627685547,
     "sentiment_confidence": 0.4507274627685547,
     "keywords": [
-      "would",
-      "play",
-      "again"
+      "shit team",
+      "game feeder",
+      "rig buy",
+      "inventory game",
+      "sniper dumb"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4523,9 +4546,11 @@
     "sentiment_score": 0.7641998529434204,
     "sentiment_confidence": 0.7641998529434204,
     "keywords": [
-      "lmao",
-      "like",
-      "it"
+      "install game",
+      "moment install",
+      "game fa",
+      "steam library",
+      "leak email"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4544,7 +4569,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.38845527172088623,
     "keywords": [
-      "uuu"
+      "meh"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4563,11 +4588,11 @@
     "sentiment_score": -0.5783659219741821,
     "sentiment_confidence": 0.5783659219741821,
     "keywords": [
-      "people",
-      "play",
-      "like",
-      "good",
-      "donot"
+      "game happypeople",
+      "play game",
+      "happypeople super",
+      "stop madness",
+      "rage monster"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4586,11 +4611,11 @@
     "sentiment_score": -0.6886354684829712,
     "sentiment_confidence": 0.6886354684829712,
     "keywords": [
-      "play",
-      "learn",
-      "language",
-      "colorful",
-      "bit"
+      "way friend",
+      "way meet",
+      "teamenemy able",
+      "teamenemy",
+      "meet people"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4609,11 +4634,11 @@
     "sentiment_score": -0.9446710348129272,
     "sentiment_confidence": 0.9446710348129272,
     "keywords": [
-      "update",
-      "good",
-      "game",
-      "dota",
-      "event"
+      "tired daily",
+      "damn update",
+      "daily damn",
+      "tired",
+      "daily"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4632,8 +4657,9 @@
     "sentiment_score": 0.6759805679321289,
     "sentiment_confidence": 0.6759805679321289,
     "keywords": [
-      "nice",
-      "game"
+      "good gamu",
+      "good",
+      "gamu"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4652,8 +4678,8 @@
     "sentiment_score": 0.9030264019966125,
     "sentiment_confidence": 0.9030264019966125,
     "keywords": [
-      "indeed",
-      "great",
+      "hate game",
+      "hate",
       "game"
     ],
     "primary_emotion": "neutral",
@@ -4673,8 +4699,11 @@
     "sentiment_score": 0.8180598020553589,
     "sentiment_confidence": 0.8180598020553589,
     "keywords": [
-      "great",
-      "game"
+      "time machine",
+      "machine game",
+      "fault abuse",
+      "toxic community",
+      "profit fault"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4693,9 +4722,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5594398975372314,
     "keywords": [
-      "pro",
-      "here",
-      "am"
+      "play"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4714,10 +4741,9 @@
     "sentiment_score": 0.8987072706222534,
     "sentiment_confidence": 0.8987072706222534,
     "keywords": [
-      "nice",
-      "moba",
-      "game",
-      "ever"
+      "like lmao",
+      "lmao",
+      "like"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4736,9 +4762,7 @@
     "sentiment_score": 0.4957035183906555,
     "sentiment_confidence": 0.4957035183906555,
     "keywords": [
-      "well",
-      "game",
-      "find"
+      "uuu"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4757,10 +4781,11 @@
     "sentiment_score": -0.9017407298088074,
     "sentiment_confidence": 0.9017407298088074,
     "keywords": [
-      "toxic",
-      "playerbase",
-      "good",
-      "game"
+      "trashtalk good",
+      "play donot",
+      "people trashtalk",
+      "people play",
+      "recommend people"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4779,8 +4804,11 @@
     "sentiment_score": 0.6174786686897278,
     "sentiment_confidence": 0.6174786686897278,
     "keywords": [
-      "good",
-      "addictive"
+      "language trashtalk",
+      "word language",
+      "colorful word",
+      "learn colorful",
+      "play bit"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4799,9 +4827,11 @@
     "sentiment_score": 0.8742259740829468,
     "sentiment_confidence": 0.8742259740829468,
     "keywords": [
-      "nice",
-      "gg",
-      "game"
+      "game update",
+      "late update",
+      "event game",
+      "good game",
+      "update suck"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4820,9 +4850,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.6207901239395142,
     "keywords": [
-      "play",
-      "hour",
-      "clue"
+      "nice game",
+      "game",
+      "nice"
     ],
     "primary_emotion": "anticipation",
     "emotion_surprise": 0.0,
@@ -4841,8 +4871,9 @@
     "sentiment_score": 0.40465474128723145,
     "sentiment_confidence": 0.40465474128723145,
     "keywords": [
-      "well",
-      "league"
+      "great game",
+      "great",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4861,11 +4892,9 @@
     "sentiment_score": 0.7228329181671143,
     "sentiment_confidence": 0.7228329181671143,
     "keywords": [
-      "seriously",
-      "lable",
-      "good",
+      "great game",
       "game",
-      "addiction"
+      "great"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4883,7 +4912,9 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.38341376185417175,
-    "keywords": [],
+    "keywords": [
+      "pro"
+    ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -4901,7 +4932,11 @@
     "sentiment_score": 0.6302851438522339,
     "sentiment_confidence": 0.6302851438522339,
     "keywords": [
-      "awesome"
+      "moba game",
+      "nice moba",
+      "moba",
+      "game",
+      "nice"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4920,8 +4955,6 @@
     "sentiment_score": -0.890067458152771,
     "sentiment_confidence": 0.890067458152771,
     "keywords": [
-      "trash",
-      "recommend",
       "game"
     ],
     "primary_emotion": "neutral",
@@ -4941,7 +4974,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3676362931728363,
     "keywords": [
-      "tried"
+      "toxic playerbase",
+      "game toxic",
+      "playerbase",
+      "good game",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4960,8 +4997,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.39050906896591187,
     "keywords": [
-      "game",
-      "addict"
+      "addictive good",
+      "addictive",
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -4979,10 +5017,7 @@
     "sentiment": "positive",
     "sentiment_score": 0.8180598020553589,
     "sentiment_confidence": 0.8180598020553589,
-    "keywords": [
-      "great",
-      "game"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -5000,7 +5035,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.35538822412490845,
     "keywords": [
-      "salad"
+      "nice game",
+      "game gg",
+      "game",
+      "nice",
+      "gg"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5019,11 +5058,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.45771780610084534,
     "keywords": [
-      "game",
-      "play",
+      "hour clue",
+      "clue play",
       "hour",
-      "time",
-      "edit"
+      "clue",
+      "play"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5042,7 +5081,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4218260645866394,
     "keywords": [
-      "oke"
+      "league"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5061,7 +5100,11 @@
     "sentiment_score": 0.44148921966552734,
     "sentiment_confidence": 0.44148921966552734,
     "keywords": [
-      "gg"
+      "lable addiction",
+      "addiction seriously",
+      "addiction",
+      "warning lable",
+      "good game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5079,11 +5122,7 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.36926716566085815,
-    "keywords": [
-      "play",
-      "kind",
-      "fun"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -5101,7 +5140,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.39581429958343506,
     "keywords": [
-      "kool"
+      "awesome"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5120,11 +5159,11 @@
     "sentiment_score": 0.5817602276802063,
     "sentiment_confidence": 0.5817602276802063,
     "keywords": [
-      "like",
-      "hardd",
-      "goood",
+      "trash game",
+      "recommend trash",
+      "trash",
       "game",
-      "dota"
+      "recommend"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5143,11 +5182,7 @@
     "sentiment_score": -0.9541635513305664,
     "sentiment_confidence": 0.9541635513305664,
     "keywords": [
-      "place",
-      "incompetent",
-      "dirty",
-      "dine",
-      "bunch"
+      "tried"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5166,7 +5201,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4007192552089691,
     "keywords": [
-      "hue"
+      "addict game",
+      "addict",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5185,7 +5222,9 @@
     "sentiment_score": 0.45184358954429626,
     "sentiment_confidence": 0.45184358954429626,
     "keywords": [
-      "nice"
+      "great game",
+      "game",
+      "great"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5204,11 +5243,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5514858365058899,
     "keywords": [
-      "dota",
-      "true",
-      "saying",
-      "like",
-      "life"
+      "salad"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5227,7 +5262,11 @@
     "sentiment_score": -0.3696156144142151,
     "sentiment_confidence": 0.3696156144142151,
     "keywords": [
-      "sssssssssssssss"
+      "ingame rage",
+      "play advice",
+      "ignore ingame",
+      "let game",
+      "game spend"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5246,9 +5285,7 @@
     "sentiment_score": 0.7319144606590271,
     "sentiment_confidence": 0.7319144606590271,
     "keywords": [
-      "world",
-      "good",
-      "game"
+      "oke"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5267,8 +5304,7 @@
     "sentiment_score": 0.5435989499092102,
     "sentiment_confidence": 0.5435989499092102,
     "keywords": [
-      "wedqdqwd",
-      "nice"
+      "gg"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5287,7 +5323,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.45433861017227173,
     "keywords": [
-      "yea"
+      "kind fun",
+      "play kind",
+      "fun",
+      "play",
+      "kind"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5306,11 +5346,7 @@
     "sentiment_score": -0.9249975085258484,
     "sentiment_confidence": 0.9249975085258484,
     "keywords": [
-      "plus",
-      "lifesteal",
-      "cancerous",
-      "buyer",
-      "account"
+      "kool"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5329,8 +5365,11 @@
     "sentiment_score": -0.8884604573249817,
     "sentiment_confidence": 0.8884604573249817,
     "keywords": [
-      "game",
-      "bad"
+      "dota warcraft",
+      "warcraft pls",
+      "play dota",
+      "game play",
+      "goood game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5349,11 +5388,11 @@
     "sentiment_score": 0.756065845489502,
     "sentiment_confidence": 0.756065845489502,
     "keywords": [
-      "game",
-      "amazing",
-      "security",
-      "play",
-      "graphsamaze"
+      "dirty staff",
+      "bunch incompetent",
+      "staff bunch",
+      "incompetent subhuman",
+      "subhuman overprice"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5371,11 +5410,7 @@
     "sentiment": "positive",
     "sentiment_score": 0.7733328342437744,
     "sentiment_confidence": 0.7733328342437744,
-    "keywords": [
-      "play",
-      "nice",
-      "game"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -5393,11 +5428,7 @@
     "sentiment_score": -0.7506095767021179,
     "sentiment_confidence": 0.7506095767021179,
     "keywords": [
-      "man",
-      "grow",
-      "game",
-      "find",
-      "autistic"
+      "hue"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5416,11 +5447,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.39139968156814575,
     "keywords": [
-      "game",
-      "report",
-      "play",
-      "people",
-      "good"
+      "nice"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5439,8 +5466,11 @@
     "sentiment_score": 0.6759805679321289,
     "sentiment_confidence": 0.6759805679321289,
     "keywords": [
-      "nice",
-      "game"
+      "dota saying",
+      "saying dota",
+      "like dota",
+      "dota life",
+      "life true"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5459,11 +5489,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.48787474632263184,
     "keywords": [
-      "game",
-      "enemy",
-      "dota",
-      "defeat",
-      "challenging"
+      "sssssssssssssss"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5482,8 +5508,11 @@
     "sentiment_score": 0.690893828868866,
     "sentiment_confidence": 0.690893828868866,
     "keywords": [
-      "very",
-      "nice"
+      "game world",
+      "good game",
+      "game",
+      "good",
+      "world"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5502,11 +5531,9 @@
     "sentiment_score": 0.41737204790115356,
     "sentiment_confidence": 0.41737204790115356,
     "keywords": [
-      "xd",
-      "player",
-      "game",
-      "way",
-      "time"
+      "nice wedqdqwd",
+      "nice",
+      "wedqdqwd"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5525,11 +5552,7 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.671193540096283,
     "keywords": [
-      "moniter",
-      "instantly",
-      "get",
-      "game",
-      "break"
+      "yea"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5548,7 +5571,11 @@
     "sentiment_score": 0.6302851438522339,
     "sentiment_confidence": 0.6302851438522339,
     "keywords": [
-      "awesome"
+      "sea server",
+      "cancerous sea",
+      "lifesteal plus",
+      "server account",
+      "account buyer"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5567,7 +5594,8 @@
     "sentiment_score": 0.7228869199752808,
     "sentiment_confidence": 0.7228869199752808,
     "keywords": [
-      "good",
+      "bad game",
+      "bad",
       "game"
     ],
     "primary_emotion": "neutral",
@@ -5587,11 +5615,11 @@
     "sentiment_score": 0.46305590867996216,
     "sentiment_confidence": 0.46305590867996216,
     "keywords": [
-      "reward",
-      "huge",
-      "hard",
-      "dota",
-      "commit"
+      "graphsamaze security",
+      "amazing game",
+      "game amazing",
+      "amazing graphsamaze",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5610,8 +5638,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.58920818567276,
     "keywords": [
-      "little",
-      "addctivejust"
+      "nice game",
+      "game play",
+      "game",
+      "play",
+      "nice"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5630,8 +5661,11 @@
     "sentiment_score": 0.5433228015899658,
     "sentiment_confidence": 0.5433228015899658,
     "keywords": [
-      "nice",
-      "epic"
+      "autistic rage",
+      "microphone autistic",
+      "rage teammate",
+      "man screech",
+      "autistic"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5650,8 +5684,11 @@
     "sentiment_score": 0.6759805679321289,
     "sentiment_confidence": 0.6759805679321289,
     "keywords": [
-      "nice",
-      "game"
+      "game community",
+      "play gameespecially",
+      "gameespecially",
+      "gameplay chat",
+      "gamebe good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5670,7 +5707,9 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4058994948863983,
     "keywords": [
-      "hay"
+      "nice game",
+      "game",
+      "nice"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5689,9 +5728,11 @@
     "sentiment_score": -0.733582615852356,
     "sentiment_confidence": 0.733582615852356,
     "keywords": [
-      "gamer",
-      "fix",
-      "cancer"
+      "game yoneed",
+      "game mind",
+      "challenging game",
+      "mind game",
+      "defeat enemy"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5709,7 +5750,9 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.394264817237854,
-    "keywords": [],
+    "keywords": [
+      "nice"
+    ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -5727,11 +5770,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.5116809010505676,
     "keywords": [
-      "master",
-      "learn",
-      "game",
-      "easy",
-      "difficult"
+      "play pro",
+      "mute player",
+      "player time",
+      "stress xd",
+      "time game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5749,12 +5792,7 @@
     "sentiment": "positive",
     "sentiment_score": 0.5355144143104553,
     "sentiment_confidence": 0.5355144143104553,
-    "keywords": [
-      "player",
-      "play",
-      "fun",
-      "challenge"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -5772,9 +5810,11 @@
     "sentiment_score": 0.7791246175765991,
     "sentiment_confidence": 0.7791246175765991,
     "keywords": [
-      "play",
-      "good",
-      "game"
+      "game kill",
+      "smash moniter",
+      "instantly smash",
+      "smash",
+      "kill instantly"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5793,9 +5833,7 @@
     "sentiment_score": 0.7791246175765991,
     "sentiment_confidence": 0.7791246175765991,
     "keywords": [
-      "play",
-      "good",
-      "game"
+      "awesome"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5814,9 +5852,9 @@
     "sentiment_score": 0.9240237474441528,
     "sentiment_confidence": 0.9240237474441528,
     "keywords": [
+      "good game",
       "game",
-      "ever",
-      "awesome"
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5835,7 +5873,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3693557381629944,
     "keywords": [
-      "asasasas"
+      "reward commit",
+      "huge reward",
+      "reward",
+      "commit",
+      "dota hard"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5854,11 +5896,10 @@
     "sentiment_score": 0.7767797708511353,
     "sentiment_confidence": 0.7767797708511353,
     "keywords": [
-      "game",
-      "dota",
-      "new",
-      "love",
-      "exciting"
+      "addctivejust little",
+      "little addctivejust",
+      "little",
+      "addctivejust"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5877,11 +5918,9 @@
     "sentiment_score": -0.8122588992118835,
     "sentiment_confidence": 0.8122588992118835,
     "keywords": [
-      "look",
-      "lock",
-      "garbage",
-      "doctorquote",
-      "distract"
+      "nice epic",
+      "epic",
+      "nice"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5899,7 +5938,11 @@
     "sentiment": "neutral",
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.3579161465167999,
-    "keywords": [],
+    "keywords": [
+      "nice game",
+      "game",
+      "nice"
+    ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -5917,10 +5960,7 @@
     "sentiment_score": 0.7854761481285095,
     "sentiment_confidence": 0.7854761481285095,
     "keywords": [
-      "steam",
-      "lol",
-      "level",
-      "cool"
+      "hay"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5939,10 +5979,11 @@
     "sentiment_score": 0.8109984397888184,
     "sentiment_confidence": 0.8109984397888184,
     "keywords": [
-      "time",
-      "team",
-      "good",
-      "game"
+      "cancer gamer",
+      "fix cancer",
+      "gamer",
+      "cancer",
+      "fix"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -5960,13 +6001,7 @@
     "sentiment": "negative",
     "sentiment_score": -0.8618425130844116,
     "sentiment_confidence": 0.8618425130844116,
-    "keywords": [
-      "me",
-      "low",
-      "keep",
-      "giv",
-      "and"
-    ],
+    "keywords": [],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
     "emotion_neutral": 1.0,
@@ -5984,11 +6019,11 @@
     "sentiment_score": -0.9104169011116028,
     "sentiment_confidence": 0.9104169011116028,
     "keywords": [
-      "fvck",
-      "fucking",
-      "fucker",
-      "fix",
-      "dota"
+      "game learn",
+      "easy game",
+      "learn difficult",
+      "difficult master",
+      "game"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -6007,11 +6042,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.40822070837020874,
     "keywords": [
-      "percent",
-      "numbermaybe",
-      "mmr",
-      "lifestealergood",
-      "game"
+      "play challenge",
+      "challenge player",
+      "fun play",
+      "play",
+      "fun"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -6030,8 +6065,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.49036166071891785,
     "keywords": [
-      "uninstalled",
-      "dota"
+      "good game",
+      "game play",
+      "game",
+      "play",
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -6050,11 +6088,11 @@
     "sentiment_score": 0.0,
     "sentiment_confidence": 0.4486196041107178,
     "keywords": [
-      "lane",
-      "ggwp",
-      "ez",
-      "dominate",
-      "ask"
+      "good game",
+      "game play",
+      "game",
+      "play",
+      "good"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -6073,7 +6111,9 @@
     "sentiment_score": 0.6615886688232422,
     "sentiment_confidence": 0.6615886688232422,
     "keywords": [
-      "awsome"
+      "awesome game",
+      "game",
+      "awesome"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -6092,11 +6132,7 @@
     "sentiment_score": 0.8283892273902893,
     "sentiment_confidence": 0.8283892273902893,
     "keywords": [
-      "like",
-      "good",
-      "dota",
-      "awesome",
-      "addict"
+      "asasasas"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
@@ -6115,10 +6151,11 @@
     "sentiment_score": 0.8190031051635742,
     "sentiment_confidence": 0.8190031051635742,
     "keywords": [
-      "pretty",
-      "game",
-      "free",
-      "cool"
+      "game dota",
+      "new game",
+      "game try",
+      "play game",
+      "try play"
     ],
     "primary_emotion": "neutral",
     "emotion_surprise": 0.0,
