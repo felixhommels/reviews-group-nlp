@@ -9,9 +9,13 @@ from typing import Optional, Dict, Any
 
 from src.scraper.url_scraper import scrape_google_playstore, scrape_imbd, scrape_steam, scrape_trustpilot
 from src.preprocessing.spacy_preprocessor import preprocess_pipeline
-from src.analysis.nlp_analysis import ReviewAnalyzer
+from src.analysis.nlp_analysis import ReviewAnalyzer, run_full_nlp_pipeline
 from src.utils.file_utils import load_config, save_json
 from src.utils.dependencies import dependency_manager, DependencyError
+from src.analysis.sentiment_analysis import SentimentAnalyzer
+from src.analysis.keyword_extraction import KeywordExtractor
+from src.analysis.emotion_analysis import EnglishEmotionAnalyzerHartmann, SpanishEmotionAnalyzerRobertuito
+from src.analysis.star_rating_predictor import StarRatingPredictor
 
 # --- Setup Logging ---
 logging.basicConfig(
@@ -115,89 +119,141 @@ def run_pipeline_test():
 
     logging.info("--- Preprocessing Pipeline Test Finished ---")
 
+def run_nlp_analysis_on_all_processed():
+    input_dir = "data/processed_test_results"
+    output_dir = "data/analysis"
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
 
-def main(test_mode=False):
-    """
-    Main function to run the full scraping and preprocessing pipeline.
-    """
-    if test_mode:
-        run_pipeline_test()
-        return
+    sentiment_analyzer = SentimentAnalyzer()
+    keyword_extractor = KeywordExtractor()
+    english_emotion_analyzer = EnglishEmotionAnalyzerHartmann()
+    spanish_emotion_analyzer = SpanishEmotionAnalyzerRobertuito()
+    rating_predictor = StarRatingPredictor()
 
+    for file in os.listdir(input_dir):
+        if not file.endswith(".json"):
+            continue
+        source = Path(file).stem.replace("processed_", "").replace("_reviews", "")
+        input_path = os.path.join(input_dir, file)
+        with open(input_path) as f:
+            content = f.read().strip()
+            if content.startswith("["):
+                reviews = json.loads(content)
+            else:
+                reviews = [json.loads(line) for line in content.splitlines() if line.strip()]
+
+        enriched_reviews = []
+        for review in reviews:
+            if not review.get("processed_text", "").strip():
+                continue
+            enriched = run_full_nlp_pipeline(
+                review,
+                sentiment_analyzer,
+                keyword_extractor,
+                english_emotion_analyzer,
+                spanish_emotion_analyzer,
+                rating_predictor
+            )
+            enriched_reviews.append(enriched)
+
+        output_path = os.path.join(output_dir, f"review_analysis_{source}.json")
+        with open(output_path, "w") as f:
+            for r in enriched_reviews:
+                f.write(json.dumps(r) + "\n")
+
+    print("✅ All sources processed. Output saved to data/analysis/")
+
+def main():
     logging.info("--- Starting the Review Analysis Pipeline ---")
 
-    # --- Load Configuration ---
-    logging.info("Loading configuration from 'config.json'...")
-    config = load_config('config.json')
-    if not config:
-        logging.error("Configuration could not be loaded. Exiting.")
-        return
+    SOURCES = [
+        {
+            "source": "trustpilot",
+            "url": "https://example.com/trustpilot",
+            "topic": "bancosantander",
+            "max_pages": 10
+        },
+        {
+            "source": "imdb",
+            "url": "https://www.imdb.com/title/tt0892769/reviews/?ref_=tt_ov_ururv",
+            "topic": "howToTrainYourDragon",
+            "max_pages": 2
+        },
+        {
+            "source": "playstore",
+            "app_id": "com.whatsapp",
+            "max_reviews": 300
+        },
+        {
+            "source": "steam",
+            "app_id": "570",
+            "max_reviews": 300
+        }
+    ]
 
-    # --- Scraping ---
-    logging.info("Starting to scrape reviews for: %s", config.get('app_name', 'Unknown App'))
-    source = config.get('source')
-    raw_reviews = None
-    try:
+    for cfg in SOURCES:
+        source = cfg["source"]
+        logging.info(f"Scraping source: {source}")
+
+        # --- Scraping ---
         if source == "trustpilot":
             raw_reviews = scrape_trustpilot(
-                url=config["url"],
-                topic=config.get("topic", "default"),
-                max_pages=config.get("max_pages", 10)
+                url=cfg["url"],
+                topic=cfg["topic"],
+                max_pages=cfg.get("max_pages", 10)
             )
+            output_file = f"data/raw/{cfg['topic']}_reviews.json"
         elif source == "imdb":
             raw_reviews = scrape_imbd(
-                url=config["url"],
-                topic=config.get("topic", "default"),
-                max_pages=config.get("max_pages", 10)
+                url=cfg["url"],
+                topic=cfg["topic"],
+                max_pages=cfg.get("max_pages", 10)
             )
+            output_file = f"data/raw/{cfg['topic']}_reviews.json"
         elif source == "playstore":
             raw_reviews = scrape_google_playstore(
-                app_id=config["app_id"],
-                max_reviews=config.get("max_reviews", 100)
+                app_id=cfg["app_id"],
+                max_reviews=cfg.get("max_reviews", 100)
             )
+            output_file = f"data/raw/{cfg['app_id']}_reviews.json"
         elif source == "steam":
             raw_reviews = scrape_steam(
-                app_id=config["app_id"],
-                max_reviews=config.get("max_reviews", 100)
+                app_id=cfg["app_id"],
+                max_reviews=cfg.get("max_reviews", 100)
             )
+            output_file = f"data/raw/{cfg['app_id']}_steam_reviews.json"
         else:
             logging.error(f"Unknown source: {source}")
-            return
-    except Exception as e:
-        logging.error(f"Error during scraping: {e}")
-        return
+            continue
 
-    if not raw_reviews:
-        logging.warning("No reviews were scraped. The pipeline will stop here.")
-        return
-        
-    # --- Preprocessing ---
-    logging.info("Starting the preprocessing stage...")
-    
-    # Convert list of review dictionaries to a pandas DataFrame
-    reviews_df = pd.DataFrame(raw_reviews)
-    
-    # The new pipeline expects a 'review' column. Let's ensure the 'text' field is named 'review'.
-    if 'text' in reviews_df.columns:
-        reviews_df.rename(columns={'text': 'review'}, inplace=True)
-    elif 'review' not in reviews_df.columns:
-        logging.error("Could not find a 'text' or 'review' column in the scraped data for preprocessing.")
-        return
+        # --- Preprocessing ---
+        if not raw_reviews:
+            if os.path.exists(output_file):
+                with open(output_file, "r", encoding="utf-8") as f:
+                    raw_reviews = json.load(f)
+            else:
+                logging.warning(f"No reviews found for {source}. Skipping.")
+                continue
 
-    # Run the new, spaCy-based preprocessing pipeline
-    processed_df = preprocess_pipeline(reviews_df, text_column='review')
+        reviews_df = pd.DataFrame(raw_reviews)
+        if 'text' in reviews_df.columns:
+            reviews_df.rename(columns={'text': 'review'}, inplace=True)
+        elif 'review' not in reviews_df.columns:
+            logging.error(f"Could not find a 'text' or 'review' column for {source}. Skipping.")
+            continue
 
-    # Convert the processed DataFrame back to a list of dictionaries for saving
-    # This ensures the output format is consistent with the project's requirements
-    processed_reviews = processed_df.to_dict(orient='records')
+        processed_df = preprocess_pipeline(reviews_df, text_column='review')
+        processed_reviews = processed_df.to_dict(orient='records')
 
-    # --- Saving Results ---
-    output_filename = config.get('output_filename_processed', 'data/processed/processed_reviews.json')
-    logging.info(f"Saving {len(processed_reviews)} processed reviews to '{output_filename}'...")
-    save_json(processed_reviews, output_filename)
+        # Save processed reviews to processed_test_results
+        processed_output = f"data/processed_test_results/processed_{cfg.get('app_id', cfg.get('topic', source))}_reviews.json"
+        with open(processed_output, "w") as f:
+            json.dump(processed_reviews, f, ensure_ascii=False, indent=2)
 
-    logging.info("--- Review Analysis Pipeline Finished Successfully ---")
+        logging.info(f"Saved processed reviews for {source} to {processed_output}")
+
+    # --- NLP Analysis on ALL processed files ---
+    run_nlp_analysis_on_all_processed()
 
 if __name__ == '__main__':
-    # To run the test, set test_mode to True
-    main(test_mode=True)
+    main()

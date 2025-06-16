@@ -6,6 +6,7 @@ review text data, including:
 - Sentiment analysis (via sentiment_analysis module)
 - Keyword extraction (via keyword_extraction module)
 - Emotion classification (via emotion_analysis module)
+- Star rating prediction (via star_rating_predictor module)
 """
 
 import logging
@@ -15,14 +16,20 @@ from dataclasses import dataclass
 from enum import Enum
 from pathlib import Path
 import json
+from langdetect import detect, LangDetectException
 
 from src.utils.dependencies import dependency_manager, DependencyError
 from src.config.manager import ConfigManager
 from src.analysis.sentiment_analysis import (
     SentimentAnalyzer
 )
-from src.analysis.emotion_analysis import EmotionAnalyzer, EmotionLabel, MultilingualEmotionAnalyzer
+from src.analysis.emotion_analysis import (
+    EmotionLabel,
+    EnglishEmotionAnalyzerHartmann,
+    SpanishEmotionAnalyzerRobertuito
+)
 from src.analysis.keyword_extraction import KeywordExtractor
+from src.analysis.star_rating_predictor import StarRatingPredictor
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -42,8 +49,10 @@ class ReviewAnalyzer:
         self.source = source
         self._load_config()
         self._sentiment_analyzer = None
-        self._emotion_analyzer = None
+        self._english_emotion_analyzer = None
+        self._spanish_emotion_analyzer = None
         self._keyword_extractor = None
+        self._star_rating_predictor = None
     
     def _load_config(self):
         """Load language-specific configuration."""
@@ -63,19 +72,28 @@ class ReviewAnalyzer:
         return self._sentiment_analyzer
     
     @property
-    def emotion_analyzer(self):
-        if self._emotion_analyzer is None:
-            if self.language == 'en':
-                self._emotion_analyzer = EmotionAnalyzer(self.language)
-            else:
-                self._emotion_analyzer = MultilingualEmotionAnalyzer()
-        return self._emotion_analyzer
+    def english_emotion_analyzer(self):
+        if self._english_emotion_analyzer is None:
+            self._english_emotion_analyzer = EnglishEmotionAnalyzerHartmann()
+        return self._english_emotion_analyzer
+    
+    @property
+    def spanish_emotion_analyzer(self):
+        if self._spanish_emotion_analyzer is None:
+            self._spanish_emotion_analyzer = SpanishEmotionAnalyzerRobertuito()
+        return self._spanish_emotion_analyzer
     
     @property
     def keyword_extractor(self) -> KeywordExtractor:
         if self._keyword_extractor is None:
             self._keyword_extractor = KeywordExtractor(self.language)
         return self._keyword_extractor
+    
+    @property
+    def star_rating_predictor(self) -> StarRatingPredictor:
+        if self._star_rating_predictor is None:
+            self._star_rating_predictor = StarRatingPredictor(language=self.language, source=self.source)
+        return self._star_rating_predictor
     
     def analyze_sentiment(self, text: str, source: str = None) -> dict:
         """
@@ -147,15 +165,21 @@ class ReviewAnalyzer:
         logger.info("Extracting keywords...")
         result_df['keywords'] = self.extract_keywords(texts)
         
-        # Analyze emotions
+        # Analyze emotions using batch processing
         logger.info("Analyzing emotions...")
-        emotions = [self.analyze_emotion(t) for t in texts]
+        emotions = self.analyze_emotions(texts)
         result_df['primary_emotion'] = [max(e.items(), key=lambda x: x[1])[0] for e in emotions]
         for emotion in EmotionLabel:
-            if any(emotion in scores for scores in emotions):
+            if any(emotion.value in scores for scores in emotions):
                 result_df[f'emotion_{emotion.value}'] = [
-                    scores.get(emotion, 0.0) for scores in emotions
+                    scores.get(emotion.value, 0.0) for scores in emotions
                 ]
+        
+        # Predict star ratings
+        logger.info("Predicting star ratings...")
+        ratings = self.predict_ratings(texts, sources)
+        result_df['predicted_rating_raw'] = [r['predicted_rating_raw'] for r in ratings]
+        result_df['predicted_rating_normalized'] = [r['predicted_rating_normalized'] for r in ratings]
         
         logger.info("Review analysis completed successfully.")
         return result_df
@@ -180,16 +204,110 @@ class ReviewAnalyzer:
             logger.error(f"Error in batch keyword extraction: {e}")
             return [[] for _ in texts]
 
-    def analyze_emotion(self, text: str) -> Dict[EmotionLabel, float]:
-        """Analyze emotions in text using the emotion analyzer.
+    def analyze_emotions(self, texts: List[str]) -> List[Dict[str, float]]:
+        """Analyze emotions in a list of texts using language-specific analyzers.
         
         Args:
-            text: The preprocessed text
+            texts: List of texts to analyze
             
         Returns:
-            Dictionary mapping emotions to scores
+            List of emotion score dictionaries, one for each text
         """
-        return self.emotion_analyzer.analyze_emotion(text)
-    # this is wrong, functon no longer used - its analyze_emotion from EnglishEmotionAnalyzerHartmann and 
-    # SpanishEmotionAnalyzerRobertuito
+        results = []
+        for text in texts:
+            if not text.strip():
+                results.append({EmotionLabel.NEUTRAL.value: 1.0})
+                continue
+                
+            try:
+                # Detect language
+                lang = detect(text)
+                
+                # Use appropriate analyzer based on language
+                if lang == 'en':
+                    emotions = self.english_emotion_analyzer.analyze_emotion(text)
+                elif lang == 'es':
+                    emotions = self.spanish_emotion_analyzer.analyze_emotion(text)
+                else:
+                    # Default to English analyzer for other languages
+                    emotions = self.english_emotion_analyzer.analyze_emotion(text)
+                
+                results.append(emotions)
+            except LangDetectException:
+                # If language detection fails, use English analyzer
+                emotions = self.english_emotion_analyzer.analyze_emotion(text)
+                results.append(emotions)
+            except Exception as e:
+                logger.error(f"Error in emotion analysis: {e}")
+                results.append({EmotionLabel.NEUTRAL.value: 1.0})
+                
+        return results
+
+    def predict_ratings(self, texts: List[str], sources: List[str]) -> List[Dict[str, Union[int, float]]]:
+        """Predict star ratings for a list of texts.
+        
+        Args:
+            texts: List of texts to analyze
+            sources: List of sources corresponding to each text
+            
+        Returns:
+            List of dictionaries containing raw and normalized ratings
+        """
+        results = []
+        for text, source in zip(texts, sources):
+            if not text.strip():
+                results.append({
+                    'predicted_rating_raw': 3,
+                    'predicted_rating_normalized': 3.0
+                })
+                continue
+                
+            try:
+                predicted_raw = self.star_rating_predictor.predict_star_rating(text, source=source)
+                predicted_normalized = self.star_rating_predictor.normalize_rating(predicted_raw, source)
+                results.append({
+                    'predicted_rating_raw': predicted_raw,
+                    'predicted_rating_normalized': predicted_normalized
+                })
+            except Exception as e:
+                logger.error(f"Error predicting rating: {e}")
+                results.append({
+                    'predicted_rating_raw': 3,
+                    'predicted_rating_normalized': 3.0
+                })
+                
+        return results
+
+def run_full_nlp_pipeline(
+    review: dict,
+    sentiment_analyzer,
+    keyword_extractor,
+    english_emotion_analyzer,
+    spanish_emotion_analyzer,
+    rating_predictor
+):
+    text = review.get("processed_text", "")
+    # --- Sentiment ---
+    sentiment_result = sentiment_analyzer.analyze_sentiment(text)
+    review.update(sentiment_result)
+    # --- Keywords ---
+    review["keywords"] = keyword_extractor.extract_keywords(text)
+    # --- Emotion ---
+    try:
+        lang = detect(text)
+    except LangDetectException:
+        lang = "en"
+    if lang == "en":
+        emotions = english_emotion_analyzer.analyze_emotion(text)
+    elif lang == "es":
+        emotions = spanish_emotion_analyzer.analyze_emotion(text)
+    else:
+        emotions = english_emotion_analyzer.analyze_emotion(text)
+    review["top_emotion"] = max(emotions.items(), key=lambda x: x[1])[0] if emotions else "neutral"
+    review["emotion_scores"] = emotions
+    # --- Star Rating ---
+    predicted = rating_predictor.predict_star_rating(text)
+    review["predicted_rating_raw"] = predicted
+    review["predicted_rating_normalized"] = rating_predictor.normalize_rating(predicted, review.get("source", ""))
+    return review
         
