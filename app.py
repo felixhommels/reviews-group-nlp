@@ -4,14 +4,16 @@ import logging
 import pandas as pd
 import glob
 import json
+import matplotlib.pyplot as plt
+import seaborn as sns
 from pathlib import Path
 from typing import Optional, Dict, Any
 
 from src.scraper.url_scraper import scrape_google_playstore, scrape_imbd, scrape_steam, scrape_trustpilot
 from src.preprocessing.spacy_preprocessor import preprocess_pipeline
-from src.analysis.nlp_analysis import ReviewAnalyzer, run_full_nlp_pipeline
-from src.utils.file_utils import load_config, save_json
-from src.utils.dependencies import dependency_manager, DependencyError
+from src.analysis.nlp_analysis import run_full_nlp_pipeline
+from src.utils.file_utils import save_json
+from src.utils.dependencies import dependency_manager
 from src.analysis.sentiment_analysis import SentimentAnalyzer
 from src.analysis.keyword_extraction import KeywordExtractor
 from src.analysis.emotion_analysis import EnglishEmotionAnalyzerHartmann, SpanishEmotionAnalyzerRobertuito
@@ -163,6 +165,82 @@ def run_nlp_analysis_on_all_processed():
 
     print("✅ All sources processed. Output saved to data/analysis/")
 
+def create_visualizations(df, output_dir='data/visualizations'):
+    os.makedirs(output_dir, exist_ok=True)
+    plt.style.use('ggplot')
+    sns.set_theme()
+
+    # 1. Sentiment Distribution
+    plt.figure(figsize=(10, 6))
+    sentiment_counts = df['sentiment_label'].value_counts()
+    sns.barplot(x=sentiment_counts.index, y=sentiment_counts.values)
+    plt.title('Distribution of Sentiment')
+    plt.xlabel('Sentiment')
+    plt.ylabel('Count')
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, 'sentiment_distribution.png'))
+    plt.close()
+
+    # 2. Sentiment Score Distribution
+    if 'sentiment_score' in df.columns:
+        plt.figure(figsize=(10, 6))
+        sns.histplot(data=df, x='sentiment_score', bins=30)
+        plt.title('Distribution of Sentiment Scores')
+        plt.xlabel('Sentiment Score')
+        plt.ylabel('Count')
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, 'sentiment_score_distribution.png'))
+        plt.close()
+
+    # 3. Star Ratings Distribution
+    if 'predicted_rating_raw' in df.columns:
+        plt.figure(figsize=(10, 6))
+        star_counts = df['predicted_rating_raw'].value_counts().sort_index()
+        sns.barplot(x=star_counts.index, y=star_counts.values)
+        plt.title('Distribution of Predicted Star Ratings')
+        plt.xlabel('Stars')
+        plt.ylabel('Count')
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, 'star_ratings_distribution.png'))
+        plt.close()
+
+    # 4. Primary Emotions
+    if 'top_emotion' in df.columns:
+        plt.figure(figsize=(12, 6))
+        emotion_counts = df['top_emotion'].value_counts()
+        sns.barplot(x=emotion_counts.index, y=emotion_counts.values)
+        plt.title('Distribution of Primary Emotions')
+        plt.xlabel('Emotion')
+        plt.ylabel('Count')
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, 'emotion_distribution.png'))
+        plt.close()
+
+    # 5. Correlation between Sentiment Score and Star Ratings
+    if 'sentiment_score' in df.columns and 'predicted_rating_raw' in df.columns:
+        plt.figure(figsize=(10, 6))
+        sns.scatterplot(data=df, x='sentiment_score', y='predicted_rating_raw')
+        plt.title('Correlation between Sentiment Score and Star Ratings')
+        plt.xlabel('Sentiment Score')
+        plt.ylabel('Predicted Stars')
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, 'sentiment_stars_correlation.png'))
+        plt.close()
+
+    # 6. Word Cloud of Keywords
+    if 'keywords' in df.columns:
+        from wordcloud import WordCloud
+        all_keywords = ' '.join(df['keywords'].astype(str).str.join(' '))
+        wordcloud = WordCloud(width=800, height=400, background_color='white').generate(all_keywords)
+        plt.figure(figsize=(10, 6))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.axis('off')
+        plt.title('Most Common Keywords')
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, 'keyword_wordcloud.png'))
+        plt.close()
+
 def main():
     logging.info("--- Starting the Review Analysis Pipeline ---")
 
@@ -254,6 +332,20 @@ def main():
 
     # --- NLP Analysis on ALL processed files ---
     run_nlp_analysis_on_all_processed()
+
+    # --- Visualization ---
+    # Aggregate all enriched reviews
+    analysis_dir = "data/analysis"
+    all_reviews = []
+    for file in os.listdir(analysis_dir):
+        if file.endswith(".json"):
+            with open(os.path.join(analysis_dir, file), "r", encoding="utf-8") as f:
+                for line in f:
+                    all_reviews.append(json.loads(line))
+    df = pd.DataFrame(all_reviews)
+    print(f"Loaded {len(df)} enriched reviews for visualization.")
+    create_visualizations(df)
+    print("Visualizations have been created in the 'data/visualizations' directory.")
 
 if __name__ == '__main__':
     main()
