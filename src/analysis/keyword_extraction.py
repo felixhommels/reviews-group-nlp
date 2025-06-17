@@ -11,7 +11,6 @@ from keybert import KeyBERT
 from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 
-from src.utils.dependencies import dependency_manager
 from src.config.manager import ConfigManager
 
 # Configure logging

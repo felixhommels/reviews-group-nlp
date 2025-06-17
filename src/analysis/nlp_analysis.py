@@ -10,26 +10,9 @@ review text data, including:
 """
 
 import logging
-from typing import Dict, List, Optional, Union, Tuple
-import pandas as pd
-from dataclasses import dataclass
-from enum import Enum
-from pathlib import Path
-import json
 from langdetect import detect, LangDetectException
 
-from src.utils.dependencies import dependency_manager, DependencyError
-from src.config.manager import ConfigManager
-from src.analysis.sentiment_analysis import (
-    SentimentAnalyzer
-)
-from src.analysis.emotion_analysis import (
-    EmotionLabel,
-    EnglishEmotionAnalyzerHartmann,
-    SpanishEmotionAnalyzerRobertuito
-)
-from src.analysis.keyword_extraction import KeywordExtractor
-from src.analysis.star_rating_predictor import StarRatingPredictor
+from src.analysis.sentiment_analysis import map_score_to_granular_label
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -47,6 +30,7 @@ def run_full_nlp_pipeline(
     # --- Sentiment ---
     sentiment_result = sentiment_analyzer.analyze_sentiment(text)
     review.update(sentiment_result)
+    review["sentiment_granular_label"] = map_score_to_granular_label(review["sentiment_continuous_score"])
     # --- Keywords ---
     review["keywords"] = keyword_extractor.extract_keywords(text)
     # --- Emotion ---

@@ -7,13 +7,8 @@ This module provides emotion analysis capabilities using:
 """
 
 import logging
-from typing import Dict
 from enum import Enum
 from transformers import pipeline
-from transformers import AutoTokenizer
-
-from src.utils.dependencies import dependency_manager, DependencyError
-from src.config.manager import ConfigManager
 
 # Configure logging
 logger = logging.getLogger(__name__)

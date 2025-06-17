@@ -5,9 +5,7 @@ This module provides star rating prediction capabilities based on sentiment anal
 """
 
 import logging
-from typing import Dict, Union
 
-from src.utils.dependencies import dependency_manager, DependencyError
 from src.config.manager import ConfigManager
 from src.analysis.sentiment_analysis import SentimentAnalyzer
 

@@ -9,11 +9,11 @@ This module provides sentiment analysis capabilities using multiple approaches:
 """
 
 import logging
-from typing import Dict, Union, Optional, Any
-from dataclasses import dataclass
-from enum import Enum
+from typing import Dict, Any
 from functools import lru_cache
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification, XLMRobertaTokenizer
+import torch
+import torch.nn.functional as F
 
 from src.utils.dependencies import dependency_manager, DependencyError
 from src.config.manager import ConfigManager
@@ -224,6 +224,15 @@ class SentimentAnalyzer:
             'confidence': 0.0
         }
 
+    def compute_continuous_score(self, text, model, tokenizer):
+        inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
+        with torch.no_grad():
+            logits = model(**inputs).logits
+            probs = F.softmax(logits, dim=1).squeeze().cpu().numpy()
+        # For cardiffnlp/twitter-xlm-roberta-base-sentiment: 0=neg, 1=neutral, 2=pos
+        sentiment_score = float(probs[2]) - float(probs[0])
+        return sentiment_score, probs
+
     def analyze_sentiment(self, text: str, source: str = None) -> Dict[str, Any]:
         """Analyze sentiment in text using available tools.
         
@@ -256,15 +265,26 @@ class SentimentAnalyzer:
         # Try transformer first if available
         if 'transformers' in self.backends:
             model = self.backends['transformers']
-            if model is None:
-                logger.warning(f"Could not load model for source '{src}', falling back to VADER/TextBlob")
-                return self._fallback_sentiment_analysis(text)
+            tokenizer = model.tokenizer if hasattr(model, 'tokenizer') else None
+            if model is None or tokenizer is None:
+                logger.warning(f"Could not load model/tokenizer for source '{src}', falling back to VADER/TextBlob")
+                result = self._fallback_sentiment_analysis(text)
+                result['sentiment_continuous_score'] = None
+                return result
             try:
+                # Get the default pipeline result
                 result = model(text)[0]
-                return SentimentAnalyzer.normalize_sentiment_output(result, src, text, self.language)
+                norm_result = SentimentAnalyzer.normalize_sentiment_output(result, src, text, self.language)
+                # Compute the continuous score
+                continuous_score, probs = self.compute_continuous_score(text, model.model, model.tokenizer)
+                norm_result['sentiment_continuous_score'] = continuous_score
+                norm_result['sentiment_class_probabilities'] = probs.tolist()
+                return norm_result
             except Exception as e:
                 logger.error(f"Error in transformer sentiment analysis: {e}")
-                return self._fallback_sentiment_analysis(text)
+                result = self._fallback_sentiment_analysis(text)
+                result['sentiment_continuous_score'] = None
+                return result
         # Try VADER for English text
         if self.language == 'en' and 'vader' in self.backends:
             try:
@@ -307,3 +327,19 @@ class SentimentAnalyzer:
             'sentiment_score': 0.0,
             'confidence': 0.0
         }
+
+def map_score_to_granular_label(continuous_score: float) -> str:
+    """
+    Map a continuous sentiment score (e.g., P(positive) - P(negative), in [-1, 1])
+    to a granular sentiment label.
+    """
+    if continuous_score >= 0.75:
+        return "very_positive"
+    elif continuous_score >= 0.25:
+        return "somewhat_positive"
+    elif continuous_score > -0.25:
+        return "neutral"
+    elif continuous_score > -0.75:
+        return "somewhat_negative"
+    else:
+        return "very_negative"
