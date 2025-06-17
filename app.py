@@ -247,9 +247,9 @@ def main():
     SOURCES = [
         {
             "source": "trustpilot",
-            "url": "https://example.com/trustpilot",
+            "url": "https://es.trustpilot.com/review/www.bancosantander.es",
             "topic": "bancosantander",
-            "max_pages": 10
+            "max_pages": 2
         },
         {
             "source": "imdb",

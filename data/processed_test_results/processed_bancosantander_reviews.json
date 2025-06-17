@@ -1,5 +1,104 @@
 [
   {
+    "title": "Nefasta y lenta gestión",
+    "review": "Nefasta y lenta gestión. Burocracia injustificada, nula atención al cliente, retraso y errores en todos los trámites, gestora con la que trabajan (Gestinova99) peor aún... No he visto ni he trabajado con un banco peor en mi vida. Además nos mintió el director de la sucusal en un caso de permuta de un piso con las condiciones del préstamo, nos dijo que nos mantendría el interés y la cuota (literalmente nos dijo que íbamos a seguir pagando la misma cuota) y cuando ya no teníamos tiempo de mirar el préstamo con otro banco, nos DUPLICÓ el interés fijo. Una verguenza",
+    "date": "16 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "nefasta y lenta gestin burocracia injustificada nula atencin al cliente retraso y errores en todos los trmites gestora con la que trabajan gestinova peor an no he visto ni he trabajado con un banco peor en mi vida adems nos minti el director de la sucusal en un caso de permuta de un piso con las condiciones del prstamo nos dijo que nos mantendra el inters y la cuota literalmente nos dijo que bamos a seguir pagando la misma cuota y cuando ya no tenamos tiempo de mirar el prstamo con otro banco nos duplic el inters fijo una verguenza",
+    "language": "es",
+    "processed_text": "nefasto lento gestin burocracia injustificado nulo atencin cliente retraso error trmit gestor trabajar gestinova an ver trabajar banco vida adems minti director sucusal caso permuta piso condición prstamo mantendrar inters cuota literalmente bamos seguir pagar cuota tenar tiempo mirar prstamo banco duplic inters fijo verguenza"
+  },
+  {
+    "title": "Por favor huyan de los seguros…",
+    "review": "Por favor huyan de los seguros Santander. No sirven para nada, carísimos y no cubren una M....... Háganme caso. Llevo 9 años con ellos obligado porque si no me suben el diferencial de la hipoteca. Que ganas de acabar y no verles ni en pintura.",
+    "date": "02 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "por favor huyan de los seguros santander no sirven para nada carsimos y no cubren una m hganme caso llevo aos con ellos obligado porque si no me suben el diferencial de la hipoteca que ganas de acabar y no verles ni en pintura",
+    "language": "es",
+    "processed_text": "favor huyan seguro santander servir carsimos cubrir m hganme caso llevar aos obligado subir diferencial hipoteca gana acabar verl pintura"
+  },
+  {
+    "title": "Desastres llevo 5 meses con un…",
+    "review": "Desastres llevo 5 meses con un siniestro Imposible que nadie responda a nada",
+    "date": "16 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "desastres llevo meses con un siniestro imposible que nadie responda a nada",
+    "language": "es",
+    "processed_text": "desastre llevar mes siniestro imposible respondar"
+  },
+  {
+    "title": "Para ingresar 50 € tantos dias ???",
+    "review": "El jueves 12 ingresé 50 € en un cajero y se tragaron el dinero, llamé el viernes 13 de junio y me dijeron que me llamarian para constatar la incidencia , me llamaron a las 15 h de la tarde del viernes  y me dijero que si, que con esa tarjeta habia un ingreso se 50€ , hoy es Lunes 16 de Junio y aún no tengo mi dinero ingresado. Estoy alucinada. Es surrealista todo.",
+    "date": "12 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "el jueves ingres en un cajero y se tragaron el dinero llam el viernes de junio y me dijeron que me llamarian para constatar la incidencia me llamaron a las h de la tarde del viernes y me dijero que si que con esa tarjeta habia un ingreso se hoy es lunes de junio y an no tengo mi dinero ingresado estoy alucinada es surrealista todo",
+    "language": "es",
+    "processed_text": "jueves ingr cajero tragar dinero llam viernes junio llamariar constatar incidencia llamar h viernes dijerir tarjeta ingreso lunes junio an dinero ingresado alucinado surrealista"
+  },
+  {
+    "title": "Intento acceder a la app móvil y es…",
+    "review": "Intento acceder a la app móvil y es imposible, encima ni avisaron ,el lunes retiraré todos mis ahorros de esta entidad y me iré a la Caixa bank , no tienen vergüenza ninguna , no podemos acceder a ver nada , esto es denunciable",
+    "date": "15 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "intento acceder a la app mvil y es imposible encima ni avisaron el lunes retirar todos mis ahorros de esta entidad y me ir a la caixa bank no tienen vergenza ninguna no podemos acceder a ver nada esto es denunciable",
+    "language": "es",
+    "processed_text": "intento acceder app mvil imposible avisar lunes retirar ahorro entidad caixa bank vergenza acceder denunciable"
+  },
+  {
+    "title": "Servicio nulo",
+    "review": "Servicio nulo. Seguimos trabajando en tu caso con nº xxxx que diste de alta el día 2025-06-03 14:xx:xx a través de banca telefónica, esperamos responderte en el menor tiempo posible. 10 días más tarde... ni flowers.",
+    "date": "03 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "servicio nulo seguimos trabajando en tu caso con n xxxx que diste de alta el da xxxx a travs de banca telefnica esperamos responderte en el menor tiempo posible das ms tarde ni flowers",
+    "language": "es",
+    "processed_text": "servicio nulo seguir trabajar caso n xxxx distir alta xxxx travs banca telefnico esperar responderte menor tiempo da ms flower"
+  },
+  {
+    "title": "Banco Santander Calle Boltaña, no cogen teléfono",
+    "review": "Buenos días en la sucursal de la calle Boltaña en Madrid barrio de Canillejas cuando llamas no coge nunca nadie el teléfono, es  una  auténtica vergüenza.",
+    "date": "13 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "buenos das en la sucursal de la calle boltaa en madrid barrio de canillejas cuando llamas no coge nunca nadie el telfono es una autntica vergenza",
+    "language": "es",
+    "processed_text": "da sucursal calle boltaa madrid barrio canilleja llama coger telfono autntico vergenza"
+  },
+  {
+    "title": "Fatal",
+    "review": "Fatal, no cubre nada de lo que pone que cubre, se lavan las manos",
+    "date": "12 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "fatal no cubre nada de lo que pone que cubre se lavan las manos",
+    "language": "es",
+    "processed_text": "fatal cubrir poner cubrir lavar mano"
+  },
+  {
+    "title": "Fatal",
+    "review": "No se porque te dicen que cojas cita por la web si luego te atienden cuando les da la gana.",
+    "date": "11 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "no se porque te dicen que cojas cita por la web si luego te atienden cuando les da la gana",
+    "language": "es",
+    "processed_text": "coja citar web atender gana"
+  },
+  {
+    "title": "Muy contenta",
+    "review": "Yo tengo que decir que me he quedado sorprendida con la rapidez que me han resuelto mi problema no han tardado ni 24 horas. Mis agradecimientos a la oficina 5867 y en especial a Esther.",
+    "date": "09 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "yo tengo que decir que me he quedado sorprendida con la rapidez que me han resuelto mi problema no han tardado ni horas mis agradecimientos a la oficina y en especial a esther",
+    "language": "es",
+    "processed_text": "quedar sorprendido rapidez resolver problema tardar hora agradecimiento oficina especial esther"
+  },
+  {
+    "title": "Pasaron de empleados de banca a…",
+    "review": "Pasaron de empleados de banca a funcionarios, muy mala atención y si no compras los seguros la atención es pésima, son muy malos vendedores y pésimos gestores. \"Trabajan \" por que no tienen a donde ir. Se acabo la banca viven amargados, no sienten la profesión, es lógico, no cobran por trabajar, cobran por lo que te tratan de vender.",
+    "date": "02 de junio de 2025",
+    "rating": "N/A",
+    "cleaned_text": "pasaron de empleados de banca a funcionarios muy mala atencin y si no compras los seguros la atencin es psima son muy malos vendedores y psimos gestores trabajan por que no tienen a donde ir se acabo la banca viven amargados no sienten la profesin es lgico no cobran por trabajar cobran por lo que te tratan de vender",
+    "language": "es",
+    "processed_text": "pasar empleado banca funcionario malo atencin comprar seguro atencin psimo malo vendedor psimos gestor trabajar acabo banca vivir amargado sentir profesin lgico cobrar trabajar cobrar tratar vender"
+  },
+  {
     "title": "CUENTA CONGELADA 2 MESES ES INCREIBLE Y NADIE DICE PORQUE LO Q PIDIERON YA SE ADJUNTO Y SIEMPRE LO MISMO EN 24 HORAS.ESTARA ACTIVA Y NADA, SON UNOS SINVERGUENZAS NI Q SE MOVIERAN MILLONES DE EUROS.",
     "review": "Lleva mi hijo con la cuenta congelada 2 meses ya adjunto todo lo que le pidieron q adjuntara y nada, nadie da razon y el problema es que ahi llegan todos los recibos de pagos que debe hacer y creditos con el mismo banco y le estan cobrando intereses por falta de pago y todo congelado, son unos sinverguenzas y lo peor todos los dias llamando y la misma respuesta que en 24 horas estara ya activa y 2 meses en esto, son unos mal nacidos y no le dicen porque esta congelada, por favor YA BASTA NO MAS MI HIJO ESTA ENFERMO YA CON ESTA SITUACION NESECITAMOS.SOLUCIONES.",
     "date": "01 de abril de 2025",
@@ -259,104 +358,5 @@
     "cleaned_text": "me ofrecieron un telfono y no era el que yo quera",
     "language": "es",
     "processed_text": "ofrecer telfono querer"
-  },
-  {
-    "title": "La sucursal de Casarrubios de el Monte…",
-    "review": "La sucursal de Casarrubios de el Monte en Toledo lleva cerrada desde semana santa y para colmo el cajero no tiene dinero , entiendo que el señor que lo lleva pueda tener algún tipo de problema y no pueda ir pero eso no es pretexto para no poner a alguien que lo sustituya,  DE VERGÜENZA 3",
-    "date": "30 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "la sucursal de casarrubios de el monte en toledo lleva cerrada desde semana santa y para colmo el cajero no tiene dinero entiendo que el seor que lo lleva pueda tener algn tipo de problema y no pueda ir pero eso no es pretexto para no poner a alguien que lo sustituya de vergenza",
-    "language": "es",
-    "processed_text": "sucursal casarrubio monte toledo cerrado semana santo colmo cajero dinero entender seor algn tipo problema pretexto alguien sustituir vergenza"
-  },
-  {
-    "title": "Muy buenas.He decidido escribir mi…",
-    "review": "Muy buenas.He decidido escribir mi opinión real sobré qué significa ser cliente Santander: yo soy cliente de la  sucursal de Albox.Debo decir que nadie ,NUNCA me ha ayudado tanto y con tanta familiaridad y profesionalidad como lo han hecho ellos, sobre todo el Director ,que además de su oficio se convierte en tu mejor aliado y hombro donde poner la cabeza cuando todo te agobia.Para mi son los únicos en la manera de tratar al cliente y NUNCA sales insatisfecho de la oficina.UN EJEMPLO DE SEGUIR.GRACIAS POR TODO.",
-    "date": "30 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "muy buenashe decidido escribir mi opinin real sobr qu significa ser cliente santander yo soy cliente de la sucursal de alboxdebo decir que nadie nunca me ha ayudado tanto y con tanta familiaridad y profesionalidad como lo han hecho ellos sobre todo el director que adems de su oficio se convierte en tu mejor aliado y hombro donde poner la cabeza cuando todo te agobiapara mi son los nicos en la manera de tratar al cliente y nunca sales insatisfecho de la oficinaun ejemplo de seguirgracias por todo",
-    "language": "es",
-    "processed_text": "buenashe decidido escribir opinin real sobr qu significar cliente santander cliente sucursal alboxdebo ayudar tanto familiaridad profesionalidad director adems oficio convertir aliado hombro cabeza agobiapar nico tratar cliente sal insatisfecho oficinaun ejemplo seguirgracia"
-  },
-  {
-    "title": "En la oficina de teatinos Málaga",
-    "review": "En la oficina de teatinos Málaga,  solo te responden y asesoran para contratar la cuenta. Fui atendido por isabel gomez .  Despues de eso dejan de responderte. Poco serio",
-    "date": "24 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "en la oficina de teatinos mlaga solo te responden y asesoran para contratar la cuenta fui atendido por isabel gomez despues de eso dejan de responderte poco serio",
-    "language": "es",
-    "processed_text": "oficina teatinos mlaga responder asesorar contratar atender isabel gomez dejar responderte serio"
-  },
-  {
-    "title": "Contraté el pasado Enero la cuenta…",
-    "review": "Contraté el pasado Enero la cuenta nómina del Banco Santander, pero después de haber pasado unos meses vi que no me llegaban los 400 € que me prometieron con dicha cuenta nomina, y al reclamar me dicen como excusa barata que yo no habia rellenado bien un formulario que iba adjunto a dicha contratación de esa cuenta nomina, y se callan sin decirme nada hasta que me he dado cuenta. Ni que decir tiene que voy cancelar la cuenta y no vuelvo con ellos jamas",
-    "date": "21 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "contrat el pasado enero la cuenta nmina del banco santander pero despus de haber pasado unos meses vi que no me llegaban los que me prometieron con dicha cuenta nomina y al reclamar me dicen como excusa barata que yo no habia rellenado bien un formulario que iba adjunto a dicha contratacin de esa cuenta nomina y se callan sin decirme nada hasta que me he dado cuenta ni que decir tiene que voy cancelar la cuenta y no vuelvo con ellos jamas",
-    "language": "es",
-    "processed_text": "contrat enero nmina banco santander despu mes ver llegar prometer dicho nomín reclamar excusa barato rellenado formulario ir adjunto dicho contratacin nomín callar decir yo cancelar volver jama"
-  },
-  {
-    "title": "No se puede ser tan usureros y ladrones",
-    "review": "Poned en la valoración también cero, en lugar de dar como mínimo una estrella. Sois unos auténticos ladrones, carentes de todo tipo de ética. Os quejáis del tímido impuesto a la banca que ha puesto este gobierno cuando os tenían que crujir con impuestos mucho mayores a los vergonzosos beneficios que obtenéis robando a vuestros clientes. Me da asco y me indigna que la Botina diga que fuera impuestos a los beneficios que sacáis con comisiones y robando el dinero a vuestros mismos clientes.En mi caso, tenía un producto financiero en un Seguro RAW 101, voy un día a rescatarlo y me dicen que ese día no puedo rescatarlo por que incluso la operativa de su página web no estaba operativa, montó un pollo y me dicen que me pase a rescatarlo el día siguiente. El valor de rescate este pasado 9 de abril era de una cantidad determinada, al día siguiente me paso por la oficina y como sospechaba el valor de rescate había bajado en 500€. Después de poner todas las reclamaciones posibles hoy me dan una respuesta después de una semana y me dicen que no van a devolver esos 500€ dando argumentos absolutamente delirantes.Me cago el el Banco Santander y en toda su práctica bancaria. Botina, a ver si te enteras. Tenía que haber un gobierno que os pusiera un pedazo de impuesto sobre beneficios que os cagarais. Sois el máximo exponente de la usura, robando a vuestros propios clientes. Mucho cuidado con este Banco nauseabundo y con los productos que comercializa. Devolvedme lo que me corresponde. No se puede obtener beneficios obscenos a costa de todos nosotros. Boicot a un banco que realiza prácticas bancarias sumamente abusivas",
-    "date": "21 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "poned en la valoracin tambin cero en lugar de dar como mnimo una estrella sois unos autnticos ladrones carentes de todo tipo de tica os quejis del tmido impuesto a la banca que ha puesto este gobierno cuando os tenan que crujir con impuestos mucho mayores a los vergonzosos beneficios que obtenis robando a vuestros clientes me da asco y me indigna que la botina diga que fuera impuestos a los beneficios que sacis con comisiones y robando el dinero a vuestros mismos clientesen mi caso tena un producto financiero en un seguro raw voy un da a rescatarlo y me dicen que ese da no puedo rescatarlo por que incluso la operativa de su pgina web no estaba operativa mont un pollo y me dicen que me pase a rescatarlo el da siguiente el valor de rescate este pasado de abril era de una cantidad determinada al da siguiente me paso por la oficina y como sospechaba el valor de rescate haba bajado en despus de poner todas las reclamaciones posibles hoy me dan una respuesta despus de una semana y me dicen que no van a devolver esos dando argumentos absolutamente delirantesme cago el el banco santander y en toda su prctica bancaria botina a ver si te enteras tena que haber un gobierno que os pusiera un pedazo de impuesto sobre beneficios que os cagarais sois el mximo exponente de la usura robando a vuestros propios clientes mucho cuidado con este banco nauseabundo y con los productos que comercializa devolvedme lo que me corresponde no se puede obtener beneficios obscenos a costa de todos nosotros boicot a un banco que realiza prcticas bancarias sumamente abusivas",
-    "language": "es",
-    "processed_text": "poned valoracin tambin cero lugar mnimo estrella autntico ladrón carente tipo tica quejis tmido impuesto banca poner gobierno tenar crujir impuesto mayor vergonzoso beneficio obtenis robar client asco indignar botina decir impuesto beneficio sacis comisión robar dinero clientesen caso tenar producto financiero seguro raw rescatar él rescatar él operativa pgín web operativo mont pollo pasar rescatar él valor rescate abril cantidad determinado pasar oficina sospechar valor rescate har bajado despu reclamación posible respuesta despus semana devolver dar argumento absolutamente delirantesme cago banco santander prctico bancario botín enterar tena gobierno poner pedazo impuesto beneficio cagarais mximo exponente usura robar cliente cuidado banco nauseabundo producto comercializar devolvedme corresponder obtener beneficio obsceno costa boicot banco realizar prctica bancario sumamente abusivo"
-  },
-  {
-    "title": "Muy mala la gestion con el gestor que…",
-    "review": "Muy mala la gestion con el gestor que no te sabe informar bien de las cosas y te sales perjudicando ahora mismo quiero cerrar mi cuenta y no me dejan, pues así se va a quedar la cuenta al descubierto no pienso ingresar ni 1€",
-    "date": "24 de enero de 2025",
-    "rating": "N/A",
-    "cleaned_text": "muy mala la gestion con el gestor que no te sabe informar bien de las cosas y te sales perjudicando ahora mismo quiero cerrar mi cuenta y no me dejan pues as se va a quedar la cuenta al descubierto no pienso ingresar ni",
-    "language": "es",
-    "processed_text": "malo gestion gestor informar cosa sal perjudicar querer cerrar dejar as quedar descubierto pensar ingresar"
-  },
-  {
-    "title": "Fondos de Inversión donde ellos se llevan las ganancias y tu se las declaras",
-    "review": "Hace 4 años abrí un fondo Santander Horizonte 2026, al cabo de 2 años , como tenía perdidas, muy mal aconsejada por la directora de la oficina de Salamanca, en el Paseo del Rollo, lo traspasé a una cartera. La quité harta de ver que subía y subían los fondos pero nunca los míos, llenos de comisiones. Cual es mi sorpresa que cuando voy a declararlo, según ellos he ganado 1500€, cuando perdí 200€. Y como me fui de ese banco, que es el mayor ladrón de todos, ahora ni puedo pedir cita ni me dan mis datos fiscales. Me toca denunciar a la OCU y CNMV. Jamas he tenido tantos problemas con un banco. Hasta cuando inicié con ellos que abrí un plazo fijo, se equivocaron 4 veces en las transferencias! Tuve que volver de vacaciones del lío que tenía la empleada...una auténtica incompetente!",
-    "date": "17 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "hace aos abr un fondo santander horizonte al cabo de aos como tena perdidas muy mal aconsejada por la directora de la oficina de salamanca en el paseo del rollo lo traspas a una cartera la quit harta de ver que suba y suban los fondos pero nunca los mos llenos de comisiones cual es mi sorpresa que cuando voy a declararlo segn ellos he ganado cuando perd y como me fui de ese banco que es el mayor ladrn de todos ahora ni puedo pedir cita ni me dan mis datos fiscales me toca denunciar a la ocu y cnmv jamas he tenido tantos problemas con un banco hasta cuando inici con ellos que abr un plazo fijo se equivocaron veces en las transferencias tuve que volver de vacaciones del lo que tena la empleadauna autntica incompetente",
-    "language": "es",
-    "processed_text": "aos abr fondo santander horizonte cabo ao tena perdido aconsejado directora oficina salamanco paseo rollo traspa cartera quit harta subir subir fondo mo lleno comisión sorpresa declarar él segn ganar perd banco ladrn pedir cita dato fiscal tocar denunciar ocu cnmv jama tanto problema banco inici abr plazo fijo equivocar transferencia tener volver vacación tenar empleadauna autntica incompetente"
-  },
-  {
-    "title": "Le doy una estrella por el debido…",
-    "review": "Le doy una estrella por el debido suceso que hubo con uno de sus empleados que tuvo la descara de mentir a un cliente en toda su cara el motivo fue movimientos bancarios el cual le dijo que eran gratuito lo cual no fue así y el cliente se lo preguntó dos veces y las dos veces le confirmó que si era gratuito lo cual no es así porque parece ser que los movimientos sí cuestan dinero",
-    "date": "14 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "le doy una estrella por el debido suceso que hubo con uno de sus empleados que tuvo la descara de mentir a un cliente en toda su cara el motivo fue movimientos bancarios el cual le dijo que eran gratuito lo cual no fue as y el cliente se lo pregunt dos veces y las dos veces le confirm que si era gratuito lo cual no es as porque parece ser que los movimientos s cuestan dinero",
-    "language": "es",
-    "processed_text": "dar estrella suceso empleado descara mentir cliente cara motivo movimiento bancario gratuito os cliente pregunt confirm gratuito as movimiento s costar dinero"
-  },
-  {
-    "title": "COMISIONES EXCESIVAS",
-    "review": "Mi madre tiene una cuenta en este banco, después de realizar la venta de una propiedad, hemos llevado un cheque bancario para ingresarlo en su cuenta y nos informan de que el coste es dé más de 60 euros. Cobran un 3% del valor del cheque. Ella tiene domiciliada su pensión y recibos. Mis hermanos y yo hemos ingresado los nuestros en BBVA e ING y es totalmente gratuito. Los cajeros tampoco están preparados para muchas operaciones. Es un banco antiguo de los que les saca dinero a los clientes, sobre todo a los mayores que no se manejan con las nuevas tecnologías.",
-    "date": "11 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "mi madre tiene una cuenta en este banco despus de realizar la venta de una propiedad hemos llevado un cheque bancario para ingresarlo en su cuenta y nos informan de que el coste es d ms de euros cobran un del valor del cheque ella tiene domiciliada su pensin y recibos mis hermanos y yo hemos ingresado los nuestros en bbva e ing y es totalmente gratuito los cajeros tampoco estn preparados para muchas operaciones es un banco antiguo de los que les saca dinero a los clientes sobre todo a los mayores que no se manejan con las nuevas tecnologas",
-    "language": "es",
-    "processed_text": "madre banco despu venta propiedad llevar cheque bancario ingresar él informar coste d ms euros cobrar valor cheque domiciliado pensin recibo hermano ingresar bbva ing totalmente gratuito cajero estn preparado operación banco antiguo sacar dinero cliente mayor manejar tecnologa"
-  },
-  {
-    "title": "Trato desagradable",
-    "review": "Hay una trabajadora que trata mal a los cliientes les habla mal ya la han sacado de una sucursal para cambiarla a otra i lo sigue haziendo",
-    "date": "14 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "hay una trabajadora que trata mal a los cliientes les habla mal ya la han sacado de una sucursal para cambiarla a otra i lo sigue haziendo",
-    "language": "es",
-    "processed_text": "trabajadora cliient sacar sucursal cambiar él i hazeir"
-  },
-  {
-    "title": "Oficina del Banco Santander. Murcia…",
-    "review": "Mi experiencia de la oficina del Banco de Santander de Juan Carlos 1 en Murcia, es muy favorable. María José, una trabajadora de dicha entidad, es empática, muy trabajadora, educada y eficiente.Gracias a ella, nunca cambiaría de  banco.Muchas gracias, María José, tu servicio a los clientes es excelente.",
-    "date": "10 de abril de 2025",
-    "rating": "N/A",
-    "cleaned_text": "mi experiencia de la oficina del banco de santander de juan carlos en murcia es muy favorable mara jos una trabajadora de dicha entidad es emptica muy trabajadora educada y eficientegracias a ella nunca cambiara de bancomuchas gracias mara jos tu servicio a los clientes es excelente",
-    "language": "es",
-    "processed_text": "experiencia oficina banco santander juan carlos murcia favorable marar jos trabajadora dicho entidad emptico trabajador educado eficientegracia cambiar bancomucha gracias mara jos servicio cliente excelente"
   }
 ]
