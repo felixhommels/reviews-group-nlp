@@ -7,9 +7,12 @@ Output: JSON with sentiment, keywords, confidence score, emotions, etc.
 
 import json
 import logging
+import requests
+from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from typing import Dict, Any, List
 from langdetect import detect, LangDetectException
+from collections import Counter
 
 # Import only what you need from your existing modules
 from src.scraper.url_scraper import scrape_trustpilot, scrape_imbd, scrape_steam, scrape_google_playstore
@@ -28,9 +31,10 @@ class SimpleURLAnalyzer:
         """Initialize all analyzers once"""
         logger.info("Initializing analyzers...")
         
-        # Create data directory if it doesn't exist
+        # Create data directories if they don't exist
         import os
         os.makedirs("data/raw", exist_ok=True)
+        os.makedirs("data/analysis", exist_ok=True)
         
         self.sentiment_analyzer = SentimentAnalyzer()
         self.keyword_extractor = KeywordExtractor()
@@ -132,6 +136,119 @@ class SimpleURLAnalyzer:
         
         return []
     
+    def extract_content_name(self, url: str, platform: str) -> str:
+        """Extract the name of the content (movie, game, app, etc.) from URL or data"""
+        try:
+            if platform == 'trustpilot':
+                # Extract company name from Trustpilot URL
+                # e.g., https://es.trustpilot.com/review/www.bancosantander.es -> bancosantander.es
+                if '/review/' in url:
+                    name = url.split('/review/')[-1].replace('www.', '').replace('-', ' ')
+                    return name.title()
+                    
+            elif platform == 'imdb':
+                # Try to get movie title from IMDb page
+                try:
+                    # Get the main movie page (not reviews page)
+                    main_url = url.split('/reviews')[0]
+                    if main_url.endswith('/'):
+                        main_url = main_url[:-1]
+                        
+                    headers = {"User-Agent": "Mozilla/5.0"}
+                    response = requests.get(main_url, headers=headers, timeout=5)
+                    soup = BeautifulSoup(response.text, 'html.parser')
+                    
+                    # Try multiple selectors for movie title
+                    title_elem = soup.select_one('h1[data-testid="hero__pageTitle"]')
+                    if not title_elem:
+                        title_elem = soup.select_one('h1.titleBar-title')
+                    if not title_elem:
+                        title_elem = soup.select_one('title')
+                        
+                    if title_elem:
+                        title = title_elem.get_text().strip()
+                        # Clean up IMDb title (remove year, "- IMDb" etc.)
+                        title = title.split(' - IMDb')[0].split(' (')[0]
+                        return title
+                except:
+                    pass
+                    
+                # Fallback: extract from URL
+                if '/title/tt' in url:
+                    return f"Movie {url.split('/title/')[-1].split('/')[0]}"
+                    
+            elif platform == 'steam':
+                # Try to get game name from Steam store page
+                try:
+                    app_id = url.split('/app/')[-1].split('/')[0] if '/app/' in url else '570'
+                    steam_url = f"https://store.steampowered.com/app/{app_id}/"
+                    
+                    headers = {"User-Agent": "Mozilla/5.0"}
+                    response = requests.get(steam_url, headers=headers, timeout=5)
+                    soup = BeautifulSoup(response.text, 'html.parser')
+                    
+                    # Try to find game title
+                    title_elem = soup.select_one('.apphub_AppName')
+                    if not title_elem:
+                        title_elem = soup.select_one('title')
+                        
+                    if title_elem:
+                        title = title_elem.get_text().strip()
+                        # Clean up Steam title
+                        title = title.split(' on Steam')[0]
+                        return title
+                except:
+                    pass
+                    
+                # Fallback
+                app_id = url.split('/app/')[-1].split('/')[0] if '/app/' in url else '570'
+                return f"Steam Game {app_id}"
+                
+            elif platform == 'playstore':
+                # Extract app name from Play Store
+                try:
+                    if 'id=' in url:
+                        app_id = url.split('id=')[-1].split('&')[0]
+                        
+                        # Try to get app name from Google Play Scraper
+                        from google_play_scraper import app
+                        app_info = app(app_id)
+                        return app_info.get('title', app_id)
+                except:
+                    pass
+                    
+                # Fallback
+                app_id = url.split('id=')[-1].split('&')[0] if 'id=' in url else 'Unknown App'
+                return app_id.replace('.', ' ').title()
+                
+        except Exception as e:
+            logger.debug(f"Error extracting content name: {e}")
+            
+        # Final fallback
+        return f"{platform.title()} Content"
+    
+    def aggregate_keywords(self, analyzed_reviews: List[Dict]) -> List[str]:
+        """Aggregate and rank keywords from all reviews"""
+        try:
+            all_keywords = []
+            for review in analyzed_reviews:
+                if review.get("analysis_success") and review.get("keywords"):
+                    all_keywords.extend(review["keywords"])
+            
+            if not all_keywords:
+                return []
+                
+            # Count keyword frequency
+            keyword_counts = Counter(all_keywords)
+            
+            # Return top 10 most common keywords
+            top_keywords = [keyword for keyword, count in keyword_counts.most_common(10)]
+            return top_keywords
+            
+        except Exception as e:
+            logger.error(f"Error aggregating keywords: {e}")
+            return []
+    
     def _read_saved_reviews(self, filepath: str) -> List[Dict]:
         """Read reviews from saved JSON file"""
         import os
@@ -215,20 +332,27 @@ class SimpleURLAnalyzer:
         """Main method: Analyze reviews from a URL and return JSON results"""
         
         try:
-            # Step 1: Scrape reviews
+            # Step 1: Detect platform and extract content name
+            platform = self.detect_platform(url)
+            content_name = self.extract_content_name(url, platform)
+            logger.info(f"Analyzing '{content_name}' from {platform}")
+            
+            # Step 2: Scrape reviews
             logger.info(f"Starting analysis for URL: {url}")
             reviews = self.scrape_reviews(url, max_reviews)
             
             if not reviews:
                 return {
                     "url": url,
+                    "content_name": content_name,
+                    "platform": platform,
                     "error": "No reviews found at this URL",
                     "total_reviews": 0
                 }
             
             logger.info(f"Found {len(reviews)} reviews")
             
-            # Step 2: Analyze each review
+            # Step 3: Analyze each review
             analyzed_reviews = []
             successful_analyses = 0
             
@@ -249,7 +373,7 @@ class SimpleURLAnalyzer:
                     if analysis.get("analysis_success", False):
                         successful_analyses += 1
             
-            # Step 3: Calculate summary statistics
+            # Step 4: Calculate summary statistics
             if successful_analyses > 0:
                 successful_reviews = [r for r in analyzed_reviews if r.get("analysis_success", False)]
                 
@@ -264,17 +388,24 @@ class SimpleURLAnalyzer:
                 # Average predicted rating
                 avg_rating = sum(r["predicted_rating"] for r in successful_reviews) / len(successful_reviews)
                 
+                # Aggregate top keywords from all reviews
+                top_keywords = self.aggregate_keywords(successful_reviews)
+                
                 summary = {
+                    "content_name": content_name,
+                    "platform": platform,
                     "total_reviews_analyzed": successful_analyses,
                     "average_confidence": round(avg_confidence, 3),
                     "average_sentiment_score": round(avg_sentiment_score, 3),
                     "average_predicted_rating": round(avg_rating, 1),
                     "sentiment_distribution": {s: sentiments.count(s) for s in set(sentiments)},
                     "most_common_emotion": most_common_emotion,
-                    "platform": self.detect_platform(url)
+                    "top_keywords": top_keywords
                 }
             else:
                 summary = {
+                    "content_name": content_name,
+                    "platform": platform,
                     "total_reviews_analyzed": 0,
                     "error": "No reviews could be successfully analyzed"
                 }
@@ -302,7 +433,9 @@ def main():
         print("Usage: python simple_url_analyzer.py <URL> [max_reviews]")
         print("Example: python simple_url_analyzer.py https://es.trustpilot.com/review/www.bancosantander.es 30")
         print("Example: python simple_url_analyzer.py https://www.imdb.com/title/tt0892769/reviews/ 20")
+        print("Example: python simple_url_analyzer.py https://store.steampowered.com/app/570/ 25")
         print("Supported platforms: Trustpilot, IMDb, Steam, Google Play Store")
+        print("\nOutput files saved to: data/analysis/{platform}_{content_name}_analysis.json")
         print("\nURL Format Notes:")
         print("  • IMDb: Use full /reviews/ URL (analyzer will add if missing)")
         print("  • Steam: Any store page URL with /app/{id}/")
@@ -317,9 +450,15 @@ def main():
         analyzer = SimpleURLAnalyzer()
         results = analyzer.analyze_url(url, max_reviews)
         
-        # Generate output filename
-        domain = urlparse(url).netloc.replace('.', '_')
-        output_file = f"review_analysis_{domain}.json"
+        # Generate output filename and save to data/analysis directory
+        content_name = results.get('summary', {}).get('content_name', 'unknown')
+        platform = results.get('summary', {}).get('platform', 'unknown')
+        
+        # Clean filename (remove special characters)
+        safe_name = "".join(c for c in content_name if c.isalnum() or c in (' ', '-', '_')).strip()
+        safe_name = safe_name.replace(' ', '_')
+        
+        output_file = f"data/analysis/{platform}_{safe_name}_analysis.json"
         
         # Save results
         with open(output_file, 'w', encoding='utf-8') as f:
@@ -332,7 +471,7 @@ def main():
             print(f"❌ Error: {results['error']}")
         else:
             summary = results.get('summary', {})
-            print(f"\n📊 Summary:")
+            print(f"\n📊 Summary for '{summary.get('content_name', 'Unknown')}':")
             print(f"   • Platform: {summary.get('platform', 'Unknown')}")
             print(f"   • Reviews analyzed: {summary.get('total_reviews_analyzed', 0)}")
             print(f"   • Average confidence: {summary.get('average_confidence', 0)}")
@@ -343,11 +482,16 @@ def main():
             sentiment_dist = summary.get('sentiment_distribution', {})
             if sentiment_dist:
                 print(f"   • Sentiment breakdown: {sentiment_dist}")
+                
+            top_keywords = summary.get('top_keywords', [])
+            if top_keywords:
+                print(f"   • Top keywords: {', '.join(top_keywords[:5])}...")  # Show first 5
         
     except Exception as e:
         print(f"❌ Failed to analyze URL: {e}")
         print("Make sure the URL is supported and try again.")
-        print("If you get import errors, make sure all dependencies are installed with: pip install -r requirements.txt")
+        print("If you get import errors, make sure all dependencies are installed with:")
+        print("pip install requests beautifulsoup4 lxml google-play-scraper langdetect")
 
 if __name__ == "__main__":
     main()
