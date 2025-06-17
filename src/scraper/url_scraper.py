@@ -4,11 +4,18 @@ import json
 import time
 from datetime import datetime
 import re
-from src.utils import save_reviews
 from google_play_scraper import Sort, reviews
 import pandas as pd
 
 # To run you need to run from root directory: python -m src.scraper.url_scraper
+
+def save_json(data, path):
+    with open(path, 'w') as f:
+        json.dump(data, f, indent=2)
+
+def load_json(path):
+    with open(path, 'r') as f:
+        return json.load(f)
 
 def scrape_trustpilot(url: str, topic: str, max_pages: int = 10):
     """
@@ -52,7 +59,7 @@ def scrape_trustpilot(url: str, topic: str, max_pages: int = 10):
         
         time.sleep(1)
     
-    save_reviews(reviews, f"{topic}_reviews.json")
+    save_json(reviews, f"{topic}_reviews.json")
 
 # Test
 # url = "https://es.trustpilot.com/review/www.bancosantander.es"
@@ -106,7 +113,8 @@ def scrape_imbd(url: str, topic: str, max_pages: int = 10):
 
         time.sleep(1)
 
-    save_reviews(reviews, f"{topic}_reviews.json")
+    save_json(reviews, f"{topic}_reviews.json")
+    return reviews
 
 # Test
 # url = "https://www.imdb.com/title/tt0892769/reviews/?ref_=tt_ov_ururv"
@@ -153,7 +161,7 @@ def scrape_google_playstore(app_id: str, max_reviews: int = 100):
         })
 
     # Save to JSON
-    save_reviews(formatted, output_file_name)
+    save_json(formatted, output_file_name)
 
     print(f"Saved to {output_file}")
     return formatted
@@ -207,7 +215,7 @@ def scrape_steam(app_id: str, max_reviews: int = 100):
         if len(batch) < batch_size:
             break
 
-    save_reviews(reviews[:max_reviews], output_file_name)
+    save_json(reviews[:max_reviews], output_file_name)
 
     print(f"Saved {len(reviews[:max_reviews])} reviews to {output_file}")
     return reviews[:max_reviews]

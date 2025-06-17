@@ -1,0 +1,18 @@
+{
+  "total_reviews": 50,
+  "overall_sentiment": "neutral",
+  "avg_confidence": 0.557,
+  "avg_sentiment_score": 0.24,
+  "avg_predicted_rating": 2.22,
+  "most_common_emotion": "anticipation",
+  "sentiment_breakdown": {
+    "neutral": 0.72,
+    "positive": 0.24,
+    "negative": 0.04
+  },
+  "emotion_breakdown": {
+    "joy": 0.4444444444444444,
+    "anticipation": 0.4444444444444444,
+    "sadness": 0.1111111111111111
+  }
+}
