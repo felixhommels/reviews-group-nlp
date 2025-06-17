@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""
-Simple Review URL Analyzer
-Input: Single URL
-Output: JSON with sentiment, keywords, confidence score, emotions, etc.
-"""
-
 import json
 import logging
 import requests
@@ -14,7 +8,6 @@ from typing import Dict, Any, List
 from langdetect import detect, LangDetectException
 from collections import Counter
 
-# Import only what you need from your existing modules
 from src.scraper.url_scraper import scrape_trustpilot, scrape_imbd, scrape_steam, scrape_google_playstore
 from src.analysis.sentiment_analysis import SentimentAnalyzer
 from src.analysis.keyword_extraction import KeywordExtractor
