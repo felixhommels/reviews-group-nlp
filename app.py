@@ -34,20 +34,6 @@ class PipelineError(Exception):
     """Custom exception for pipeline-specific errors."""
     pass
 
-def setup_directories() -> Dict[str, Path]:
-    """Create and return required directory paths."""
-    dirs = {
-        'raw': Path('data/raw'),
-        'processed': Path('data/processed'),
-        'results': Path('data/results')
-    }
-    
-    for dir_path in dirs.values():
-        dir_path.mkdir(parents=True, exist_ok=True)
-        logger.info(f"Ensured directory exists: {dir_path}")
-    
-    return dirs
-
 def validate_dataframe(df: pd.DataFrame, required_columns: list) -> bool:
     """Validate that DataFrame has required columns."""
     missing = [col for col in required_columns if col not in df.columns]
