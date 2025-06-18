@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+import os
+import warnings
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+warnings.filterwarnings("ignore")
+
 import json
 import logging
 import requests
@@ -13,8 +18,9 @@ from src.analysis.sentiment_analysis import SentimentAnalyzer
 from src.analysis.keyword_extraction import KeywordExtractor
 from src.analysis.emotion_analysis import EnglishEmotionAnalyzerHartmann, SpanishEmotionAnalyzerRobertuito
 from src.analysis.star_rating_predictor import StarRatingPredictor
+from src.analysis.openai_summary import get_likes_and_dislikes
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
 class SimpleURLAnalyzer:
@@ -381,6 +387,10 @@ class SimpleURLAnalyzer:
                     analyzed_reviews.append(analysis)
                     if analysis.get("analysis_success", False):
                         successful_analyses += 1
+                        
+            #OpenAI likes/dislikes step
+            review_texts = [r["text"] for r in analyzed_reviews if r.get("analysis_success")]
+            top_likes, top_dislikes = get_likes_and_dislikes(review_texts)
             
             # Step 4: Calculate summary statistics
             if successful_analyses > 0:
@@ -409,7 +419,9 @@ class SimpleURLAnalyzer:
                     "average_predicted_rating": round(avg_rating, 1),
                     "sentiment_distribution": {s: sentiments.count(s) for s in set(sentiments)},
                     "most_common_emotion": most_common_emotion,
-                    "top_keywords": top_keywords
+                    "top_keywords": top_keywords,
+                    "top_3_liked": top_likes,
+                    "top_3_disliked": top_dislikes
                 }
             else:
                 summary = {
@@ -495,6 +507,18 @@ def main():
             top_keywords = summary.get('top_keywords', [])
             if top_keywords:
                 print(f"   • Top keywords: {', '.join(top_keywords[:5])}...")  # Show first 5
+            
+            top_likes = summary.get('top_3_liked', [])
+            top_dislikes = summary.get('top_3_disliked', [])
+            if top_likes:
+                print("   • Top 3 liked aspects:")
+                for i, like in enumerate(top_likes, 1):
+                    print(f"      {i}. {like}")
+
+            if top_dislikes:
+                print("   • Top 3 disliked aspects:")
+                for i, dislike in enumerate(top_dislikes, 1):
+                    print(f"      {i}. {dislike}")
         
     except Exception as e:
         print(f"❌ Failed to analyze URL: {e}")

@@ -1,0 +1,715 @@
+{
+  "url": "https://www.trustpilot.com/review/www.swiss.com",
+  "timestamp": "2025-06-18 10:34:45.526936",
+  "summary": {
+    "content_name": "Swiss.Com",
+    "platform": "trustpilot",
+    "total_reviews_analyzed": 59,
+    "average_confidence": 0.924,
+    "average_sentiment_score": -0.839,
+    "average_predicted_rating": 1.3,
+    "sentiment_distribution": {
+      "positive": 3,
+      "negative": 54,
+      "neutral": 2
+    },
+    "most_common_emotion": "sadness",
+    "top_keywords": [
+      "airline",
+      "flight",
+      "flights",
+      "airlines",
+      "airport",
+      "swiss air",
+      "swiss airlines",
+      "worst airline",
+      "flight cancelled",
+      "booked flight"
+    ],
+    "top_3_liked": [
+      "Attentive and caring flight crew: Compassionate service during emergencies",
+      "Efficient rebooking assistance: Quick resolution for flight changes",
+      "Polite and helpful ground staff: Courteous interactions at airports"
+    ],
+    "top_3_disliked": [
+      "Poor customer service: Unresponsive and dismissive representatives",
+      "Uncomfortable seating: Cramped and outdated airplane layout",
+      "Baggage mishandling: Delayed, damaged, and lost luggage incidents"
+    ]
+  },
+  "reviews": [
+    {
+      "text": "Flight Review and my sheer disappointment. Check in : Awful staff behavior ( not courteous) very rude and disrespectful Counter supervisor and racist I can explain on a separate mail in details . Boarding : Delayed , Slow Aircraft: Boeing 777-300 ERBusiness Class Cabin: Thai Airways Premium Economy has better seating comfort , it’s unbelievable that a carrier like Swiss Air in their long haul flight from BKK- ZRH is so poor standard compared to many other even Asian or middle eastern airlines. It’s not comfortable, and hardly any privacy can not even move freely to use the washroom , I do regret flying with Swiss Air Business Class, I would never fly with swiss, I have seen much smaller Aircraft from even small countries like Tajaksthan with Airbus 310 Neo to have more comfortable seats and space . I have no ideas as to what seats swiss Air Economy or premium Economy has if this is what business class looks like . On my return trip I have paid extra money to be in first class cause this business class felt like a economy class compared to many other like Etihad , Emirates , Qatar, Thai, Singapore and the list can go on and on . I wish someone have given proper review somewhere about swiss Air . So other can decide for themselves. The in flight entertainment had movies from early 80’s and mid 90’s . Cabin air conditioner was not on during boarding until it was on the runway , and even during the entire flight I felt the cabin temperature could be a bit cooler , I was feeling suffocating in the cabin . The amenity kit is a joke the cheapest of its kind I have ever seen, the headphones were old , in total it was a night mare .  The connecting flight was delayed three times by 1 hour  , gates were changed twice . So much for swiss airlines timing . For the same price return on Business Class There were other options to select and I would request any one other who wishes to have direct connection not to fly with swiss Air if any other European city is your destination.  As for me I felt my money was a total waste, such a shame .",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "flight review",
+        "airlines",
+        "airlines comfortable",
+        "thai airways",
+        "flight bkk"
+      ],
+      "emotions": {
+        "top_emotion": "sadness",
+        "all_emotions": {
+          "sadness": 0.7821557521820068,
+          "surprise": 0.12719345092773438,
+          "anger": 0.036892909556627274,
+          "fear": 0.024730980396270752,
+          "neutral": 0.014447619207203388,
+          "disgust": 0.011473335325717926,
+          "joy": 0.0031059621833264828
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 1,
+      "original_title": "One of the Worst Business class",
+      "original_rating": "1",
+      "date": "June 13, 2025"
+    },
+    {
+      "text": "Airline to be avoided. Everything is terrible",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "airline avoided",
+        "airline",
+        "terrible",
+        "avoided terrible",
+        "avoided"
+      ],
+      "emotions": {
+        "top_emotion": "fear",
+        "all_emotions": {
+          "fear": 0.958303689956665,
+          "disgust": 0.014531172811985016,
+          "sadness": 0.013126111589372158,
+          "anger": 0.005980713292956352,
+          "neutral": 0.00459242332726717,
+          "surprise": 0.002747965743765235,
+          "joy": 0.000717911112587899
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 2,
+      "original_title": "Airline to be avoided",
+      "original_rating": "1",
+      "date": "June 14, 2025"
+    },
+    {
+      "text": "On June 5 at about 9.30am my Swiss International Air lines flight landed in Johannesburg. I had a connecting flight to Durban at 1.40pm (that on my ticket was listed as ‘Swiss Operated By: South African Airways 0555’). At about 10.30am I went to the SAA counter to check in and get my boarding pass. They told me there was a problem on the Swiss Air side and they would contact them as soon as they could. I returned every half hour from then-on but they said they had been unable to contact Swiss Air. By 12-noon several other Swiss Air-booked passengers had arrived with the same issue. Finally at about 12.30 SAA told us that they still had been unable to contact Swiss Air and that the problem was that Swiss Air had failed to secure the bookings. The SAA manager told us that our flight was, in fact, not booked despite what Swiss Air had told us and that if we wanted to get on the flight we would have to buy new tickets. She said we should claim compensation from Swiss Air. I rebooked (as did the others) and the receipt is attached. It cost me R3,828.57 (abouot £160.00)When we were given our boarding passes, the SAA manager said they had discovered that Swiss Air had overbooked and that this was the source of the problem.I contacted Swiss International Airlines and asked for full compensation for the R3,828.57 spent in rectifying the error made by Swiss Air with the booking. They replied that their regulations prevented them from compensating me. The result is that I am out-of-pocket by £160,00 as a direct consequence of a problem with a Swiss International Airlines booking.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "international airlines",
+        "air booked",
+        "air booking",
+        "airlines booking",
+        "international air"
+      ],
+      "emotions": {
+        "top_emotion": "sadness",
+        "all_emotions": {
+          "sadness": 0.5928632020950317,
+          "neutral": 0.20632068812847137,
+          "anger": 0.12508022785186768,
+          "surprise": 0.033501747995615005,
+          "fear": 0.02488366886973381,
+          "disgust": 0.01364134531468153,
+          "joy": 0.0037090808618813753
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 3,
+      "original_title": "Swiss International Airlines booking error",
+      "original_rating": "1",
+      "date": "June 04, 2025"
+    },
+    {
+      "text": "My review is about Swiss' inflexible approach to ticket name change policies. I booked a flight under a wrong last name ; completely my fault for not checking auto-fill when completing the booking form online. The first and middle name, a  unique combination, were correct. I've asked Swiss to have the last name corrected for a fee, sent copies of the travel documents. They wouldn't budge and advised to cancel the flight and rebook under the correct name or fly with the wrong last name at my own risk. Unfortunately, the new fare was more than double the original flights. I had to re-book flights with another airline.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "ticket change",
+        "booked flight",
+        "swiss corrected",
+        "review swiss",
+        "ticket"
+      ],
+      "emotions": {
+        "top_emotion": "sadness",
+        "all_emotions": {
+          "sadness": 0.6456267833709717,
+          "neutral": 0.18294911086559296,
+          "fear": 0.06148119270801544,
+          "anger": 0.056969042867422104,
+          "surprise": 0.03854137286543846,
+          "disgust": 0.01037646271288395,
+          "joy": 0.004056030418723822
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 4,
+      "original_title": "Inflexible policies",
+      "original_rating": "1",
+      "date": "June 02, 2025"
+    },
+    {
+      "text": "What has happened to this airline? So many negative reviews. Is it a true reflection of the country?Sad very very sad.A small bag, flying from JFK to Zurich.No QR code for easy transit? Waited in line for 90 min to receive a boarding pass?Very layed back service.Paid for a better economy seat. No legroom, and a passenger hitting the back of my seat, as no room to eat?Pathetic.But the final nail in the coffin, scammers from Switzerland calling my mobile within two days of landing.Personally the people would be better off if they closed this farce down. Or employ people whom have their act together!Whatever ever happened to the great, proud Swiss nationals one wonders.So much for progress.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "happened airline",
+        "airline",
+        "airline negative",
+        "passenger",
+        "legroom passenger"
+      ],
+      "emotions": {
+        "top_emotion": "sadness",
+        "all_emotions": {
+          "sadness": 0.912038266658783,
+          "surprise": 0.06439056247472763,
+          "neutral": 0.01274910755455494,
+          "joy": 0.003536796197295189,
+          "anger": 0.002489173086360097,
+          "fear": 0.002467191545292735,
+          "disgust": 0.0023288344964385033
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 5,
+      "original_title": "Sad state of affairs!",
+      "original_rating": "2",
+      "date": "April 26, 2025"
+    },
+    {
+      "text": "Key information about airport security access times at Manchester Airport was not provided by Swiss.  Their customer service person refused to accept there was any issue, continually repeated statements that bore no relation to the complaint and make other untrue statements, and then refused to escalate to someone more senior who might be empowered to actually address the complaint.  If this is how they treat someone one a business/first class combo ticket, I dread to think what economy gets you.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "airport security",
+        "manchester airport",
+        "information airport",
+        "airport provided",
+        "airport"
+      ],
+      "emotions": {
+        "top_emotion": "fear",
+        "all_emotions": {
+          "fear": 0.9508029222488403,
+          "disgust": 0.012433822266757488,
+          "anger": 0.01213086023926735,
+          "neutral": 0.011350313201546669,
+          "surprise": 0.006579505745321512,
+          "sadness": 0.005787974689155817,
+          "joy": 0.0009146280353888869
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 6,
+      "original_title": "Customer Service is non-existent",
+      "original_rating": "1",
+      "date": "June 13, 2025"
+    },
+    {
+      "text": "We booked tickets for flights to Croatia through in January 2025 to ensure a better price, only to receive and email a week ago (5 months later) to state the connecting flight to Croatia was cancelled. I have now had to pay close to double for an alternative flight and have no feedback on the original refund or reason for the cancellation. Unacceptable service and zero accountability from Swissair. You will have no guarantee of a refund and will be left out of pocket on hard earned money. Avoid at all costs...an expensive lesson for me, hoping to save you from the same fate.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "flights croatia",
+        "flight croatia",
+        "croatia cancelled",
+        "tickets flights",
+        "booked tickets"
+      ],
+      "emotions": {
+        "top_emotion": "sadness",
+        "all_emotions": {
+          "sadness": 0.7418892979621887,
+          "anger": 0.1294693797826767,
+          "neutral": 0.06606773287057877,
+          "fear": 0.024906544014811516,
+          "disgust": 0.019066596403717995,
+          "surprise": 0.01628793403506279,
+          "joy": 0.002312560798600316
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 7,
+      "original_title": "We booked tickets for flights to Croatia",
+      "original_rating": "1",
+      "date": "June 10, 2025"
+    },
+    {
+      "text": "The worst airline experience ever, I highly recommend anyone to avoid Swiss. We bought tickets Palermo-Zurich-Toronto-Calgary and return Vancouver-Munich-Frankfurt-Palermo. Several weeks later we get an email from Air Canada that the Frankfurt-Palermo flight has been re-scheduled and will depart before our previous flight arrives in Frankfurt. We manage to get through to online assistance and our return flights are rebooked, to what seems an acceptable alternative. After a few more weeks I look into our booking and it turns out now our return flight starts in Toronto, instead of Vancouver. We won’t be anywhere near Toronto. Contacting Swiss through online chat is impossible. Emails are responded by generic answers which indicate that either the person at the other end doesn’t understand the situation at hand, or doesn’t want to understand it. Eventually we manage to find a telephone number in Switzerland and a reluctant lady explains to us that we can either cancel the entire return journey or request refund for the Vancouver-Toronto leg (which went missing from the booking because Air Canada had not confirmed it to Swiss Air. Which, mind you, Swiss Air never thought of informing us!) However, we can only request the cancellation of the return flight after the journey has started - I.e. after we have flown to Canada.We have bought new return flight tickets (with another airline, of course). We hope that there won’t be more announced and uninformed changes or missing legs in our booking that would affect the outgoing journey, but we have zero confidence left in Swiss. We hope to get back money for the flights we paid for but won’t be receiving, because they “lost” part of the booking, but again, we aren’t confident. We don’t understand why we have to finance Swiss for several months for the flights they cancelled on us, and why we cannot be reimbursed for them immediately, as they have caused the cancellation. So, we submitted a request for cancellation and reimbursement of the return flights, but , in line with our other correspondence with Swiss, we have not heard back from them.So, definitely never again and sincerely advising everyone not to buy tickets with Swiss. We hear their alliance partner Lufthansa is much better, so if you need to fly with them, buy through Lufthansa, not Swiss.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "worst airline",
+        "airline experience",
+        "flights",
+        "tickets airline",
+        "flight tickets"
+      ],
+      "emotions": {
+        "top_emotion": "neutral",
+        "all_emotions": {
+          "neutral": 0.43075791001319885,
+          "sadness": 0.2083941251039505,
+          "disgust": 0.1335076540708542,
+          "anger": 0.1208406612277031,
+          "surprise": 0.05602824687957764,
+          "fear": 0.047408852726221085,
+          "joy": 0.0030624731443822384
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 8,
+      "original_title": "The worst airline experience ever",
+      "original_rating": "1",
+      "date": "May 31, 2025"
+    },
+    {
+      "text": "I flight quite often for work.  Swiss air is among the worse companies: I can barely remember about a flight being on time,  the airplanes are from a 70s nightmare,  the airport crew is unhelpful and impolite.  Avoid if you can",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "swiss air",
+        "time airplanes",
+        "airplanes",
+        "flight time",
+        "nightmare airport"
+      ],
+      "emotions": {
+        "top_emotion": "fear",
+        "all_emotions": {
+          "fear": 0.6140729784965515,
+          "sadness": 0.3051202595233917,
+          "anger": 0.04168586805462837,
+          "disgust": 0.02352098375558853,
+          "neutral": 0.005844554398208857,
+          "joy": 0.0053250836208462715,
+          "surprise": 0.004430271219462156
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 9,
+      "original_title": "Among the worse companies",
+      "original_rating": "1",
+      "date": "June 08, 2025"
+    },
+    {
+      "text": "They should be accountable for the luggage, as well.When they damage it, they assign another company to handle the compensation which ends up with you paying a more expensive one, with some discounts. All very well calculated.I had to buy another suitcase in a rush because needed to fly the following day (of course, with another airline)Why not to provide the client the possibility to receive the money assessed as the compensation value?I do not need 2 suitcases at all.",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5,
+        "confidence": 0.5,
+        "polarity": 0.5
+      },
+      "keywords": [
+        "accountable luggage",
+        "luggage damage",
+        "buy suitcase",
+        "handle compensation",
+        "luggage"
+      ],
+      "emotions": {
+        "top_emotion": "anger",
+        "all_emotions": {
+          "anger": 0.40578654408454895,
+          "neutral": 0.3410036563873291,
+          "sadness": 0.09397239238023758,
+          "disgust": 0.07569203525781631,
+          "surprise": 0.06735992431640625,
+          "fear": 0.010345065034925938,
+          "joy": 0.00584033690392971
+        }
+      },
+      "predicted_rating": 4,
+      "analysis_success": true,
+      "review_id": 10,
+      "original_title": "Damages to suitcase",
+      "original_rating": "1",
+      "date": "June 04, 2025"
+    },
+    {
+      "text": "I am a swiss senator.  I must say that the service has decrease significantly in the last year. Multiple flights delayed, difficult with cabine luggage, price are up. I am gold on other airlines and the experience is very different   . I will vote with my feet.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -0.5,
+        "confidence": 0.5,
+        "polarity": -0.5
+      },
+      "keywords": [
+        "service decrease",
+        "airlines experience",
+        "flights delayed",
+        "swiss senator",
+        "flights"
+      ],
+      "emotions": {
+        "top_emotion": "neutral",
+        "all_emotions": {
+          "neutral": 0.43387192487716675,
+          "sadness": 0.34285739064216614,
+          "fear": 0.1164594516158104,
+          "surprise": 0.04314059391617775,
+          "joy": 0.03815510869026184,
+          "anger": 0.02025623433291912,
+          "disgust": 0.005259396508336067
+        }
+      },
+      "predicted_rating": 2,
+      "analysis_success": true,
+      "review_id": 11,
+      "original_title": "I am a swiss senator",
+      "original_rating": "1",
+      "date": "June 07, 2025"
+    },
+    {
+      "text": "Absolutely unacceptable treatment – SWISS ignores passenger rightsI had one of the most disappointing experiences with SWISS, an airline I once trusted as part of the Star Alliance and a supposedly premium European carrier.During a recent flight, I was obliged to place my handbag in the overhead cabin due to my seat being in an emergency exit row. Upon landing, I discovered that my bag had been damaged by a leaking substance inside the compartment—an incident confirmed in writing by the cabin crew, who witnessed the leak themselves.Despite clear evidence and crew acknowledgment, SWISS refused to take any responsibility, hiding behind vague internal policies. As a so-called “compensation,” they offered me a €100 voucher—not usable unless I buy another ticket with them, which I certainly won’t. This is not compensation. It’s a marketing trap.What is most shocking, however, is the airline’s complete disregard for passenger rights as outlined in European legislation. While Switzerland often aligns itself with EU regulations in the aviation sector, SWISS’s behavior clearly violates the spirit and intent of EU Regulation (EC) No 261/2004 and consumer protection principles. It’s unacceptable that an airline based in a country that wishes to align with the EU chooses to ignore fundamental rights when it suits them.To make matters worse, my checked-in suitcase was also damaged during the same journey, with no resolution or proper response.Fly at your own risk.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "unacceptable airline",
+        "disregard passenger",
+        "ignores passenger",
+        "seat emergency",
+        "shocking airline"
+      ],
+      "emotions": {
+        "top_emotion": "surprise",
+        "all_emotions": {
+          "surprise": 0.36285895109176636,
+          "anger": 0.21465037763118744,
+          "fear": 0.2107703685760498,
+          "disgust": 0.16109097003936768,
+          "sadness": 0.03288447856903076,
+          "neutral": 0.016058331355452538,
+          "joy": 0.0016864669742062688
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 12,
+      "original_title": "Absolutely unacceptable treatment – SWISS ignores passenger rights",
+      "original_rating": "1",
+      "date": "June 02, 2025"
+    },
+    {
+      "text": "Their website is atrocious. Spend hours trying to spend $3500 For a business fair to europe but the website kept crashing or stalling.Finally I got through and went to the payment page. My bank asked for a credit card verification which I acknowledged and I went to the Swiss website to complete the transaction and got the sorry.Something went wrong message from swiss airlines website.Now the charge is pending. In a few hours I've been dealing with this.The fare has gone up get this $1000 or 30 plus percent. Probably because they were seeing me active on the site and decided to get another big chunk of money out of me. Not very good business practices if that's what's happening. The brand is in my mind fallen to new lows.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "swiss airlines",
+        "europe website",
+        "swiss website",
+        "website charge",
+        "fair europe"
+      ],
+      "emotions": {
+        "top_emotion": "sadness",
+        "all_emotions": {
+          "sadness": 0.5254894495010376,
+          "disgust": 0.18197932839393616,
+          "anger": 0.08529102057218552,
+          "fear": 0.07981033623218536,
+          "neutral": 0.07455760985612869,
+          "surprise": 0.05134836956858635,
+          "joy": 0.0015239358181133866
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 13,
+      "original_title": "Their website is atrocious",
+      "original_rating": "1",
+      "date": "June 04, 2025"
+    },
+    {
+      "text": "I have rarely experienced such atrocious customer service as I did with Swiss Airways. One would expect that an airline marketing itself as “Swiss precision” could at least manage to keep to a schedule and treat paying customers with a minimum of respect – but apparently not.My flight was significantly delayed, and even though I, as the customer, did everything right – showed up on time, followed all procedures, remained patient – I was met with arrogance, indifference, and a total lack of accountability from their side. When it is clearly their fault, you expect at least an apology and some effort to make things right. Instead, I was greeted with cold shrugs, vague excuses, and staff who seemed more interested in passing the problem on than solving it.There was no clear information, no compensation unless you fought tooth and nail for it, and absolutely no willingness to admit their own responsibility. The most absurd part? When you try to ask reasonable questions or seek assistance, you’re treated as a nuisance. It honestly felt like they forgot that I am the customer – and they are the ones who messed up.I travel a lot and have flown with many airlines – including budget ones – but this experience with Swiss Airways was among the worst. Their arrogant attitude and incompetent handling of the situation make them completely unfit as a choice if you value even the slightest bit of reliability or respect.Never again.Swiss Airways gets one star – and that’s only because zero isn’t an option.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "airline marketing",
+        "airlines including",
+        "airlines",
+        "flown airlines",
+        "delayed customer"
+      ],
+      "emotions": {
+        "top_emotion": "disgust",
+        "all_emotions": {
+          "disgust": 0.5983470678329468,
+          "anger": 0.33778804540634155,
+          "neutral": 0.03125757724046707,
+          "sadness": 0.01558185089379549,
+          "fear": 0.00922176893800497,
+          "surprise": 0.007333202287554741,
+          "joy": 0.00047041336074471474
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 14,
+      "original_title": "Review of Swiss Airways – A Deeply Disappointing Experience from Start to Finish",
+      "original_rating": "1",
+      "date": "June 02, 2025"
+    },
+    {
+      "text": "Staff member at Paris Charles deGaulle was obnoxious when we were dropping off our bags. A colleague of hers was pleasant and a gentleman but she was really an obnoxious individual that would put you off Swiss Air Lines. The way she treated customers was disgusting.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "obnoxious individual",
+        "obnoxious dropping",
+        "degaulle obnoxious",
+        "obnoxious",
+        "really obnoxious"
+      ],
+      "emotions": {
+        "top_emotion": "disgust",
+        "all_emotions": {
+          "disgust": 0.9921526312828064,
+          "anger": 0.0021451464854180813,
+          "neutral": 0.0020490556489676237,
+          "fear": 0.0014140000566840172,
+          "sadness": 0.0012241901131346822,
+          "surprise": 0.0005837574717588723,
+          "joy": 0.00043122220085933805
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 15,
+      "original_title": "Staff member at Paris Charles deGaulle…",
+      "original_rating": "1",
+      "date": "May 15, 2025"
+    },
+    {
+      "text": "I bought the recommended ticket from Swiss Air called Business Green. This allows for Rebooking “Allowed plus fare difference”. When rebooking Swiss Air wanted a surcharge of 209 CHF.The original ticket cost 1,143.40 CHF (+209 CHF) and a new Business Green ticket would cost 715,55 CHF.Conclusion:A new customer will be able to fly cheaper than a loyal frequent flyer customer who has already bought a ticket.Warran Buffet: Image is made in drops but wasted in buckets!",
+      "language": "en",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": 0.0,
+        "polarity": 0.0
+      },
+      "keywords": [
+        "ticket cost",
+        "ticket swiss",
+        "bought ticket",
+        "recommended ticket",
+        "cost 715"
+      ],
+      "emotions": {
+        "top_emotion": "neutral",
+        "all_emotions": {
+          "neutral": 0.6018967628479004,
+          "surprise": 0.1960500180721283,
+          "sadness": 0.12012454122304916,
+          "anger": 0.033919695764780045,
+          "joy": 0.03043391741812229,
+          "disgust": 0.01489161141216755,
+          "fear": 0.002683482365682721
+        }
+      },
+      "predicted_rating": 3,
+      "analysis_success": true,
+      "review_id": 16,
+      "original_title": "A Swiss Air dilemma: Loyal frequent flyer customer is charged more than a new customer!",
+      "original_rating": "1",
+      "date": "May 26, 2025"
+    },
+    {
+      "text": "The crew is nice. Food too. BUT the customer service is the worst ever. My luggage was not at the airport when we arrived (still in ZH). We gave our first and second hotel adress for a delivery. They delivered it at the wrong adress 6 days later. Thanks god we had the airtag in it and could find it (we had to drove back to Detroit to pick it up). I had to buy clothes and few other thing and a luggage. Swiss made us paid for the extra luggage and doesnt want to reimburse for what we had to buy. Mafika Mbuyi, the representant, is arrogant and rude. Worst company ever.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -0.5,
+        "confidence": 0.5,
+        "polarity": -0.5
+      },
+      "keywords": [
+        "worst luggage",
+        "luggage airport",
+        "luggage swiss",
+        "luggage doesnt",
+        "luggage"
+      ],
+      "emotions": {
+        "top_emotion": "disgust",
+        "all_emotions": {
+          "disgust": 0.7611744999885559,
+          "anger": 0.14071790874004364,
+          "neutral": 0.04991251602768898,
+          "sadness": 0.025293070822954178,
+          "surprise": 0.018946751952171326,
+          "joy": 0.00251724012196064,
+          "fear": 0.0014380295760929585
+        }
+      },
+      "predicted_rating": 2,
+      "analysis_success": true,
+      "review_id": 17,
+      "original_title": "The crew is nice but awful experience",
+      "original_rating": "2",
+      "date": "April 26, 2025"
+    },
+    {
+      "text": "I had a flight from Bari to Berlin via Switzerland. The second leg was rescheduled to the next day without a clear reason. I was told the original flight didn’t exist, but it did operate.I had to pay for a hotel and miss a workday. Customer service was unhelpful, hard to reach, and gave conflicting information. When I asked for a hotel refund, they first blamed me, then claimed I was notified 14 days earlier.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "rescheduled",
+        "hotel refund",
+        "original flight",
+        "flight didn",
+        "rescheduled day"
+      ],
+      "emotions": {
+        "top_emotion": "sadness",
+        "all_emotions": {
+          "sadness": 0.6264524459838867,
+          "anger": 0.24611181020736694,
+          "neutral": 0.06520062685012817,
+          "disgust": 0.0324263796210289,
+          "surprise": 0.018742337822914124,
+          "fear": 0.008372429758310318,
+          "joy": 0.0026940247043967247
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 18,
+      "original_title": "Unjustified Flight Change and Extra Costs",
+      "original_rating": "1",
+      "date": "May 29, 2025"
+    },
+    {
+      "error": "The expanded size of the tensor (536) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 536].  Tensor sizes: [1, 514]",
+      "analysis_success": false,
+      "review_id": 19,
+      "original_title": "📄 Formal Complaint",
+      "original_rating": "1",
+      "date": "May 17, 2025"
+    },
+    {
+      "text": "Hello. I was  a passenger on Swiss Airlines on a flight LX348 from Geneva to London Heathrow. My check-in luggage did not arrive and it appears to be lost. I reported this at LHR on arrival. I have also contacted your handling agents based in Cairo. They have been exceedingly unhelpful and have done nothing but give contradictory information depending on which agent I speak with. This is an utterly shameful state of affairs. I wish to escalate the matter to senior management. There is no clear escalation or complaints option on the website. I have rarely experienced anything as dire as this. No trace of my luggage. And nobody to offer a sensible response. Will contact CEO and Board of Management",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -1.0,
+        "confidence": 1.0,
+        "polarity": -1.0
+      },
+      "keywords": [
+        "swiss airlines",
+        "check luggage",
+        "airlines flight",
+        "passenger swiss",
+        "arrival contacted"
+      ],
+      "emotions": {
+        "top_emotion": "disgust",
+        "all_emotions": {
+          "disgust": 0.30589747428894043,
+          "sadness": 0.2958650588989258,
+          "fear": 0.261305034160614,
+          "anger": 0.08106999844312668,
+          "neutral": 0.045154981315135956,
+          "surprise": 0.009400819428265095,
+          "joy": 0.0013066617539152503
+        }
+      },
+      "predicted_rating": 1,
+      "analysis_success": true,
+      "review_id": 20,
+      "original_title": "My luggage is lost and Baggage Support is dire",
+      "original_rating": "1",
+      "date": "May 26, 2025"
+    }
+  ]
+}
