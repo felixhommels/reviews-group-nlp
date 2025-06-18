@@ -14,7 +14,7 @@ from src.preprocessing.spacy_preprocessor import preprocess_pipeline
 from src.analysis.nlp_analysis import run_full_nlp_pipeline
 from src.utils.file_utils import save_json
 from src.utils.dependencies import dependency_manager
-from src.analysis.sentiment_analysis import SentimentAnalyzer
+from src.analysis.sentiment_analysis import SentimentAnalyzer, map_score_to_granular_label
 from src.analysis.keyword_extraction import KeywordExtractor
 from src.analysis.emotion_analysis import EnglishEmotionAnalyzerHartmann, SpanishEmotionAnalyzerRobertuito
 from src.analysis.star_rating_predictor import StarRatingPredictor
@@ -122,6 +122,9 @@ def run_nlp_analysis_on_all_processed():
         if not file.endswith(".json"):
             continue
         source = Path(file).stem.replace("processed_", "").replace("_reviews", "")
+        # If the app_id is 570 and the file is for Steam, ensure the suffix
+        if source == "570":
+            source = "570_steam"
         input_path = os.path.join(input_dir, file)
         with open(input_path) as f:
             content = f.read().strip()
@@ -142,6 +145,11 @@ def run_nlp_analysis_on_all_processed():
                 spanish_emotion_analyzer,
                 rating_predictor
             )
+            # Add granular sentiment label
+            score = enriched.get("sentiment_score")
+            if score is not None:
+                enriched["sentiment_granular_label"] = map_score_to_granular_label(score)
+                enriched["sentiment_granular_score"] = score
             enriched_reviews.append(enriched)
 
         output_path = os.path.join(output_dir, f"review_analysis_{source}.json")
@@ -169,16 +177,84 @@ def create_visualizations(df, output_dir='data/visualizations'):
 
     # 2. Sentiment Score Distribution
     if 'sentiment_score' in df.columns:
+        unique_scores = sorted(df['sentiment_score'].dropna().unique())
+        score_counts = df['sentiment_score'].value_counts().reindex(unique_scores, fill_value=0)
+
         plt.figure(figsize=(10, 6))
-        sns.histplot(data=df, x='sentiment_score', bins=30)
+        score_counts.plot(kind='bar', width=0.8, alpha=0.6)
         plt.title('Distribution of Sentiment Scores')
         plt.xlabel('Sentiment Score')
         plt.ylabel('Count')
+        plt.xticks(rotation=0)
         plt.tight_layout()
         plt.savefig(os.path.join(output_dir, 'sentiment_score_distribution.png'))
         plt.close()
 
-    # 3. Star Ratings Distribution
+    # 3. Granular Sentiment Label Distribution
+    if 'sentiment_granular_label' in df.columns:
+        plt.figure(figsize=(10, 6))
+        order = ["very_negative", "somewhat_negative", "neutral", "somewhat_positive", "very_positive"]
+        sentiment_counts = df['sentiment_granular_label'].value_counts().reindex(order, fill_value=0)
+        sentiment_counts = sentiment_counts[sentiment_counts > 0]  # Only plot present labels
+        sentiment_counts.plot(kind='bar')
+        plt.title('Distribution of Granular Sentiment Labels')
+        plt.xlabel('Sentiment (Granular)')
+        plt.ylabel('Count')
+        plt.xticks(rotation=20)
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, 'sentiment_granular_distribution.png'))
+        plt.close()
+
+    # 4. Sentiment Score Distribution by Granular Label (Stacked Bar Chart)
+    if 'sentiment_granular_label' in df.columns and 'sentiment_score' in df.columns:
+        plt.figure(figsize=(12, 7))
+        order = ["very_negative", "somewhat_negative", "neutral", "somewhat_positive", "very_positive"]
+
+        # Count occurrences of each sentiment_score for each granular label
+        grouped = (
+            df.groupby(['sentiment_granular_label', 'sentiment_score'])
+            .size()
+            .reset_index(name='count')
+        )
+
+        # Only keep present labels and scores
+        grouped = grouped[grouped['sentiment_granular_label'].isin(order)]
+
+        # Pivot for stacked bar plot
+        pivot = grouped.pivot(index='sentiment_score', columns='sentiment_granular_label', values='count').fillna(0)
+        pivot = pivot[order]  # Ensure column order
+
+        pivot.plot(kind='bar', stacked=True, width=0.8, figsize=(12, 7))
+        plt.title('Sentiment Score Distribution by Granular Label')
+        plt.xlabel('Sentiment Score')
+        plt.ylabel('Count')
+        plt.xticks(rotation=0)
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, 'sentiment_score_by_granular_label.png'))
+        plt.close()
+
+    # 5. Granular Sentiment Label Percentages
+    if 'sentiment_granular_label' in df.columns:
+        order = ["very_negative", "somewhat_negative", "neutral", "somewhat_positive", "very_positive"]
+        label_counts = df['sentiment_granular_label'].value_counts().reindex(order, fill_value=0)
+        label_percentages = (label_counts / len(df) * 100).round(2)
+
+        plt.figure(figsize=(10, 6))
+        bars = plt.bar(label_percentages.index, label_percentages.values, color=sns.color_palette("muted"))
+        plt.title('Granular Sentiment Label Percentages')
+        plt.xlabel('Sentiment (Granular)')
+        plt.ylabel('Percentage of Reviews (%)')
+        plt.ylim(0, max(label_percentages.values) * 1.1)
+        plt.tight_layout()
+
+        # Annotate bars with percentage values
+        for bar, pct in zip(bars, label_percentages.values):
+            plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height(), f'{pct}%', ha='center', va='bottom')
+
+        plt.savefig(os.path.join(output_dir, 'sentiment_granular_label_percentages.png'))
+        plt.close()
+
+    # 6. Star Ratings Distribution
     if 'predicted_rating_raw' in df.columns:
         plt.figure(figsize=(10, 6))
         star_counts = df['predicted_rating_raw'].value_counts().sort_index()
@@ -190,7 +266,7 @@ def create_visualizations(df, output_dir='data/visualizations'):
         plt.savefig(os.path.join(output_dir, 'star_ratings_distribution.png'))
         plt.close()
 
-    # 4. Primary Emotions
+    # 7. Primary Emotions
     if 'top_emotion' in df.columns:
         plt.figure(figsize=(12, 6))
         emotion_counts = df['top_emotion'].value_counts()
@@ -203,21 +279,13 @@ def create_visualizations(df, output_dir='data/visualizations'):
         plt.savefig(os.path.join(output_dir, 'emotion_distribution.png'))
         plt.close()
 
-    # 5. Correlation between Sentiment Score and Star Ratings
-    if 'sentiment_score' in df.columns and 'predicted_rating_raw' in df.columns:
-        plt.figure(figsize=(10, 6))
-        sns.scatterplot(data=df, x='sentiment_score', y='predicted_rating_raw')
-        plt.title('Correlation between Sentiment Score and Star Ratings')
-        plt.xlabel('Sentiment Score')
-        plt.ylabel('Predicted Stars')
-        plt.tight_layout()
-        plt.savefig(os.path.join(output_dir, 'sentiment_stars_correlation.png'))
-        plt.close()
-
-    # 6. Word Cloud of Keywords
+    
+    # 8. Word Cloud of Keywords 
     if 'keywords' in df.columns:
         from wordcloud import WordCloud
-        all_keywords = ' '.join(df['keywords'].astype(str).str.join(' '))
+        from itertools import chain
+        flat_keywords = list(chain.from_iterable(df['keywords'].dropna()))
+        all_keywords = ' '.join(flat_keywords)
         wordcloud = WordCloud(width=800, height=400, background_color='white').generate(all_keywords)
         plt.figure(figsize=(10, 6))
         plt.imshow(wordcloud, interpolation='bilinear')
@@ -225,6 +293,18 @@ def create_visualizations(df, output_dir='data/visualizations'):
         plt.title('Most Common Keywords')
         plt.tight_layout()
         plt.savefig(os.path.join(output_dir, 'keyword_wordcloud.png'))
+        plt.close()
+
+    # 9. Granular Sentiment Label Pie Chart
+    if 'sentiment_granular_label' in df.columns:
+        order = ["very_negative", "somewhat_negative", "neutral", "somewhat_positive", "very_positive"]
+        label_counts = df['sentiment_granular_label'].value_counts().reindex(order, fill_value=0)
+
+        plt.figure(figsize=(8, 8))
+        plt.pie(label_counts, labels=label_counts.index, autopct='%1.1f%%', startangle=140, colors=sns.color_palette("muted"))
+        plt.title('Granular Sentiment Label Distribution')
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, 'sentiment_granular_label_pie.png'))
         plt.close()
 
 def main():
@@ -286,6 +366,7 @@ def main():
                 max_reviews=cfg.get("max_reviews", 100)
             )
             output_file = f"data/raw/{cfg['app_id']}_steam_reviews.json"
+            processed_output = f"data/processed_test_results/processed_{cfg['app_id']}_steam_reviews.json"
         else:
             logging.error(f"Unknown source: {source}")
             continue
@@ -310,7 +391,6 @@ def main():
         processed_reviews = processed_df.to_dict(orient='records')
 
         # Save processed reviews to processed_test_results
-        processed_output = f"data/processed_test_results/processed_{cfg.get('app_id', cfg.get('topic', source))}_reviews.json"
         with open(processed_output, "w") as f:
             json.dump(processed_reviews, f, ensure_ascii=False, indent=2)
 
