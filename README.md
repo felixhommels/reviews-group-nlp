@@ -2,23 +2,50 @@
 
 This project is designed to scrape, preprocess, and analyze reviews from various sources (IMDB, Trustpilot) using Natural Language Processing (NLP) techniques.
 
-## Setup Instructions
+## How to Run
 
-1. Create and activate a virtual environment:
+1. Create a `.env` file in the root directory and add your OpenAI API key:
+   ```
+   OPEN_AI_KEY=your_api_key_here
+   ```
+
+2. Set up the Python virtual environment:
    ```bash
    python -m venv venv
-   source venv/bin/activate 
-   ```
-
-2. Install dependencies:
-   ```bash
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
    pip install -r requirements.txt
    ```
+   Note: If you encounter any issues, try closing Visual Studio Code completely and running the virtual environment setup again.
 
-3. Download required spaCy models:
+3. Download required language models:
    ```bash
    python src/preprocessing/download_models.py
    ```
+   This will download:
+   - spaCy language models for:
+     - English (en_core_web_sm)
+     - Spanish (es_core_news_sm)
+     These models are essential for text processing and language detection.
+   - NLTK resources:
+     - punkt (for sentence tokenization)
+     - stopwords (for removing common words)
+     - wordnet (for word lemmatization)
+     - averaged_perceptron_tagger (for part-of-speech tagging)
+     These resources are used for text analysis and summarization.
+
+4. Run the Streamlit app:
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+   If you're new to Streamlit, you'll be prompted to enter your email address on first run.
+
+5. The app will open in your default browser at `http://localhost:8501`
+
+6. Using the app:
+   - Enter a review URL from supported platforms (IMDb, Trustpilot, Steam, Google Play Store)
+   - Choose how many reviews to analyze (1-100)
+   - Click "Analyze" and wait for the results
+   - Results will include sentiment analysis, key points summary, and detailed review breakdown
 
 ## Available Sources and Functions
 
@@ -154,7 +181,29 @@ The `src/analysis` directory contains several modules for analyzing reviews:
    # }
    ```
 
-2. **Emotion Analysis**
+2. **OpenAI Summary Analysis**
+   ```python
+   from src.analysis.openai_summary import get_likes_and_dislikes
+   
+   # Analyze multiple reviews to extract top likes and dislikes
+   reviews = [
+       "The graphics were amazing but the story was weak.",
+       "Great visuals, poor plot development.",
+       "Stunning effects, though the narrative needs work."
+   ]
+   
+   # Get the top 3 liked and disliked aspects
+   top_likes, top_dislikes = get_likes_and_dislikes(reviews)
+   # Returns two lists:
+   # top_likes = ["Amazing graphics", "Stunning visual effects", "Great visuals"]
+   # top_dislikes = ["Weak story", "Poor plot development", "Narrative needs work"]
+   
+   # You can also specify a different OpenAI model
+   top_likes, top_dislikes = get_likes_and_dislikes(reviews, model="gpt-4")
+   ```
+   Note: Requires OpenAI API key in `.env` file (see setup instructions above)
+
+3. **Emotion Analysis**
    ```python
    from src.analysis.emotion_analysis import EnglishEmotionAnalyzerHartmann
    
@@ -166,7 +215,7 @@ The `src/analysis` directory contains several modules for analyzing reviews:
    # Returns: {'joy': 0.8, 'anticipation': 0.6, ...}
    ```
 
-3. **Keyword Extraction**
+4. **Keyword Extraction**
    ```python
    from src.analysis.keyword_extraction import KeywordExtractor
    
@@ -178,7 +227,7 @@ The `src/analysis` directory contains several modules for analyzing reviews:
    # Returns: ['cinematography', 'acting', 'outstanding']
    ```
 
-4. **Star Rating Prediction**
+5. **Star Rating Prediction**
    ```python
    from src.analysis.star_rating_predictor import StarRatingPredictor
    
@@ -193,7 +242,7 @@ The `src/analysis` directory contains several modules for analyzing reviews:
    normalized_rating = StarRatingPredictor.normalize_rating(rating, source='imdb')
    ```
 
-5. **NLP Analysis**
+6. **NLP Analysis**
    ```python
    # The pipeline combines all analyzers for comprehensive review analysis
    result = run_full_nlp_pipeline(
@@ -230,6 +279,36 @@ The `src/analysis` directory contains several modules for analyzing reviews:
    #     "predicted_rating_normalized": 5.0
    # }
    ```
+
+7. **TextRank Summarization**
+   ```python
+   from src.summarizer.text_rank_summarizer import TextRankSummarizer
+   
+   # Initialize the summarizer
+   summarizer = TextRankSummarizer()
+   
+   # Example text with multiple sentences
+   text = """
+   The new iPhone camera system is revolutionary. The photos are incredibly sharp 
+   and detailed in any lighting condition. The battery life has been significantly 
+   improved from previous models. The user interface remains intuitive and smooth. 
+   However, the price point is quite high for many consumers. The charging speed 
+   could also be faster compared to competitors.
+   """
+   
+   # Get a summary with the 3 most important sentences (default)
+   summary = summarizer.summarize(text)
+   # Returns:
+   # • The new iPhone camera system is revolutionary.
+   # ----------------------------------------
+   # • The battery life has been significantly improved from previous models.
+   # ----------------------------------------
+   # • However, the price point is quite high for many consumers.
+   
+   # You can also specify the number of sentences
+   summary = summarizer.summarize(text, num_sentences=2)
+   ```
+
 
 
 
