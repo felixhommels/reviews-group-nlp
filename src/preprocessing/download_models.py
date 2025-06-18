@@ -1,8 +1,13 @@
-import spacy.cli
+"""
+Download required NLTK resources for text processing.
+"""
+
+import nltk
 import logging
 
 # --- Setup Logging ---
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
 
 # --- spaCy Language Model Downloader ---
 # This script downloads the spaCy models needed for the multi-language preprocessor.
@@ -29,21 +34,42 @@ MODELS_TO_DOWNLOAD = [
 
 def download_models():
     """Iterates through the list of models and downloads them using spacy's CLI."""
-    logging.info("Starting download of spaCy language models...")
+    logger.info("Starting download of spaCy language models...")
     for model in MODELS_TO_DOWNLOAD:
         try:
-            logging.info(f"Downloading model: {model}...")
+            logger.info(f"Downloading model: {model}...")
             spacy.cli.download(model)
-            logging.info(f"Successfully downloaded {model}.")
+            logger.info(f"Successfully downloaded {model}.")
         except SystemExit as e:
             # spacy.cli.download can call sys.exit, which we need to catch
             if e.code == 0:
-                 logging.info(f"Model {model} is already installed.")
+                 logger.info(f"Model {model} is already installed.")
             else:
-                 logging.error(f"Failed to download {model}. Error code: {e.code}")
+                 logger.error(f"Failed to download {model}. Error code: {e.code}")
         except Exception as e:
-            logging.error(f"An unexpected error occurred while downloading {model}: {e}")
-    logging.info("Finished downloading all specified spaCy models.")
+            logger.error(f"An unexpected error occurred while downloading {model}: {e}")
+    logger.info("Finished downloading all specified spaCy models.")
+
+def download_nltk_resources():
+    """Download required NLTK resources."""
+    resources = [
+        'punkt',           # For sentence tokenization
+        'stopwords',       # For stopword removal
+        'wordnet',        # For lemmatization
+        'averaged_perceptron_tagger'  # Required by wordnet
+    ]
+    
+    for resource in resources:
+        try:
+            logger.info(f"Downloading NLTK resource: {resource}")
+            nltk.download(resource, quiet=True)
+            logger.info(f"Successfully downloaded {resource}")
+        except Exception as e:
+            logger.error(f"Error downloading {resource}: {e}")
 
 if __name__ == "__main__":
+    logger.info("Starting NLTK resource download...")
+    download_nltk_resources()
+    logger.info("Completed NLTK resource download")
+    logger.info("Starting download of spaCy language models...")
     download_models() 

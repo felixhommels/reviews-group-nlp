@@ -19,6 +19,7 @@ from src.analysis.keyword_extraction import KeywordExtractor
 from src.analysis.emotion_analysis import EnglishEmotionAnalyzerHartmann, SpanishEmotionAnalyzerRobertuito
 from src.analysis.star_rating_predictor import StarRatingPredictor
 from src.analysis.openai_summary import get_likes_and_dislikes
+from src.summarizer.text_rank_summarizer import TextRankSummarizer
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -40,6 +41,7 @@ class SimpleURLAnalyzer:
         self.english_emotion_analyzer = EnglishEmotionAnalyzerHartmann()
         self.spanish_emotion_analyzer = SpanishEmotionAnalyzerRobertuito()
         self.rating_predictor = StarRatingPredictor()
+        self.text_summarizer = TextRankSummarizer()
         logger.info("Analyzers ready!")
     
     def detect_platform(self, url: str) -> str:
@@ -388,11 +390,22 @@ class SimpleURLAnalyzer:
                     if analysis.get("analysis_success", False):
                         successful_analyses += 1
                         
+            # Step 4: Generate summaries
+            if successful_analyses > 0:
+                # Combine all review texts for summarization with proper separation
+                all_review_text = " . ".join([r["text"].strip() for r in analyzed_reviews if r.get("analysis_success")])
+                
+                # Generate TextRank summary
+                summary_text = self.text_summarizer.summarize(
+                    all_review_text,
+                    num_sentences=5
+                )
+            
             #OpenAI likes/dislikes step
             review_texts = [r["text"] for r in analyzed_reviews if r.get("analysis_success")]
             top_likes, top_dislikes = get_likes_and_dislikes(review_texts)
             
-            # Step 4: Calculate summary statistics
+            # Step 5: Calculate summary statistics
             if successful_analyses > 0:
                 successful_reviews = [r for r in analyzed_reviews if r.get("analysis_success", False)]
                 
@@ -421,7 +434,8 @@ class SimpleURLAnalyzer:
                     "most_common_emotion": most_common_emotion,
                     "top_keywords": top_keywords,
                     "top_3_liked": top_likes,
-                    "top_3_disliked": top_dislikes
+                    "top_3_disliked": top_dislikes,
+                    "textrank_summary": summary_text
                 }
             else:
                 summary = {
@@ -507,6 +521,14 @@ def main():
             top_keywords = summary.get('top_keywords', [])
             if top_keywords:
                 print(f"   • Top keywords: {', '.join(top_keywords[:5])}...")  # Show first 5
+            
+            # Print TextRank summary
+            textrank_summary = summary.get('textrank_summary')
+            if textrank_summary:
+                print("\nKey Points from Reviews:")
+                print("-" * 50)
+                print(textrank_summary)
+                print("-" * 50)
             
             top_likes = summary.get('top_3_liked', [])
             top_dislikes = summary.get('top_3_disliked', [])

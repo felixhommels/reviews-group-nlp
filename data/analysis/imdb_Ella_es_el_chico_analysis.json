@@ -1,0 +1,635 @@
+{
+  "url": "https://www.imdb.com/title/tt0454945/",
+  "timestamp": "2025-06-18 14:40:55.572909",
+  "summary": {
+    "content_name": "Ella es el chico",
+    "platform": "imdb",
+    "total_reviews_analyzed": 40,
+    "average_confidence": 0.475,
+    "average_sentiment_score": 0.225,
+    "average_predicted_rating": 3.5,
+    "sentiment_distribution": {
+      "negative": 8,
+      "positive": 22,
+      "neutral": 10
+    },
+    "most_common_emotion": "joy",
+    "top_keywords": [
+      "amanda bynes",
+      "movie amanda",
+      "viola amanda",
+      "movie pretty",
+      "movie hilarious",
+      "comedies",
+      "review movie",
+      "recommend movie",
+      "movie laugh",
+      "comedic acting"
+    ],
+    "top_3_liked": [
+      "Comedy: Smart and hilarious humor.",
+      "Amanda Bynes: Charming and entertaining performance.",
+      "Entertainment: Fun, enjoyable, and engaging."
+    ],
+    "top_3_disliked": [
+      "Overacting: Exaggerated performances.",
+      "Predictability: Storyline and plot.",
+      "Stereotypes: Reinforcement of gender stereotypes."
+    ],
+    "textrank_summary": "• Now I would just like to say that I love this movie for what it is.\n----------------------------------------\n• She's the man is a very funny and entertaining movie.\n----------------------------------------\n• very funny movie though.\n----------------------------------------\n• Amanda Bynes really is just delightful as Viola / Sebastian; Channing Tatum makes a wonderful Duke; David Cross does a wonderfully over the top Principal Gold.\n----------------------------------------\n• Amanda Bynes did prove something in the film, it's really hard to really act like a guy."
+  },
+  "reviews": [
+    {
+      "text": "Now I would just like to say that I love this movie for what it is. Namely, a smart and hilarious teen flick that is at its best when its staying with \"the funny\", and completely sappy and or cheesy when it attempts anything else. \"She's the Man\" had solid comedic acting from Amanda. She has really grown as a comedian, and I look forward to seeing her in future roles. The film also had enough pretty people to make the setting nothing like any normal person's high school. I don't know else I can say other than this movie made me laugh way too loud, even for a movie theater, and I had to stifle my chocking laughter numerous times with my coat. i highly recommend this movie to anyone in need of a few laughs and some mindless dialog",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 1.0,
+        "confidence": 1.0,
+        "polarity": 1.0
+      },
+      "keywords": [
+        "recommend movie",
+        "movie laugh",
+        "comedic acting",
+        "solid comedic",
+        "movie smart"
+      ],
+      "emotions": {
+        "top_emotion": "joy",
+        "all_emotions": {
+          "joy": 0.9621537923812866,
+          "neutral": 0.020435381680727005,
+          "surprise": 0.007239824160933495,
+          "sadness": 0.004463132470846176,
+          "disgust": 0.003019914962351322,
+          "anger": 0.0020270526874810457,
+          "fear": 0.0006609100382775068
+        }
+      },
+      "predicted_rating": 5,
+      "analysis_success": true,
+      "review_id": 1,
+      "original_title": "a mind-numbing delight",
+      "original_rating": "6",
+      "date": ""
+    },
+    {
+      "error": "The expanded size of the tensor (944) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 944].  Tensor sizes: [1, 514]",
+      "analysis_success": false,
+      "review_id": 2,
+      "original_title": "Bynes and Company Score a Hat Trick",
+      "original_rating": "6",
+      "date": ""
+    },
+    {
+      "text": "When the Cornwall school cancels the women's soccer team, the player Viola (Amanda Bynes) is absolutely disappointed since the sport is her passion. Then her twin brother Sebastian (James Kirk) skips class to travel to London to play his songs and Viola disguises herself as if she was Sebastian to join the Illirya soccer team. Viola falls in love for her roommate Duke (Channing Tatum) that has a crush on Olivia Lennox (Laura Ramsey) that feels attracted by the sensitive Sebastian (indeed Viola) that is chased by his girlfriend Monique (Alex Breckenridge). Out of the blue, the real Sebastian anticipates his return from London and he is not aware of the situation and has to play soccer game against Cornwall.\n\"He's the Man\" is a funny and entertaining comedy with a predictable story similar to the 1985 \"Just One of the Guys\". The cute Amanda Bynes does not look like a boy but her performance is pleasant. My vote is six.\nTitle (Brazil): \"Ela é o Cara\" (\"She is the Guy\")",
+      "language": "en",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": 0.0,
+        "polarity": 0.0
+      },
+      "keywords": [
+        "women soccer",
+        "illirya soccer",
+        "team viola",
+        "viola amanda",
+        "disappointed sport"
+      ],
+      "emotions": {
+        "top_emotion": "sadness",
+        "all_emotions": {
+          "sadness": 0.38781899213790894,
+          "neutral": 0.29934725165367126,
+          "disgust": 0.1509905308485031,
+          "joy": 0.07093411684036255,
+          "anger": 0.06485113501548767,
+          "surprise": 0.023226799443364143,
+          "fear": 0.0028311924543231726
+        }
+      },
+      "predicted_rating": 3,
+      "analysis_success": true,
+      "review_id": 3,
+      "original_title": "Just One of the Guys of the Soccer Team",
+      "original_rating": "6",
+      "date": ""
+    },
+    {
+      "text": "Viola Johnson (Amanda Bynes) enters a prestigious boarding school disguised as her brother, so that he can run off to London to become a musician. Unfortunately, she immediately falls for her male roommate, who already has a crush on a girl who now has a crush on the male version of Viola.\nCombining the story of \"Just One of the Guys\" and Shakespeare's The Twelfth Night may sound like a recipe for disaster but She's the Man is a funny, charming and cheesy movie. The original trailer looked really lame yet the film turned out to be quite enjoyable. The story is clearly nothing new but it still works fine. The fact that the screenplay is written by Karen McCullah Lutz explains everything. She's good for harmless, fun films like She's the Man, Legally Blonde and Ella Enchanted. Andy Fickman does a decent job as the director. He never lets the film become too serious or else it would ruin the movie's appeal. He does overload on a few lame jokes though. That was the major problem I had with this film. Some of the jokes just fell flat while others were just incredibly cheesy, even for this film.\nThe acting was good for this type of movie and most of the actors were enjoyable to watch on screen. Amanda Bynes is full of charm as Viola. It was very hard to actually hate her and she's a much better actress than Hilary Duff. Channing Tatum was not as strong as Amanda. His performance was okay, sometimes his reactions were a little fake. Laura Ramsey plays Olivia and she gives a decent performance. Alex Breckenridge gives a pretty good performance as Monique. Her character was pretty interesting and she had decent chemistry with Amanda. The rest of the supporting actors are good except for David Cross. He plays the school principal and his performance was not funny at all.\nIf you do give She's the Man a shot then keep in mind that the entire film is highly unrealistic. I was reading some of the posts here and a few people are bashing the film for that. While the movie is pretty entertaining, it's also easily forgettable. It was a fun way to spend 100 minutes but it won't stay in your memory for long. It's also not just a chick flick and a guy could also like the movie. In the end, She's the Man is worth checking out whether that be in the theaters or on video. Rating 7/10",
+      "language": "en",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": 0.0,
+        "polarity": 0.0
+      },
+      "keywords": [
+        "viola johnson",
+        "johnson amanda",
+        "actress hilary",
+        "performance funny",
+        "funny charming"
+      ],
+      "emotions": {
+        "top_emotion": "neutral",
+        "all_emotions": {
+          "neutral": 0.5462923645973206,
+          "joy": 0.32128003239631653,
+          "sadness": 0.07130400836467743,
+          "disgust": 0.027514062821865082,
+          "surprise": 0.02208390273153782,
+          "anger": 0.007489270530641079,
+          "fear": 0.004036345519125462
+        }
+      },
+      "predicted_rating": 3,
+      "analysis_success": true,
+      "review_id": 4,
+      "original_title": "Completely Corny yet Still Very Entertaining",
+      "original_rating": "6",
+      "date": ""
+    },
+    {
+      "text": "This movie was pretty good. A lot of it has to do with the star Amanda Bynes. She has a strong screen presence and comes off as very likable. She plays Viola, a girl who is determined to show up her ex-boyfriend and prove that a girl could beat a guy at soccer. The girls soccer team gets cut and she isn't allowed to try out for the boys team. So, she goes to the rival school where her twin brother goes. The brother is on a trip to London, so she disguise herself as a boy and takes his place. She makes the soccer team but falls for one of the guys on it, her roommate, Duke. So, of course, there is many scenes of mistaken identity and Viola does crazy stuff to keep her secret.\nThe only part that made me say mmm... was how could no one notice that Viola as Sabastian was several inches shorter than the guys and when her brother shows up he is just as tall if not taller. And no one notices! So, you do have to buy that in order to believe the story. But I say no way.\nFINAL VERDICT: Good, I recommend it if you are looking for a comedy.",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5,
+        "confidence": 0.5,
+        "polarity": 0.5
+      },
+      "keywords": [
+        "movie pretty",
+        "movie",
+        "star amanda",
+        "looking comedy",
+        "amanda bynes"
+      ],
+      "emotions": {
+        "top_emotion": "neutral",
+        "all_emotions": {
+          "neutral": 0.7370325326919556,
+          "disgust": 0.14500656723976135,
+          "anger": 0.0435841903090477,
+          "surprise": 0.027918316423892975,
+          "joy": 0.02335980162024498,
+          "sadness": 0.021375825628638268,
+          "fear": 0.0017227346543222666
+        }
+      },
+      "predicted_rating": 4,
+      "analysis_success": true,
+      "review_id": 5,
+      "original_title": "fun teen film",
+      "original_rating": "7",
+      "date": ""
+    },
+    {
+      "text": "She's the man is a very funny and entertaining movie. When i first saw the trailers and read the bad reviews, i thought that this would be another teen flicky where Amanda Bynes makes a complete buffoon out of herself...I was wrong, this movie is hilarious from start to finish. There were many funny scenes and weird things happening. This is a really good movie to check out, i recommend this to people that know how to watch movies. One of the funniest parts in the movie is when Amanda Bynes (Viola dressed as Sebastien) is playing soccer with her team and the ball hits her under the belt really hard. She doesn't react how a guy would if he got a ball hit him in the nuts hard. Then everyone just stops and wonders whats wrong with Viola (dressed as Sebastien)...after wards she then reacts hilariously and over does it...very funny movie though. The ending is also funny...filled with surprises. Its definitely worth watching!",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5,
+        "confidence": 0.5,
+        "polarity": 0.5
+      },
+      "keywords": [
+        "movie amanda",
+        "funny movie",
+        "entertaining movie",
+        "movie hilarious",
+        "movies funniest"
+      ],
+      "emotions": {
+        "top_emotion": "joy",
+        "all_emotions": {
+          "joy": 0.9080106019973755,
+          "surprise": 0.044393640011548996,
+          "neutral": 0.024011852219700813,
+          "disgust": 0.012758996337652206,
+          "anger": 0.0055453297682106495,
+          "sadness": 0.003496840363368392,
+          "fear": 0.0017828246345743537
+        }
+      },
+      "predicted_rating": 4,
+      "analysis_success": true,
+      "review_id": 6,
+      "original_title": "funny movie!",
+      "original_rating": "7",
+      "date": ""
+    },
+    {
+      "text": "like each film for teenagers, the fun is the basic purpose. and, in this case, the mission accomplished is the right definition. because Amanda Bynes is fantastic and Channing Tatum did a great job. and , sure, David Cross gives the perfect spice. the references to Shakespeare, the holes of credibility of entire story, the crazy humor, the nice hypothesis, the lovely music, all are pieces of a seductive film, charming scene by scene, easy but perfect for entertainment. so, a teenager movie. one of the most charming.",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 1.0,
+        "confidence": 1.0,
+        "polarity": 1.0
+      },
+      "keywords": [
+        "film charming",
+        "movie charming",
+        "film teenagers",
+        "teenager movie",
+        "purpose"
+      ],
+      "emotions": {
+        "top_emotion": "joy",
+        "all_emotions": {
+          "joy": 0.9814441204071045,
+          "neutral": 0.010518738999962807,
+          "surprise": 0.0035860755015164614,
+          "sadness": 0.0018822136335074902,
+          "disgust": 0.0013673169305548072,
+          "anger": 0.0009133170824497938,
+          "fear": 0.00028810996445827186
+        }
+      },
+      "predicted_rating": 5,
+      "analysis_success": true,
+      "review_id": 7,
+      "original_title": "fun",
+      "original_rating": "N/A",
+      "date": ""
+    },
+    {
+      "text": "I went into this film not expecting much, so in that respect, I wasn't disappointed, but even then, I can't believe how dire this film really is. Amanda Bynes as the cross-dressing Viola/Sebastian takes every opportunity to mug for the camera, and reinforce the gender stereotypes that always plague such teen comedies. It's so full of over-exaggerated types, that it seems like the filmmakers took a teen comedy proforma and just ticked the boxes: spunky/pretty/feisty girl? Check. Spunky but dumb athletic jock boy? Check. Ditzy frou-frou mom? Check. Gay best friend/hairdresser needed for makeover? Check. Beautiful but unattainable girl who really is shy? Check. I could go on. What's most disappointing is that this film had a real chance to say something, albeit through comedy, about gender roles, cross-dressing and even sexual attraction, but backed away quickly whenever it got close. The concept of same-sex attraction isn't explored at all in the film: when Duke finds himself attracted to 'Sebastian'; he just says it'd be 'weird'. I'm just giving it 2: one for the all the scenes where Channing Tatum and his hot friends are topless, and one because you can't really muck up Shakespeare that much.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -0.5,
+        "confidence": 0.5,
+        "polarity": -0.5
+      },
+      "keywords": [
+        "comedies exaggerated",
+        "disappointing film",
+        "teen comedies",
+        "comedy gender",
+        "comedies"
+      ],
+      "emotions": {
+        "top_emotion": "fear",
+        "all_emotions": {
+          "fear": 0.38326191902160645,
+          "neutral": 0.23100921511650085,
+          "sadness": 0.20351576805114746,
+          "surprise": 0.08422230184078217,
+          "disgust": 0.07307467609643936,
+          "anger": 0.020485710352659225,
+          "joy": 0.004430352710187435
+        }
+      },
+      "predicted_rating": 2,
+      "analysis_success": true,
+      "review_id": 8,
+      "original_title": "She's not the man at all, she's just embarrassing!",
+      "original_rating": "2",
+      "date": ""
+    },
+    {
+      "text": "I saw this movie today (opened yesterday here) and was simply delighted.\nI saw a review that said something to the effect that the reviewer thought this would be just another teen movie, but then found it was based on Shakespeare's Twelfth Night ... and then started trying to justify liking this flick on Shakespearean grounds. I really think this is going way overboard: the only connections I could see with Twelfth Night are (a) the basic conceit of a girl masquerading as a man; (b) the extensive male-female humor arising out of that basic conceit; and (c) some of the names (including Viola & Duke).\nAside from those names, the thematic commonalties (a & b) are really great themes for any script, and this movie's script is no exception. Beyond that, though, this really is a simply delightful and very contemporary/traditional teen flick. And that's a perfectly legit genre even if highbrows have to find an excuse to like it ... like alluding to Shakespeare.\nThe movie is bright, fast-paced, emotive, stylized, funny ... full of teen hormones and teen humor and male/female humor suitable for all ages. And that's really the best part IMHO: really just about every male stereotype and every female stereotype is depicted in roundly appealing over-the-top fun. Those stereotypes are parodied relentlessly but affectionately, with such a complexity of invention that I'm still a little bewildered ... but really don't feel at all disappointed in that regard, it's not that kind of a movie: things come at you fast and fun and you get a laugh and a groan and then move on to the next split-second happening.\nAmanda Bynes really is just delightful as Viola / Sebastian; Channing Tatum makes a wonderful Duke; David Cross does a wonderfully over the top Principal Gold. All of the acting and characterizations were fine and on target. Cinematography was excellent.\nWonderful entertainment from beginning to end ... check it out!",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5,
+        "confidence": 0.5,
+        "polarity": 0.5
+      },
+      "keywords": [
+        "shakespeare movie",
+        "teen movie",
+        "movie based",
+        "twelfth night",
+        "saw movie"
+      ],
+      "emotions": {
+        "top_emotion": "joy",
+        "all_emotions": {
+          "joy": 0.6669938564300537,
+          "surprise": 0.13377012312412262,
+          "sadness": 0.11130357533693314,
+          "neutral": 0.07537984848022461,
+          "disgust": 0.005413692910224199,
+          "anger": 0.004913891665637493,
+          "fear": 0.0022249172907322645
+        }
+      },
+      "predicted_rating": 4,
+      "analysis_success": true,
+      "review_id": 9,
+      "original_title": "First Rate Teen Flick",
+      "original_rating": "8",
+      "date": ""
+    },
+    {
+      "text": "Just returned from a screening of She's the man. It's not a cinematic masterpiece. There is no nudity whatsoever. No swearing whatsoever. But still a solid production with strong comic performances from the leads, especially Bynes. The writers are Karen Lutz and Kristen Smith who also wrote \"Legally Blonde\" and \"10 things I hate about you\" Expect the same theatrical set up/punchline/soundtrack dominated flick with more \"Series of Shots\" plot development montages than most people care to see. The dozens of 16 year old girls at the screening (\"I told you at lunch that I was gonna sit with Amanda. Cause remember during study hall when that cute Senior was walking by and Amanda asked me first if I would sit with her? Remember?) all loved this movie. I have watched Legally Blonde numerous times on cross country flights and it never fails to disappoint me. Mainly because Reese Witherspoon is despicable and one dimensional. She is easy to hate. Amanda Bynes is a piece of work. Impossible to dislike. She reminds me of Lucile Ball and Ellen Degeneres with a natural sense of timing and uninhibited range of expression. Bynes is adorable. These types of comedies live or die on how memorable the cast is. If the performances are wooden such as in 10 Things I Hate About You, the film fades into dust. She's the Man is a fine effort. I found myself laughing at regular intervals. That wasn't true with Mean Girls because the performances in Mean Girls were not convincing. They seemed too rehearsed. The cast of She's the Man is theatrical to a fault, but the situation demands it. Their performances come across as improvised and authentic. They are going for laughs and mostly get them. I can't see how anyone under 20 would not like this movie. Anyone over 20 should see it if they like teen comedies with clever situations.",
+      "language": "en",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": 0.0,
+        "polarity": 0.0
+      },
+      "keywords": [
+        "cinematic masterpiece",
+        "cinematic",
+        "comic performances",
+        "cast performances",
+        "comedies"
+      ],
+      "emotions": {
+        "top_emotion": "neutral",
+        "all_emotions": {
+          "neutral": 0.6068035960197449,
+          "disgust": 0.23386628925800323,
+          "anger": 0.05519454926252365,
+          "surprise": 0.046307437121868134,
+          "joy": 0.03514328971505165,
+          "sadness": 0.018335675820708275,
+          "fear": 0.004349173046648502
+        }
+      },
+      "predicted_rating": 3,
+      "analysis_success": true,
+      "review_id": 10,
+      "original_title": "A fine effort",
+      "original_rating": "7",
+      "date": ""
+    },
+    {
+      "error": "The expanded size of the tensor (602) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 602].  Tensor sizes: [1, 514]",
+      "analysis_success": false,
+      "review_id": 11,
+      "original_title": "If you liked \"Bring it On,\" you'll love \"She's the Man\"",
+      "original_rating": "3",
+      "date": ""
+    },
+    {
+      "text": "I have to be honest, I really had a good time watching She's the Man. Despite it being a typical teenage comedy or if you will the switching of the sexes movie, it had some pretty decent laughs that I think anyone could get. Adults and teens alike would over all enjoy this movie.\nAmanda Bynes is your typical rebellious teen who dresses and acts like a guy, and when she is turned down to try out for the boy's soccer team, she decides to take over her brother's appearance to prove herself worthy of being on the boy's soccer team. Of course, love shows itself when she meets another guy who thinks she's her brother. She also has a girl who is chasing after her. Well, the tag line says it all.\nThis is a fun little teen drama that I think will be remembered for a while. Amanda Bynes did prove something in the film, it's really hard to really act like a guy. :D Well, it's true! \n8/10",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5,
+        "confidence": 0.5,
+        "polarity": 0.5
+      },
+      "keywords": [
+        "movie amanda",
+        "sexes movie",
+        "teenage comedy",
+        "movie pretty",
+        "teen drama"
+      ],
+      "emotions": {
+        "top_emotion": "joy",
+        "all_emotions": {
+          "joy": 0.6687917709350586,
+          "neutral": 0.19444157183170319,
+          "disgust": 0.06368502229452133,
+          "anger": 0.041778046637773514,
+          "sadness": 0.020677225664258003,
+          "surprise": 0.005824130494147539,
+          "fear": 0.004802150186151266
+        }
+      },
+      "predicted_rating": 4,
+      "analysis_success": true,
+      "review_id": 12,
+      "original_title": "Yeah, a bit predictable, but still enjoyable",
+      "original_rating": "8",
+      "date": ""
+    },
+    {
+      "text": "Viola (Amanda Bynes), a talented football (\"soccer\") player, is appalled to hear that her school is going to pull the plug on the girls' football team and that she's not allowed to join the boys' team either. She devises a plan to keep playing: she disguises herself as her brother Sebastian (James Kirk) and enrolls in another school to join the boys' team there. Easier said than done; besides maintaining a credible masculine appearance and behaviour, she also has to deal with criss-crossing romances of her new friends and herself. She likes Duke (Channing Tatum) who in turn likes Olivia (Laura Ramsey), while Viola and Sebastian's exes Justin and Monique (Robert Hoffman and Alexandra Breckenridge) are also in the picture making things even more complicated.\nThe comedic style is quite noisy and exaggerated, as expected – rock songs are constantly blasted in the background and overacting is not frowned upon. At first most of the humour is derived from Bynes' behaving like an over-the-top male stereotype, but later on the focus is put more on traditional rom-com plot lines; misunderstandings, jealousy and secret scheming behind each other's backs. Football only provides a backdrop for the story, at least until the finale, but the movie was never really supposed to be a sports film anyway, so it doesn't matter that much.\nThere are funny moments scattered throughout the film, such as the antics of the school's overly friendly principal (David Cross) and the tough football coach (Vinnie Jones), but ultimately the story is a pretty ordinary romantic comedy. Amanda Bynes is at home in the lead role and saves a lot with her youthful energy though, so if complex but comedic love triangles are your thing, you may well add a star or two to my rating.",
+      "language": "en",
+      "sentiment": {
+        "label": "neutral",
+        "score": 0.0,
+        "confidence": 0.0,
+        "polarity": 0.0
+      },
+      "keywords": [
+        "girls football",
+        "viola amanda",
+        "talented football",
+        "viola",
+        "ramsey viola"
+      ],
+      "emotions": {
+        "top_emotion": "disgust",
+        "all_emotions": {
+          "disgust": 0.6911543607711792,
+          "anger": 0.23659741878509521,
+          "neutral": 0.047751426696777344,
+          "surprise": 0.013732443563640118,
+          "sadness": 0.004380872473120689,
+          "fear": 0.003712934907525778,
+          "joy": 0.0026706105563789606
+        }
+      },
+      "predicted_rating": 3,
+      "analysis_success": true,
+      "review_id": 13,
+      "original_title": "She's the Man",
+      "original_rating": "6",
+      "date": ""
+    },
+    {
+      "text": "My girlfriend talked me into renting She's the Man and I will never forgive her for subjecting me to the horror that was this \"film\". The only slightly intriguing aspect was the idea of Amanda Bynes dressed as a boy. Sadly, even that was not enough to pull it off. Admittedly, there were some entertaining lines and I may have laughed out loud once or twice but the painful moments and pathetic, repeated attempts at humor (during Amanda's attempts at faking masculinity) just made me wince and shake my head. If you've recently been subjected to a lobotomy and have lost all sense of what entertainment is, this is the film for you.",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5,
+        "confidence": 0.5,
+        "polarity": 0.5
+      },
+      "keywords": [
+        "faking masculinity",
+        "humor amanda",
+        "subjecting horror",
+        "horror film",
+        "admittedly entertaining"
+      ],
+      "emotions": {
+        "top_emotion": "fear",
+        "all_emotions": {
+          "fear": 0.9197811484336853,
+          "sadness": 0.025294413790106773,
+          "neutral": 0.023581041023135185,
+          "disgust": 0.01589394547045231,
+          "surprise": 0.010378307662904263,
+          "anger": 0.0026707055512815714,
+          "joy": 0.002400500001385808
+        }
+      },
+      "predicted_rating": 4,
+      "analysis_success": true,
+      "review_id": 14,
+      "original_title": "Just Bad",
+      "original_rating": "3",
+      "date": ""
+    },
+    {
+      "text": "What about for this review for the movie She's the Man?\nNothing beats a classic 2000s Rom-Com like this film! Well, actually, there's a lot of great ones out there. But this one has got to be one of my favorites when I was younger (still is).\nShe's the Man skillfully blends humor and an empowering message challenging gender stereotypes. The writing, a mix of funny and cringey, follows a woman's journey to defy societal norms and pursue her dreams. Despite its brilliance in delivering a humorous love comedy addressing gender stereotypes, the film, while considered one of the best sports comedies of 2006, is not without drawbacks.\nAmanda Bynes' captivating performance adds depth, but Viola's impersonation occasionally leads to oversexualization and objectification of women. The film's binary portrayal of gender dynamics, while conveying core messages, may feel dated to modern viewers, excluding experiences of trans and gender non-conforming individuals. Despite hints at LGBTQ dynamics, the film mostly adheres to heterosexual rom-com tropes, albeit with some subversion.",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5,
+        "confidence": 0.5,
+        "polarity": 0.5
+      },
+      "keywords": [
+        "portrayal gender",
+        "women film",
+        "addressing gender",
+        "gender stereotypes",
+        "review movie"
+      ],
+      "emotions": {
+        "top_emotion": "neutral",
+        "all_emotions": {
+          "neutral": 0.5637580156326294,
+          "joy": 0.24627313017845154,
+          "disgust": 0.11434521526098251,
+          "surprise": 0.0326753668487072,
+          "sadness": 0.026915686205029488,
+          "anger": 0.013809846714138985,
+          "fear": 0.0022227156441658735
+        }
+      },
+      "predicted_rating": 4,
+      "analysis_success": true,
+      "review_id": 15,
+      "original_title": "Nostalgic Charm with Gender Challenges",
+      "original_rating": "7",
+      "date": ""
+    },
+    {
+      "error": "The expanded size of the tensor (875) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 875].  Tensor sizes: [1, 514]",
+      "analysis_success": false,
+      "review_id": 16,
+      "original_title": "She's the Man",
+      "original_rating": "7",
+      "date": ""
+    },
+    {
+      "error": "The expanded size of the tensor (1010) must match the existing size (514) at non-singleton dimension 1.  Target sizes: [1, 1010].  Tensor sizes: [1, 514]",
+      "analysis_success": false,
+      "review_id": 17,
+      "original_title": "\"She's the Man\" tries to be original and funny but the final verdict is very typical and average",
+      "original_rating": "7",
+      "date": ""
+    },
+    {
+      "text": "This film is about a teenage girl who poses as her twin brother to attend his school, so that she can play in the boys' soccer team.\n\"She's the Man\" is unbelievably hilarious! I laughed out loud so many times, and I even curled up into a ball from laughing. The film has no gross humour, which is refreshing for a change.Amanda Bynes is quite convincing in her (admittedly over the top) male mannerisms, there are so many times when I thought her male voice must have been dubbed using a man's voice. Though the sweet ending ventures into the usual chick flick territory, \"She's the Man\" is still a very fun and entertaining film to watch.",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 0.5,
+        "confidence": 0.5,
+        "polarity": 0.5
+      },
+      "keywords": [
+        "laughing film",
+        "entertaining film",
+        "unbelievably hilarious",
+        "film teenage",
+        "hilarious"
+      ],
+      "emotions": {
+        "top_emotion": "joy",
+        "all_emotions": {
+          "joy": 0.8873637318611145,
+          "neutral": 0.06917831301689148,
+          "disgust": 0.018965642899274826,
+          "surprise": 0.014812268316745758,
+          "sadness": 0.00491428654640913,
+          "anger": 0.003978593274950981,
+          "fear": 0.0007871212437748909
+        }
+      },
+      "predicted_rating": 4,
+      "analysis_success": true,
+      "review_id": 18,
+      "original_title": "So fun and entertaining",
+      "original_rating": "N/A",
+      "date": ""
+    },
+    {
+      "text": "On a flight back from London, I watched She's the Man; apparently Air Canada has a crap movie policy. Perhaps that's not the best way to start a review of this movie. Amanda Bynes plays a girl who loves soccer so much that she pretends to be her twin brother to get on a team at a boarding school across town. Even if you check your mind at the door (on a 6 hour flight you have to), the story is implausible and ridiculous. There are some moments of humor, mostly from comedian David Cross as the principle, but the intricate love polygon doesn't really inspire emotion, although is is cleverly mixed (with the caveat of mindless plausibility). The ending is just as ridiculously mindless as the rest. I guess if I was a 12-year-old girl, I might have really enjoyed this one.",
+      "language": "en",
+      "sentiment": {
+        "label": "negative",
+        "score": -0.5,
+        "confidence": 0.5,
+        "polarity": -0.5
+      },
+      "keywords": [
+        "movie amanda",
+        "flight story",
+        "amanda bynes",
+        "review movie",
+        "comedian"
+      ],
+      "emotions": {
+        "top_emotion": "disgust",
+        "all_emotions": {
+          "disgust": 0.8217294812202454,
+          "neutral": 0.08760874718427658,
+          "anger": 0.05211777240037918,
+          "joy": 0.014062725938856602,
+          "sadness": 0.010140425525605679,
+          "surprise": 0.009479151107370853,
+          "fear": 0.004861788358539343
+        }
+      },
+      "predicted_rating": 2,
+      "analysis_success": true,
+      "review_id": 19,
+      "original_title": "Love Polygon",
+      "original_rating": "3",
+      "date": ""
+    },
+    {
+      "text": "I just took my 11 year old daughter and 8 year old son to this movie and I can't remember a movie where I laughed SO hard -- literal out loud, deep bursts of laughter because this movie is hilarious. Granted the story line is predictable but the ride is so extremely enjoyable it doesn't matter that you know how it's going to end. The actors' comedic senses of timing were impeccable. The actors were perfectly cast. My children mentioned that Amanda Bynes seems to be the last of the young women actresses who aren't ruining their lives. She is so refreshing. My children said this is now their favorite movie of 2006. Our money was well spent on this movie.",
+      "language": "en",
+      "sentiment": {
+        "label": "positive",
+        "score": 1.0,
+        "confidence": 1.0,
+        "polarity": 1.0
+      },
+      "keywords": [
+        "movie hilarious",
+        "movie laughed",
+        "laughter movie",
+        "actors comedic",
+        "comedic"
+      ],
+      "emotions": {
+        "top_emotion": "joy",
+        "all_emotions": {
+          "joy": 0.8987617492675781,
+          "neutral": 0.07445137947797775,
+          "surprise": 0.016415828838944435,
+          "disgust": 0.003780369646847248,
+          "sadness": 0.0035286168567836285,
+          "anger": 0.002629175316542387,
+          "fear": 0.0004329936928115785
+        }
+      },
+      "predicted_rating": 5,
+      "analysis_success": true,
+      "review_id": 20,
+      "original_title": "outrageously funny!!!",
+      "original_rating": "9",
+      "date": ""
+    }
+  ]
+}
