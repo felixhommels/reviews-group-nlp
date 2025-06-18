@@ -74,17 +74,33 @@ class SimpleURLAnalyzer:
                 
             elif platform == 'imdb':
                 # Fix IMDb URL format to match what scraper expects
-                if not url.endswith('/reviews/'):
-                    if '/reviews/' not in url:
-                        # Add reviews path if not present
-                        if url.endswith('/'):
-                            url = url + 'reviews/'
-                        else:
-                            url = url + '/reviews/'
+                from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+                
+                if not url.endswith('/reviews/') and '/reviews/' not in url:
+                    # Parse the URL into components
+                    parsed = urlparse(url)
                     
-                    # Add ref parameter if not present
-                    if '?ref_=' not in url:
-                        url = url + '?ref_=tt_ov_ururv'
+                    # Build the path with /reviews/ added
+                    path = parsed.path
+                    if not path.endswith('/'):
+                        path += '/'
+                    path += 'reviews/'
+                    
+                    # Reconstruct URL with reviews path
+                    # Keep existing query parameters if they exist, otherwise add the default ref
+                    query_params = parse_qs(parsed.query) if parsed.query else {}
+                    if 'ref_' not in query_params:
+                        query_params['ref_'] = ['tt_ov_ururv']
+                    
+                    # Rebuild the URL
+                    url = urlunparse((
+                        parsed.scheme,
+                        parsed.netloc, 
+                        path,
+                        parsed.params,
+                        urlencode(query_params, doseq=True),
+                        parsed.fragment
+                    ))
                 
                 topic = 'temp_imdb'
                 
