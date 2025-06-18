@@ -1,6 +1,18 @@
 import streamlit as st
 from app import SimpleURLAnalyzer
 import json
+import re
+
+def clean_summary_format(text):
+    """Clean up summary formatting to show only bullet points."""
+    if not text:
+        return text
+    # Split by dashes or bullet points
+    sentences = re.split(r'-+|•', text)
+    # Filter out empty strings and create clean bullet points
+    clean_sentences = [s.strip() for s in sentences if s.strip()]
+    # Create markdown bullet points
+    return '<br>'.join(f"• {sentence}" for sentence in clean_sentences)
 
 st.set_page_config(page_title="Review Analyzer", layout="wide")
 
@@ -41,6 +53,14 @@ if st.button("Analyze"):
             st.markdown("**Sentiment Distribution:**")
             sent_dist = summary.get("sentiment_distribution", {})
             st.write(sent_dist)
+
+            # Review Summary
+            if "textrank_summary" in summary:
+                st.markdown("##### Review Summary")
+                with st.container():
+                    summary_text = clean_summary_format(summary.get("textrank_summary", ""))
+                    st.markdown(f'<div style="font-size: 0.9em;">{summary_text}</div>', unsafe_allow_html=True)
+                st.markdown("---")
 
             # Top keywords
             st.markdown("**Top Keywords:**")
