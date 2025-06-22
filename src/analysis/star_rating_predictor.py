@@ -5,9 +5,8 @@ This module provides star rating prediction capabilities based on sentiment anal
 """
 
 import logging
-from typing import Dict, Union
+from typing import Union
 
-from src.utils.dependencies import dependency_manager, DependencyError
 from src.config.manager import ConfigManager
 from src.analysis.sentiment_analysis import SentimentAnalyzer
 
@@ -31,9 +30,13 @@ class StarRatingPredictor:
     
     def _load_config(self):
         """Load language-specific configuration."""
-        self.config = ConfigManager.get_rating_config()
-        self.model_configs = ConfigManager.get_model_configs()
-        logger.info("Loaded rating configuration")
+        try:
+            self.config = ConfigManager.get_rating_config()
+            self.model_configs = ConfigManager.get_model_configs()
+            logger.info("Loaded rating configuration")
+        except Exception as e:
+            logger.error(f"Failed to load rating configuration: {e}")
+            raise
     
     def _init_analyzer(self):
         """Initialize the sentiment analyzer."""
@@ -45,12 +48,22 @@ class StarRatingPredictor:
             raise
     
     def predict_star_rating(self, text: str, source: str = None) -> int:
-        """Predict star rating (1-5) using direct model output if available, else fallback."""
+        """Predict star rating (1-5) using direct model output if available, else fallback.
+        
+        Args:
+            text: Text to analyze for star rating prediction
+            source: Optional source override (trustpilot, imdb, playstore, steam)
+            
+        Returns:
+            Predicted star rating (1-5)
+        """
+        if not text or not isinstance(text, str):
+            logger.warning("Empty or invalid text provided for star rating prediction")
+            return self.config['default_rating']
+        
         src = (source or self.source).lower()
-        model_map = getattr(ConfigManager, 'SENTIMENT_MODEL_MAP', None)
-        if model_map is None:
-            from src.config.manager import SENTIMENT_MODEL_MAP as model_map
-        # Always try to use nlptown model if available in backends, regardless of source
+        
+        # Try to use nlptown model if available in backends, regardless of source
         model_name = None
         if 'transformers' in self.sentiment_analyzer.backends:
             model = self.sentiment_analyzer.backends['transformers']
@@ -61,6 +74,7 @@ class StarRatingPredictor:
                     model_name = model_id
             except Exception:
                 pass
+        
         if model_name == 'nlptown/bert-base-multilingual-uncased-sentiment':
             try:
                 result = model(text)[0]
@@ -72,21 +86,36 @@ class StarRatingPredictor:
                     pass
             except Exception as e:
                 logger.warning(f"Direct nlptown model rating failed: {e}")
+        
         # Fallback to sentiment thresholds
-        sentiment_result = self.sentiment_analyzer.analyze_sentiment(text, source=src)
-        score = sentiment_result.get('compound_score', sentiment_result.get('score', 0))
-        for rating, threshold in sorted(self.config['thresholds'].items(), 
-                                     key=lambda x: float('-inf') if x[1] is None else x[1], 
-                                     reverse=True):
-            if threshold is None or score >= threshold:
-                return int(rating)
+        try:
+            sentiment_result = self.sentiment_analyzer.analyze_sentiment(text, source=src)
+            score = sentiment_result.get('compound_score', sentiment_result.get('score', 0))
+            
+            for rating, threshold in sorted(self.config['thresholds'].items(), 
+                                         key=lambda x: float('-inf') if x[1] is None else x[1], 
+                                         reverse=True):
+                if threshold is None or score >= threshold:
+                    return int(rating)
+        except Exception as e:
+            logger.error(f"Error in sentiment-based rating prediction: {e}")
+        
         return self.config['default_rating']
 
     @staticmethod
-    def normalize_rating(raw_rating, source):
+    def normalize_rating(raw_rating: Union[int, float], source: str) -> float:
+        """Normalize rating to a 1-5 scale based on the source platform.
+        
+        Args:
+            raw_rating: Raw rating value from the platform
+            source: Source platform (imdb, trustpilot, playstore, steam)
+            
+        Returns:
+            Normalized rating on a 1-5 scale
+        """
         if source == "imdb":
             return round((raw_rating / 2), 1)  # IMDb 1-10 → 1-5
         elif source == "trustpilot":
-            return raw_rating  # already predicted as 1-5
+            return float(raw_rating)  # already predicted as 1-5
         else:
-            return raw_rating  # Playstore, Steam already 1-5
+            return float(raw_rating)  # Playstore, Steam already 1-5

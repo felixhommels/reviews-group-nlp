@@ -24,7 +24,6 @@ from src.analysis.sentiment_analysis import (
     SentimentAnalyzer
 )
 from src.analysis.emotion_analysis import (
-    EmotionLabel,
     EnglishEmotionAnalyzerHartmann,
     SpanishEmotionAnalyzerRobertuito
 )

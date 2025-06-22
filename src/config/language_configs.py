@@ -1,6 +1,6 @@
 """
 Language-specific configurations for NLP analysis.
-Add commentMore actions
+
 This module contains language-specific settings such as:
 - Emotion keywords
 - Stop words
@@ -11,7 +11,7 @@ from typing import Dict, List
 
 # Emotion keywords by language
 EMOTION_KEYWORDS: Dict[str, Dict[str, List[str]]] = {
-    "english": {
+    "en": {
         "joy": ["excellent", "perfect", "great", "love", "wonderful", "fantastic", "happy"],
         "anger": ["terrible", "horrible", "awful", "worst", "angry", "mad"],
         "sadness": ["sad", "disappointing", "unfortunately", "poor", "bad"],
@@ -21,7 +21,7 @@ EMOTION_KEYWORDS: Dict[str, Dict[str, List[str]]] = {
         "trust": ["reliable", "trustworthy", "secure", "safe"],
         "anticipation": ["looking forward", "soon", "future", "expect"]
     },
-    "spanish": {
+    "es": {
         "joy": ["excelente", "perfecto", "genial", "encanta", "maravilloso", "fantástico", "feliz"],
         "anger": ["pésimo", "terrible", "horrible", "penosa", "fatal", "malísimo", "peor"],
         "sadness": ["triste", "decepcionante", "lamentable", "mal", "pena"],
@@ -34,8 +34,8 @@ EMOTION_KEYWORDS: Dict[str, Dict[str, List[str]]] = {
 }
 
 # Language-specific thresholds
-LANGUAGE_THRESHOLDS: Dict[str, Dict[str, float]] = {
-    "english": {
+LANGUAGE_THRESHOLDS: Dict[str, Dict[str, Dict[str, float]]] = {
+    "en": {
         "sentiment": {
             "positive": 0.2,
             "negative": -0.2,
@@ -48,7 +48,7 @@ LANGUAGE_THRESHOLDS: Dict[str, Dict[str, float]] = {
             "weak": 0.3
         }
     },
-    "spanish": {
+    "es": {
         "sentiment": {
             "positive": 0.2,
             "negative": -0.2,
@@ -65,18 +65,39 @@ LANGUAGE_THRESHOLDS: Dict[str, Dict[str, float]] = {
 
 # Stop words configuration
 STOP_WORDS_CONFIG: Dict[str, str] = {
-    "english": "english",  # Built-in English stop words
-    "spanish": None,      # Will be loaded from custom lists
+    "en": "english",  # Built-in English stop words
+    "es": None,      # Will be loaded from custom lists
 }
 
 def get_emotion_keywords(language: str) -> Dict[str, List[str]]:
-    """Get emotion keywords for a specific language."""
-    return EMOTION_KEYWORDS.get(language, EMOTION_KEYWORDS["english"])
+    """Get emotion keywords for a specific language.
+    
+    Args:
+        language: ISO language code (e.g., 'en', 'es')
+        
+    Returns:
+        Dictionary mapping emotion categories to keyword lists
+    """
+    return EMOTION_KEYWORDS.get(language, EMOTION_KEYWORDS["en"])
 
 def get_language_thresholds(language: str) -> Dict[str, Dict[str, float]]:
-    """Get language-specific thresholds."""
-    return LANGUAGE_THRESHOLDS.get(language, LANGUAGE_THRESHOLDS["english"])
+    """Get language-specific thresholds for sentiment and emotion analysis.
+    
+    Args:
+        language: ISO language code (e.g., 'en', 'es')
+        
+    Returns:
+        Dictionary containing sentiment and emotion thresholds
+    """
+    return LANGUAGE_THRESHOLDS.get(language, LANGUAGE_THRESHOLDS["en"])
 
 def get_stop_words(language: str) -> str:
-    """Get stop words configuration for a specific language."""
+    """Get stop words configuration for a specific language.
+    
+    Args:
+        language: ISO language code (e.g., 'en', 'es')
+        
+    Returns:
+        Stop words configuration string or None
+    """
     return STOP_WORDS_CONFIG.get(language, None) 

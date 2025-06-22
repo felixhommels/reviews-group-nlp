@@ -2,23 +2,21 @@
 Keyword Extraction Module.
 
 This module provides keyword extraction capabilities using:
-- KeyBERT + LaBSE for high-quality, multilingual, semantic keyword extraction
+- KeyBERT + sentence-transformers for high-quality, multilingual, semantic keyword extraction
 """
 
 import logging
 from typing import List
 from keybert import KeyBERT
 from sentence_transformers import SentenceTransformer
-from tqdm import tqdm
 
-from src.utils.dependencies import dependency_manager
 from src.config.manager import ConfigManager
 
 # Configure logging
 logger = logging.getLogger(__name__)
 
 class KeywordExtractor:
-    """Class for extracting keywords from text using KeyBERT + MiniLM."""
+    """Class for extracting keywords from text using KeyBERT + sentence transformers."""
     
     def __init__(self, language: str = 'en'):
         """Initialize the keyword extractor.
@@ -26,16 +24,30 @@ class KeywordExtractor:
         Args:
             language: ISO language code (default: 'en')
         """
+        try:
         self.language = language
         self.config = ConfigManager.get_keybert_config(language)
         self.model = SentenceTransformer(self.config['model_name'])
         self.kw_model = KeyBERT(self.model)
+            logger.info(f"Initialized keyword extractor for language '{language}'")
+        except Exception as e:
+            logger.error(f"Failed to initialize keyword extractor: {e}")
+            raise
     
-    def extract_keywords(self, text: str, language: str = "en", max_keywords: int = None) -> List[str]:
-        """Extract keywords from text using KeyBERT + MiniLM."""
+    def extract_keywords(self, text: str, max_keywords: int = None) -> List[str]:
+        """Extract keywords from text using KeyBERT + sentence transformers.
+        
+        Args:
+            text: Text to extract keywords from
+            max_keywords: Maximum number of keywords to extract (default: config value)
+            
+        Returns:
+            List of extracted keywords
+        """
         if not text or not isinstance(text, str) or not text.strip():
             logger.warning("Empty or invalid text provided for keyword extraction")
             return []
+        
         try:
             keywords = self.kw_model.extract_keywords(
                 text,

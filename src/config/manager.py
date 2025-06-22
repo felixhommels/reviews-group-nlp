@@ -58,20 +58,6 @@ MODEL_CONFIGS = {
     }
 }
 
-# --- SENTIMENT_CONFIG: Only default model and global fallback thresholds ---
-# SENTIMENT_CONFIG = {
-#     "model_name": "nlptown/bert-base-multilingual-uncased-sentiment",  # Default HuggingFace model for sentiment
-#     # Optionally, fallback global thresholds (not model-specific)
-#     "thresholds": {
-#         "positive": 0.2,
-#         "negative": -0.2,
-#         "very_positive": 0.75,
-#         "very_negative": -0.75,
-#         "somewhat_positive": 0.25,
-#         "somewhat_negative": -0.25
-#     }
-# }
-
 def load_json_env_var(var_name: str, default: dict) -> dict:
     """Load a dict from an environment variable containing JSON, or return default."""
     value = os.environ.get(var_name)
@@ -83,6 +69,7 @@ def load_json_env_var(var_name: str, default: dict) -> dict:
     return default
 
 def load_config_file(path: str, default: dict) -> dict:
+    """Load configuration from JSON or YAML file, or return default if file doesn't exist."""
     if os.path.exists(path):
         with open(path, "r") as f:
             if path.endswith(".json"):
@@ -158,6 +145,8 @@ LOGGING_CONFIG = {
     "format": "%(asctime)s - %(levelname)s - %(message)s"
 }
 
+# KeyBERT Configuration
+# Settings for semantic keyword extraction using KeyBERT + sentence transformers.
 KEYBERT_CONFIG = {
     "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
     "keyphrase_ngram_range": (1, 2),
@@ -183,13 +172,6 @@ class ConfigManager:
         """
         return MODEL_CONFIGS
     
-    # @classmethod
-    # def get_sentiment_config(cls, language: str = 'en') -> dict:
-    #     """Get sentiment thresholds and abstraction."""
-    #     config = SENTIMENT_CONFIG.copy()
-    #     thresholds = get_language_thresholds(language)['sentiment']
-    #     config['thresholds'].update(thresholds)
-    #     return config
     
     @classmethod
     def get_emotion_config(cls, language: str = 'en') -> Dict[str, Any]:
@@ -231,26 +213,11 @@ class ConfigManager:
     
     @classmethod
     def get_keybert_config(cls, language: str = 'en') -> Dict[str, Any]:
+        """
+        Get KeyBERT configuration for the specified language.
+        Returns a dict with model settings and stopword configuration.
+        """
         config = KEYBERT_CONFIG.copy()
         config['stop_words'] = config['stop_words'].get(language, None)
         return config
     
-    # @classmethod
-    # def get_config(cls, config_name: str, language: str = 'en') -> Optional[Dict[str, Any]]:
-    #     """
-    #     Get configuration by name.
-    #     Args:
-    #         config_name: Name of the configuration to get (e.g., 'sentiment', 'emotion', 'rating', 'tfidf', 'logging')
-    #         language: Language code for language-specific settings
-    #     Returns:
-    #         Configuration dictionary or None if not found
-    #     """
-    #     config_map = {
-    #         'sentiment': lambda: cls.get_sentiment_config(language),
-    #         'emotion': lambda: cls.get_emotion_config(language),
-    #         'rating': lambda: cls.get_rating_config(),
-    #         'tfidf': lambda: cls.get_tfidf_config(language),
-    #         'logging': lambda: cls.get_logging_config()
-    #     }
-    #     getter = config_map.get(config_name.lower())
-    #     return getter() if getter else None 
