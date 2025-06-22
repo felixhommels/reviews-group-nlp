@@ -3,6 +3,7 @@ Download required NLTK resources for text processing.
 """
 
 import nltk
+import spacy
 import logging
 
 # --- Setup Logging ---
