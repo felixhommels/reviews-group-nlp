@@ -259,7 +259,7 @@ class SentimentAnalyzer:
                     'sentiment_score': polarity,
                     'confidence': abs(polarity)
                 }
-        except Exception as e:
+            except Exception as e:
                 logger.warning(f"TextBlob analysis failed: {e}")
         return None
 
@@ -302,11 +302,11 @@ class SentimentAnalyzer:
             if model is None:
                 logger.warning(f"Could not load model for source '{src}', falling back to VADER/TextBlob")
             else:
-            try:
-                result = model(text)[0]
-                return SentimentAnalyzer.normalize_sentiment_output(result, src, text, self.language)
-            except Exception as e:
-                logger.error(f"Error in transformer sentiment analysis: {e}")
+                try:
+                    result = model(text)[0]
+                    return SentimentAnalyzer.normalize_sentiment_output(result, src, text, self.language)
+                except Exception as e:
+                    logger.error(f"Error in transformer sentiment analysis: {e}")
         
         # Try VADER for English text
         vader_result = self._analyze_with_vader(text)

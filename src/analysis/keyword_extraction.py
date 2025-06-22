@@ -25,10 +25,10 @@ class KeywordExtractor:
             language: ISO language code (default: 'en')
         """
         try:
-        self.language = language
-        self.config = ConfigManager.get_keybert_config(language)
-        self.model = SentenceTransformer(self.config['model_name'])
-        self.kw_model = KeyBERT(self.model)
+            self.language = language
+            self.config = ConfigManager.get_keybert_config(language)
+            self.model = SentenceTransformer(self.config['model_name'])
+            self.kw_model = KeyBERT(self.model)
             logger.info(f"Initialized keyword extractor for language '{language}'")
         except Exception as e:
             logger.error(f"Failed to initialize keyword extractor: {e}")
